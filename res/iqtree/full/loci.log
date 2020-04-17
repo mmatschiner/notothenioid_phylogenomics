@@ -1,0 +1,1123 @@
+IQ-TREE multicore version 1.7-beta12 for Mac OS X 64-bit built May  6 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    friprobob.local (AVX2, FMA3, 16 GB RAM)
+Command: iqtree -nt 8 -s ../res/iqtree/full/full.nex -S ../res/iqtree/full/full.nex -m GTR+G --prefix loci
+Seed:    430619 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Apr 17 10:14:10 2020
+Kernel:  AVX+FMA - 8 threads (12 CPU cores detected)
+
+Reading partition model file ../res/iqtree/full/full.nex ...
+Skipping unknown block (data)...
+Reading alignment file ../res/iqtree/full/full.nex ... Nexus format detected
+Skipping unknown block (sets)...
+Alignment has 41 sequences with 374157 columns, 128800 distinct patterns
+109206 parsimony-informative, 74885 singleton sites, 190066 constant sites
+        Gap/Ambiguity  Composition  p-value
+   1  A_call    2.85%    failed      0.00%
+   2  AkaNud    3.57%    passed     91.28%
+   3  ArtSko    3.10%    passed     88.77%
+   4  A_test    2.97%    failed      0.00%
+   5  BatMar    6.53%    passed     42.24%
+   6  BovDia    2.45%    passed      5.64%
+   7  BovVar    2.22%    passed      7.78%
+   8  ChaAce    5.63%    passed     51.57%
+   9  ChaWil    0.84%    passed     34.34%
+  10  ChiDew    2.83%    passed     37.82%
+  11  CotGob    3.66%    failed      0.00%
+  12  CryAnt    1.20%    passed     39.36%
+  13  DisMaw    0.13%    passed     64.55%
+  14  DolLon    3.32%    passed     89.31%
+  15  EleMac    2.86%    failed      0.00%
+  16  G_acul    4.96%    failed      0.00%
+  17  GobGib    2.72%    failed      3.34%
+  18  GymAcu    3.02%    passed     85.92%
+  19  HarAnt    2.05%    passed     84.91%
+  20  HarKer    6.21%    passed     54.32%
+  21  H_come   16.31%    failed      0.00%
+  22  HisVel    1.02%    passed     91.06%
+  23  LepLar    7.62%    passed     10.63%
+  24  LepNud    0.70%    passed     54.80%
+  25  LepSqu    4.57%    passed     21.30%
+  26  M_arma    3.78%    failed      0.00%
+  27  NotRos    1.59%    passed     87.17%
+  28  O_lati    6.78%    failed      0.93%
+  29  PagMac    1.10%    passed     61.82%
+  30  PatGun    3.95%    passed     86.35%
+  31  P_fluv    3.26%    failed      0.00%
+  32  PleAnt    9.45%    failed      3.10%
+  33  P_magn   17.75%    failed      0.00%
+  34  PseGeo    1.82%    passed     61.50%
+  35  S_nigr    6.06%    failed      0.00%
+  36  TreBer    1.06%    passed     35.23%
+  37  TreHan    2.91%    passed     42.58%
+  38  TreLoe    0.40%    passed     41.79%
+  39  TreSco    4.74%    passed     86.93%
+  40  T_rubr    8.17%    failed      0.00%
+  41  VomInf    2.62%    passed     76.29%
+****  TOTAL     4.12%  14 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: No CharPartition defined, use all CharSets
+
+Loading 257 partitions...
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1	DNA	41	4320	1411	1720	GTR+G	EOG090C0087
+2	DNA	41	5841	1766	2975	GTR+G	EOG090C00AN
+3	DNA	41	4392	1176	2078	GTR+G	EOG090C00B1
+4	DNA	41	4419	1582	1868	GTR+G	EOG090C00BE
+5	DNA	41	5607	1637	2806	GTR+G	EOG090C00BT
+6	DNA	41	4440	1078	2805	GTR+G	EOG090C00E9
+7	DNA	41	4557	965	3136	GTR+G	EOG090C00HJ
+8	DNA	41	4929	1362	2585	GTR+G	EOG090C00HT
+9	DNA	41	2265	623	1317	GTR+G	EOG090C00SW
+10	DNA	41	4095	1275	2007	GTR+G	EOG090C00VF
+11	DNA	41	2349	666	1132	GTR+G	EOG090C010X
+12	DNA	41	3969	957	2141	GTR+G	EOG090C0114
+13	DNA	41	3258	939	1663	GTR+G	EOG090C014P
+14	DNA	41	3885	1018	2148	GTR+G	EOG090C016M
+15	DNA	41	2592	574	1543	GTR+G	EOG090C016S
+16	DNA	41	2262	756	913	GTR+G	EOG090C01AQ
+17	DNA	41	3132	1015	1508	GTR+G	EOG090C01BG
+18	DNA	40	2193	853	721	GTR+G	EOG090C01CW
+19	DNA	41	2214	604	1188	GTR+G	EOG090C01EW
+20	DNA	41	3012	595	2001	GTR+G	EOG090C01LV
+21	DNA	40	3555	956	1782	GTR+G	EOG090C01M7
+22	DNA	41	2040	622	995	GTR+G	EOG090C01NW
+23	DNA	41	2691	785	1326	GTR+G	EOG090C01O3
+24	DNA	41	1950	600	939	GTR+G	EOG090C01O8
+25	DNA	41	2913	843	1512	GTR+G	EOG090C01QP
+26	DNA	41	1695	399	1053	GTR+G	EOG090C01S4
+27	DNA	41	3270	997	1562	GTR+G	EOG090C01T7
+28	DNA	41	2748	981	1013	GTR+G	EOG090C01VW
+29	DNA	41	1260	408	564	GTR+G	EOG090C01W9
+30	DNA	41	2028	660	772	GTR+G	EOG090C022Z
+31	DNA	41	2097	740	861	GTR+G	EOG090C027B
+32	DNA	41	3114	1165	1217	GTR+G	EOG090C027E
+33	DNA	41	2988	774	1678	GTR+G	EOG090C02AS
+34	DNA	41	2955	461	1971	GTR+G	EOG090C02BD
+35	DNA	41	2574	831	1270	GTR+G	EOG090C02D8
+36	DNA	41	2625	867	1174	GTR+G	EOG090C02EK
+37	DNA	41	2307	693	1069	GTR+G	EOG090C02FU
+38	DNA	41	1890	477	1096	GTR+G	EOG090C02GG
+39	DNA	41	2127	765	872	GTR+G	EOG090C02JH
+40	DNA	41	3546	1080	1556	GTR+G	EOG090C02KW
+41	DNA	41	1989	777	745	GTR+G	EOG090C02QR
+42	DNA	41	2496	744	1197	GTR+G	EOG090C02S2
+43	DNA	41	2172	694	998	GTR+G	EOG090C02TX
+44	DNA	41	2307	636	1348	GTR+G	EOG090C02W1
+45	DNA	41	1617	445	838	GTR+G	EOG090C02XJ
+46	DNA	37	2208	758	1032	GTR+G	EOG090C031H
+47	DNA	40	2127	590	1132	GTR+G	EOG090C031J
+48	DNA	41	2397	600	1445	GTR+G	EOG090C0349
+49	DNA	41	1734	753	616	GTR+G	EOG090C034S
+50	DNA	41	2346	811	912	GTR+G	EOG090C035W
+51	DNA	41	1995	655	865	GTR+G	EOG090C037V
+52	DNA	41	2082	715	909	GTR+G	EOG090C039G
+53	DNA	41	1671	475	848	GTR+G	EOG090C03F4
+54	DNA	41	2214	711	1101	GTR+G	EOG090C03FG
+55	DNA	41	1590	536	648	GTR+G	EOG090C03FJ
+56	DNA	39	2412	820	1021	GTR+G	EOG090C03H4
+57	DNA	41	2115	476	1305	GTR+G	EOG090C03MY
+58	DNA	41	1386	377	790	GTR+G	EOG090C03OC
+59	DNA	41	3951	1352	1526	GTR+G	EOG090C03Q4
+60	DNA	40	900	404	242	GTR+G	EOG090C03SO
+61	DNA	41	1857	511	980	GTR+G	EOG090C03TA
+62	DNA	41	1899	672	835	GTR+G	EOG090C042A
+63	DNA	41	1545	453	739	GTR+G	EOG090C048B
+64	DNA	41	909	285	520	GTR+G	EOG090C04B1
+65	DNA	41	1938	828	655	GTR+G	EOG090C04FD
+66	DNA	41	2151	548	1197	GTR+G	EOG090C04H0
+67	DNA	41	1833	440	1129	GTR+G	EOG090C04IP
+68	DNA	41	1797	729	653	GTR+G	EOG090C04JE
+69	DNA	41	1797	257	1293	GTR+G	EOG090C04N7
+70	DNA	41	1590	419	823	GTR+G	EOG090C04QC
+71	DNA	41	1788	533	824	GTR+G	EOG090C04RC
+72	DNA	41	1692	492	900	GTR+G	EOG090C04SN
+73	DNA	41	948	294	478	GTR+G	EOG090C04TR
+74	DNA	41	1656	557	678	GTR+G	EOG090C04V7
+75	DNA	40	1611	438	819	GTR+G	EOG090C050C
+76	DNA	41	1839	495	1045	GTR+G	EOG090C052V
+77	DNA	41	1761	469	916	GTR+G	EOG090C053D
+78	DNA	41	1473	540	554	GTR+G	EOG090C0578
+79	DNA	41	1629	472	757	GTR+G	EOG090C059D
+80	DNA	41	1317	315	691	GTR+G	EOG090C05A5
+81	DNA	41	1857	482	1062	GTR+G	EOG090C05AA
+82	DNA	41	1677	368	1069	GTR+G	EOG090C05D2
+83	DNA	40	1557	449	874	GTR+G	EOG090C05G1
+84	DNA	41	1947	488	1122	GTR+G	EOG090C05G3
+85	DNA	41	2013	600	968	GTR+G	EOG090C05L0
+86	DNA	41	1191	441	475	GTR+G	EOG090C05LN
+87	DNA	41	1602	378	940	GTR+G	EOG090C05MB
+88	DNA	38	1254	481	496	GTR+G	EOG090C05N2
+89	DNA	41	1353	160	1068	GTR+G	EOG090C05OB
+90	DNA	41	753	223	400	GTR+G	EOG090C05QX
+91	DNA	41	1677	383	984	GTR+G	EOG090C05QZ
+92	DNA	41	1035	394	439	GTR+G	EOG090C05S6
+93	DNA	41	1362	419	711	GTR+G	EOG090C05SZ
+94	DNA	41	1155	344	616	GTR+G	EOG090C05V5
+95	DNA	41	1152	287	704	GTR+G	EOG090C05V7
+96	DNA	41	1317	338	751	GTR+G	EOG090C05VD
+97	DNA	41	1731	621	766	GTR+G	EOG090C05XW
+98	DNA	41	1608	561	661	GTR+G	EOG090C0612
+99	DNA	41	1491	273	1006	GTR+G	EOG090C061N
+100	DNA	41	1413	400	707	GTR+G	EOG090C063X
+101	DNA	41	1509	537	654	GTR+G	EOG090C065C
+102	DNA	41	1497	401	914	GTR+G	EOG090C06D6
+103	DNA	41	1470	307	989	GTR+G	EOG090C06DR
+104	DNA	36	1362	493	594	GTR+G	EOG090C06E3
+105	DNA	41	1227	393	588	GTR+G	EOG090C06G0
+106	DNA	41	1428	426	748	GTR+G	EOG090C06GH
+107	DNA	41	1413	502	633	GTR+G	EOG090C06M4
+108	DNA	41	1257	263	778	GTR+G	EOG090C06OH
+109	DNA	41	1236	328	758	GTR+G	EOG090C06OU
+110	DNA	41	1242	360	689	GTR+G	EOG090C06TR
+111	DNA	41	1230	413	526	GTR+G	EOG090C06UT
+112	DNA	39	1377	413	722	GTR+G	EOG090C06YQ
+113	DNA	41	1158	326	588	GTR+G	EOG090C0737
+114	DNA	41	1476	423	677	GTR+G	EOG090C0764
+115	DNA	41	1929	708	718	GTR+G	EOG090C0775
+116	DNA	41	1347	413	705	GTR+G	EOG090C078W
+117	DNA	41	1389	314	863	GTR+G	EOG090C07A1
+118	DNA	41	1230	287	731	GTR+G	EOG090C07AW
+119	DNA	41	1194	448	468	GTR+G	EOG090C07DE
+120	DNA	37	2175	706	941	GTR+G	EOG090C07E7
+121	DNA	41	1320	409	643	GTR+G	EOG090C07EK
+122	DNA	41	1287	409	639	GTR+G	EOG090C07FM
+123	DNA	41	1221	212	856	GTR+G	EOG090C07KD
+124	DNA	41	3489	1098	1588	GTR+G	EOG090C07QB
+125	DNA	41	1206	288	706	GTR+G	EOG090C07R2
+126	DNA	41	1443	410	764	GTR+G	EOG090C07T8
+127	DNA	39	1227	316	742	GTR+G	EOG090C07T9
+128	DNA	40	948	306	433	GTR+G	EOG090C07UF
+129	DNA	39	1092	258	638	GTR+G	EOG090C07VC
+130	DNA	41	1221	377	569	GTR+G	EOG090C07YF
+131	DNA	41	1050	316	537	GTR+G	EOG090C0814
+132	DNA	41	1380	412	753	GTR+G	EOG090C084B
+133	DNA	41	1080	379	418	GTR+G	EOG090C084P
+134	DNA	41	888	253	425	GTR+G	EOG090C0853
+135	DNA	41	1209	246	774	GTR+G	EOG090C085V
+136	DNA	41	1281	372	662	GTR+G	EOG090C087X
+137	DNA	41	1146	240	720	GTR+G	EOG090C088I
+138	DNA	41	1368	424	687	GTR+G	EOG090C08E3
+139	DNA	39	1194	247	826	GTR+G	EOG090C08GX
+140	DNA	41	1323	371	726	GTR+G	EOG090C08HB
+141	DNA	41	918	346	338	GTR+G	EOG090C08HD
+142	DNA	41	1113	309	597	GTR+G	EOG090C08IP
+143	DNA	41	489	127	254	GTR+G	EOG090C08JM
+144	DNA	39	978	322	467	GTR+G	EOG090C08L3
+145	DNA	41	1059	258	655	GTR+G	EOG090C08P2
+146	DNA	41	1074	267	617	GTR+G	EOG090C08VL
+147	DNA	41	1140	365	518	GTR+G	EOG090C08Y7
+148	DNA	41	1167	335	551	GTR+G	EOG090C08ZX
+149	DNA	40	1056	276	599	GTR+G	EOG090C0910
+150	DNA	38	1095	269	634	GTR+G	EOG090C091S
+151	DNA	41	858	256	409	GTR+G	EOG090C0942
+152	DNA	41	675	210	348	GTR+G	EOG090C095H
+153	DNA	41	981	349	414	GTR+G	EOG090C0979
+154	DNA	41	1038	210	667	GTR+G	EOG090C09E0
+155	DNA	41	945	298	435	GTR+G	EOG090C09EJ
+156	DNA	36	789	266	368	GTR+G	EOG090C09G2
+157	DNA	41	1017	289	511	GTR+G	EOG090C09HK
+158	DNA	40	1011	320	484	GTR+G	EOG090C09SR
+159	DNA	41	765	234	380	GTR+G	EOG090C09U6
+160	DNA	41	1182	399	490	GTR+G	EOG090C09UD
+161	DNA	41	2178	652	1125	GTR+G	EOG090C09VY
+162	DNA	41	1473	432	716	GTR+G	EOG090C09YB
+163	DNA	41	1029	346	471	GTR+G	EOG090C09YT
+164	DNA	41	1008	294	557	GTR+G	EOG090C09ZT
+165	DNA	41	945	295	446	GTR+G	EOG090C0A3I
+166	DNA	41	975	376	399	GTR+G	EOG090C0A45
+167	DNA	41	942	303	453	GTR+G	EOG090C0A5R
+168	DNA	41	1200	441	451	GTR+G	EOG090C0A60
+169	DNA	41	999	337	414	GTR+G	EOG090C0A64
+170	DNA	39	915	363	336	GTR+G	EOG090C0A6M
+171	DNA	41	912	250	488	GTR+G	EOG090C0A75
+172	DNA	41	999	241	613	GTR+G	EOG090C0A7L
+173	DNA	41	711	210	373	GTR+G	EOG090C0A7Z
+174	DNA	41	990	355	413	GTR+G	EOG090C0A9E
+175	DNA	41	930	335	396	GTR+G	EOG090C0A9Z
+176	DNA	41	837	237	380	GTR+G	EOG090C0ACE
+177	DNA	41	534	205	219	GTR+G	EOG090C0AFE
+178	DNA	41	1047	330	529	GTR+G	EOG090C0AJF
+179	DNA	41	765	211	400	GTR+G	EOG090C0ATW
+180	DNA	41	1002	328	444	GTR+G	EOG090C0AVW
+181	DNA	41	813	211	465	GTR+G	EOG090C0AYM
+182	DNA	41	1164	287	679	GTR+G	EOG090C0B0W
+183	DNA	41	786	235	331	GTR+G	EOG090C0B2X
+184	DNA	41	855	205	501	GTR+G	EOG090C0B5U
+185	DNA	40	747	271	310	GTR+G	EOG090C0B6Z
+186	DNA	41	870	241	441	GTR+G	EOG090C0BFG
+187	DNA	41	663	99	471	GTR+G	EOG090C0BHC
+188	DNA	41	999	351	450	GTR+G	EOG090C0BIV
+189	DNA	41	594	231	235	GTR+G	EOG090C0BJ8
+190	DNA	41	864	216	521	GTR+G	EOG090C0BJH
+191	DNA	41	702	182	357	GTR+G	EOG090C0BO8
+192	DNA	41	684	246	300	GTR+G	EOG090C0BQZ
+193	DNA	41	948	114	717	GTR+G	EOG090C0BSS
+194	DNA	41	924	328	417	GTR+G	EOG090C0BXY
+195	DNA	41	2202	741	929	GTR+G	EOG090C0C28
+196	DNA	41	576	151	311	GTR+G	EOG090C0C6Y
+197	DNA	41	699	172	443	GTR+G	EOG090C0C82
+198	DNA	41	960	219	600	GTR+G	EOG090C0C96
+199	DNA	41	810	68	623	GTR+G	EOG090C0CAE
+200	DNA	41	795	186	486	GTR+G	EOG090C0CC2
+201	DNA	39	639	175	323	GTR+G	EOG090C0CI2
+202	DNA	41	927	183	586	GTR+G	EOG090C0CL1
+203	DNA	41	810	155	538	GTR+G	EOG090C0CNR
+204	DNA	41	765	203	420	GTR+G	EOG090C0CNU
+205	DNA	41	768	196	455	GTR+G	EOG090C0COA
+206	DNA	41	792	185	450	GTR+G	EOG090C0COQ
+207	DNA	41	642	232	289	GTR+G	EOG090C0CP2
+208	DNA	41	693	249	302	GTR+G	EOG090C0CQ8
+209	DNA	41	663	174	361	GTR+G	EOG090C0CT5
+210	DNA	41	711	183	392	GTR+G	EOG090C0CUT
+211	DNA	41	510	206	195	GTR+G	EOG090C0CVS
+212	DNA	41	705	227	311	GTR+G	EOG090C0CWR
+213	DNA	41	633	212	299	GTR+G	EOG090C0D12
+214	DNA	41	750	311	237	GTR+G	EOG090C0D5X
+215	DNA	41	606	124	337	GTR+G	EOG090C0D62
+216	DNA	41	1203	368	642	GTR+G	EOG090C0D8Y
+217	DNA	41	474	152	195	GTR+G	EOG090C0DBT
+218	DNA	41	789	138	522	GTR+G	EOG090C0DC4
+219	DNA	41	1035	273	543	GTR+G	EOG090C0DCG
+220	DNA	41	384	135	144	GTR+G	EOG090C0DHQ
+221	DNA	41	483	119	252	GTR+G	EOG090C0DIZ
+222	DNA	41	405	134	187	GTR+G	EOG090C0DLR
+223	DNA	41	681	216	343	GTR+G	EOG090C0DPN
+224	DNA	34	1443	382	690	GTR+G	EOG090C0DPY
+225	DNA	41	738	120	460	GTR+G	EOG090C0DQF
+226	DNA	41	729	179	449	GTR+G	EOG090C0DVF
+227	DNA	41	729	162	414	GTR+G	EOG090C0DYT
+228	DNA	41	594	137	364	GTR+G	EOG090C0DZR
+229	DNA	41	666	175	336	GTR+G	EOG090C0E0A
+230	DNA	40	555	127	352	GTR+G	EOG090C0E5P
+231	DNA	41	885	187	540	GTR+G	EOG090C0E61
+232	DNA	41	507	162	248	GTR+G	EOG090C0E66
+233	DNA	41	378	97	218	GTR+G	EOG090C0E67
+234	DNA	41	486	92	301	GTR+G	EOG090C0E9M
+235	DNA	41	750	212	335	GTR+G	EOG090C0ECL
+236	DNA	41	519	159	286	GTR+G	EOG090C0EDQ
+237	DNA	41	708	150	426	GTR+G	EOG090C0EOX
+238	DNA	40	678	170	419	GTR+G	EOG090C0EQN
+239	DNA	41	456	107	258	GTR+G	EOG090C0EQT
+240	DNA	41	534	145	294	GTR+G	EOG090C0ERA
+241	DNA	41	366	136	163	GTR+G	EOG090C0EUQ
+242	DNA	41	483	219	151	GTR+G	EOG090C0EW9
+243	DNA	41	477	100	290	GTR+G	EOG090C0EZV
+244	DNA	41	327	91	194	GTR+G	EOG090C0F0B
+245	DNA	40	429	147	199	GTR+G	EOG090C0F5V
+246	DNA	41	390	91	227	GTR+G	EOG090C0F6D
+247	DNA	40	372	107	211	GTR+G	EOG090C0FDT
+248	DNA	41	567	132	332	GTR+G	EOG090C0FJ3
+249	DNA	41	438	47	345	GTR+G	EOG090C0FJJ
+250	DNA	41	408	126	201	GTR+G	EOG090C0FK5
+251	DNA	41	375	92	251	GTR+G	EOG090C0FMY
+252	DNA	40	498	176	235	GTR+G	EOG090C0FN4
+253	DNA	41	375	136	127	GTR+G	EOG090C0FO8
+254	DNA	41	321	119	133	GTR+G	EOG090C0FPV
+255	DNA	40	321	54	226	GTR+G	EOG090C0FTD
+256	DNA	40	336	53	250	GTR+G	EOG090C0FVO
+257	DNA	37	348	141	122	GTR+G	EOG090C0GEX
+Linked 41 total sequences
+Creating fast initial parsimony tree by random order stepwise addition...
+2.009 seconds, parsimony score: 425707 (based on 184091 sites)
+
+NOTE: 913 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Partition EOG090C07QB / Model: GTR+F+G4 / df: 88 / LogL: -23313.012
+Partition EOG090C00B1 / Model: GTR+F+G4 / df: 88 / LogL: -27002.865
+Partition EOG090C00VF / Model: GTR+F+G4 / df: 88 / LogL: -28772.108
+Partition EOG090C03Q4 / Model: GTR+F+G4 / df: 88 / LogL: -28731.968
+Partition EOG090C00BT / Model: GTR+F+G4 / df: 88 / LogL: -36324.108
+Partition EOG090C0087 / Model: GTR+F+G4 / df: 88 / LogL: -30663.505
+Partition EOG090C00BE / Model: GTR+F+G4 / df: 88 / LogL: -32710.479
+Partition EOG090C01VW / Model: GTR+F+G4 / df: 88 / LogL: -21040.683
+Partition EOG090C00AN / Model: GTR+F+G4 / df: 88 / LogL: -38636.903
+Partition EOG090C00HT / Model: GTR+F+G4 / df: 88 / LogL: -30620.543
+Partition EOG090C02KW / Model: GTR+F+G4 / df: 88 / LogL: -23333.093
+Partition EOG090C01T7 / Model: GTR+F+G4 / df: 88 / LogL: -22196.125
+Partition EOG090C0114 / Model: GTR+F+G4 / df: 88 / LogL: -22836.114
+Partition EOG090C027E / Model: GTR+F+G4 / df: 88 / LogL: -24435.652
+Partition EOG090C01M7 / Model: GTR+F+G4 / df: 86 / LogL: -21169.809
+Partition EOG090C014P / Model: GTR+F+G4 / df: 88 / LogL: -21053.428
+Partition EOG090C02EK / Model: GTR+F+G4 / df: 88 / LogL: -18982.633
+Partition EOG090C01BG / Model: GTR+F+G4 / df: 88 / LogL: -21751.020
+Partition EOG090C00HJ / Model: GTR+F+G4 / df: 88 / LogL: -23402.946
+Partition EOG090C01QP / Model: GTR+F+G4 / df: 88 / LogL: -18401.084
+Partition EOG090C035W / Model: GTR+F+G4 / df: 88 / LogL: -17276.894
+Partition EOG090C016M / Model: GTR+F+G4 / df: 88 / LogL: -23573.796
+Partition EOG090C01CW / Model: GTR+F+G4 / df: 86 / LogL: -17646.635
+Partition EOG090C022Z / Model: GTR+F+G4 / df: 88 / LogL: -14555.449
+Partition EOG090C00E9 / Model: GTR+F+G4 / df: 88 / LogL: -24544.127
+Partition EOG090C01AQ / Model: GTR+F+G4 / df: 88 / LogL: -16224.079
+Partition EOG090C010X / Model: GTR+F+G4 / df: 88 / LogL: -15352.441
+Partition EOG090C02AS / Model: GTR+F+G4 / df: 88 / LogL: -17686.015
+Partition EOG090C01O3 / Model: GTR+F+G4 / df: 88 / LogL: -17467.289
+Partition EOG090C04FD / Model: GTR+F+G4 / df: 88 / LogL: -16698.937
+Partition EOG090C02S2 / Model: GTR+F+G4 / df: 88 / LogL: -16547.378
+Partition EOG090C07E7 / Model: GTR+F+G4 / df: 80 / LogL: -14976.308
+Partition EOG090C0775 / Model: GTR+F+G4 / df: 88 / LogL: -14939.821
+Partition EOG090C02TX / Model: GTR+F+G4 / df: 88 / LogL: -15476.191
+Partition EOG090C02QR / Model: GTR+F+G4 / df: 88 / LogL: -16290.291
+Partition EOG090C027B / Model: GTR+F+G4 / df: 88 / LogL: -15700.110
+Partition EOG090C0C28 / Model: GTR+F+G4 / df: 88 / LogL: -15657.738
+Partition EOG090C037V / Model: GTR+F+G4 / df: 88 / LogL: -14066.380
+Partition EOG090C039G / Model: GTR+F+G4 / df: 88 / LogL: -15748.749
+Partition EOG090C02JH / Model: GTR+F+G4 / df: 88 / LogL: -16922.489
+Partition EOG090C034S / Model: GTR+F+G4 / df: 88 / LogL: -15323.582
+Partition EOG090C03FG / Model: GTR+F+G4 / df: 88 / LogL: -15286.928
+Partition EOG090C03H4 / Model: GTR+F+G4 / df: 84 / LogL: -17704.843
+Partition EOG090C042A / Model: GTR+F+G4 / df: 88 / LogL: -14522.523
+Partition EOG090C05L0 / Model: GTR+F+G4 / df: 88 / LogL: -13029.812
+Partition EOG090C02FU / Model: GTR+F+G4 / df: 88 / LogL: -15708.386
+Partition EOG090C02D8 / Model: GTR+F+G4 / df: 88 / LogL: -18424.707
+Partition EOG090C016S / Model: GTR+F+G4 / df: 88 / LogL: -13607.015
+Partition EOG090C04JE / Model: GTR+F+G4 / df: 88 / LogL: -14737.613
+Partition EOG090C03FJ / Model: GTR+F+G4 / df: 88 / LogL: -11862.133
+Partition EOG090C09VY / Model: GTR+F+G4 / df: 88 / LogL: -14198.935
+Partition EOG090C01EW / Model: GTR+F+G4 / df: 88 / LogL: -13330.975
+Partition EOG090C0612 / Model: GTR+F+G4 / df: 88 / LogL: -11929.451
+Partition EOG090C01NW / Model: GTR+F+G4 / df: 88 / LogL: -13794.994
+Partition EOG090C04RC / Model: GTR+F+G4 / df: 88 / LogL: -12287.865
+Partition EOG090C04V7 / Model: GTR+F+G4 / df: 88 / LogL: -12081.565
+Partition EOG090C01O8 / Model: GTR+F+G4 / df: 88 / LogL: -13546.304
+Partition EOG090C04H0 / Model: GTR+F+G4 / df: 88 / LogL: -13327.594
+Partition EOG090C0578 / Model: GTR+F+G4 / df: 88 / LogL: -11152.976
+Partition EOG090C059D / Model: GTR+F+G4 / df: 88 / LogL: -10409.194
+Partition EOG090C0349 / Model: GTR+F+G4 / df: 88 / LogL: -13933.834
+Partition EOG090C053D / Model: GTR+F+G4 / df: 88 / LogL: -10762.043
+Partition EOG090C00SW / Model: GTR+F+G4 / df: 88 / LogL: -13474.049
+Partition EOG090C031H / Model: GTR+F+G4 / df: 80 / LogL: -15402.914
+Partition EOG090C03TA / Model: GTR+F+G4 / df: 88 / LogL: -11865.810
+Partition EOG090C0764 / Model: GTR+F+G4 / df: 88 / LogL: -9524.545
+Partition EOG090C05XW / Model: GTR+F+G4 / df: 88 / LogL: -12942.017
+Partition EOG090C065C / Model: GTR+F+G4 / df: 88 / LogL: -11505.817
+Partition EOG090C04QC / Model: GTR+F+G4 / df: 88 / LogL: -9621.718
+Partition EOG090C050C / Model: GTR+F+G4 / df: 86 / LogL: -10321.714
+Partition EOG090C03F4 / Model: GTR+F+G4 / df: 88 / LogL: -10657.041
+Partition EOG090C048B / Model: GTR+F+G4 / df: 88 / LogL: -10685.799
+Partition EOG090C03MY / Model: GTR+F+G4 / df: 88 / LogL: -11177.756
+Partition EOG090C02XJ / Model: GTR+F+G4 / df: 88 / LogL: -10073.192
+Partition EOG090C02W1 / Model: GTR+F+G4 / df: 88 / LogL: -13799.593
+Partition EOG090C05G3 / Model: GTR+F+G4 / df: 88 / LogL: -11579.990
+Partition EOG090C031J / Model: GTR+F+G4 / df: 86 / LogL: -13299.484
+Partition EOG090C02BD / Model: GTR+F+G4 / df: 88 / LogL: -12772.013
+Partition EOG090C09YB / Model: GTR+F+G4 / df: 88 / LogL: -9813.312
+Partition EOG090C02GG / Model: GTR+F+G4 / df: 88 / LogL: -11444.658
+Partition EOG090C06UT / Model: GTR+F+G4 / df: 88 / LogL: -8935.169
+Partition EOG090C07EK / Model: GTR+F+G4 / df: 88 / LogL: -8746.842
+Partition EOG090C063X / Model: GTR+F+G4 / df: 88 / LogL: -9191.550
+Partition EOG090C0A60 / Model: GTR+F+G4 / df: 88 / LogL: -9335.095
+Partition EOG090C04SN / Model: GTR+F+G4 / df: 88 / LogL: -10985.175
+Partition EOG090C01LV / Model: GTR+F+G4 / df: 88 / LogL: -14842.291
+Partition EOG090C01W9 / Model: GTR+F+G4 / df: 88 / LogL: -8829.625
+Partition EOG090C05LN / Model: GTR+F+G4 / df: 88 / LogL: -9397.381
+Partition EOG090C08E3 / Model: GTR+F+G4 / df: 88 / LogL: -9580.726
+Partition EOG090C03SO / Model: GTR+F+G4 / df: 86 / LogL: -8030.334
+Partition EOG090C07DE / Model: GTR+F+G4 / df: 88 / LogL: -9651.763
+Partition EOG090C05N2 / Model: GTR+F+G4 / df: 82 / LogL: -10214.129
+Partition EOG090C05AA / Model: GTR+F+G4 / df: 88 / LogL: -10958.408
+Partition EOG090C05A5 / Model: GTR+F+G4 / df: 88 / LogL: -7748.044
+Partition EOG090C06M4 / Model: GTR+F+G4 / df: 88 / LogL: -10529.553
+Partition EOG090C09UD / Model: GTR+F+G4 / df: 88 / LogL: -8588.911
+Partition EOG090C06E3 / Model: GTR+F+G4 / df: 78 / LogL: -10323.029
+Partition EOG090C07FM / Model: GTR+F+G4 / df: 88 / LogL: -8466.352
+Partition EOG090C05QZ / Model: GTR+F+G4 / df: 88 / LogL: -9268.217
+Partition EOG090C05SZ / Model: GTR+F+G4 / df: 88 / LogL: -9197.317
+Partition EOG090C0A64 / Model: GTR+F+G4 / df: 88 / LogL: -7082.274
+Partition EOG090C06GH / Model: GTR+F+G4 / df: 88 / LogL: -9420.431
+Partition EOG090C084P / Model: GTR+F+G4 / df: 88 / LogL: -8284.339
+Partition EOG090C07YF / Model: GTR+F+G4 / df: 88 / LogL: -8177.954
+Partition EOG090C08Y7 / Model: GTR+F+G4 / df: 88 / LogL: -7793.561
+Partition EOG090C01S4 / Model: GTR+F+G4 / df: 88 / LogL: -9448.467
+Partition EOG090C052V / Model: GTR+F+G4 / df: 88 / LogL: -11042.781
+Partition EOG090C08ZX / Model: GTR+F+G4 / df: 88 / LogL: -7607.572
+Partition EOG090C0737 / Model: GTR+F+G4 / df: 88 / LogL: -7540.624
+Partition EOG090C06G0 / Model: GTR+F+G4 / df: 88 / LogL: -8233.889
+Partition EOG090C08HB / Model: GTR+F+G4 / df: 88 / LogL: -8791.617
+Partition EOG090C05G1 / Model: GTR+F+G4 / df: 86 / LogL: -9842.039
+Partition EOG090C0A9Z / Model: GTR+F+G4 / df: 88 / LogL: -7153.851
+Partition EOG090C05MB / Model: GTR+F+G4 / df: 88 / LogL: -9148.551
+Partition EOG090C07T8 / Model: GTR+F+G4 / df: 88 / LogL: -9329.352
+Partition EOG090C078W / Model: GTR+F+G4 / df: 88 / LogL: -9048.436
+Partition EOG090C06YQ / Model: GTR+F+G4 / df: 84 / LogL: -8876.499
+Partition EOG090C05S6 / Model: GTR+F+G4 / df: 88 / LogL: -8307.098
+Partition EOG090C0A6M / Model: GTR+F+G4 / df: 84 / LogL: -7447.803
+Partition EOG090C08HD / Model: GTR+F+G4 / df: 88 / LogL: -7733.327
+Partition EOG090C0DPY / Model: GTR+F+G4 / df: 74 / LogL: -8286.360
+Partition EOG090C06TR / Model: GTR+F+G4 / df: 88 / LogL: -8224.804
+Partition EOG090C05VD / Model: GTR+F+G4 / df: 88 / LogL: -7714.436
+Partition EOG090C087X / Model: GTR+F+G4 / df: 88 / LogL: -8371.669
+Partition EOG090C0DCG / Model: GTR+F+G4 / df: 88 / LogL: -6286.830
+Partition EOG090C084B / Model: GTR+F+G4 / df: 88 / LogL: -8947.963
+Partition EOG090C07AW / Model: GTR+F+G4 / df: 88 / LogL: -6584.418
+Partition EOG090C04IP / Model: GTR+F+G4 / df: 88 / LogL: -10299.476
+Partition EOG090C05D2 / Model: GTR+F+G4 / df: 88 / LogL: -8647.846
+Partition EOG090C06D6 / Model: GTR+F+G4 / df: 88 / LogL: -9330.008
+Partition EOG090C0A9E / Model: GTR+F+G4 / df: 88 / LogL: -7557.612
+Partition EOG090C0D5X / Model: GTR+F+G4 / df: 88 / LogL: -6203.262
+Partition EOG090C0853 / Model: GTR+F+G4 / df: 88 / LogL: -5869.518
+Partition EOG090C09YT / Model: GTR+F+G4 / df: 88 / LogL: -7415.023
+Partition EOG090C07UF / Model: GTR+F+G4 / df: 86 / LogL: -6906.401
+Partition EOG090C0D8Y / Model: GTR+F+G4 / df: 88 / LogL: -7984.398
+Partition EOG090C09HK / Model: GTR+F+G4 / df: 88 / LogL: -6173.130
+Partition EOG090C061N / Model: GTR+F+G4 / df: 88 / LogL: -7164.682
+Partition EOG090C0AVW / Model: GTR+F+G4 / df: 88 / LogL: -7056.446
+Partition EOG090C0AJF / Model: GTR+F+G4 / df: 88 / LogL: -7410.569
+Partition EOG090C0979 / Model: GTR+F+G4 / df: 88 / LogL: -8026.284
+Partition EOG090C03OC / Model: GTR+F+G4 / df: 88 / LogL: -8681.889
+Partition EOG090C07A1 / Model: GTR+F+G4 / df: 88 / LogL: -7406.912
+Partition EOG090C0BXY / Model: GTR+F+G4 / df: 88 / LogL: -6751.811
+Partition EOG090C0A45 / Model: GTR+F+G4 / df: 88 / LogL: -7745.886
+Partition EOG090C0BIV / Model: GTR+F+G4 / df: 88 / LogL: -7264.225
+Partition EOG090C09EJ / Model: GTR+F+G4 / df: 88 / LogL: -6579.053
+Partition EOG090C0ACE / Model: GTR+F+G4 / df: 88 / LogL: -5327.788
+Partition EOG090C0B0W / Model: GTR+F+G4 / df: 88 / LogL: -6712.898
+Partition EOG090C08L3 / Model: GTR+F+G4 / df: 84 / LogL: -7311.504
+Partition EOG090C04TR / Model: GTR+F+G4 / df: 88 / LogL: -6453.993
+Partition EOG090C09SR / Model: GTR+F+G4 / df: 86 / LogL: -7004.248
+Partition EOG090C0A3I / Model: GTR+F+G4 / df: 88 / LogL: -6700.315
+Partition EOG090C05V5 / Model: GTR+F+G4 / df: 88 / LogL: -7538.711
+Partition EOG090C0942 / Model: GTR+F+G4 / df: 88 / LogL: -5836.978
+Partition EOG090C0B2X / Model: GTR+F+G4 / df: 88 / LogL: -5439.706
+Partition EOG090C08IP / Model: GTR+F+G4 / df: 88 / LogL: -7150.926
+Partition EOG090C0814 / Model: GTR+F+G4 / df: 88 / LogL: -6946.816
+Partition EOG090C06OU / Model: GTR+F+G4 / df: 88 / LogL: -7351.814
+Partition EOG090C07R2 / Model: GTR+F+G4 / df: 88 / LogL: -7280.061
+Partition EOG090C05V7 / Model: GTR+F+G4 / df: 88 / LogL: -6810.640
+Partition EOG090C06OH / Model: GTR+F+G4 / df: 88 / LogL: -6617.935
+Partition EOG090C0A5R / Model: GTR+F+G4 / df: 88 / LogL: -7121.847
+Partition EOG090C04N7 / Model: GTR+F+G4 / df: 88 / LogL: -7161.857
+Partition EOG090C09ZT / Model: GTR+F+G4 / df: 88 / LogL: -6657.360
+Partition EOG090C06DR / Model: GTR+F+G4 / df: 88 / LogL: -7050.524
+Partition EOG090C0BQZ / Model: GTR+F+G4 / df: 88 / LogL: -5170.407
+Partition EOG090C091S / Model: GTR+F+G4 / df: 82 / LogL: -6361.181
+Partition EOG090C07T9 / Model: GTR+F+G4 / df: 84 / LogL: -7192.231
+Partition EOG090C0A75 / Model: GTR+F+G4 / df: 88 / LogL: -5529.052
+Partition EOG090C0B6Z / Model: GTR+F+G4 / df: 86 / LogL: -6026.126
+Partition EOG090C09U6 / Model: GTR+F+G4 / df: 88 / LogL: -5144.563
+Partition EOG090C08VL / Model: GTR+F+G4 / df: 88 / LogL: -6444.575
+Partition EOG090C0CQ8 / Model: GTR+F+G4 / df: 88 / LogL: -5414.684
+Partition EOG090C0CWR / Model: GTR+F+G4 / df: 88 / LogL: -5151.318
+Partition EOG090C088I / Model: GTR+F+G4 / df: 88 / LogL: -5594.059
+Partition EOG090C0C96 / Model: GTR+F+G4 / df: 88 / LogL: -5008.543
+Partition EOG090C0A7Z / Model: GTR+F+G4 / df: 88 / LogL: -4575.017
+Partition EOG090C0ATW / Model: GTR+F+G4 / df: 88 / LogL: -4837.961
+Partition EOG090C04B1 / Model: GTR+F+G4 / df: 88 / LogL: -5184.152
+Partition EOG090C0ECL / Model: GTR+F+G4 / df: 88 / LogL: -5264.654
+Partition EOG090C0E61 / Model: GTR+F+G4 / df: 88 / LogL: -4549.341
+Partition EOG090C0COQ / Model: GTR+F+G4 / df: 88 / LogL: -4470.553
+Partition EOG090C07VC / Model: GTR+F+G4 / df: 84 / LogL: -6124.000
+Partition EOG090C0E0A / Model: GTR+F+G4 / df: 88 / LogL: -4214.049
+Partition EOG090C085V / Model: GTR+F+G4 / df: 88 / LogL: -5826.820
+Partition EOG090C0B5U / Model: GTR+F+G4 / df: 88 / LogL: -4849.394
+Partition EOG090C0910 / Model: GTR+F+G4 / df: 86 / LogL: -6104.323
+Partition EOG090C0BFG / Model: GTR+F+G4 / df: 88 / LogL: -5414.956
+Partition EOG090C0EW9 / Model: GTR+F+G4 / df: 88 / LogL: -4300.713
+Partition EOG090C0BJ8 / Model: GTR+F+G4 / df: 88 / LogL: -4735.599
+Partition EOG090C08P2 / Model: GTR+F+G4 / df: 88 / LogL: -5932.489
+Partition EOG090C08GX / Model: GTR+F+G4 / df: 84 / LogL: -5838.746
+Partition EOG090C0D12 / Model: GTR+F+G4 / df: 88 / LogL: -4598.234
+Partition EOG090C09G2 / Model: GTR+F+G4 / df: 78 / LogL: -5872.867
+Partition EOG090C0A7L / Model: GTR+F+G4 / df: 88 / LogL: -5916.040
+Partition EOG090C0AFE / Model: GTR+F+G4 / df: 88 / LogL: -4847.410
+Partition EOG090C05QX / Model: GTR+F+G4 / df: 88 / LogL: -5089.313
+Partition EOG090C09E0 / Model: GTR+F+G4 / df: 88 / LogL: -5330.864
+Partition EOG090C0AYM / Model: GTR+F+G4 / df: 88 / LogL: -5002.341
+Partition EOG090C095H / Model: GTR+F+G4 / df: 88 / LogL: -4801.859
+Partition EOG090C0CUT / Model: GTR+F+G4 / df: 88 / LogL: -4270.092
+Partition EOG090C0CP2 / Model: GTR+F+G4 / df: 88 / LogL: -5133.786
+Partition EOG090C0CL1 / Model: GTR+F+G4 / df: 88 / LogL: -4545.514
+Partition EOG090C0DYT / Model: GTR+F+G4 / df: 88 / LogL: -4047.379
+Partition EOG090C0CNU / Model: GTR+F+G4 / df: 88 / LogL: -4723.203
+Partition EOG090C0BO8 / Model: GTR+F+G4 / df: 88 / LogL: -4191.478
+Partition EOG090C0BJH / Model: GTR+F+G4 / df: 88 / LogL: -4961.916
+Partition EOG090C0DPN / Model: GTR+F+G4 / df: 88 / LogL: -4644.819
+Partition EOG090C0COA / Model: GTR+F+G4 / df: 88 / LogL: -4305.896
+Partition EOG090C0CVS / Model: GTR+F+G4 / df: 88 / LogL: -4300.882
+Partition EOG090C07KD / Model: GTR+F+G4 / df: 88 / LogL: -5427.380
+Partition EOG090C0CC2 / Model: GTR+F+G4 / df: 88 / LogL: -4352.624
+Partition EOG090C0CT5 / Model: GTR+F+G4 / df: 88 / LogL: -3922.460
+Partition EOG090C0CI2 / Model: GTR+F+G4 / df: 84 / LogL: -3837.801
+Partition EOG090C05OB / Model: GTR+F+G4 / df: 88 / LogL: -4589.166
+Partition EOG090C0EOX / Model: GTR+F+G4 / df: 88 / LogL: -3814.952
+Partition EOG090C0DBT / Model: GTR+F+G4 / df: 88 / LogL: -3422.076
+Partition EOG090C0C6Y / Model: GTR+F+G4 / df: 88 / LogL: -3587.885
+Partition EOG090C0EQN / Model: GTR+F+G4 / df: 86 / LogL: -3998.179
+Partition EOG090C0C82 / Model: GTR+F+G4 / df: 88 / LogL: -3836.455
+Partition EOG090C0E66 / Model: GTR+F+G4 / df: 88 / LogL: -3365.917
+Partition EOG090C0FO8 / Model: GTR+F+G4 / df: 88 / LogL: -2923.793
+Partition EOG090C0DIZ / Model: GTR+F+G4 / df: 88 / LogL: -2958.357
+Partition EOG090C0DVF / Model: GTR+F+G4 / df: 88 / LogL: -4369.205
+Partition EOG090C0FN4 / Model: GTR+F+G4 / df: 86 / LogL: -3501.413
+Partition EOG090C0ERA / Model: GTR+F+G4 / df: 88 / LogL: -3235.445
+Partition EOG090C0DC4 / Model: GTR+F+G4 / df: 88 / LogL: -3698.030
+Partition EOG090C08JM / Model: GTR+F+G4 / df: 88 / LogL: -3168.489
+Partition EOG090C0CNR / Model: GTR+F+G4 / df: 88 / LogL: -3925.392
+Partition EOG090C0DHQ / Model: GTR+F+G4 / df: 88 / LogL: -3014.494
+Partition EOG090C0DZR / Model: GTR+F+G4 / df: 88 / LogL: -3047.331
+Partition EOG090C0DLR / Model: GTR+F+G4 / df: 88 / LogL: -2909.856
+Partition EOG090C0D62 / Model: GTR+F+G4 / df: 88 / LogL: -3310.045
+Partition EOG090C0DQF / Model: GTR+F+G4 / df: 88 / LogL: -3457.926
+Partition EOG090C0BSS / Model: GTR+F+G4 / df: 88 / LogL: -3468.207
+Partition EOG090C0EDQ / Model: GTR+F+G4 / df: 88 / LogL: -3191.033
+Partition EOG090C0FK5 / Model: GTR+F+G4 / df: 88 / LogL: -2778.618
+Partition EOG090C0F5V / Model: GTR+F+G4 / df: 86 / LogL: -3188.387
+Partition EOG090C0EQT / Model: GTR+F+G4 / df: 88 / LogL: -2612.082
+Partition EOG090C0GEX / Model: GTR+F+G4 / df: 80 / LogL: -2646.648
+Partition EOG090C0FJ3 / Model: GTR+F+G4 / df: 88 / LogL: -3166.318
+Partition EOG090C0FPV / Model: GTR+F+G4 / df: 88 / LogL: -2777.251
+Partition EOG090C0BHC / Model: GTR+F+G4 / df: 88 / LogL: -2861.871
+Partition EOG090C0EUQ / Model: GTR+F+G4 / df: 88 / LogL: -2645.467
+Partition EOG090C0E9M / Model: GTR+F+G4 / df: 88 / LogL: -2478.003
+Partition EOG090C0EZV / Model: GTR+F+G4 / df: 88 / LogL: -2568.116
+Partition EOG090C0FDT / Model: GTR+F+G4 / df: 86 / LogL: -2277.097
+Partition EOG090C0F6D / Model: GTR+F+G4 / df: 88 / LogL: -2179.780
+Partition EOG090C0CAE / Model: GTR+F+G4 / df: 88 / LogL: -2705.208
+Partition EOG090C0E67 / Model: GTR+F+G4 / df: 88 / LogL: -2161.841
+Partition EOG090C0F0B / Model: GTR+F+G4 / df: 88 / LogL: -1966.191
+Partition EOG090C0FTD / Model: GTR+F+G4 / df: 86 / LogL: -1432.533
+Partition EOG090C0E5P / Model: GTR+F+G4 / df: 86 / LogL: -2903.454
+Partition EOG090C0FVO / Model: GTR+F+G4 / df: 86 / LogL: -1273.235
+Partition EOG090C0FJJ / Model: GTR+F+G4 / df: 88 / LogL: -1547.995
+Partition EOG090C0FMY / Model: GTR+F+G4 / df: 88 / LogL: -1952.916
+Optimal log-likelihood: -2434451.415
+--------------------------------------------------------------------
+|                SEPARATE TREE SEARCH FOR PARTITIONS               |
+--------------------------------------------------------------------
+Partition EOG090C00VF / Iterations: 102 / LogL: -28705.8 / Time: 0h:1m:31s
+Partition EOG090C07QB / Iterations: 102 / LogL: -23296.2 / Time: 0h:2m:1s
+Partition EOG090C00B1 / Iterations: 108 / LogL: -26982.7 / Time: 0h:2m:1s
+Partition EOG090C00BT / Iterations: 107 / LogL: -36199.8 / Time: 0h:2m:18s
+Partition EOG090C00AN / Iterations: 104 / LogL: -38598.3 / Time: 0h:2m:21s
+Partition EOG090C00BE / Iterations: 129 / LogL: -32679 / Time: 0h:2m:29s
+Partition EOG090C0087 / Iterations: 155 / LogL: -30602.1 / Time: 0h:2m:47s
+Partition EOG090C03Q4 / Iterations: 148 / LogL: -28699.1 / Time: 0h:2m:51s
+Partition EOG090C02KW / Iterations: 133 / LogL: -23308 / Time: 0h:3m:1s
+Partition EOG090C00HT / Iterations: 123 / LogL: -30582.5 / Time: 0h:3m:10s
+Partition EOG090C01T7 / Iterations: 138 / LogL: -22157 / Time: 0h:3m:16s
+Partition EOG090C01M7 / Iterations: 139 / LogL: -21098.3 / Time: 0h:3m:35s
+Partition EOG090C014P / Iterations: 102 / LogL: -21020 / Time: 0h:3m:40s
+Partition EOG090C01VW / Iterations: 143 / LogL: -21016.3 / Time: 0h:3m:41s
+Partition EOG090C0114 / Iterations: 111 / LogL: -22820.6 / Time: 0h:3m:43s
+Partition EOG090C02EK / Iterations: 102 / LogL: -18908.7 / Time: 0h:3m:45s
+Partition EOG090C01BG / Iterations: 102 / LogL: -21706.8 / Time: 0h:3m:54s
+Partition EOG090C027E / Iterations: 184 / LogL: -24391.9 / Time: 0h:4m:2s
+Partition EOG090C01QP / Iterations: 116 / LogL: -18341.6 / Time: 0h:4m:9s
+Partition EOG090C00HJ / Iterations: 115 / LogL: -23347 / Time: 0h:4m:13s
+Partition EOG090C016M / Iterations: 105 / LogL: -23549.4 / Time: 0h:4m:18s
+Partition EOG090C035W / Iterations: 106 / LogL: -17260.7 / Time: 0h:4m:20s
+Partition EOG090C01CW / Iterations: 126 / LogL: -17616.8 / Time: 0h:4m:29s
+Partition EOG090C00E9 / Iterations: 103 / LogL: -24508 / Time: 0h:4m:30s
+Partition EOG090C022Z / Iterations: 133 / LogL: -14533.6 / Time: 0h:4m:41s
+Partition EOG090C01O3 / Iterations: 102 / LogL: -17406.1 / Time: 0h:4m:41s
+Partition EOG090C02AS / Iterations: 133 / LogL: -17678.4 / Time: 0h:4m:50s
+Partition EOG090C04FD / Iterations: 102 / LogL: -16674.9 / Time: 0h:4m:51s
+Partition EOG090C01AQ / Iterations: 105 / LogL: -16207.3 / Time: 0h:4m:53s
+Partition EOG090C010X / Iterations: 124 / LogL: -15318.3 / Time: 0h:5m:3s
+Partition EOG090C07E7 / Iterations: 103 / LogL: -14953.1 / Time: 0h:5m:5s
+Partition EOG090C02S2 / Iterations: 105 / LogL: -16520.7 / Time: 0h:5m:6s
+Partition EOG090C027B / Iterations: 103 / LogL: -15660.6 / Time: 0h:5m:14s
+Partition EOG090C0775 / Iterations: 108 / LogL: -14922.4 / Time: 0h:5m:21s
+Partition EOG090C0C28 / Iterations: 103 / LogL: -15640.1 / Time: 0h:5m:24s
+Partition EOG090C02QR / Iterations: 118 / LogL: -16276.3 / Time: 0h:5m:25s
+Partition EOG090C02TX / Iterations: 106 / LogL: -15415.1 / Time: 0h:5m:27s
+Partition EOG090C037V / Iterations: 102 / LogL: -14046.8 / Time: 0h:5m:38s
+Partition EOG090C02JH / Iterations: 110 / LogL: -16865.6 / Time: 0h:5m:40s
+Partition EOG090C039G / Iterations: 103 / LogL: -15743.3 / Time: 0h:5m:41s
+Partition EOG090C03H4 / Iterations: 132 / LogL: -17686.5 / Time: 0h:5m:48s
+Partition EOG090C034S / Iterations: 108 / LogL: -15284.4 / Time: 0h:5m:53s
+Partition EOG090C042A / Iterations: 103 / LogL: -14504.8 / Time: 0h:5m:58s
+Partition EOG090C05L0 / Iterations: 105 / LogL: -13005.7 / Time: 0h:5m:58s
+Partition EOG090C02FU / Iterations: 102 / LogL: -15700.8 / Time: 0h:6m:8s
+Partition EOG090C02D8 / Iterations: 106 / LogL: -18384 / Time: 0h:6m:11s
+Partition EOG090C016S / Iterations: 102 / LogL: -13570.6 / Time: 0h:6m:12s
+Partition EOG090C03FG / Iterations: 163 / LogL: -15262.4 / Time: 0h:6m:12s
+Partition EOG090C0612 / Iterations: 102 / LogL: -11915.9 / Time: 0h:6m:22s
+Partition EOG090C04JE / Iterations: 123 / LogL: -14691 / Time: 0h:6m:27s
+Partition EOG090C03FJ / Iterations: 119 / LogL: -11827.3 / Time: 0h:6m:34s
+Partition EOG090C01EW / Iterations: 106 / LogL: -13329.2 / Time: 0h:6m:40s
+Partition EOG090C09VY / Iterations: 168 / LogL: -14173.2 / Time: 0h:6m:44s
+Partition EOG090C04RC / Iterations: 115 / LogL: -12262.1 / Time: 0h:6m:45s
+Partition EOG090C01NW / Iterations: 125 / LogL: -13758.1 / Time: 0h:6m:46s
+Partition EOG090C04V7 / Iterations: 131 / LogL: -12060.4 / Time: 0h:6m:51s
+Partition EOG090C04H0 / Iterations: 137 / LogL: -13256.5 / Time: 0h:6m:59s
+Partition EOG090C0349 / Iterations: 110 / LogL: -13920.9 / Time: 0h:7m:9s
+Partition EOG090C053D / Iterations: 103 / LogL: -10735.9 / Time: 0h:7m:10s
+Partition EOG090C059D / Iterations: 104 / LogL: -10406.8 / Time: 0h:7m:11s
+Partition EOG090C00SW / Iterations: 111 / LogL: -13450.4 / Time: 0h:7m:15s
+Partition EOG090C031H / Iterations: 102 / LogL: -15398.5 / Time: 0h:7m:16s
+Partition EOG090C01O8 / Iterations: 188 / LogL: -13518 / Time: 0h:7m:16s
+Partition EOG090C03TA / Iterations: 127 / LogL: -11822.9 / Time: 0h:7m:32s
+Partition EOG090C0578 / Iterations: 205 / LogL: -11139.4 / Time: 0h:7m:34s
+Partition EOG090C05XW / Iterations: 105 / LogL: -12930.3 / Time: 0h:7m:36s
+Partition EOG090C065C / Iterations: 105 / LogL: -11493.4 / Time: 0h:7m:37s
+Partition EOG090C0764 / Iterations: 103 / LogL: -9497.19 / Time: 0h:7m:39s
+Partition EOG090C03F4 / Iterations: 106 / LogL: -10643.9 / Time: 0h:7m:41s
+Partition EOG090C04QC / Iterations: 102 / LogL: -9617.28 / Time: 0h:7m:41s
+Partition EOG090C03MY / Iterations: 103 / LogL: -11152.6 / Time: 0h:7m:55s
+Partition EOG090C050C / Iterations: 170 / LogL: -10267.5 / Time: 0h:7m:59s
+Partition EOG090C02XJ / Iterations: 107 / LogL: -10031.6 / Time: 0h:8m:2s
+Partition EOG090C02W1 / Iterations: 117 / LogL: -13749.2 / Time: 0h:8m:3s
+Partition EOG090C031J / Iterations: 102 / LogL: -13268.9 / Time: 0h:8m:4s
+Partition EOG090C048B / Iterations: 121 / LogL: -10643.6 / Time: 0h:8m:4s
+Partition EOG090C02BD / Iterations: 127 / LogL: -12761.7 / Time: 0h:8m:11s
+Partition EOG090C09YB / Iterations: 109 / LogL: -9789.02 / Time: 0h:8m:22s
+Partition EOG090C02GG / Iterations: 108 / LogL: -11415.6 / Time: 0h:8m:22s
+Partition EOG090C063X / Iterations: 111 / LogL: -9160.6 / Time: 0h:8m:26s
+Partition EOG090C06UT / Iterations: 113 / LogL: -8925.39 / Time: 0h:8m:28s
+Partition EOG090C04SN / Iterations: 118 / LogL: -10975.2 / Time: 0h:8m:35s
+Partition EOG090C05G3 / Iterations: 246 / LogL: -11553.7 / Time: 0h:8m:37s
+Partition EOG090C01LV / Iterations: 107 / LogL: -14824.8 / Time: 0h:8m:44s
+Partition EOG090C07EK / Iterations: 190 / LogL: -8723.45 / Time: 0h:8m:44s
+Partition EOG090C01W9 / Iterations: 109 / LogL: -8807.67 / Time: 0h:8m:46s
+Partition EOG090C05N2 / Iterations: 106 / LogL: -10162.6 / Time: 0h:8m:56s
+Partition EOG090C08E3 / Iterations: 108 / LogL: -9510.46 / Time: 0h:8m:57s
+Partition EOG090C05AA / Iterations: 189 / LogL: -10889.5 / Time: 0h:9m:1s
+Partition EOG090C0A60 / Iterations: 259 / LogL: -9317.24 / Time: 0h:9m:4s
+Partition EOG090C05LN / Iterations: 184 / LogL: -9368.64 / Time: 0h:9m:5s
+Partition EOG090C07DE / Iterations: 144 / LogL: -9624.59 / Time: 0h:9m:9s
+Partition EOG090C03SO / Iterations: 148 / LogL: -8022.92 / Time: 0h:9m:11s
+Partition EOG090C06M4 / Iterations: 119 / LogL: -10496.8 / Time: 0h:9m:21s
+Partition EOG090C07FM / Iterations: 119 / LogL: -8425.05 / Time: 0h:9m:23s
+Partition EOG090C06E3 / Iterations: 105 / LogL: -10303.3 / Time: 0h:9m:24s
+Partition EOG090C09UD / Iterations: 125 / LogL: -8571.09 / Time: 0h:9m:26s
+Partition EOG090C05A5 / Iterations: 199 / LogL: -7743.02 / Time: 0h:9m:27s
+Partition EOG090C05QZ / Iterations: 102 / LogL: -9223.61 / Time: 0h:9m:28s
+Partition EOG090C06GH / Iterations: 103 / LogL: -9384.45 / Time: 0h:9m:30s
+Partition EOG090C01S4 / Iterations: 102 / LogL: -9415.37 / Time: 0h:9m:38s
+Partition EOG090C05SZ / Iterations: 205 / LogL: -9182.92 / Time: 0h:9m:42s
+Partition EOG090C084P / Iterations: 102 / LogL: -8274.35 / Time: 0h:9m:42s
+Partition EOG090C07YF / Iterations: 106 / LogL: -8150.45 / Time: 0h:9m:44s
+Partition EOG090C052V / Iterations: 115 / LogL: -11014.7 / Time: 0h:9m:45s
+Partition EOG090C08Y7 / Iterations: 106 / LogL: -7762.41 / Time: 0h:9m:49s
+Partition EOG090C06G0 / Iterations: 139 / LogL: -8220.59 / Time: 0h:9m:54s
+Partition EOG090C05G1 / Iterations: 127 / LogL: -9773.71 / Time: 0h:10m:2s
+Partition EOG090C0737 / Iterations: 158 / LogL: -7514.75 / Time: 0h:10m:7s
+Partition EOG090C0A64 / Iterations: 224 / LogL: -7059.62 / Time: 0h:10m:7s
+Partition EOG090C08HB / Iterations: 147 / LogL: -8753.57 / Time: 0h:10m:7s
+Partition EOG090C06YQ / Iterations: 117 / LogL: -8867.93 / Time: 0h:10m:9s
+Partition EOG090C07T8 / Iterations: 102 / LogL: -9310.3 / Time: 0h:10m:12s
+Partition EOG090C05MB / Iterations: 187 / LogL: -9115.76 / Time: 0h:10m:18s
+Partition EOG090C0A9Z / Iterations: 109 / LogL: -7094.07 / Time: 0h:10m:21s
+Partition EOG090C08ZX / Iterations: 239 / LogL: -7597.23 / Time: 0h:10m:21s
+Partition EOG090C078W / Iterations: 128 / LogL: -9027.79 / Time: 0h:10m:26s
+Partition EOG090C05S6 / Iterations: 113 / LogL: -8245.8 / Time: 0h:10m:27s
+Partition EOG090C0DPY / Iterations: 103 / LogL: -8281.46 / Time: 0h:10m:27s
+Partition EOG090C0A6M / Iterations: 105 / LogL: -7426.93 / Time: 0h:10m:28s
+Partition EOG090C05VD / Iterations: 123 / LogL: -7692.21 / Time: 0h:10m:28s
+Partition EOG090C08HD / Iterations: 102 / LogL: -7720.6 / Time: 0h:10m:33s
+Partition EOG090C084B / Iterations: 106 / LogL: -8929.5 / Time: 0h:10m:38s
+Partition EOG090C06TR / Iterations: 117 / LogL: -8193.33 / Time: 0h:10m:40s
+Partition EOG090C087X / Iterations: 109 / LogL: -8351.21 / Time: 0h:10m:44s
+Partition EOG090C04IP / Iterations: 126 / LogL: -10230.7 / Time: 0h:10m:47s
+Partition EOG090C06D6 / Iterations: 102 / LogL: -9279.41 / Time: 0h:10m:49s
+Partition EOG090C07AW / Iterations: 159 / LogL: -6545.64 / Time: 0h:10m:53s
+Partition EOG090C05D2 / Iterations: 192 / LogL: -8631.82 / Time: 0h:10m:56s
+Partition EOG090C09YT / Iterations: 150 / LogL: -7365.58 / Time: 0h:11m:3s
+Partition EOG090C0A9E / Iterations: 146 / LogL: -7547.34 / Time: 0h:11m:7s
+Partition EOG090C0853 / Iterations: 190 / LogL: -5854.77 / Time: 0h:11m:12s
+Partition EOG090C061N / Iterations: 140 / LogL: -7149.55 / Time: 0h:11m:12s
+Partition EOG090C0D5X / Iterations: 180 / LogL: -6189.51 / Time: 0h:11m:15s
+Partition EOG090C0D8Y / Iterations: 141 / LogL: -7945.05 / Time: 0h:11m:18s
+Partition EOG090C07UF / Iterations: 194 / LogL: -6884.76 / Time: 0h:11m:21s
+Partition EOG090C0AVW / Iterations: 108 / LogL: -7046.02 / Time: 0h:11m:24s
+Partition EOG090C0DCG / Iterations: 327 / LogL: -6268.05 / Time: 0h:11m:24s
+Partition EOG090C0AJF / Iterations: 105 / LogL: -7381.35 / Time: 0h:11m:28s
+Partition EOG090C07A1 / Iterations: 153 / LogL: -7383.29 / Time: 0h:11m:32s
+Partition EOG090C09HK / Iterations: 198 / LogL: -6154.77 / Time: 0h:11m:33s
+Partition EOG090C0979 / Iterations: 107 / LogL: -8011.73 / Time: 0h:11m:33s
+Partition EOG090C0A45 / Iterations: 106 / LogL: -7725.02 / Time: 0h:11m:39s
+Partition EOG090C09EJ / Iterations: 113 / LogL: -6551.75 / Time: 0h:11m:44s
+Partition EOG090C0B0W / Iterations: 111 / LogL: -6704.22 / Time: 0h:11m:47s
+Partition EOG090C03OC / Iterations: 226 / LogL: -8649.69 / Time: 0h:11m:48s
+Partition EOG090C04TR / Iterations: 107 / LogL: -6429.79 / Time: 0h:11m:51s
+Partition EOG090C0ACE / Iterations: 128 / LogL: -5313.33 / Time: 0h:11m:53s
+Partition EOG090C0BIV / Iterations: 204 / LogL: -7236.1 / Time: 0h:11m:53s
+Partition EOG090C0A3I / Iterations: 109 / LogL: -6681.35 / Time: 0h:12m:2s
+Partition EOG090C09SR / Iterations: 124 / LogL: -6993.68 / Time: 0h:12m:4s
+Partition EOG090C08L3 / Iterations: 181 / LogL: -7304.57 / Time: 0h:12m:5s
+Partition EOG090C06OU / Iterations: 103 / LogL: -7332.71 / Time: 0h:12m:7s
+Partition EOG090C0B2X / Iterations: 138 / LogL: -5427.5 / Time: 0h:12m:11s
+Partition EOG090C08IP / Iterations: 108 / LogL: -7115.02 / Time: 0h:12m:19s
+Partition EOG090C0942 / Iterations: 127 / LogL: -5822.49 / Time: 0h:12m:19s
+Partition EOG090C07R2 / Iterations: 115 / LogL: -7272.71 / Time: 0h:12m:20s
+Partition EOG090C05V7 / Iterations: 112 / LogL: -6796.95 / Time: 0h:12m:20s
+Partition EOG090C06OH / Iterations: 151 / LogL: -6606.02 / Time: 0h:12m:30s
+Partition EOG090C05V5 / Iterations: 352 / LogL: -7527.92 / Time: 0h:12m:32s
+Partition EOG090C0A5R / Iterations: 104 / LogL: -7090.28 / Time: 0h:12m:32s
+Partition EOG090C0814 / Iterations: 362 / LogL: -6931.58 / Time: 0h:12m:41s
+Partition EOG090C09ZT / Iterations: 105 / LogL: -6644.97 / Time: 0h:12m:43s
+Partition EOG090C07T9 / Iterations: 203 / LogL: -7175.18 / Time: 0h:12m:45s
+Partition EOG090C091S / Iterations: 124 / LogL: -6336.88 / Time: 0h:12m:47s
+Partition EOG090C0BQZ / Iterations: 121 / LogL: -5160.92 / Time: 0h:12m:47s
+Partition EOG090C04N7 / Iterations: 225 / LogL: -7142.67 / Time: 0h:12m:48s
+Partition EOG090C0BXY / Iterations: 592 / LogL: -6694.31 / Time: 0h:12m:50s
+Partition EOG090C0A75 / Iterations: 113 / LogL: -5511.9 / Time: 0h:12m:54s
+Partition EOG090C06DR / Iterations: 273 / LogL: -7031.25 / Time: 0h:12m:54s
+Partition EOG090C0B6Z / Iterations: 111 / LogL: -5996.39 / Time: 0h:12m:55s
+Partition EOG090C0CWR / Iterations: 103 / LogL: -5131.47 / Time: 0h:12m:59s
+Partition EOG090C088I / Iterations: 107 / LogL: -5563.52 / Time: 0h:13m:2s
+Partition EOG090C0C96 / Iterations: 109 / LogL: -4998.89 / Time: 0h:13m:4s
+Partition EOG090C0ECL / Iterations: 102 / LogL: -5254.11 / Time: 0h:13m:6s
+Partition EOG090C08VL / Iterations: 194 / LogL: -6434.23 / Time: 0h:13m:9s
+Partition EOG090C0CQ8 / Iterations: 125 / LogL: -5378.3 / Time: 0h:13m:12s
+Partition EOG090C04B1 / Iterations: 105 / LogL: -5172.72 / Time: 0h:13m:13s
+Partition EOG090C0A7Z / Iterations: 102 / LogL: -4563.48 / Time: 0h:13m:13s
+Partition EOG090C0ATW / Iterations: 176 / LogL: -4806.61 / Time: 0h:13m:16s
+Partition EOG090C0E61 / Iterations: 102 / LogL: -4540.56 / Time: 0h:13m:18s
+Partition EOG090C0E0A / Iterations: 103 / LogL: -4199.87 / Time: 0h:13m:25s
+Partition EOG090C0BFG / Iterations: 109 / LogL: -5394.79 / Time: 0h:13m:26s
+Partition EOG090C09U6 / Iterations: 338 / LogL: -5129.27 / Time: 0h:13m:28s
+Partition EOG090C0910 / Iterations: 115 / LogL: -6053.38 / Time: 0h:13m:29s
+Partition EOG090C07VC / Iterations: 234 / LogL: -6101.89 / Time: 0h:13m:33s
+Partition EOG090C08P2 / Iterations: 116 / LogL: -5922.17 / Time: 0h:13m:39s
+Partition EOG090C08GX / Iterations: 128 / LogL: -5823.23 / Time: 0h:13m:39s
+Partition EOG090C09G2 / Iterations: 102 / LogL: -5861.98 / Time: 0h:13m:40s
+Partition EOG090C0COQ / Iterations: 303 / LogL: -4458.68 / Time: 0h:13m:45s
+Partition EOG090C0A7L / Iterations: 105 / LogL: -5838.29 / Time: 0h:13m:50s
+Partition EOG090C05QX / Iterations: 103 / LogL: -5058.92 / Time: 0h:13m:50s
+Partition EOG090C0BJ8 / Iterations: 261 / LogL: -4703.85 / Time: 0h:13m:51s
+Partition EOG090C0B5U / Iterations: 483 / LogL: -4839.14 / Time: 0h:13m:57s
+Partition EOG090C09E0 / Iterations: 110 / LogL: -5318.94 / Time: 0h:13m:59s
+Partition EOG090C0AFE / Iterations: 142 / LogL: -4808.14 / Time: 0h:13m:59s
+Partition EOG090C0EW9 / Iterations: 265 / LogL: -4294.87 / Time: 0h:14m:0s
+Partition EOG090C0D12 / Iterations: 215 / LogL: -4578.33 / Time: 0h:14m:1s
+Partition EOG090C085V / Iterations: 561 / LogL: -5823.16 / Time: 0h:14m:7s
+Partition EOG090C095H / Iterations: 114 / LogL: -4791.12 / Time: 0h:14m:8s
+Partition EOG090C0CL1 / Iterations: 124 / LogL: -4523.87 / Time: 0h:14m:13s
+Partition EOG090C0CP2 / Iterations: 166 / LogL: -5101.47 / Time: 0h:14m:15s
+Partition EOG090C0CUT / Iterations: 233 / LogL: -4253.97 / Time: 0h:14m:15s
+Partition EOG090C0CNU / Iterations: 123 / LogL: -4706.83 / Time: 0h:14m:17s
+Partition EOG090C0BO8 / Iterations: 107 / LogL: -4179.47 / Time: 0h:14m:18s
+Partition EOG090C0BJH / Iterations: 177 / LogL: -4940.33 / Time: 0h:14m:19s
+Partition EOG090C0AYM / Iterations: 292 / LogL: -4947.07 / Time: 0h:14m:20s
+Partition EOG090C0DPN / Iterations: 110 / LogL: -4611.6 / Time: 0h:14m:22s
+Partition EOG090C0COA / Iterations: 102 / LogL: -4290.3 / Time: 0h:14m:24s
+Partition EOG090C0CT5 / Iterations: 125 / LogL: -3910.77 / Time: 0h:14m:27s
+Partition EOG090C07KD / Iterations: 114 / LogL: -5407.07 / Time: 0h:14m:28s
+Partition EOG090C0CC2 / Iterations: 108 / LogL: -4331.14 / Time: 0h:14m:29s
+Partition EOG090C0CVS / Iterations: 156 / LogL: -4265.34 / Time: 0h:14m:31s
+Partition EOG090C0CI2 / Iterations: 116 / LogL: -3825.66 / Time: 0h:14m:33s
+Partition EOG090C0EQN / Iterations: 130 / LogL: -3987.26 / Time: 0h:14m:34s
+Partition EOG090C0C6Y / Iterations: 113 / LogL: -3571.65 / Time: 0h:14m:38s
+Partition EOG090C0EOX / Iterations: 157 / LogL: -3810.89 / Time: 0h:14m:40s
+Partition EOG090C0DYT / Iterations: 463 / LogL: -4023.93 / Time: 0h:14m:42s
+Partition EOG090C0C82 / Iterations: 113 / LogL: -3819.39 / Time: 0h:14m:42s
+Partition EOG090C0FN4 / Iterations: 108 / LogL: -3495.86 / Time: 0h:14m:48s
+Partition EOG090C0DC4 / Iterations: 103 / LogL: -3670.84 / Time: 0h:14m:52s
+Partition EOG090C0FO8 / Iterations: 305 / LogL: -2910.56 / Time: 0h:14m:57s
+Partition EOG090C0DIZ / Iterations: 205 / LogL: -2937.11 / Time: 0h:14m:58s
+Partition EOG090C0CNR / Iterations: 105 / LogL: -3895.2 / Time: 0h:15m:0s
+Partition EOG090C05OB / Iterations: 506 / LogL: -4568.02 / Time: 0h:15m:0s
+Partition EOG090C0E66 / Iterations: 368 / LogL: -3358.82 / Time: 0h:15m:2s
+Partition EOG090C0DVF / Iterations: 325 / LogL: -4355.4 / Time: 0h:15m:3s
+Partition EOG090C0DBT / Iterations: 500 / LogL: -3418.7 / Time: 0h:15m:7s
+Partition EOG090C0DZR / Iterations: 147 / LogL: -3043.49 / Time: 0h:15m:11s
+Partition EOG090C0DQF / Iterations: 153 / LogL: -3446.97 / Time: 0h:15m:11s
+Partition EOG090C08JM / Iterations: 189 / LogL: -3151.56 / Time: 0h:15m:12s
+Partition EOG090C0ERA / Iterations: 315 / LogL: -3215.71 / Time: 0h:15m:12s
+Partition EOG090C0D62 / Iterations: 227 / LogL: -3297 / Time: 0h:15m:14s
+Partition EOG090C0DHQ / Iterations: 253 / LogL: -2976.28 / Time: 0h:15m:18s
+Partition EOG090C0FK5 / Iterations: 106 / LogL: -2764.71 / Time: 0h:15m:19s
+Partition EOG090C0GEX / Iterations: 102 / LogL: -2640.28 / Time: 0h:15m:21s
+Partition EOG090C0F5V / Iterations: 111 / LogL: -3181.34 / Time: 0h:15m:21s
+Partition EOG090C0DLR / Iterations: 190 / LogL: -2889.65 / Time: 0h:15m:21s
+Partition EOG090C0BSS / Iterations: 226 / LogL: -3465.72 / Time: 0h:15m:21s
+Partition EOG090C0FJ3 / Iterations: 137 / LogL: -3155.34 / Time: 0h:15m:21s
+Partition EOG090C0EDQ / Iterations: 218 / LogL: -3180.94 / Time: 0h:15m:24s
+Partition EOG090C0EQT / Iterations: 146 / LogL: -2597.77 / Time: 0h:15m:27s
+Partition EOG090C0E5P / Iterations: 105 / LogL: -2888.39 / Time: 0h:15m:27s
+Partition EOG090C0EZV / Iterations: 103 / LogL: -2551.49 / Time: 0h:15m:28s
+Partition EOG090C0FPV / Iterations: 104 / LogL: -2751 / Time: 0h:15m:28s
+Partition EOG090C0E9M / Iterations: 102 / LogL: -2462.42 / Time: 0h:15m:30s
+Partition EOG090C0EUQ / Iterations: 175 / LogL: -2641.57 / Time: 0h:15m:30s
+Partition EOG090C0BHC / Iterations: 190 / LogL: -2851.59 / Time: 0h:15m:32s
+Partition EOG090C0FDT / Iterations: 113 / LogL: -2276 / Time: 0h:15m:33s
+Partition EOG090C0F0B / Iterations: 104 / LogL: -1948.59 / Time: 0h:15m:33s
+Partition EOG090C0F6D / Iterations: 116 / LogL: -2166 / Time: 0h:15m:34s
+Partition EOG090C0FTD / Iterations: 110 / LogL: -1426.11 / Time: 0h:15m:34s
+Partition EOG090C0E67 / Iterations: 264 / LogL: -2125.49 / Time: 0h:15m:35s
+Partition EOG090C0FJJ / Iterations: 105 / LogL: -1527.38 / Time: 0h:15m:36s
+Partition EOG090C0FMY / Iterations: 189 / LogL: -1943.93 / Time: 0h:15m:36s
+Partition EOG090C0CAE / Iterations: 246 / LogL: -2691.39 / Time: 0h:15m:36s
+Partition EOG090C0FVO / Iterations: 233 / LogL: -1271.5 / Time: 0h:15m:37s
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Partition EOG090C00BT / Model: GTR+F+G4 / df: 88 / LogL: -36199.793
+Partition EOG090C00AN / Model: GTR+F+G4 / df: 88 / LogL: -38598.330
+Partition EOG090C00VF / Model: GTR+F+G4 / df: 88 / LogL: -28705.777
+Partition EOG090C07QB / Model: GTR+F+G4 / df: 88 / LogL: -23296.219
+Partition EOG090C01T7 / Model: GTR+F+G4 / df: 88 / LogL: -22157.010
+Partition EOG090C01VW / Model: GTR+F+G4 / df: 88 / LogL: -21016.327
+Partition EOG090C0087 / Model: GTR+F+G4 / df: 88 / LogL: -30602.125
+Partition EOG090C02KW / Model: GTR+F+G4 / df: 88 / LogL: -23308.020
+Partition EOG090C00HT / Model: GTR+F+G4 / df: 88 / LogL: -30582.472
+Partition EOG090C01M7 / Model: GTR+F+G4 / df: 86 / LogL: -21098.294
+Partition EOG090C03Q4 / Model: GTR+F+G4 / df: 88 / LogL: -28699.121
+Partition EOG090C027E / Model: GTR+F+G4 / df: 88 / LogL: -24391.877
+Partition EOG090C02EK / Model: GTR+F+G4 / df: 88 / LogL: -18908.701
+Partition EOG090C014P / Model: GTR+F+G4 / df: 88 / LogL: -21020.007
+Partition EOG090C01BG / Model: GTR+F+G4 / df: 88 / LogL: -21706.819
+Partition EOG090C00HJ / Model: GTR+F+G4 / df: 88 / LogL: -23346.951
+Partition EOG090C00B1 / Model: GTR+F+G4 / df: 88 / LogL: -26982.663
+Partition EOG090C01CW / Model: GTR+F+G4 / df: 86 / LogL: -17616.760
+Partition EOG090C01QP / Model: GTR+F+G4 / df: 88 / LogL: -18341.587
+Partition EOG090C00E9 / Model: GTR+F+G4 / df: 88 / LogL: -24507.990
+Partition EOG090C016M / Model: GTR+F+G4 / df: 88 / LogL: -23549.367
+Partition EOG090C02AS / Model: GTR+F+G4 / df: 88 / LogL: -17678.412
+Partition EOG090C035W / Model: GTR+F+G4 / df: 88 / LogL: -17260.656
+Partition EOG090C022Z / Model: GTR+F+G4 / df: 88 / LogL: -14533.552
+Partition EOG090C04FD / Model: GTR+F+G4 / df: 88 / LogL: -16674.906
+Partition EOG090C02S2 / Model: GTR+F+G4 / df: 88 / LogL: -16520.724
+Partition EOG090C07E7 / Model: GTR+F+G4 / df: 80 / LogL: -14953.083
+Partition EOG090C02TX / Model: GTR+F+G4 / df: 88 / LogL: -15415.109
+Partition EOG090C01AQ / Model: GTR+F+G4 / df: 88 / LogL: -16207.309
+Partition EOG090C010X / Model: GTR+F+G4 / df: 88 / LogL: -15318.251
+Partition EOG090C027B / Model: GTR+F+G4 / df: 88 / LogL: -15660.586
+Partition EOG090C0775 / Model: GTR+F+G4 / df: 88 / LogL: -14922.363
+Partition EOG090C037V / Model: GTR+F+G4 / df: 88 / LogL: -14046.791
+Partition EOG090C039G / Model: GTR+F+G4 / df: 88 / LogL: -15743.273
+Partition EOG090C034S / Model: GTR+F+G4 / df: 88 / LogL: -15284.435
+Partition EOG090C02QR / Model: GTR+F+G4 / df: 88 / LogL: -16276.294
+Partition EOG090C01O3 / Model: GTR+F+G4 / df: 88 / LogL: -17406.076
+Partition EOG090C042A / Model: GTR+F+G4 / df: 88 / LogL: -14504.802
+Partition EOG090C03H4 / Model: GTR+F+G4 / df: 84 / LogL: -17686.462
+Partition EOG090C03FG / Model: GTR+F+G4 / df: 88 / LogL: -15262.421
+Partition EOG090C02FU / Model: GTR+F+G4 / df: 88 / LogL: -15700.771
+Partition EOG090C016S / Model: GTR+F+G4 / df: 88 / LogL: -13570.646
+Partition EOG090C05L0 / Model: GTR+F+G4 / df: 88 / LogL: -13005.730
+Partition EOG090C02JH / Model: GTR+F+G4 / df: 88 / LogL: -16865.582
+Partition EOG090C0C28 / Model: GTR+F+G4 / df: 88 / LogL: -15640.039
+Partition EOG090C02D8 / Model: GTR+F+G4 / df: 88 / LogL: -18383.948
+Partition EOG090C04JE / Model: GTR+F+G4 / df: 88 / LogL: -14690.955
+Partition EOG090C0114 / Model: GTR+F+G4 / df: 88 / LogL: -22820.586
+Partition EOG090C09VY / Model: GTR+F+G4 / df: 88 / LogL: -14173.190
+Partition EOG090C03FJ / Model: GTR+F+G4 / df: 88 / LogL: -11827.252
+Partition EOG090C04V7 / Model: GTR+F+G4 / df: 88 / LogL: -12060.372
+Partition EOG090C0612 / Model: GTR+F+G4 / df: 88 / LogL: -11915.849
+Partition EOG090C04RC / Model: GTR+F+G4 / df: 88 / LogL: -12262.144
+Partition EOG090C01O8 / Model: GTR+F+G4 / df: 88 / LogL: -13518.003
+Partition EOG090C04H0 / Model: GTR+F+G4 / df: 88 / LogL: -13256.511
+Partition EOG090C01NW / Model: GTR+F+G4 / df: 88 / LogL: -13758.131
+Partition EOG090C0349 / Model: GTR+F+G4 / df: 88 / LogL: -13920.853
+Partition EOG090C01EW / Model: GTR+F+G4 / df: 88 / LogL: -13329.233
+Partition EOG090C053D / Model: GTR+F+G4 / df: 88 / LogL: -10735.870
+Partition EOG090C00SW / Model: GTR+F+G4 / df: 88 / LogL: -13450.404
+Partition EOG090C00BE / Model: GTR+F+G4 / df: 88 / LogL: -32678.954
+Partition EOG090C03TA / Model: GTR+F+G4 / df: 88 / LogL: -11822.873
+Partition EOG090C0764 / Model: GTR+F+G4 / df: 88 / LogL: -9497.188
+Partition EOG090C059D / Model: GTR+F+G4 / df: 88 / LogL: -10406.837
+Partition EOG090C031H / Model: GTR+F+G4 / df: 80 / LogL: -15398.463
+Partition EOG090C05XW / Model: GTR+F+G4 / df: 88 / LogL: -12930.322
+Partition EOG090C065C / Model: GTR+F+G4 / df: 88 / LogL: -11493.369
+Partition EOG090C03F4 / Model: GTR+F+G4 / df: 88 / LogL: -10643.911
+Partition EOG090C04QC / Model: GTR+F+G4 / df: 88 / LogL: -9617.281
+Partition EOG090C0578 / Model: GTR+F+G4 / df: 88 / LogL: -11139.422
+Partition EOG090C02BD / Model: GTR+F+G4 / df: 88 / LogL: -12761.687
+Partition EOG090C02XJ / Model: GTR+F+G4 / df: 88 / LogL: -10031.623
+Partition EOG090C03MY / Model: GTR+F+G4 / df: 88 / LogL: -11152.638
+Partition EOG090C05G3 / Model: GTR+F+G4 / df: 88 / LogL: -11553.688
+Partition EOG090C048B / Model: GTR+F+G4 / df: 88 / LogL: -10643.611
+Partition EOG090C050C / Model: GTR+F+G4 / df: 86 / LogL: -10267.452
+Partition EOG090C031J / Model: GTR+F+G4 / df: 86 / LogL: -13268.889
+Partition EOG090C02W1 / Model: GTR+F+G4 / df: 88 / LogL: -13749.242
+Partition EOG090C063X / Model: GTR+F+G4 / df: 88 / LogL: -9160.600
+Partition EOG090C09YB / Model: GTR+F+G4 / df: 88 / LogL: -9789.016
+Partition EOG090C02GG / Model: GTR+F+G4 / df: 88 / LogL: -11415.580
+Partition EOG090C07EK / Model: GTR+F+G4 / df: 88 / LogL: -8723.454
+Partition EOG090C0A60 / Model: GTR+F+G4 / df: 88 / LogL: -9317.241
+Partition EOG090C01LV / Model: GTR+F+G4 / df: 88 / LogL: -14824.806
+Partition EOG090C05LN / Model: GTR+F+G4 / df: 88 / LogL: -9368.636
+Partition EOG090C04SN / Model: GTR+F+G4 / df: 88 / LogL: -10975.184
+Partition EOG090C08E3 / Model: GTR+F+G4 / df: 88 / LogL: -9510.461
+Partition EOG090C01W9 / Model: GTR+F+G4 / df: 88 / LogL: -8807.663
+Partition EOG090C05AA / Model: GTR+F+G4 / df: 88 / LogL: -10889.471
+Partition EOG090C07DE / Model: GTR+F+G4 / df: 88 / LogL: -9624.592
+Partition EOG090C06UT / Model: GTR+F+G4 / df: 88 / LogL: -8925.368
+Partition EOG090C05N2 / Model: GTR+F+G4 / df: 82 / LogL: -10162.576
+Partition EOG090C06M4 / Model: GTR+F+G4 / df: 88 / LogL: -10496.767
+Partition EOG090C05A5 / Model: GTR+F+G4 / df: 88 / LogL: -7743.017
+Partition EOG090C03SO / Model: GTR+F+G4 / df: 86 / LogL: -8022.916
+Partition EOG090C09UD / Model: GTR+F+G4 / df: 88 / LogL: -8571.092
+Partition EOG090C07FM / Model: GTR+F+G4 / df: 88 / LogL: -8425.046
+Partition EOG090C06E3 / Model: GTR+F+G4 / df: 78 / LogL: -10303.285
+Partition EOG090C01S4 / Model: GTR+F+G4 / df: 88 / LogL: -9415.367
+Partition EOG090C05SZ / Model: GTR+F+G4 / df: 88 / LogL: -9182.912
+Partition EOG090C07YF / Model: GTR+F+G4 / df: 88 / LogL: -8150.449
+Partition EOG090C05QZ / Model: GTR+F+G4 / df: 88 / LogL: -9223.608
+Partition EOG090C052V / Model: GTR+F+G4 / df: 88 / LogL: -11014.653
+Partition EOG090C06GH / Model: GTR+F+G4 / df: 88 / LogL: -9384.445
+Partition EOG090C08Y7 / Model: GTR+F+G4 / df: 88 / LogL: -7762.407
+Partition EOG090C0A64 / Model: GTR+F+G4 / df: 88 / LogL: -7059.620
+Partition EOG090C0737 / Model: GTR+F+G4 / df: 88 / LogL: -7514.754
+Partition EOG090C084P / Model: GTR+F+G4 / df: 88 / LogL: -8274.346
+Partition EOG090C05G1 / Model: GTR+F+G4 / df: 86 / LogL: -9773.705
+Partition EOG090C05MB / Model: GTR+F+G4 / df: 88 / LogL: -9115.761
+Partition EOG090C06YQ / Model: GTR+F+G4 / df: 84 / LogL: -8867.930
+Partition EOG090C06G0 / Model: GTR+F+G4 / df: 88 / LogL: -8220.581
+Partition EOG090C07T8 / Model: GTR+F+G4 / df: 88 / LogL: -9310.299
+Partition EOG090C078W / Model: GTR+F+G4 / df: 88 / LogL: -9027.795
+Partition EOG090C0A9Z / Model: GTR+F+G4 / df: 88 / LogL: -7094.073
+Partition EOG090C08HB / Model: GTR+F+G4 / df: 88 / LogL: -8753.565
+Partition EOG090C08ZX / Model: GTR+F+G4 / df: 88 / LogL: -7597.206
+Partition EOG090C05VD / Model: GTR+F+G4 / df: 88 / LogL: -7692.214
+Partition EOG090C0DPY / Model: GTR+F+G4 / df: 74 / LogL: -8281.456
+Partition EOG090C0A6M / Model: GTR+F+G4 / df: 84 / LogL: -7426.930
+Partition EOG090C084B / Model: GTR+F+G4 / df: 88 / LogL: -8929.501
+Partition EOG090C08HD / Model: GTR+F+G4 / df: 88 / LogL: -7720.597
+Partition EOG090C087X / Model: GTR+F+G4 / df: 88 / LogL: -8351.209
+Partition EOG090C07AW / Model: GTR+F+G4 / df: 88 / LogL: -6545.636
+Partition EOG090C0DCG / Model: GTR+F+G4 / df: 88 / LogL: -6268.050
+Partition EOG090C05S6 / Model: GTR+F+G4 / df: 88 / LogL: -8245.796
+Partition EOG090C06D6 / Model: GTR+F+G4 / df: 88 / LogL: -9279.407
+Partition EOG090C06TR / Model: GTR+F+G4 / df: 88 / LogL: -8193.323
+Partition EOG090C0853 / Model: GTR+F+G4 / df: 88 / LogL: -5854.769
+Partition EOG090C09YT / Model: GTR+F+G4 / df: 88 / LogL: -7365.581
+Partition EOG090C0A9E / Model: GTR+F+G4 / df: 88 / LogL: -7547.340
+Partition EOG090C04IP / Model: GTR+F+G4 / df: 88 / LogL: -10230.677
+Partition EOG090C05D2 / Model: GTR+F+G4 / df: 88 / LogL: -8631.815
+Partition EOG090C07UF / Model: GTR+F+G4 / df: 86 / LogL: -6884.763
+Partition EOG090C0D8Y / Model: GTR+F+G4 / df: 88 / LogL: -7945.047
+Partition EOG090C07A1 / Model: GTR+F+G4 / df: 88 / LogL: -7383.291
+Partition EOG090C0D5X / Model: GTR+F+G4 / df: 88 / LogL: -6189.503
+Partition EOG090C0AJF / Model: GTR+F+G4 / df: 88 / LogL: -7381.351
+Partition EOG090C0AVW / Model: GTR+F+G4 / df: 88 / LogL: -7046.020
+Partition EOG090C03OC / Model: GTR+F+G4 / df: 88 / LogL: -8649.694
+Partition EOG090C061N / Model: GTR+F+G4 / df: 88 / LogL: -7149.550
+Partition EOG090C09HK / Model: GTR+F+G4 / df: 88 / LogL: -6154.770
+Partition EOG090C0BXY / Model: GTR+F+G4 / df: 88 / LogL: -6694.305
+Partition EOG090C0BIV / Model: GTR+F+G4 / df: 88 / LogL: -7236.103
+Partition EOG090C04TR / Model: GTR+F+G4 / df: 88 / LogL: -6429.786
+Partition EOG090C0ACE / Model: GTR+F+G4 / df: 88 / LogL: -5313.332
+Partition EOG090C0979 / Model: GTR+F+G4 / df: 88 / LogL: -8011.728
+Partition EOG090C0A45 / Model: GTR+F+G4 / df: 88 / LogL: -7725.018
+Partition EOG090C0A3I / Model: GTR+F+G4 / df: 88 / LogL: -6681.352
+Partition EOG090C09SR / Model: GTR+F+G4 / df: 86 / LogL: -6993.680
+Partition EOG090C0B2X / Model: GTR+F+G4 / df: 88 / LogL: -5427.501
+Partition EOG090C0B0W / Model: GTR+F+G4 / df: 88 / LogL: -6704.221
+Partition EOG090C05V5 / Model: GTR+F+G4 / df: 88 / LogL: -7527.914
+Partition EOG090C09EJ / Model: GTR+F+G4 / df: 88 / LogL: -6551.733
+Partition EOG090C0814 / Model: GTR+F+G4 / df: 88 / LogL: -6931.579
+Partition EOG090C08IP / Model: GTR+F+G4 / df: 88 / LogL: -7115.016
+Partition EOG090C06OH / Model: GTR+F+G4 / df: 88 / LogL: -6606.019
+Partition EOG090C07R2 / Model: GTR+F+G4 / df: 88 / LogL: -7272.705
+Partition EOG090C04N7 / Model: GTR+F+G4 / df: 88 / LogL: -7142.668
+Partition EOG090C07T9 / Model: GTR+F+G4 / df: 84 / LogL: -7175.181
+Partition EOG090C05V7 / Model: GTR+F+G4 / df: 88 / LogL: -6796.949
+Partition EOG090C08L3 / Model: GTR+F+G4 / df: 84 / LogL: -7304.563
+Partition EOG090C0BQZ / Model: GTR+F+G4 / df: 88 / LogL: -5160.918
+Partition EOG090C091S / Model: GTR+F+G4 / df: 82 / LogL: -6336.879
+Partition EOG090C09ZT / Model: GTR+F+G4 / df: 88 / LogL: -6644.974
+Partition EOG090C0942 / Model: GTR+F+G4 / df: 88 / LogL: -5822.342
+Partition EOG090C09U6 / Model: GTR+F+G4 / df: 88 / LogL: -5129.266
+Partition EOG090C0A75 / Model: GTR+F+G4 / df: 88 / LogL: -5511.900
+Partition EOG090C0B6Z / Model: GTR+F+G4 / df: 86 / LogL: -5996.393
+Partition EOG090C06OU / Model: GTR+F+G4 / df: 88 / LogL: -7332.698
+Partition EOG090C0A5R / Model: GTR+F+G4 / df: 88 / LogL: -7090.269
+Partition EOG090C0CQ8 / Model: GTR+F+G4 / df: 88 / LogL: -5378.303
+Partition EOG090C0C96 / Model: GTR+F+G4 / df: 88 / LogL: -4998.888
+Partition EOG090C0ECL / Model: GTR+F+G4 / df: 88 / LogL: -5254.106
+Partition EOG090C0ATW / Model: GTR+F+G4 / df: 88 / LogL: -4806.610
+Partition EOG090C08VL / Model: GTR+F+G4 / df: 88 / LogL: -6434.229
+Partition EOG090C088I / Model: GTR+F+G4 / df: 88 / LogL: -5563.518
+Partition EOG090C04B1 / Model: GTR+F+G4 / df: 88 / LogL: -5172.717
+Partition EOG090C0E61 / Model: GTR+F+G4 / df: 88 / LogL: -4540.557
+Partition EOG090C085V / Model: GTR+F+G4 / df: 88 / LogL: -5823.160
+Partition EOG090C0CWR / Model: GTR+F+G4 / df: 88 / LogL: -5131.461
+Partition EOG090C06DR / Model: GTR+F+G4 / df: 88 / LogL: -7031.236
+Partition EOG090C0COQ / Model: GTR+F+G4 / df: 88 / LogL: -4458.684
+Partition EOG090C0E0A / Model: GTR+F+G4 / df: 88 / LogL: -4199.865
+Partition EOG090C0BFG / Model: GTR+F+G4 / df: 88 / LogL: -5394.791
+Partition EOG090C0A7Z / Model: GTR+F+G4 / df: 88 / LogL: -4563.475
+Partition EOG090C07VC / Model: GTR+F+G4 / df: 84 / LogL: -6101.892
+Partition EOG090C0B5U / Model: GTR+F+G4 / df: 88 / LogL: -4839.135
+Partition EOG090C0910 / Model: GTR+F+G4 / df: 86 / LogL: -6053.384
+Partition EOG090C0BJ8 / Model: GTR+F+G4 / df: 88 / LogL: -4703.851
+Partition EOG090C09G2 / Model: GTR+F+G4 / df: 78 / LogL: -5861.979
+Partition EOG090C0A7L / Model: GTR+F+G4 / df: 88 / LogL: -5838.290
+Partition EOG090C0EW9 / Model: GTR+F+G4 / df: 88 / LogL: -4294.872
+Partition EOG090C08P2 / Model: GTR+F+G4 / df: 88 / LogL: -5922.167
+Partition EOG090C0D12 / Model: GTR+F+G4 / df: 88 / LogL: -4578.330
+Partition EOG090C05QX / Model: GTR+F+G4 / df: 88 / LogL: -5058.917
+Partition EOG090C0AFE / Model: GTR+F+G4 / df: 88 / LogL: -4808.137
+Partition EOG090C0AYM / Model: GTR+F+G4 / df: 88 / LogL: -4947.064
+Partition EOG090C08GX / Model: GTR+F+G4 / df: 84 / LogL: -5823.227
+Partition EOG090C0CUT / Model: GTR+F+G4 / df: 88 / LogL: -4253.968
+Partition EOG090C0DYT / Model: GTR+F+G4 / df: 88 / LogL: -4023.932
+Partition EOG090C0CP2 / Model: GTR+F+G4 / df: 88 / LogL: -5101.470
+Partition EOG090C095H / Model: GTR+F+G4 / df: 88 / LogL: -4791.121
+Partition EOG090C0CL1 / Model: GTR+F+G4 / df: 88 / LogL: -4523.875
+Partition EOG090C0CNU / Model: GTR+F+G4 / df: 88 / LogL: -4706.828
+Partition EOG090C0CT5 / Model: GTR+F+G4 / df: 88 / LogL: -3910.765
+Partition EOG090C0BJH / Model: GTR+F+G4 / df: 88 / LogL: -4940.325
+Partition EOG090C0BO8 / Model: GTR+F+G4 / df: 88 / LogL: -4179.470
+Partition EOG090C0COA / Model: GTR+F+G4 / df: 88 / LogL: -4290.300
+Partition EOG090C0DPN / Model: GTR+F+G4 / df: 88 / LogL: -4611.594
+Partition EOG090C0CVS / Model: GTR+F+G4 / df: 88 / LogL: -4265.342
+Partition EOG090C0EQN / Model: GTR+F+G4 / df: 86 / LogL: -3987.260
+Partition EOG090C07KD / Model: GTR+F+G4 / df: 88 / LogL: -5407.071
+Partition EOG090C0EOX / Model: GTR+F+G4 / df: 88 / LogL: -3810.893
+Partition EOG090C0CC2 / Model: GTR+F+G4 / df: 88 / LogL: -4331.140
+Partition EOG090C0C6Y / Model: GTR+F+G4 / df: 88 / LogL: -3571.654
+Partition EOG090C0C82 / Model: GTR+F+G4 / df: 88 / LogL: -3819.390
+Partition EOG090C0CI2 / Model: GTR+F+G4 / df: 84 / LogL: -3825.655
+Partition EOG090C0DBT / Model: GTR+F+G4 / df: 88 / LogL: -3418.701
+Partition EOG090C05OB / Model: GTR+F+G4 / df: 88 / LogL: -4568.017
+Partition EOG090C0DVF / Model: GTR+F+G4 / df: 88 / LogL: -4355.398
+Partition EOG090C0FO8 / Model: GTR+F+G4 / df: 88 / LogL: -2910.564
+Partition EOG090C09E0 / Model: GTR+F+G4 / df: 88 / LogL: -5318.927
+Partition EOG090C0FN4 / Model: GTR+F+G4 / df: 86 / LogL: -3495.864
+Partition EOG090C0ERA / Model: GTR+F+G4 / df: 88 / LogL: -3215.712
+Partition EOG090C0DIZ / Model: GTR+F+G4 / df: 88 / LogL: -2937.113
+Partition EOG090C08JM / Model: GTR+F+G4 / df: 88 / LogL: -3151.561
+Partition EOG090C0E66 / Model: GTR+F+G4 / df: 88 / LogL: -3358.818
+Partition EOG090C0CNR / Model: GTR+F+G4 / df: 88 / LogL: -3895.194
+Partition EOG090C0DHQ / Model: GTR+F+G4 / df: 88 / LogL: -2976.280
+Partition EOG090C0DC4 / Model: GTR+F+G4 / df: 88 / LogL: -3670.843
+Partition EOG090C0D62 / Model: GTR+F+G4 / df: 88 / LogL: -3297.002
+Partition EOG090C0DZR / Model: GTR+F+G4 / df: 88 / LogL: -3043.491
+Partition EOG090C0BSS / Model: GTR+F+G4 / df: 88 / LogL: -3465.718
+Partition EOG090C0DLR / Model: GTR+F+G4 / df: 88 / LogL: -2889.644
+Partition EOG090C0DQF / Model: GTR+F+G4 / df: 88 / LogL: -3446.967
+Partition EOG090C0EDQ / Model: GTR+F+G4 / df: 88 / LogL: -3180.943
+Partition EOG090C0F5V / Model: GTR+F+G4 / df: 86 / LogL: -3181.343
+Partition EOG090C0FK5 / Model: GTR+F+G4 / df: 88 / LogL: -2764.711
+Partition EOG090C0FJ3 / Model: GTR+F+G4 / df: 88 / LogL: -3155.341
+Partition EOG090C0GEX / Model: GTR+F+G4 / df: 80 / LogL: -2640.284
+Partition EOG090C0FPV / Model: GTR+F+G4 / df: 88 / LogL: -2751.000
+Partition EOG090C0EZV / Model: GTR+F+G4 / df: 88 / LogL: -2551.489
+Partition EOG090C0EUQ / Model: GTR+F+G4 / df: 88 / LogL: -2641.569
+Partition EOG090C0BHC / Model: GTR+F+G4 / df: 88 / LogL: -2851.587
+Partition EOG090C0E5P / Model: GTR+F+G4 / df: 86 / LogL: -2888.386
+Partition EOG090C0EQT / Model: GTR+F+G4 / df: 88 / LogL: -2597.772
+Partition EOG090C0E67 / Model: GTR+F+G4 / df: 88 / LogL: -2125.493
+Partition EOG090C0FDT / Model: GTR+F+G4 / df: 86 / LogL: -2276.004
+Partition EOG090C0FTD / Model: GTR+F+G4 / df: 86 / LogL: -1426.106
+Partition EOG090C0FJJ / Model: GTR+F+G4 / df: 88 / LogL: -1527.378
+Partition EOG090C0FMY / Model: GTR+F+G4 / df: 88 / LogL: -1943.932
+Partition EOG090C0F6D / Model: GTR+F+G4 / df: 88 / LogL: -2166.003
+Partition EOG090C0E9M / Model: GTR+F+G4 / df: 88 / LogL: -2462.424
+Partition EOG090C0CAE / Model: GTR+F+G4 / df: 88 / LogL: -2691.391
+Partition EOG090C0F0B / Model: GTR+F+G4 / df: 88 / LogL: -1948.588
+Partition EOG090C0FVO / Model: GTR+F+G4 / df: 86 / LogL: -1271.496
+Optimal log-likelihood: -2428144.712
+Partition information was printed to loci.best_model.nex
+BEST SCORE FOUND : -2428144.712
+Total tree length: 437.200
+
+Total number of iterations: 0
+CPU time used for tree search: 7183.670 sec (1h:59m:43s)
+Wall-clock time used for tree search: 913.600 sec (0h:15m:13s)
+Total CPU time used: 7407.993 sec (2h:3m:27s)
+Total wall-clock time used: 942.026 sec (0h:15m:42s)
+
+Analysis results written to: 
+  IQ-TREE report:                loci.iqtree
+  Maximum-likelihood tree:       loci.treefile
+  Screen log file:               loci.log
+
+Date and Time: Fri Apr 17 10:29:58 2020

@@ -1,0 +1,42 @@
+Id	Species	Common name	Order/Suborder	Family	BUSCO	Assembly
+G_acul	Gasterosteus aculeatus 	stickleback	Gasterosteiformes	Gasterosteidae	C:96.7%[S:94.5%,D:2.2%],F:1.2%,M:2.1%,n:4584	http://www.ensembl.org/Gasterosteus_aculeatus/Info/Index
+S_nigr	Sebastes nigrocinctus	tiger rockfish	Perciformes/Scorpaenioidei	Sebastidae	C:80.5%[S:78.2%,D:2.3%],F:11.3%,M:8.2%,n:4584	ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/475/235/GCA_000475235.3_ASM47523v3/
+P_fluv	Perca fluviatilis	European perch	Perciformes/Percoidei	Percidae	C:94.6%[S:92.2%,D:2.4%],F:3.1%,M:2.3%,n:4584	https://www.g3journal.org/content/8/12/3737.figures-only
+T_rubr	Takifugu rubripes	torafugu	Tetraodontiformes	Tetraodontidae	C:96.8%[S:93.2%,D:3.6%],F:1.3%,M:1.9%,n:4584	http://www.ensembl.org/Takifugu_rubripes/Info/Annotation
+O_lati	Oryzias latipes	medaka	Beloniformes	Adrianichthyidae	C:92.0%[S:89.8%,D:2.2%],F:3.2%,M:4.8%,n:4584	http://www.ensembl.org/Oryzias_latipes_hni/Info/Index
+H_come	Hippocampus comes	tiger tail seahorse	Syngnathiformes	Syngnathidae	C:94.8%[S:91.7%,D:3.1%],F:1.8%,M:3.4%,n:4584	https://www.ncbi.nlm.nih.gov/assembly/GCF_001891065.1/
+P_magn	Periophthalmus magnuspinnatus	mudskipper	Gobiiformes	Gobiidae	C:92.4%[S:90.3%,D:2.1%],F:3.1%,M:4.5%,n:4584	https://www.ensembl.org/Periophthalmus_magnuspinnatus/Info/Annotation
+A_test	Anabas testudineus	climbing perch	Anabantiformes	Anabantidae	C:97.2%[S:94.7%,D:2.5%],F:1.0%,M:1.8%,n:4584	fAnaTes1.2
+M_arma	Mastacembelus armatus	tyre-track eel	Synbranchiformes	Mastacembelidae	C:97.2%[S:94.7%,D:2.5%],F:0.8%,M:2.0%,n:4584	fMasArm1.2
+A_call	Astatotilapia calliptera 	eastern happy	Cichliformes	Cichlidae 	C:95.9%[S:93.3%,D:2.6%],F:1.2%,M:2.9%,n:4584	fAstCal1.2
+EleMac	Eleginops maclovinus	Patagonian blenny	Perciformes/Notothenioidei	Eleginopsidae	C:81.3%[S:79.4%,D:1.9%],F:11.9%,M:6.8%,n:4584	Eleginops maclovinus (Chen et al. 2019)
+DisMaw	Dissostichus mawsoni	Antarctic toothfish	Perciformes/Notothenioidei	Nototheniidae	C:97.3%[S:94.9%,D:2.4%],F:0.9%,M:1.8%,n:4584	Dissostichus mawsoni (Chen et al. 2019)
+PleAnt	Pleuragramma antarctica	Antarctic silverfish	Perciformes/Notothenioidei	Nototheniidae	C:48.0%[S:47.3%,D:0.7%],F:24.3%,M:27.7%,n:4584	Pleuragramma antarctica (Baalsrud et al. 2017)
+PatGun	Patagonotothen guntheri	yellofin notothen	Perciformes/Notothenioidei	Nototheniidae	C:64.6%[S:63.3%,D:1.3%],F:19.9%,M:15.5%,n:4584	Patagonotothen guntheri (Baalsrud et al. 2017)
+HarKer	Harpagifer kerguelensis	kerguelen spiny plunderfish	Perciformes/Notothenioidei	Harpagiferidae	C:56.0%[S:54.8%,D:1.2%],F:24.2%,M:19.8%,n:4584	Harpagifer kerguelensis (Baalsrud et al. 2017)
+ArtSko	Artedidraco skottsbergi	na	Perciformes/Notothenioidei	Artedidraconidae	C:55.7%[S:54.7%,D:1.0%],F:23.8%,M:20.5%,n:4584	Artedidraco skottsbergi (Baalsrud et al. 2017)
+ChaAce	Chaenocephalus aceratus	blackfin icefish	Perciformes/Notothenioidei	Channichthyidae	C:86.6%[S:82.4%,D:4.2%],F:6.1%,M:7.3%,n:4584	Kim et al 2019 (from website, not chr)
+CotGob	Cottoperca gobio	channel bull blenny	Perciformes/Notothenioidei	Bovichtidae	C:93.4%[S:90.5%,D:2.9%],F:1.3%,M:5.3%,n:4584	fCotGob3.1
+GymAcu	Gymnodraco acuticeps	ploughfish	Perciformes/Notothenioidei	Bathydraconidae	C:93.5%[S:90.8%,D:2.7%],F:1.7%,M:4.8%,n:4584	fGymAcu1
+HarAnt	Harpagifer antarcticus	Antarctic spiny plunderfish	Perciformes/Notothenioidei	Harpagiferidae	C:93.3%[S:89.2%,D:4.1%],F:1.2%,M:5.5%,n:4584	fHarAnt1
+PseGeo	Pseudochaenichthys georgianus	South Georgia icefish	Perciformes/Notothenioidei	Channichthyidae	C:94.0%[S:91.1%,D:2.9%],F:1.4%,M:4.6%,n:4584	fPseGeo1
+TreBer	Trematomus bernacchii	emerald rockcod	Perciformes/Notothenioidei	Nototheniinae	C:96.1%[S:93.6%,D:2.5%],F:1.2%,M:2.7%,n:4584	fTreBer1
+AkaNud	Akarotaxis nudiceps	na	Perciformes/Notothenioidei	Bathydraconidae	C:78.9%[S:76.6%,D:2.3%],F:10.6%,M:10.5%,n:4584	fAkaNud1
+BovDia	Bovichtus diacanthus	na	Perciformes/Notothenioidei	Bovichtidae	C:92.9%[S:90.6%,D:2.3%],F:3.5%,M:3.6%,n:4584	fBovDia2
+BovVar	Bovichtus variegatus	thornfish	Perciformes/Notothenioidei	Bovichtidae	C:93.3%[S:91.2%,D:2.1%],F:3.5%,M:3.2%,n:4584	fBovVar2
+ChaWil	Chaenodraco wilsoni	spiny icefish	Perciformes/Notothenioidei	Channichthyidae	C:82.7%[S:80.6%,D:2.1%],F:8.4%,M:8.9%,n:4584	fChaWil1
+CryAnt	Cryodraco antarcticus	long-fingered icefish	Perciformes/Notothenioidei	Channichthyidae	C:85.4%[S:83.3%,D:2.1%],F:7.2%,M:7.4%,n:4584	fCryAnt1
+GobGib	Gobionotothen gibberifrons	humped rockcod	Perciformes/Notothenioidei	Nototheniinae	C:84.3%[S:82.2%,D:2.1%],F:7.6%,M:8.1%,n:4584	fGobGib1
+LepNud	Lepidonotothen nudifrons	yellowfin notie	Perciformes/Notothenioidei	Nototheniinae	C:90.1%[S:87.9%,D:2.2%],F:4.8%,M:5.1%,n:4584	fLepNud1
+NotRos	Notothenia rossii	marbled rockcod	Perciformes/Notothenioidei	Nototheniinae	C:87.4%[S:85.2%,D:2.2%],F:6.1%,M:6.5%,n:4584	fNotRos1
+PagMac	Pagetopsis macropterus	na	Perciformes/Notothenioidei	Channichthyidae	C:84.3%[S:81.8%,D:2.5%],F:7.4%,M:8.3%,n:4584	fPagMac1
+TreLoe	Trematomus loennbergii	scaly rockcod	Perciformes/Notothenioidei	Nototheniinae	C:86.5%[S:84.3%,D:2.2%],F:6.5%,M:7.0%,n:4584	fTreLoe1
+HisVel	Histiodraco velifer	barbeled plunderfish	Perciformes/Notothenioidei	Artedidraconidae	C:82.6%[S:80.8%,D:1.8%],F:10.3%,M:7.1%,n:4584	fHisVel1
+BatMar	Bathydraco marri	deepwater dragon	Perciformes/Notothenioidei	Bathydraconidae	C:54.4%[S:53.2%,D:1.2%],F:23.8%,M:21.8%,n:4584	fBatMar1
+ChiDew	Chionobathyscus dewitti	na	Perciformes/Notothenioidei	Channichthyidae	C:69.3%[S:67.6%,D:1.7%],F:15.8%,M:14.9%,n:4584	fChiDew1
+LepLar	Lepidonotothen larseni	painted notie	Perciformes/Notothenioidei	Nototheniinae	C:48.9%[S:47.7%,D:1.2%],F:22.6%,M:28.5%,n:4584	fLepLar1
+LepSqu	Lepidonotothen squamifrons	grey rockcod	Perciformes/Notothenioidei	Nototheniinae	C:68.9%[S:67.1%,D:1.8%],F:16.4%,M:14.7%,n:4584	fLepSqu1
+TreHan	Trematomus hansoni	striped rockcod	Perciformes/Notothenioidei	Nototheniinae	C:72.9%[S:71.1%,D:1.8%],F:13.3%,M:13.8%,n:4584	fTreHan1
+DolLon	Dolloidraco longedorsalis	long-finned Dollo's plunderfish	Perciformes/Notothenioidei	Artedidraconidae	C:77.6%[S:76.0%,D:1.6%],F:10.6%,M:11.8%,n:4584	fDolLon1
+VomInf	Vomeridens infuscipinnis	na	Perciformes/Notothenioidei	Bathydraconidae	C:71.5%[S:70.1%,D:1.4%],F:14.4%,M:14.1%,n:4584	fVomInf1
+TreSco	Trematomus scotti	crowned rockcod	Perciformes/Notothenioidei	Nototheniinae	C:52.7%[S:51.5%,D:1.2%],F:22.6%,M:24.7%,n:4584	fTreSco1

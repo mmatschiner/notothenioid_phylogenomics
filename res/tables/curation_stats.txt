@@ -1,0 +1,3 @@
+Number of amino acids before curation:  6410688
+Number of amino acids after curation:  5269164
+Number of amino acids removed in curation: 1141524

@@ -1,0 +1,73 @@
+IQ-TREE multicore version 1.7-beta12 for Mac OS X 64-bit built May  6 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    friprobob.local (AVX2, FMA3, 16 GB RAM)
+Command: iqtree -t concat.treefile --gcf loci.treefile -s ../res/iqtree/full/full.nex -m GTR+G --scf 100 --prefix concord
+Seed:    315039 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Apr 17 10:29:58 2020
+Kernel:  AVX+FMA - 1 threads (12 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 12 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file ../res/iqtree/full/full.nex ... Nexus format detected
+Skipping unknown block (sets)...
+Alignment has 41 sequences with 374157 columns, 128800 distinct patterns
+109206 parsimony-informative, 74885 singleton sites, 190066 constant sites
+        Gap/Ambiguity  Composition  p-value
+   1  A_call    2.85%    failed      0.00%
+   2  AkaNud    3.57%    passed     91.28%
+   3  ArtSko    3.10%    passed     88.77%
+   4  A_test    2.97%    failed      0.00%
+   5  BatMar    6.53%    passed     42.24%
+   6  BovDia    2.45%    passed      5.64%
+   7  BovVar    2.22%    passed      7.78%
+   8  ChaAce    5.63%    passed     51.57%
+   9  ChaWil    0.84%    passed     34.34%
+  10  ChiDew    2.83%    passed     37.82%
+  11  CotGob    3.66%    failed      0.00%
+  12  CryAnt    1.20%    passed     39.36%
+  13  DisMaw    0.13%    passed     64.55%
+  14  DolLon    3.32%    passed     89.31%
+  15  EleMac    2.86%    failed      0.00%
+  16  G_acul    4.96%    failed      0.00%
+  17  GobGib    2.72%    failed      3.34%
+  18  GymAcu    3.02%    passed     85.92%
+  19  HarAnt    2.05%    passed     84.91%
+  20  HarKer    6.21%    passed     54.32%
+  21  H_come   16.31%    failed      0.00%
+  22  HisVel    1.02%    passed     91.06%
+  23  LepLar    7.62%    passed     10.63%
+  24  LepNud    0.70%    passed     54.80%
+  25  LepSqu    4.57%    passed     21.30%
+  26  M_arma    3.78%    failed      0.00%
+  27  NotRos    1.59%    passed     87.17%
+  28  O_lati    6.78%    failed      0.93%
+  29  PagMac    1.10%    passed     61.82%
+  30  PatGun    3.95%    passed     86.35%
+  31  P_fluv    3.26%    failed      0.00%
+  32  PleAnt    9.45%    failed      3.10%
+  33  P_magn   17.75%    failed      0.00%
+  34  PseGeo    1.82%    passed     61.50%
+  35  S_nigr    6.06%    failed      0.00%
+  36  TreBer    1.06%    passed     35.23%
+  37  TreHan    2.91%    passed     42.58%
+  38  TreLoe    0.40%    passed     41.79%
+  39  TreSco    4.74%    passed     86.93%
+  40  T_rubr    8.17%    failed      0.00%
+  41  VomInf    2.62%    passed     76.29%
+****  TOTAL     4.12%  14 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading tree concat.treefile ...
+un-rooted tree with 41 taxa and 79 branches
+Reading tree(s) file loci.treefile ...
+257 tree(s) loaded (0 rooted and 257 unrooted)
+Trees have different number of taxa
+Computing gene concordance factor...
+0.045 sec
+Computing site concordance factor...
+9.526 sec
+Tree with concordance factors written to concord.cf.tree
+Tree with branch IDs written to concord.cf.branch
+Concordance factors per branch printed to concord.cf.stat
+Date and Time: Fri Apr 17 10:30:12 2020
