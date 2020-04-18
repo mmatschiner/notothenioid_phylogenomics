@@ -8,11 +8,14 @@ mkdir -p ../res/alignments/02
 mkdir -p ../bin
 
 # Download BMGE.
-wget ftp://ftp.pasteur.fr/pub/gensoft/projects/BMGE/BMGE-1.12.tar.gz
-tar -xzf BMGE-1.12.tar.gz
-rm -rf BMGE-1.12.tar.gz
-mv -f BMGE-1.12/BMGE.jar ../bin
-rm -rf BMGE-1.12
+if [ ! -f ../bin/BMGE.jar ]
+then
+	wget ftp://ftp.pasteur.fr/pub/gensoft/projects/BMGE/BMGE-1.12.tar.gz
+	tar -xzf BMGE-1.12.tar.gz
+	rm -rf BMGE-1.12.tar.gz
+	mv -f BMGE-1.12/BMGE.jar ../bin
+	rm -rf BMGE-1.12
+fi
 
 # Copy the curated nucleotide fasta files.
 for fasta in ../res/mafft/loci/EOG????????_nucl_curated.fasta
