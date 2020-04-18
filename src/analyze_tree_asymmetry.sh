@@ -3,21 +3,21 @@
 # Download iqtree.
 if [ ! -f ../bin/iqtree ]
 then
-	if [[ "$OSTYPE" == "linux-gnu" ]]
-	then
-		wget https://github.com/Cibiv/IQ-TREE/releases/download/v2.0-rc2/iqtree-2.0-rc2-Linux.tar.gz
-		tar -xzf iqtree-2.0-rc2-Linux.tar.gz
-		mv iqtree-2.0-rc2-Linux/bin/iqtree ../bin
-		rm -f iqtree-2.0-rc2-Linux.tar.gz
-		rm -rf iqtree-2.0-rc2-Linux
-	elif [[ "$OSTYPE" == "darwin"* ]]
-	then
-		wget https://github.com/Cibiv/IQ-TREE/releases/download/v2.0-rc2/iqtree-2.0-rc2-MacOSX.zip
-		tar -xzf iqtree-2.0-rc2-MacOSX.zip
-		mv iqtree-2.0-rc2-MacOSX/bin/iqtree ../bin
-		rm iqtree-2.0-rc2-MacOSX.zip
-		rm -rf iqtree-2.0-rc2-MacOSX
-	fi
+    if [[ "$OSTYPE" == "linux-gnu" ]]
+    then
+        wget https://github.com/Cibiv/IQ-TREE/releases/download/v2.0-rc2/iqtree-2.0-rc2-Linux.tar.gz
+        tar -xzf iqtree-2.0-rc2-Linux.tar.gz
+        mv iqtree-2.0-rc2-Linux/bin/iqtree ../bin
+        rm -f iqtree-2.0-rc2-Linux.tar.gz
+        rm -rf iqtree-2.0-rc2-Linux
+    elif [[ "$OSTYPE" == "darwin"* ]]
+    then
+        wget https://github.com/Cibiv/IQ-TREE/releases/download/v2.0-rc2/iqtree-2.0-rc2-MacOSX.zip
+        tar -xzf iqtree-2.0-rc2-MacOSX.zip
+        mv iqtree-2.0-rc2-MacOSX/bin/iqtree ../bin
+        rm iqtree-2.0-rc2-MacOSX.zip
+        rm -rf iqtree-2.0-rc2-MacOSX
+    fi
 fi
 
 # Set the directory with locus alignments.

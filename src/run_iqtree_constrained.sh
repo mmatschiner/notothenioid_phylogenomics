@@ -32,18 +32,15 @@ do
         then
             python convert.py ${nex} tmp.iqtree.phy -f phylip -m 0.9
 
-            # Copy the constraint tree to the temporary directory.
-            cp -f ${constraint_tree} tmp.constraint.tre
-
             # Remove taxa from the constraint tree that don't occur in the alignment.
-            cat tmp.constraint.tre | tr -d "(" | tr -d ")" | tr -d ";" | tr "," "\n" | sed "/^$/d" | sort > tmp.taxa_in_constraint_tree.txt
+            cat ${constraint_tree} | tr -d "(" | tr -d ")" | tr -d ";" | tr "," "\n" | sed "/^$/d" | sort > tmp.taxa_in_constraint_tree.txt
             cat tmp.iqtree.phy | tail -n +2 | cut -d " " -f 1 | sort > tmp.taxa_in_align.txt
-        
             taxa_missing_in_align=`comm -23 tmp.taxa_in_constraint_tree.txt tmp.taxa_in_align.txt`
+            cp -f ${constraint_tree} ${constraint_tree}.2
             for taxon in ${taxa_missing_in_align}
             do
-                cat tmp.constraint.tre | sed "s/${taxon}//g" | sed "s/,,/,/g" | sed "s/,)/)/g" | sed "s/(,/(/g" > tmp.constraint2.tre
-                mv -f tmp.constraint2.tre tmp.constraint.tre
+                cat ${constraint_tree}.2 | sed "s/${taxon}//g" | sed "s/,,/,/g" | sed "s/,)/)/g" | sed "s/(,/(/g" > ${constraint_tree}.3
+                mv -f ${constraint_tree}.3 ${constraint_tree}.2
             done
 
             # Check that at least four taxa remain in the alignment and tree.
@@ -64,28 +61,28 @@ do
             insufficient_constraint_found=0
             for taxon in `cat tmp.taxa_in_align.txt`
             do
-                this_insufficient_constraint_found=`cat tmp.constraint.tre | grep "(${taxon})" | wc -l`
+                this_insufficient_constraint_found=`cat ${constraint_tree}.2 | grep "(${taxon})" | wc -l`
                 if [[ ${this_insufficient_constraint_found} == 1 ]]
                 then
                     insufficient_constraint_found=1
                 fi
-                this_insufficient_constraint_found=`cat tmp.constraint.tre | grep "(${taxon},(" | grep "))" | wc -l`
+                this_insufficient_constraint_found=`cat ${constraint_tree}.2 | grep "(${taxon},(" | grep "))" | wc -l`
                 if [[ ${this_insufficient_constraint_found} == 1 ]]
                 then
                     insufficient_constraint_found=1
                 fi
-                this_insufficient_constraint_found=`cat tmp.constraint.tre | grep "),${taxon})" | grep "((" | wc -l`
+                this_insufficient_constraint_found=`cat ${constraint_tree}.2 | grep "),${taxon})" | grep "((" | wc -l`
                 if [[ ${this_insufficient_constraint_found} == 1 ]]
                 then
                     insufficient_constraint_found=1
                 fi
             done
-            this_insufficient_constraint_found=`cat tmp.constraint.tre | grep "()" | wc -l`
+            this_insufficient_constraint_found=`cat ${constraint_tree}.2 | grep "()" | wc -l`
             if [[ ${this_insufficient_constraint_found} == 1 ]]
             then
                 insufficient_constraint_found=1
             fi
-            this_insufficient_constraint_found=`cat tmp.constraint.tre | grep "((" | grep "))" | wc -l`
+            this_insufficient_constraint_found=`cat ${constraint_tree}.2 | grep "((" | grep "))" | wc -l`
             if [[ ${this_insufficient_constraint_found} == 1 ]]
             then
                 insufficient_constraint_found=1
@@ -94,7 +91,7 @@ do
             # Run iqtree.
             if [[ ${insufficient_constraint_found} == 0 && ${insufficient_align_found} == 0 ]]
             then
-                ../bin/iqtree -nt 4 -s tmp.iqtree.phy -m GTR -g tmp.constraint.tre --runs 2 -quiet
+                ../bin/iqtree -nt 4 -s tmp.iqtree.phy -m GTR -g ${constraint_tree}.2 --runs 2 -quiet
                 mv -f tmp.iqtree.phy.iqtree ${info}
             else
                 touch ${info}
@@ -105,6 +102,7 @@ do
             rm -f tmp.constraint.tre
             rm -f tmp.taxa_in_constraint_tree.txt
             rm -f tmp.taxa_in_align.txt
+            rm -f ${constraint_tree}.2
 
         fi
     done

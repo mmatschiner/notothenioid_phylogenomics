@@ -1,0 +1,57 @@
+Starting job 610619 on c5-3 at Sat Apr 18 15:33:10 CEST 2020
+
+  1) StdEnv
+
+Currently Loaded Modules:
+  1) StdEnv                                     (S)
+  2) GCCcore/7.3.0
+  3) zlib/1.2.11-GCCcore-7.3.0                  (H)
+  4) binutils/2.30-GCCcore-7.3.0                (H)
+  5) GCC/7.3.0-2.30
+  6) hpcx/2.4
+  7) OpenMPI/3.1.1-GCC-7.3.0-2.30
+  8) OpenBLAS/0.3.1-GCC-7.3.0-2.30
+  9) gompi/2018b
+ 10) FFTW/3.3.8-gompi-2018b
+ 11) ScaLAPACK/2.0.2-gompi-2018b-OpenBLAS-0.3.1
+ 12) foss/2018b
+ 13) bzip2/1.0.6-GCCcore-7.3.0                  (H)
+ 14) ncurses/6.1-GCCcore-7.3.0                  (H)
+ 15) libreadline/7.0-GCCcore-7.3.0              (H)
+ 16) XZ/5.2.4-GCCcore-7.3.0                     (H)
+ 17) GMP/6.1.2-GCCcore-7.3.0                    (H)
+ 18) libffi/3.2.1-GCCcore-7.3.0                 (H)
+ 19) Python/3.6.6-foss-2018b
+
+  Where:
+   H:  Hidden Module
+   S:  Module is Sticky, requires --force to unload or purge
+
+ 
+
+slurmstepd: error: _is_a_lwp: open() /proc/3208/status failed: No such file or directory
+slurmstepd: error: _is_a_lwp: 1 read() attempts on /proc/11988/status failed: No such process
+slurmstepd: error: _is_a_lwp: open() /proc/26319/status failed: No such file or directory
+
+Task and CPU usage stats:
+       JobID    JobName  AllocCPUS   NTasks     MinCPU MinCPUTask     AveCPU    Elapsed ExitCode 
+------------ ---------- ---------- -------- ---------- ---------- ---------- ---------- -------- 
+610619           iqtrec          4                                             02:05:34      0:0 
+610619.batch      batch          4        1   06:38:06          0   06:38:06   02:05:34      0:0 
+610619.exte+     extern          4        1   00:00:00          0   00:00:00   02:05:34      0:0 
+
+Memory usage stats:
+       JobID     MaxRSS MaxRSSTask     AveRSS MaxPages   MaxPagesTask   AvePages 
+------------ ---------- ---------- ---------- -------- -------------- ---------- 
+610619                                                                           
+610619.batch     11632K          0     11632K    91145              0      91145 
+610619.exte+          0          0          0        0              0          0 
+
+Disk usage stats:
+       JobID  MaxDiskRead MaxDiskReadTask    AveDiskRead MaxDiskWrite MaxDiskWriteTask   AveDiskWrite 
+------------ ------------ --------------- -------------- ------------ ---------------- -------------- 
+610619                                                                                                
+610619.batch     3014.01M               0       3014.01M      488.57M                0        488.57M 
+610619.exte+        0.00M               0          0.00M            0                0              0 
+
+Job 610619 completed at Sat Apr 18 17:38:44 CEST 2020

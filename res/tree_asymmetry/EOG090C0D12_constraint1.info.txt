@@ -1,0 +1,173 @@
+IQ-TREE 2.0-rc2 built Mar 28 2020
+
+Input file name: tmp.iqtree.phy
+Type of analysis: tree reconstruction
+Random seed number: 795344
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 41 sequences with 633 nucleotide sites
+Number of constant sites: 299 (= 47.2354% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 299 (= 47.2354% of all sites)
+Number of parsimony informative sites: 212
+Number of distinct site patterns: 330
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F
+
+Rate parameter R:
+
+  A-C: 2.1461
+  A-G: 3.1617
+  A-T: 1.0701
+  C-G: 1.1248
+  C-T: 3.6244
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2428
+  pi(C) = 0.2589
+  pi(G) = 0.2445
+  pi(T) = 0.2538
+
+Rate matrix Q:
+
+  A    -1.053    0.3656    0.5085    0.1787
+  C    0.3428    -1.129    0.1809    0.6053
+  G     0.505    0.1916   -0.8636     0.167
+  T    0.1709    0.6175    0.1608   -0.9492
+
+Model of rate heterogeneity: Uniform
+
+MULTIPLE RUNS
+-------------
+
+Run     logL
+1	-4769.6561
+2	-4769.6558
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -4769.6558 (s.e. 0.0000)
+Unconstrained log-likelihood (without tree): -3037.4332
+Number of free parameters (#branches + #model parameters): 87
+Akaike information criterion (AIC) score: 9713.3116
+Corrected Akaike information criterion (AICc) score: 9741.4070
+Bayesian information criterion (BIC) score: 10100.5026
+
+Total tree length (sum of branch lengths): 1.3978
+Sum of internal branch lengths: 0.2741 (19.6091% of tree length)
+
+WARNING: 11 near-zero internal branches (<0.0016) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'A_call' is drawn at root
+
++---------------A_call
+|
+|                                             +**AkaNud
+|                                          +**|
+|                                          |  |     +**HarAnt
+|                                          |  |  +--|
+|                                          |  |  |  +**HarKer
+|                                          |  +**|
+|                                          |     +--VomInf
+|                                       +**|
+|                                       |  |           +**ArtSko
+|                                       |  |        +**|
+|                                       |  |        |  +**HisVel
+|                                       |  |     +--|
+|                                       |  |     |  +--DolLon
+|                                       |  |  +--|
+|                                       |  |  |  |     +--ChaAce
+|                                       |  |  |  |  +--|
+|                                       |  |  |  |  |  +**ChiDew
+|                                       |  |  |  +--|
+|                                       |  |  |     |        +---ChaWil
+|                                       |  |  |     |     +**|
+|                                       |  |  |     |     |  +--PseGeo
+|                                       |  |  |     |  +--|
+|                                       |  |  |     |  |  +**PagMac
+|                                       |  |  |     +**|
+|                                       |  |  |        +**CryAnt
+|                                       |  +**|
+|                                       |     +--BatMar
+|                                    +--|
+|                                    |  +--GymAcu
+|                                 +**|
+|                                 |  +--NotRos
+|                              +--|
+|                              |  +--GobGib
+|                           +--|
+|                           |  |           +--DisMaw
+|                           |  |        +--|
+|                           |  |        |  |           +--LepNud
+|                           |  |        |  |        +--|
+|                           |  |        |  |        |  +--PatGun
+|                           |  |        |  |     +--|
+|                           |  |        |  |     |  +--TreBer
+|                           |  |        |  |  +**|
+|                           |  |        |  |  |  +--TreHan
+|                           |  |        |  +**|
+|                           |  |        |     +**TreLoe
+|                           |  |     +--|
+|                           |  |     |  +--TreSco
+|                           |  |  +**|
+|                           |  |  |  +--LepSqu
+|                           |  +--|
+|                           |     +--LepLar
+|                       +---|
+|                       |   +--PleAnt
+|                 +-----|
+|                 |     +---EleMac
+|              +--|
+|              |  |     +--BovDia
+|              |  |  +--|
+|              |  |  |  +--BovVar
+|              |  +--|
+|              |     +------CotGob
+|           +--|
+|           |  |        +------------G_acul
+|           |  |  +-----|
+|           |  |  |     +----------------------------------------H_come
+|           |  +--|
+|           |     +----P_fluv
+|        +--|
+|        |  +---------S_nigr
+|     +--|
+|     |  |       +-------------------------------------P_magn
+|     |  +-------|
+|     |          +---------------------T_rubr
++-----|
+|     |    +------------A_test
+|     +----|
+|          +-----------M_arma
+|
++-------------------O_lati
+
+Tree in newick format:
+
+(A_call:0.0828765436,(((((((((((((AkaNud:0.0000010000,((HarAnt:0.0000010000,HarKer:0.0000010000):0.0031661793,VomInf:0.0031644772):0.0000025453):0.0000010000,((((ArtSko:0.0000010000,HisVel:0.0000010000):0.0000010000,DolLon:0.0015805403):0.0015842341,((ChaAce:0.0015807963,ChiDew:0.0000010000):0.0015804703,(((ChaWil:0.0242474745,PseGeo:0.0015807966):0.0000023407,PagMac:0.0000020133):0.0015817807,CryAnt:0.0000010000):0.0000025435):0.0015810283):0.0015809332,BatMar:0.0015831135):0.0000010000):0.0000029351,GymAcu:0.0031689089):0.0063557771,NotRos:0.0047748857):0.0015565513,GobGib:0.0111547878):0.0029367404,((((DisMaw:0.0047506923,((((LepNud:0.0031984040,PatGun:0.0048092062):0.0015899934,TreBer:0.0015942637):0.0015947879,TreHan:0.0015954278):0.0000010000,TreLoe:0.0000010000):0.0000010000):0.0015816906,TreSco:0.0015820288):0.0015816266,LepSqu:0.0047953236):0.0000010000,LepLar:0.0038820802):0.0050169853):0.0017980604,PleAnt:0.0139700711):0.0217400550,EleMac:0.0205304948):0.0337177621,((BovDia:0.0031612645,BovVar:0.0063656464):0.0129489101,CotGob:0.0359059024):0.0102884998):0.0055912279,((G_acul:0.0651420347,H_come:0.2052003236):0.0299149650,P_fluv:0.0280851117):0.0053706019):0.0037325145,S_nigr:0.0541688496):0.0159995301,(P_magn:0.1919141169,T_rubr:0.1090681490):0.0397320590):0.0033294682,(A_test:0.0647100830,M_arma:0.0614257396):0.0275970180):0.0322026800,O_lati:0.0989795711);
+
+TIME STAMP
+----------
+
+Date and time: Sat Apr 18 17:20:35 2020
+Total CPU time used: 13.6599 seconds (0h:0m:13s)
+Total wall-clock time used: 3.44734 seconds (0h:0m:3s)
+

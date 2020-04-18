@@ -1,0 +1,173 @@
+IQ-TREE 2.0-rc2 built Mar 28 2020
+
+Input file name: tmp.iqtree.phy
+Type of analysis: tree reconstruction
+Random seed number: 553794
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 41 sequences with 642 nucleotide sites
+Number of constant sites: 289 (= 45.0156% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 289 (= 45.0156% of all sites)
+Number of parsimony informative sites: 232
+Number of distinct site patterns: 317
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F
+
+Rate parameter R:
+
+  A-C: 1.8543
+  A-G: 3.0476
+  A-T: 1.3227
+  C-G: 1.3549
+  C-T: 4.4523
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.255
+  pi(C) = 0.2738
+  pi(G) = 0.3085
+  pi(T) = 0.1626
+
+Rate matrix Q:
+
+  A    -1.057    0.3226    0.5973    0.1367
+  C    0.3004    -1.026    0.2656      0.46
+  G    0.4937    0.2357   -0.8328    0.1033
+  T    0.2143    0.7745     0.196    -1.185
+
+Model of rate heterogeneity: Uniform
+
+MULTIPLE RUNS
+-------------
+
+Run     logL
+1	-5339.6947
+2	-5339.6945
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -5339.6945 (s.e. 0.0000)
+Unconstrained log-likelihood (without tree): -2847.7998
+Number of free parameters (#branches + #model parameters): 87
+Akaike information criterion (AIC) score: 10853.3890
+Corrected Akaike information criterion (AICc) score: 10881.0280
+Bayesian information criterion (BIC) score: 11241.8082
+
+Total tree length (sum of branch lengths): 1.5363
+Sum of internal branch lengths: 0.3673 (23.9078% of tree length)
+
+WARNING: 9 near-zero internal branches (<0.0016) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'A_call' is drawn at root
+
++-------------------A_call
+|
+|                                                              +--AkaNud
+|                                                           +--|
+|                                                           |  +**BatMar
+|                                                        +--|
+|                                                        |  +--VomInf
+|                                                     +**|
+|                                                     |  |           +**ChaAce
+|                                                     |  |        +--|
+|                                                     |  |        |  +--ChaWil
+|                                                     |  |     +--|
+|                                                     |  |     |  |     +--ChiDew
+|                                                     |  |     |  |  +**|
+|                                                     |  |     |  |  |  +--PseGeo
+|                                                     |  |     |  +**|
+|                                                     |  |     |     +**CryAnt
+|                                                     |  |  +**|
+|                                                     |  |  |  +--PagMac
+|                                                     |  +--|
+|                                                     |     +--GymAcu
+|                                                  +--|
+|                                                  |  |  +--ArtSko
+|                                                  |  +--|
+|                                                  |     |  +**DolLon
+|                                                  |     +**|
+|                                                  |        |     +**HarAnt
+|                                                  |        |  +--|
+|                                                  |        |  |  +**HarKer
+|                                                  |        +**|
+|                                                  |           +--HisVel
+|                                               +--|
+|                                               |  +--NotRos
+|                                            +--|
+|                                            |  +--GobGib
+|                                   +--------|
+|                                   |        |  +--DisMaw
+|                                   |        +**|
+|                                   |           |              +--LepLar
+|                                   |           |           +--|
+|                                   |           |           |  +--TreSco
+|                                   |           |        +**|
+|                                   |           |        |  |  +--LepNud
+|                                   |           |        |  +--|
+|                                   |           |        |     +--PatGun
+|                                   |           |     +--|
+|                                   |           |     |  +--LepSqu
+|                                   |           |  +--|
+|                                   |           |  |  |  +--TreBer
+|                                   |           |  |  +--|
+|                                   |           |  |     |  +--TreHan
+|                                   |           |  |     +--|
+|                                   |           |  |        +--TreLoe
+|                                   |           +**|
+|                                   |              +-----PleAnt
+|                     +-------------|
+|                     |             +----------EleMac
+|                  +--|
+|                  |  |               +--BovDia
+|                  |  |          +----|
+|                  |  |          |    +--BovVar
+|                  |  +----------|
+|                  |             +-------CotGob
+|               +--|
+|               |  +--------P_fluv
+|            +--|
+|            |  +-------S_nigr
+|       +----|
+|       |    +--------------G_acul
+|    +--|
+|    |  |  +----------------A_test
+|    |  +--|
+|    |     +------------------M_arma
++----|
+|    |   +----------------------------------H_come
+|    +---|
+|        +-------------------------T_rubr
+|
+|       +------------------O_lati
++-------|
+        +--------------------------------------------------P_magn
+
+Tree in newick format:
+
+(A_call:0.0850447049,((((((((((((((AkaNud:0.0047049868,BatMar:0.0000010000):0.0031440509,VomInf:0.0031362170):0.0015640339,((((ChaAce:0.0000010000,ChaWil:0.0015649345):0.0015643743,((ChiDew:0.0031332662,PseGeo:0.0031315746):0.0000010000,CryAnt:0.0000010000):0.0000010000):0.0015649397,PagMac:0.0015649363):0.0015522766,GymAcu:0.0047226881):0.0047316551):0.0000010000,(ArtSko:0.0031340646,(DolLon:0.0000010000,((HarAnt:0.0000010000,HarKer:0.0000010000):0.0110553805,HisVel:0.0031305265):0.0000010000):0.0000010000):0.0031357526):0.0016366498,NotRos:0.0109620028):0.0015606236,GobGib:0.0109589222):0.0016255482,(DisMaw:0.0047063284,(((((LepLar:0.0031322008,TreSco:0.0047065793):0.0078987454,(LepNud:0.0074888516,PatGun:0.0077055772):0.0021075088):0.0000024463,LepSqu:0.0047050097):0.0017901397,(TreBer:0.0029012755,(TreHan:0.0015660846,TreLoe:0.0015608741):0.0017943696):0.0031574332):0.0076868008,PleAnt:0.0255419897):0.0015301040):0.0000010000):0.0400383650,EleMac:0.0481492262):0.0635336922,((BovDia:0.0077270136,BovVar:0.0047549646):0.0228835377,CotGob:0.0348159236):0.0471278096):0.0097969163,P_fluv:0.0400855773):0.0063019035,S_nigr:0.0346205522):0.0082029446,G_acul:0.0662902113):0.0216567009,(A_test:0.0730190330,M_arma:0.0843946782):0.0087280422):0.0125870065,(H_come:0.1494314813,T_rubr:0.1137088316):0.0196700876):0.0229160634,(O_lati:0.0832922343,P_magn:0.2184866149):0.0358110787);
+
+TIME STAMP
+----------
+
+Date and time: Sat Apr 18 17:18:18 2020
+Total CPU time used: 11.6086 seconds (0h:0m:11s)
+Total wall-clock time used: 2.93217 seconds (0h:0m:2s)
+

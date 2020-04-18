@@ -48,6 +48,10 @@ bash run_nj.sh
 # Test for introgression with dsuite.
 bash run_dsuite.sh
 
-# XXXTODO Write scripts to test PleAnt position.
+# Run iqtree analyses with constraints to analyze tree asymmetry.
+bash analyze_tree_asymmetry.sh
+
+# Summarize the results of the constrained iqtree analyses.
+bash postprocess_tree_asymmetry.sh
 
 # XXXTODO: Write script runs concatenated beast analysis.
