@@ -1,6 +1,5 @@
-#!/usr/bin/ruby
+# m_matschiner Tue Apr 21 13:23:03 CEST 2020
 
-## Michael Matschiner 2017-07-04.
 ## This script produces XML files for BEAST2.
 
 require 'fileutils'
@@ -194,7 +193,7 @@ constraints = ""
 if ARGV.include?("-c")
     constraints_file_name = ARGV[ARGV.index("-c")+1]
     constraints_file = File.open(constraints_file_name)
-    constraints = constraints_file.read
+    constraint_lines = constraints_file.readlines
 end
 
 # Determine the substitution model.
@@ -891,10 +890,138 @@ xml_string << "\n"
 
 # Divergence age priors.
 xml_string << "#{first_tab}\t\t\t<!-- Divergence age priors -->\n"
-if constraints == ""
+if constraint_lines == []
     xml_string << "#{first_tab}\t\t\t<!-- Add divergence age priors here -->\n"
 else
-    xml_string << constraints
+    if constraint_lines[0].strip[0] == "<" and constraint_lines[-1].strip[-1] == ">"
+        constraint_lines.each do |l|
+            xml_string << l
+        end
+    else
+        constraint_strings = []
+        constraint_lines.each do |l|
+            if ["normal","lognor","unifor","cladea","monoph"].include?(l[0..5].downcase)
+                constraint_strings << l
+            end
+        end
+        if constraint_strings.size == 0
+            puts "WARNING: No age constraints could be found in file #{options[:constraints]}. You will have to manually modify the XML file to include age constraints."
+        end
+        constraint_count = 0
+        constraint_strings.each do |c|
+            constraint_count += 1
+            constraint_ary = c.split
+            unless constraint_ary.size == 3
+                puts "ERROR: Expected three character strings per line for each constraint specification, but found"
+                puts "    '#{c.strip}',"
+                exit(1)
+            end
+            constraint_distribution = constraint_ary[0].downcase
+            constraint_placement = constraint_ary[1].downcase
+            constraint_clade = constraint_ary[2]
+            constraint_clade_ary = constraint_clade.split(",")
+            unless ["stem","crown","na"].include?(constraint_placement)
+                puts "ERROR: Expected 'stem', 'crown', or 'NA' (only for monophyly constraints without calibration)"
+                puts "    but found '#{constraint_placement}' as the second character string in '#{c}'!"
+                exit(1)
+            end
+            if constraint_distribution.include?("(") == false and constraint_distribution != "monophyletic"
+                puts "ERROR: Expected parameters in parentheses as part of the first character string in "
+                puts "    '#{c.strip}',"
+                puts "    but found '#{constraint_distribution}'!"
+                exit(1)
+            end
+            if constraint_distribution == "monophyletic"
+                constraint_type = "monophyletic"
+            else
+                constraint_type = constraint_distribution.split("(")[0].strip
+            end
+            unless ["normal","lognormal","uniform","cladeage","monophyletic"].include?(constraint_type)
+                puts "ERROR: Expected 'normal', 'lognormal', 'uniform', 'cladeage', or 'monophyletic' as part"
+                puts "    of the first character string in '#{c}' but found '#{constraint_type}'!"
+                exit(1)
+            end
+            unless constraint_type == "monophyletic"
+                constraint_parameters = constraint_distribution.split("(")[1].strip.chomp(")").split(",")
+            end
+            if constraint_type == "normal"
+                unless constraint_parameters.size == 3
+                    puts "ERROR: Expected 3 parameters for normal distribution, but found #{constraint_parameters.size}!"
+                    exit(1)
+                end
+            elsif constraint_type == "lognormal"
+                unless constraint_parameters.size == 3
+                    puts "ERROR: Expected 3 parameters for lognormal distribution, but found #{constraint_parameters.size}!"
+                    exit(1)
+                end
+            elsif constraint_type == "uniform"
+                unless constraint_parameters.size == 2
+                    puts "ERROR: Expected 2 parameters for lognormal distribution, but found #{constraint_parameters.size}!"
+                    exit(1)
+                end
+            elsif constraint_type == "cladeage"
+                unless constraint_parameters.size == 8
+                    puts "ERROR: Expected 8 parameters for lognormal distribution, but found #{constraint_parameters.size}!"
+                    exit(1)
+                end
+            else
+                unless constraint_type == "monophyletic"
+                    puts "ERROR: Unexpected constraint type '#{constraint_type}'!"
+                    exit(1)
+                end
+            end
+            constraint_id = constraint_count.to_s.rjust(4).gsub(" ","0")
+            if constraint_type == "cladeage"
+                xml_string << "\t\t\t\t<distribution id=\"Clade#{constraint_id}\" spec=\"beast.math.distributions.FossilPrior\" monophyletic=\"true\"  tree=\"@tree.t:Species\">\n"
+            else
+                xml_string << "\t\t\t\t<distribution id=\"Clade#{constraint_id}\" spec=\"beast.math.distributions.MRCAPrior\" "
+                if constraint_placement == "stem"
+                    if constraint_clade_ary.size == table_species.uniq.size
+                        puts "ERROR: It seems that a #{constraint_type} constraint should be placed on the stem of the root of the phylogeny!"
+                        exit(1)
+                    else
+                        xml_string << "useOriginate=\"true\" "
+                    end
+                else
+                    xml_string << "useOriginate=\"false\" "
+                end
+                xml_string << "monophyletic=\"true\"  tree=\"@tree.t:Species\">\n"
+            end
+            xml_string << "\t\t\t\t\t<taxonset id=\"Constraint#{constraint_id}\" spec=\"TaxonSet\">\n"
+            constraint_clade_ary.each do |s|
+                xml_string << "\t\t\t\t\t\t<taxon idref=\"#{s}\"/>\n"
+            end
+            xml_string << "\t\t\t\t\t</taxonset>\n"
+            if constraint_type == "normal"
+                xml_string << "\t\t\t\t\t<Normal name=\"distr\" offset=\"#{constraint_parameters[0]}\">\n"
+                xml_string << "\t\t\t\t\t\t<parameter estimate=\"false\" lower=\"0.0\" name=\"mean\">#{constraint_parameters[1]}</parameter>\n"
+                xml_string << "\t\t\t\t\t\t<parameter estimate=\"false\" lower=\"0.0\" name=\"sigma\">#{constraint_parameters[2]}</parameter>\n"
+                xml_string << "\t\t\t\t\t</Normal>\n"
+            elsif constraint_type == "lognormal"
+                xml_string << "\t\t\t\t\t<LogNormal meanInRealSpace=\"true\" name=\"distr\" offset=\"#{constraint_parameters[0]}\">\n"
+                xml_string << "\t\t\t\t\t\t<parameter estimate=\"false\" lower=\"0.0\" name=\"M\">#{constraint_parameters[1]}</parameter>\n"
+                xml_string << "\t\t\t\t\t\t<parameter estimate=\"false\" lower=\"0.0\" name=\"S\">#{constraint_parameters[2]}</parameter>\n"
+                xml_string << "\t\t\t\t\t</LogNormal>\n"
+            elsif constraint_type == "uniform"
+                xml_string << "\t\t\t\t\t<Uniform name=\"distr\" lower=\"#{constraint_parameters[0]}\" upper=\"#{constraint_parameters[1]}\"/>\n"
+            elsif constraint_type == "cladeage"
+                xml_string << "\t\t\t\t\t <fossilDistr\n"
+                xml_string << "\t\t\t\t\t\tid=\"#{constraint_id}\"\n"
+                xml_string << "\t\t\t\t\t\tminOccuranceAge=\"#{constraint_parameters[0]}\"\n"
+                xml_string << "\t\t\t\t\t\tmaxOccuranceAge=\"#{constraint_parameters[1]}\"\n"
+                xml_string << "\t\t\t\t\t\tminDivRate=\"#{constraint_parameters[2]}\"\n"
+                xml_string << "\t\t\t\t\t\tmaxDivRate=\"#{constraint_parameters[3]}\"\n"
+                xml_string << "\t\t\t\t\t\tminTurnoverRate=\"#{constraint_parameters[4]}\"\n"
+                xml_string << "\t\t\t\t\t\tmaxTurnoverRate=\"#{constraint_parameters[5]}\"\n"
+                xml_string << "\t\t\t\t\t\tminSamplingRate=\"#{constraint_parameters[6]}\"\n"
+                xml_string << "\t\t\t\t\t\tmaxSamplingRate=\"#{constraint_parameters[7]}\"\n"
+                xml_string << "\t\t\t\t\t\tminSamplingGap=\"0\"\n"
+                xml_string << "\t\t\t\t\t\tmaxSamplingGap=\"0\"\n"
+                xml_string << "\t\t\t\t\t\tspec=\"beast.math.distributions.FossilCalibration\"/>\n"
+            end
+            xml_string << "\t\t\t\t</distribution>\n"
+        end
+    end
 end
 xml_string << "\n"
 
