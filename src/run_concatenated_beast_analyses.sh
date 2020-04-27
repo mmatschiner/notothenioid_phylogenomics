@@ -59,8 +59,8 @@ do
         rep_dir=../res/beast/${dataset_type}/replicates/r0${n}
         mkdir -p ${rep_dir}
         cp ../res/beast/${dataset_type}/xml/${dataset_type}.xml ${rep_dir}
-        cat run_beast.slurm | sed "s/QQQQQQ/${dataset_type}_r0${n}/g" > ${rep_dir}/run_beast.slurm
-        cat run_beast.sh | sed "s/QQQQQQ/${dataset_type}_r0${n}/g" > ${rep_dir}/run_beast.sh
+        cat run_beast.slurm | sed "s/QQQQQQ/${dataset_type}/g" > ${rep_dir}/run_beast.slurm
+        cat run_beast.sh | sed "s/QQQQQQ/${dataset_type}/g" > ${rep_dir}/run_beast.sh
     done
 done
 

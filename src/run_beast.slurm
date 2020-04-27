@@ -10,10 +10,10 @@
 #
 # Wall clock limit:
 #
-#SBATCH --time=70:00:00
+#SBATCH --time=168:00:00
 #
 # Processor and memory usage:
-#SBATCH --ntasks-per-node=1
+#SBATCH --ntasks-per-node=5
 #SBATCH --mem-per-cpu=2G
 #
 # Outfile:
@@ -27,7 +27,7 @@ module --quiet purge  # Reset the modules to the system default
 java_available=`which java | wc -l | tr -d " "`
 if [[ ${java_available} == 0 ]]
 then
-    module load Java/11.0.2
+    module load beagle-lib/3.1.2-GCC-8.2.0-2.31.1
 fi
 
 # Download and install beast.
@@ -48,7 +48,7 @@ fi
 ## Run or resume beast analysis.
 if [ ! -f QQQQQQ.log ]
 then
-    beast/bin/beast -seed ${RANDOM} QQQQQQ.xml
+    beast/bin/beast -threads 5 -seed ${RANDOM} -beagle QQQQQQ.xml
 else
-    beast/bin/beast -seed ${RANDOM} -resume QQQQQQ.xml
+    beast/bin/beast -threads 5 -seed ${RANDOM} -beagle -resume QQQQQQ.xml
 fi
