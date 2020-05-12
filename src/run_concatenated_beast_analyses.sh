@@ -42,13 +42,13 @@ echo -e "monophyletic\tNA\t${nots}" >> tmp.constraints.txt
 # Generate xml files with beauti.rb.
 for dataset_type in full strict permissive
 do
-    # for model in HKY GTR
-    # do
-    #     mkdir -p ../res/beast/${dataset_type}/${model}
-    #     ruby beauti.rb -id ${dataset_type} -n ../res/alignments/${dataset_type} -o ../res/beast/${dataset_type}/${model}/xml -l 10000000 -c tmp.constraints.txt -m ${model} -g -bd -e -u -usd 0.5
-    #     cat ../res/beast/${dataset_type}/${model}/xml/${dataset_type}.xml | sed "s/logEvery=\"5000\"/logEvery=\"50000\"/g" > ../res/beast/${dataset_type}/${model}/xml/${dataset_type}.xml.2
-    #     mv -f ../res/beast/${dataset_type}/${model}/xml/${dataset_type}.xml.2 ../res/beast/${dataset_type}/${model}/xml/${dataset_type}.xml
-    # done
+    for model in HKY GTR
+    do
+        mkdir -p ../res/beast/${dataset_type}/${model}
+        ruby beauti.rb -id ${dataset_type} -n ../res/alignments/${dataset_type} -o ../res/beast/${dataset_type}/${model}/xml -l 10000000 -c tmp.constraints.txt -m ${model} -g -bd -e -u -usd 0.5
+        cat ../res/beast/${dataset_type}/${model}/xml/${dataset_type}.xml | sed "s/logEvery=\"5000\"/logEvery=\"50000\"/g" > ../res/beast/${dataset_type}/${model}/xml/${dataset_type}.xml.2
+        mv -f ../res/beast/${dataset_type}/${model}/xml/${dataset_type}.xml.2 ../res/beast/${dataset_type}/${model}/xml/${dataset_type}.xml
+    done
     mkdir -p ../res/beast/${dataset_type}/partitioned
     ruby beauti.rb -id ${dataset_type} -n ../res/partitionfinder/${dataset_type}/partitions -o ../res/beast/${dataset_type}/partitioned/xml -l 10000000 -c tmp.constraints.txt -m GTR -g -bd -e -u -usd 0.5
     cat ../res/beast/${dataset_type}/partitioned/xml/${dataset_type}.xml | sed "s/logEvery=\"5000\"/logEvery=\"50000\"/g" > ../res/beast/${dataset_type}/partitioned/xml/${dataset_type}.xml.2
@@ -61,17 +61,17 @@ rm -f tmp.constraints.txt
 # Prepare directories for beast analyses.
 for dataset_type in full strict permissive
 do
-    # for model in HKY GTR
-    # do
-    #     for n in {1..6}
-    #     do
-    #         rep_dir=../res/beast/${dataset_type}/${model}/replicates/r0${n}
-    #         mkdir -p ${rep_dir}
-    #         cp ../res/beast/${dataset_type}/${model}/xml/${dataset_type}.xml ${rep_dir}
-    #         cat run_beast.slurm | sed "s/QQQQQQ/${dataset_type}/g" > ${rep_dir}/run_beast.slurm
-    #         cat run_beast.sh | sed "s/QQQQQQ/${dataset_type}/g" > ${rep_dir}/run_beast.sh
-    #     done
-    # done
+    for model in HKY GTR
+    do
+        for n in {1..6}
+        do
+            rep_dir=../res/beast/${dataset_type}/${model}/replicates/r0${n}
+            mkdir -p ${rep_dir}
+            cp ../res/beast/${dataset_type}/${model}/xml/${dataset_type}.xml ${rep_dir}
+            cat run_beast.slurm | sed "s/QQQQQQ/${dataset_type}/g" > ${rep_dir}/run_beast.slurm
+            cat run_beast.sh | sed "s/QQQQQQ/${dataset_type}/g" > ${rep_dir}/run_beast.sh
+        done
+    done
     for n in {1..6}
     do
         rep_dir=../res/beast/${dataset_type}/partitioned/replicates/r0${n}
@@ -81,8 +81,6 @@ do
         cat run_beast.sh | sed "s/QQQQQQ/${dataset_type}/g" > ${rep_dir}/run_beast.sh
     done
 done
-
-exit
 
 # Start beast analyses from each replicate directory.
 for dataset_type in full strict permissive
@@ -105,5 +103,21 @@ do
             fi
             cd - &> /dev/null
         done
+    done
+    for n in {1..6}
+    do
+        rep_dir=../res/beast/${dataset_type}/partitioned/replicates/r0${n}
+        cd ${rep_dir}
+        if [ ! -f ${dataset_type}.log ]
+        then
+            slurm_available=`which squeue | wc -l | tr -d " "`
+            if [[ ${slurm_available} == "1" ]]
+            then
+                sbatch run_beast.slurm
+            else
+                bash run_beast.sh
+            fi
+        fi
+        cd - &> /dev/null
     done
 done
