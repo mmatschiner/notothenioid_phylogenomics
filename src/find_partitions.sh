@@ -11,6 +11,7 @@ then
     cd - &> /dev/null
     mv partitionfinder-2.1.1 ../bin
 fi
+chmod +x ../bin/partitionfinder-2.1.1/PartitionFinder.py
 
 # Split alignments by codon position.
 for mode in full strict permissive
