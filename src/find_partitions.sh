@@ -1,17 +1,21 @@
 # m_matschiner Tue May 12 09:56:51 CEST 2020
 
 # Download partitionfinder.
-if [ -f partitionfinder-2.1.1 ]
+if [ ! -d ../bin/partitionfinder-2.1.1 ]
 then
     wget https://github.com/brettc/partitionfinder/archive/v2.1.1.tar.gz
     tar -xzf v2.1.1.tar.gz
     rm v2.1.1.tar.gz
-    cd partitionfinder-2.1.1
-    make
-    cd - &> /dev/null
     mv partitionfinder-2.1.1 ../bin
 fi
 chmod +x ../bin/partitionfinder-2.1.1/PartitionFinder.py
+
+# Load modules if necessary.
+ruby_available=`which ruby | wc -l | tr -d " "`
+if [[ ${ruby_available} == 0 ]]
+then
+    module load Ruby/2.6.3-GCCcore-8.2.0
+fi
 
 # Split alignments by codon position.
 for mode in full strict permissive
@@ -20,10 +24,13 @@ do
     for nex in ../res/alignments/${mode}/*.nex
     do
         gene_id=`basename ${nex%.nex}`
-        ruby split_by_cp.rb -i ${nex}
-        rm ../res/alignments/${mode}/${gene_id}_3.nex
-        mv ../res/alignments/${mode}/${gene_id}_1.nex ../res/partitionfinder/${mode}/alignments
-        mv ../res/alignments/${mode}/${gene_id}_2.nex ../res/partitionfinder/${mode}/alignments
+        if [ ! -f ../res/partitionfinder/${mode}/alignments/${gene_id}_1.nex ]
+        then
+            ruby split_by_cp.rb -i ${nex}
+            rm ../res/alignments/${mode}/${gene_id}_3.nex
+            mv ../res/alignments/${mode}/${gene_id}_1.nex ../res/partitionfinder/${mode}/alignments
+            mv ../res/alignments/${mode}/${gene_id}_2.nex ../res/partitionfinder/${mode}/alignments
+        fi
     done
 done
 
