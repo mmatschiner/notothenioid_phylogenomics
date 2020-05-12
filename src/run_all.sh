@@ -54,6 +54,9 @@ bash analyze_tree_asymmetry.sh
 # Summarize the results of the constrained iqtree analyses.
 bash postprocess_tree_asymmetry.sh
 
+# Find partitions using partitionfinder.
+bash find_partitions.sh
+
 # Run a set of beast analyses based on concatenation.
 bash run_concatenated_beast_analyses.sh
 

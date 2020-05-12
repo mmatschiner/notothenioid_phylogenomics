@@ -10,6 +10,7 @@
 #
 # Log file.
 #SBATCH --out=../res/tree_asymmetry/slurm.out
+#
 # Wall clock limit:
 #SBATCH --time=10:00:00
 #

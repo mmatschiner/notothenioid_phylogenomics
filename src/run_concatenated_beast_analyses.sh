@@ -42,10 +42,13 @@ echo -e "monophyletic\tNA\t${nots}" >> tmp.constraints.txt
 # Generate xml files with beauti.rb.
 for dataset_type in full strict permissive
 do
-    mkdir -p ../res/beast/${dataset_type}
-    ruby beauti.rb -id ${dataset_type} -n ../res/alignments/${dataset_type} -o ../res/beast/${dataset_type}/xml -l 10000000 -c tmp.constraints.txt -m GTR -g -bd -e -u -usd 0.5
-    cat ../res/beast/${dataset_type}/xml/${dataset_type}.xml | sed "s/logEvery=\"5000\"/logEvery=\"50000\"/g" > ../res/beast/${dataset_type}/xml/${dataset_type}.xml.2
-    mv -f ../res/beast/${dataset_type}/xml/${dataset_type}.xml.2 ../res/beast/${dataset_type}/xml/${dataset_type}.xml
+    for model in HKY GTR
+    do
+        mkdir -p ../res/beast/${dataset_type}/${model}
+        ruby beauti.rb -id ${dataset_type} -n ../res/alignments/${dataset_type} -o ../res/beast/${dataset_type}/${model}/xml -l 10000000 -c tmp.constraints.txt -m ${model} -g -bd -e -u -usd 0.5
+        cat ../res/beast/${dataset_type}/${model}/xml/${dataset_type}.xml | sed "s/logEvery=\"5000\"/logEvery=\"50000\"/g" > ../res/beast/${dataset_type}/${model}/xml/${dataset_type}.xml.2
+        mv -f ../res/beast/${dataset_type}/${model}/xml/${dataset_type}.xml.2 ../res/beast/${dataset_type}/${model}/xml/${dataset_type}.xml
+    done
 done
 
 # Clean up.
@@ -54,33 +57,39 @@ rm -f tmp.constraints.txt
 # Prepare directories for beast analyses.
 for dataset_type in full strict permissive
 do
-    for n in {1..6}
+    for model in HKY GTR
     do
-        rep_dir=../res/beast/${dataset_type}/replicates/r0${n}
-        mkdir -p ${rep_dir}
-        cp ../res/beast/${dataset_type}/xml/${dataset_type}.xml ${rep_dir}
-        cat run_beast.slurm | sed "s/QQQQQQ/${dataset_type}/g" > ${rep_dir}/run_beast.slurm
-        cat run_beast.sh | sed "s/QQQQQQ/${dataset_type}/g" > ${rep_dir}/run_beast.sh
+        for n in {1..6}
+        do
+            rep_dir=../res/beast/${dataset_type}/${model}/replicates/r0${n}
+            mkdir -p ${rep_dir}
+            cp ../res/beast/${dataset_type}/${model}/xml/${dataset_type}.xml ${rep_dir}
+            cat run_beast.slurm | sed "s/QQQQQQ/${dataset_type}/g" > ${rep_dir}/run_beast.slurm
+            cat run_beast.sh | sed "s/QQQQQQ/${dataset_type}/g" > ${rep_dir}/run_beast.sh
+        done
     done
 done
 
 # Start beast analyses from each replicate directory.
 for dataset_type in full strict permissive
 do
-    for n in {1..6}
+    for model in HKY GTR
     do
-        rep_dir=../res/beast/${dataset_type}/replicates/r0${n}
-        cd ${rep_dir}
-        if [ ! -f ${dataset_type}.log ]
-        then
-            slurm_available=`which squeue | wc -l | tr -d " "`
-            if [[ ${slurm_available} == "1" ]]
+        for n in {1..6}
+        do
+            rep_dir=../res/beast/${dataset_type}/${model}/replicates/r0${n}
+            cd ${rep_dir}
+            if [ ! -f ${dataset_type}.log ]
             then
-                sbatch run_beast.slurm
-            else
-                sbatch run_beast.sh
+                slurm_available=`which squeue | wc -l | tr -d " "`
+                if [[ ${slurm_available} == "1" ]]
+                then
+                    sbatch run_beast.slurm
+                else
+                    bash run_beast.sh
+                fi
             fi
-        fi
-        cd - &> /dev/null
+            cd - &> /dev/null
+        done
     done
 done
