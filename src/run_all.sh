@@ -57,6 +57,9 @@ bash postprocess_tree_asymmetry.sh
 # Find partitions using partitionfinder.
 bash find_partitions.sh
 
+# Concatenate partitions defined with partitionfinder.
+bash concatenate_partitions.sh
+
 # Run a set of beast analyses based on concatenation.
 bash run_concatenated_beast_analyses.sh
 
