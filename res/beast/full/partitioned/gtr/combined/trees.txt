@@ -1,0 +1,6 @@
+../res/beast/full/partitioned/gtr/replicates/r01/full.trees
+../res/beast/full/partitioned/gtr/replicates/r02/full.trees
+../res/beast/full/partitioned/gtr/replicates/r03/full.trees
+../res/beast/full/partitioned/gtr/replicates/r04/full.trees
+../res/beast/full/partitioned/gtr/replicates/r05/full.trees
+../res/beast/full/partitioned/gtr/replicates/r06/full.trees
