@@ -1,0 +1,8 @@
+Model selection results for subset: 60b0bf3c37914242e474d03344344230
+Subset alignment stored here: ./analysis/phylofiles/60b0bf3c37914242e474d03344344230.phy
+This subset contains the following data_blocks: EOG090C07YF_2, EOG090C07QB_2, EOG090C0B2X_2, EOG090C0AJF_1, EOG090C02EK_2, EOG090C0764_2, EOG090C0DPY_2, EOG090C04RC_2, EOG090C0E0A_2, EOG090C00B1_2, EOG090C01W9_2, EOG090C01M7_2, EOG090C027B_2
+Number of columns in subset: 8615
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -38740.938      | 77499.9          | 77499.875       | 77563.43       

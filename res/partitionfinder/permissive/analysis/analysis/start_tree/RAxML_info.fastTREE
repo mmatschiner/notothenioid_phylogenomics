@@ -1,0 +1,3651 @@
+
+
+WARNING: RAxML is not checking sequences for duplicate seqs and sites with missing data!
+
+
+
+This is RAxML version 8.2.9 released by Alexandros Stamatakis on July 20 2016.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 75016 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 4.13%
+
+RAxML experimental very fast tree search
+
+Using 400 distinct models/data partitions with joint branch length optimization
+
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 10.0000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 826
+Name: Subset1
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1
+Alignment Patterns: 653
+Name: Subset2
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 2
+Alignment Patterns: 659
+Name: Subset3
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 3
+Alignment Patterns: 502
+Name: Subset4
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 4
+Alignment Patterns: 768
+Name: Subset5
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 5
+Alignment Patterns: 655
+Name: Subset6
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 6
+Alignment Patterns: 715
+Name: Subset7
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 7
+Alignment Patterns: 505
+Name: Subset8
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 8
+Alignment Patterns: 253
+Name: Subset9
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 9
+Alignment Patterns: 147
+Name: Subset10
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 10
+Alignment Patterns: 450
+Name: Subset11
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 11
+Alignment Patterns: 357
+Name: Subset12
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 12
+Alignment Patterns: 209
+Name: Subset13
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 13
+Alignment Patterns: 157
+Name: Subset14
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 14
+Alignment Patterns: 517
+Name: Subset15
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 15
+Alignment Patterns: 442
+Name: Subset16
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 16
+Alignment Patterns: 340
+Name: Subset17
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 17
+Alignment Patterns: 317
+Name: Subset18
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 18
+Alignment Patterns: 368
+Name: Subset19
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 19
+Alignment Patterns: 314
+Name: Subset20
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 20
+Alignment Patterns: 334
+Name: Subset21
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 21
+Alignment Patterns: 272
+Name: Subset22
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 22
+Alignment Patterns: 367
+Name: Subset23
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 23
+Alignment Patterns: 328
+Name: Subset24
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 24
+Alignment Patterns: 382
+Name: Subset25
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 25
+Alignment Patterns: 282
+Name: Subset26
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 26
+Alignment Patterns: 445
+Name: Subset27
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 27
+Alignment Patterns: 367
+Name: Subset28
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 28
+Alignment Patterns: 95
+Name: Subset29
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 29
+Alignment Patterns: 45
+Name: Subset30
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 30
+Alignment Patterns: 539
+Name: Subset31
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 31
+Alignment Patterns: 433
+Name: Subset32
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 32
+Alignment Patterns: 282
+Name: Subset33
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 33
+Alignment Patterns: 212
+Name: Subset34
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 34
+Alignment Patterns: 350
+Name: Subset35
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 35
+Alignment Patterns: 291
+Name: Subset36
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 36
+Alignment Patterns: 270
+Name: Subset37
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 37
+Alignment Patterns: 206
+Name: Subset38
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 38
+Alignment Patterns: 373
+Name: Subset39
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 39
+Alignment Patterns: 292
+Name: Subset40
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 40
+Alignment Patterns: 132
+Name: Subset41
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 41
+Alignment Patterns: 87
+Name: Subset42
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 42
+Alignment Patterns: 506
+Name: Subset43
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 43
+Alignment Patterns: 419
+Name: Subset44
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 44
+Alignment Patterns: 223
+Name: Subset45
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 45
+Alignment Patterns: 189
+Name: Subset46
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 46
+Alignment Patterns: 441
+Name: Subset47
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 47
+Alignment Patterns: 419
+Name: Subset48
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 48
+Alignment Patterns: 351
+Name: Subset49
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 49
+Alignment Patterns: 312
+Name: Subset50
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 50
+Alignment Patterns: 513
+Name: Subset51
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 51
+Alignment Patterns: 402
+Name: Subset52
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 52
+Alignment Patterns: 344
+Name: Subset53
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 53
+Alignment Patterns: 277
+Name: Subset54
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 54
+Alignment Patterns: 389
+Name: Subset55
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 55
+Alignment Patterns: 345
+Name: Subset56
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 56
+Alignment Patterns: 311
+Name: Subset57
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 57
+Alignment Patterns: 249
+Name: Subset58
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 58
+Alignment Patterns: 182
+Name: Subset59
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 59
+Alignment Patterns: 117
+Name: Subset60
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 60
+Alignment Patterns: 340
+Name: Subset61
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 61
+Alignment Patterns: 262
+Name: Subset62
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 62
+Alignment Patterns: 579
+Name: Subset63
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 63
+Alignment Patterns: 525
+Name: Subset64
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 64
+Alignment Patterns: 370
+Name: Subset65
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 65
+Alignment Patterns: 284
+Name: Subset66
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 66
+Alignment Patterns: 342
+Name: Subset67
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 67
+Alignment Patterns: 276
+Name: Subset68
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 68
+Alignment Patterns: 349
+Name: Subset69
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 69
+Alignment Patterns: 275
+Name: Subset70
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 70
+Alignment Patterns: 219
+Name: Subset71
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 71
+Alignment Patterns: 177
+Name: Subset72
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 72
+Alignment Patterns: 261
+Name: Subset73
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 73
+Alignment Patterns: 190
+Name: Subset74
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 74
+Alignment Patterns: 217
+Name: Subset75
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 75
+Alignment Patterns: 141
+Name: Subset76
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 76
+Alignment Patterns: 208
+Name: Subset77
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 77
+Alignment Patterns: 143
+Name: Subset78
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 78
+Alignment Patterns: 351
+Name: Subset79
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 79
+Alignment Patterns: 262
+Name: Subset80
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 80
+Alignment Patterns: 431
+Name: Subset81
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 81
+Alignment Patterns: 339
+Name: Subset82
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 82
+Alignment Patterns: 365
+Name: Subset83
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 83
+Alignment Patterns: 259
+Name: Subset84
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 84
+Alignment Patterns: 328
+Name: Subset85
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 85
+Alignment Patterns: 251
+Name: Subset86
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 86
+Alignment Patterns: 251
+Name: Subset87
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 87
+Alignment Patterns: 178
+Name: Subset88
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 88
+Alignment Patterns: 290
+Name: Subset89
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 89
+Alignment Patterns: 208
+Name: Subset90
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 90
+Alignment Patterns: 339
+Name: Subset91
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 91
+Alignment Patterns: 266
+Name: Subset92
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 92
+Alignment Patterns: 204
+Name: Subset93
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 93
+Alignment Patterns: 135
+Name: Subset94
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 94
+Alignment Patterns: 118
+Name: Subset95
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 95
+Alignment Patterns: 85
+Name: Subset96
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 96
+Alignment Patterns: 779
+Name: Subset97
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 97
+Alignment Patterns: 693
+Name: Subset98
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 98
+Alignment Patterns: 235
+Name: Subset99
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 99
+Alignment Patterns: 215
+Name: Subset100
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 100
+Alignment Patterns: 236
+Name: Subset101
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 101
+Alignment Patterns: 181
+Name: Subset102
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 102
+Alignment Patterns: 312
+Name: Subset103
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 103
+Alignment Patterns: 241
+Name: Subset104
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 104
+Alignment Patterns: 247
+Name: Subset105
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 105
+Alignment Patterns: 201
+Name: Subset106
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 106
+Alignment Patterns: 264
+Name: Subset107
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 107
+Alignment Patterns: 192
+Name: Subset108
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 108
+Alignment Patterns: 98
+Name: Subset109
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 109
+Alignment Patterns: 53
+Name: Subset110
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 110
+Alignment Patterns: 86
+Name: Subset111
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 111
+Alignment Patterns: 48
+Name: Subset112
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 112
+Alignment Patterns: 248
+Name: Subset113
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 113
+Alignment Patterns: 207
+Name: Subset114
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 114
+Alignment Patterns: 292
+Name: Subset115
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 115
+Alignment Patterns: 256
+Name: Subset116
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 116
+Alignment Patterns: 173
+Name: Subset117
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 117
+Alignment Patterns: 131
+Name: Subset118
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 118
+Alignment Patterns: 146
+Name: Subset119
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 119
+Alignment Patterns: 113
+Name: Subset120
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 120
+Alignment Patterns: 304
+Name: Subset121
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 121
+Alignment Patterns: 257
+Name: Subset122
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 122
+Alignment Patterns: 261
+Name: Subset123
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 123
+Alignment Patterns: 222
+Name: Subset124
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 124
+Alignment Patterns: 131
+Name: Subset125
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 125
+Alignment Patterns: 90
+Name: Subset126
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 126
+Alignment Patterns: 269
+Name: Subset127
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 127
+Alignment Patterns: 215
+Name: Subset128
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 128
+Alignment Patterns: 307
+Name: Subset129
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 129
+Alignment Patterns: 253
+Name: Subset130
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 130
+Alignment Patterns: 293
+Name: Subset131
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 131
+Alignment Patterns: 218
+Name: Subset132
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 132
+Alignment Patterns: 235
+Name: Subset133
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 133
+Alignment Patterns: 184
+Name: Subset134
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 134
+Alignment Patterns: 180
+Name: Subset135
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 135
+Alignment Patterns: 113
+Name: Subset136
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 136
+Alignment Patterns: 137
+Name: Subset137
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 137
+Alignment Patterns: 96
+Name: Subset138
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 138
+Alignment Patterns: 310
+Name: Subset139
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 139
+Alignment Patterns: 266
+Name: Subset140
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 140
+Alignment Patterns: 222
+Name: Subset141
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 141
+Alignment Patterns: 176
+Name: Subset142
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 142
+Alignment Patterns: 118
+Name: Subset143
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 143
+Alignment Patterns: 85
+Name: Subset144
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 144
+Alignment Patterns: 233
+Name: Subset145
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 145
+Alignment Patterns: 174
+Name: Subset146
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 146
+Alignment Patterns: 97
+Name: Subset147
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 147
+Alignment Patterns: 61
+Name: Subset148
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 148
+Alignment Patterns: 168
+Name: Subset149
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 149
+Alignment Patterns: 122
+Name: Subset150
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 150
+Alignment Patterns: 170
+Name: Subset151
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 151
+Alignment Patterns: 119
+Name: Subset152
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 152
+Alignment Patterns: 193
+Name: Subset153
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 153
+Alignment Patterns: 134
+Name: Subset154
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 154
+Alignment Patterns: 126
+Name: Subset155
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 155
+Alignment Patterns: 82
+Name: Subset156
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 156
+Alignment Patterns: 122
+Name: Subset157
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 157
+Alignment Patterns: 70
+Name: Subset158
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 158
+Alignment Patterns: 145
+Name: Subset159
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 159
+Alignment Patterns: 107
+Name: Subset160
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 160
+Alignment Patterns: 251
+Name: Subset161
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 161
+Alignment Patterns: 170
+Name: Subset162
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 162
+Alignment Patterns: 309
+Name: Subset163
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 163
+Alignment Patterns: 268
+Name: Subset164
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 164
+Alignment Patterns: 112
+Name: Subset165
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 165
+Alignment Patterns: 80
+Name: Subset166
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 166
+Alignment Patterns: 215
+Name: Subset167
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 167
+Alignment Patterns: 170
+Name: Subset168
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 168
+Alignment Patterns: 270
+Name: Subset169
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 169
+Alignment Patterns: 203
+Name: Subset170
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 170
+Alignment Patterns: 109
+Name: Subset171
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 171
+Alignment Patterns: 68
+Name: Subset172
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 172
+Alignment Patterns: 84
+Name: Subset173
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 173
+Alignment Patterns: 44
+Name: Subset174
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 174
+Alignment Patterns: 218
+Name: Subset175
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 175
+Alignment Patterns: 172
+Name: Subset176
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 176
+Alignment Patterns: 165
+Name: Subset177
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 177
+Alignment Patterns: 140
+Name: Subset178
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 178
+Alignment Patterns: 163
+Name: Subset179
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 179
+Alignment Patterns: 119
+Name: Subset180
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 180
+Alignment Patterns: 190
+Name: Subset181
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 181
+Alignment Patterns: 138
+Name: Subset182
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 182
+Alignment Patterns: 86
+Name: Subset183
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 183
+Alignment Patterns: 54
+Name: Subset184
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 184
+Alignment Patterns: 159
+Name: Subset185
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 185
+Alignment Patterns: 98
+Name: Subset186
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 186
+Alignment Patterns: 253
+Name: Subset187
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 187
+Alignment Patterns: 219
+Name: Subset188
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 188
+Alignment Patterns: 158
+Name: Subset189
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 189
+Alignment Patterns: 125
+Name: Subset190
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 190
+Alignment Patterns: 196
+Name: Subset191
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 191
+Alignment Patterns: 134
+Name: Subset192
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 192
+Alignment Patterns: 277
+Name: Subset193
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 193
+Alignment Patterns: 250
+Name: Subset194
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 194
+Alignment Patterns: 376
+Name: Subset195
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 195
+Alignment Patterns: 296
+Name: Subset196
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 196
+Alignment Patterns: 147
+Name: Subset197
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 197
+Alignment Patterns: 95
+Name: Subset198
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 198
+Alignment Patterns: 120
+Name: Subset199
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 199
+Alignment Patterns: 86
+Name: Subset200
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 200
+Alignment Patterns: 147
+Name: Subset201
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 201
+Alignment Patterns: 128
+Name: Subset202
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 202
+Alignment Patterns: 213
+Name: Subset203
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 203
+Alignment Patterns: 174
+Name: Subset204
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 204
+Alignment Patterns: 387
+Name: Subset205
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 205
+Alignment Patterns: 373
+Name: Subset206
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 206
+Alignment Patterns: 219
+Name: Subset207
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 207
+Alignment Patterns: 168
+Name: Subset208
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 208
+Alignment Patterns: 172
+Name: Subset209
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 209
+Alignment Patterns: 162
+Name: Subset210
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 210
+Alignment Patterns: 57
+Name: Subset211
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 211
+Alignment Patterns: 29
+Name: Subset212
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 212
+Alignment Patterns: 670
+Name: Subset213
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 213
+Alignment Patterns: 606
+Name: Subset214
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 214
+Alignment Patterns: 110
+Name: Subset215
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 215
+Alignment Patterns: 66
+Name: Subset216
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 216
+Alignment Patterns: 153
+Name: Subset217
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 217
+Alignment Patterns: 97
+Name: Subset218
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 218
+Alignment Patterns: 103
+Name: Subset219
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 219
+Alignment Patterns: 54
+Name: Subset220
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 220
+Alignment Patterns: 166
+Name: Subset221
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 221
+Alignment Patterns: 126
+Name: Subset222
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 222
+Alignment Patterns: 180
+Name: Subset223
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 223
+Alignment Patterns: 156
+Name: Subset224
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 224
+Alignment Patterns: 113
+Name: Subset225
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 225
+Alignment Patterns: 74
+Name: Subset226
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 226
+Alignment Patterns: 154
+Name: Subset227
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 227
+Alignment Patterns: 78
+Name: Subset228
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 228
+Alignment Patterns: 189
+Name: Subset229
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 229
+Alignment Patterns: 155
+Name: Subset230
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 230
+Alignment Patterns: 174
+Name: Subset231
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 231
+Alignment Patterns: 152
+Name: Subset232
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 232
+Alignment Patterns: 148
+Name: Subset233
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 233
+Alignment Patterns: 99
+Name: Subset234
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 234
+Alignment Patterns: 199
+Name: Subset235
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 235
+Alignment Patterns: 177
+Name: Subset236
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 236
+Alignment Patterns: 63
+Name: Subset237
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 237
+Alignment Patterns: 27
+Name: Subset238
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 238
+Alignment Patterns: 165
+Name: Subset239
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 239
+Alignment Patterns: 131
+Name: Subset240
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 240
+Alignment Patterns: 194
+Name: Subset241
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 241
+Alignment Patterns: 141
+Name: Subset242
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 242
+Alignment Patterns: 119
+Name: Subset243
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 243
+Alignment Patterns: 71
+Name: Subset244
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 244
+Alignment Patterns: 146
+Name: Subset245
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 245
+Alignment Patterns: 125
+Name: Subset246
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 246
+Alignment Patterns: 79
+Name: Subset247
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 247
+Alignment Patterns: 37
+Name: Subset248
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 248
+Alignment Patterns: 108
+Name: Subset249
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 249
+Alignment Patterns: 73
+Name: Subset250
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 250
+Alignment Patterns: 194
+Name: Subset251
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 251
+Alignment Patterns: 160
+Name: Subset252
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 252
+Alignment Patterns: 96
+Name: Subset253
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 253
+Alignment Patterns: 62
+Name: Subset254
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 254
+Alignment Patterns: 121
+Name: Subset255
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 255
+Alignment Patterns: 103
+Name: Subset256
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 256
+Alignment Patterns: 131
+Name: Subset257
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 257
+Alignment Patterns: 105
+Name: Subset258
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 258
+Alignment Patterns: 96
+Name: Subset259
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 259
+Alignment Patterns: 49
+Name: Subset260
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 260
+Alignment Patterns: 155
+Name: Subset261
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 261
+Alignment Patterns: 110
+Name: Subset262
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 262
+Alignment Patterns: 71
+Name: Subset263
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 263
+Alignment Patterns: 44
+Name: Subset264
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 264
+Alignment Patterns: 148
+Name: Subset265
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 265
+Alignment Patterns: 120
+Name: Subset266
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 266
+Alignment Patterns: 104
+Name: Subset267
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 267
+Alignment Patterns: 81
+Name: Subset268
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 268
+Alignment Patterns: 148
+Name: Subset269
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 269
+Alignment Patterns: 131
+Name: Subset270
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 270
+Alignment Patterns: 129
+Name: Subset271
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 271
+Alignment Patterns: 116
+Name: Subset272
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 272
+Alignment Patterns: 128
+Name: Subset273
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 273
+Alignment Patterns: 86
+Name: Subset274
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 274
+Alignment Patterns: 203
+Name: Subset275
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 275
+Alignment Patterns: 179
+Name: Subset276
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 276
+Alignment Patterns: 259
+Name: Subset277
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 277
+Alignment Patterns: 253
+Name: Subset278
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 278
+Alignment Patterns: 210
+Name: Subset279
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 279
+Alignment Patterns: 187
+Name: Subset280
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 280
+Alignment Patterns: 107
+Name: Subset281
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 281
+Alignment Patterns: 73
+Name: Subset282
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 282
+Alignment Patterns: 144
+Name: Subset283
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 283
+Alignment Patterns: 110
+Name: Subset284
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 284
+Alignment Patterns: 148
+Name: Subset285
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 285
+Alignment Patterns: 113
+Name: Subset286
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 286
+Alignment Patterns: 123
+Name: Subset287
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 287
+Alignment Patterns: 84
+Name: Subset288
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 288
+Alignment Patterns: 228
+Name: Subset289
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 289
+Alignment Patterns: 180
+Name: Subset290
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 290
+Alignment Patterns: 209
+Name: Subset291
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 291
+Alignment Patterns: 190
+Name: Subset292
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 292
+Alignment Patterns: 113
+Name: Subset293
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 293
+Alignment Patterns: 68
+Name: Subset294
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 294
+Alignment Patterns: 86
+Name: Subset295
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 295
+Alignment Patterns: 56
+Name: Subset296
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 296
+Alignment Patterns: 123
+Name: Subset297
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 297
+Alignment Patterns: 96
+Name: Subset298
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 298
+Alignment Patterns: 164
+Name: Subset299
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 299
+Alignment Patterns: 121
+Name: Subset300
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 300
+Alignment Patterns: 179
+Name: Subset301
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 301
+Alignment Patterns: 160
+Name: Subset302
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 302
+Alignment Patterns: 170
+Name: Subset303
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 303
+Alignment Patterns: 145
+Name: Subset304
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 304
+Alignment Patterns: 107
+Name: Subset305
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 305
+Alignment Patterns: 101
+Name: Subset306
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 306
+Alignment Patterns: 149
+Name: Subset307
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 307
+Alignment Patterns: 100
+Name: Subset308
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 308
+Alignment Patterns: 111
+Name: Subset309
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 309
+Alignment Patterns: 91
+Name: Subset310
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 310
+Alignment Patterns: 165
+Name: Subset311
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 311
+Alignment Patterns: 105
+Name: Subset312
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 312
+Alignment Patterns: 75
+Name: Subset313
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 313
+Alignment Patterns: 51
+Name: Subset314
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 314
+Alignment Patterns: 148
+Name: Subset315
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 315
+Alignment Patterns: 114
+Name: Subset316
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 316
+Alignment Patterns: 143
+Name: Subset317
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 317
+Alignment Patterns: 131
+Name: Subset318
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 318
+Alignment Patterns: 114
+Name: Subset319
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 319
+Alignment Patterns: 112
+Name: Subset320
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 320
+Alignment Patterns: 93
+Name: Subset321
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 321
+Alignment Patterns: 67
+Name: Subset322
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 322
+Alignment Patterns: 44
+Name: Subset323
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 323
+Alignment Patterns: 41
+Name: Subset324
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 324
+Alignment Patterns: 156
+Name: Subset325
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 325
+Alignment Patterns: 108
+Name: Subset326
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 326
+Alignment Patterns: 108
+Name: Subset327
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 327
+Alignment Patterns: 77
+Name: Subset328
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 328
+Alignment Patterns: 82
+Name: Subset329
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 329
+Alignment Patterns: 45
+Name: Subset330
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 330
+Alignment Patterns: 85
+Name: Subset331
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 331
+Alignment Patterns: 80
+Name: Subset332
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 332
+Alignment Patterns: 135
+Name: Subset333
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 333
+Alignment Patterns: 106
+Name: Subset334
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 334
+Alignment Patterns: 64
+Name: Subset335
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 335
+Alignment Patterns: 42
+Name: Subset336
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 336
+Alignment Patterns: 156
+Name: Subset337
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 337
+Alignment Patterns: 114
+Name: Subset338
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 338
+Alignment Patterns: 338
+Name: Subset339
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 339
+Alignment Patterns: 318
+Name: Subset340
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 340
+Alignment Patterns: 90
+Name: Subset341
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 341
+Alignment Patterns: 57
+Name: Subset342
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 342
+Alignment Patterns: 58
+Name: Subset343
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 343
+Alignment Patterns: 33
+Name: Subset344
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 344
+Alignment Patterns: 98
+Name: Subset345
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 345
+Alignment Patterns: 91
+Name: Subset346
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 346
+Alignment Patterns: 93
+Name: Subset347
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 347
+Alignment Patterns: 75
+Name: Subset348
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 348
+Alignment Patterns: 82
+Name: Subset349
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 349
+Alignment Patterns: 57
+Name: Subset350
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 350
+Alignment Patterns: 51
+Name: Subset351
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 351
+Alignment Patterns: 28
+Name: Subset352
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 352
+Alignment Patterns: 81
+Name: Subset353
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 353
+Alignment Patterns: 61
+Name: Subset354
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 354
+Alignment Patterns: 93
+Name: Subset355
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 355
+Alignment Patterns: 70
+Name: Subset356
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 356
+Alignment Patterns: 121
+Name: Subset357
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 357
+Alignment Patterns: 92
+Name: Subset358
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 358
+Alignment Patterns: 95
+Name: Subset359
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 359
+Alignment Patterns: 79
+Name: Subset360
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 360
+Alignment Patterns: 139
+Name: Subset361
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 361
+Alignment Patterns: 86
+Name: Subset362
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 362
+Alignment Patterns: 95
+Name: Subset363
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 363
+Alignment Patterns: 74
+Name: Subset364
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 364
+Alignment Patterns: 166
+Name: Subset365
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 365
+Alignment Patterns: 150
+Name: Subset366
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 366
+Alignment Patterns: 62
+Name: Subset367
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 367
+Alignment Patterns: 56
+Name: Subset368
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 368
+Alignment Patterns: 134
+Name: Subset369
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 369
+Alignment Patterns: 100
+Name: Subset370
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 370
+Alignment Patterns: 171
+Name: Subset371
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 371
+Alignment Patterns: 143
+Name: Subset372
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 372
+Alignment Patterns: 76
+Name: Subset373
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 373
+Alignment Patterns: 71
+Name: Subset374
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 374
+Alignment Patterns: 215
+Name: Subset375
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 375
+Alignment Patterns: 177
+Name: Subset376
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 376
+Alignment Patterns: 59
+Name: Subset377
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 377
+Alignment Patterns: 39
+Name: Subset378
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 378
+Alignment Patterns: 92
+Name: Subset379
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 379
+Alignment Patterns: 68
+Name: Subset380
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 380
+Alignment Patterns: 58
+Name: Subset381
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 381
+Alignment Patterns: 29
+Name: Subset382
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 382
+Alignment Patterns: 118
+Name: Subset383
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 383
+Alignment Patterns: 91
+Name: Subset384
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 384
+Alignment Patterns: 39
+Name: Subset385
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 385
+Alignment Patterns: 22
+Name: Subset386
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 386
+Alignment Patterns: 105
+Name: Subset387
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 387
+Alignment Patterns: 82
+Name: Subset388
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 388
+Alignment Patterns: 111
+Name: Subset389
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 389
+Alignment Patterns: 105
+Name: Subset390
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 390
+Alignment Patterns: 53
+Name: Subset391
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 391
+Alignment Patterns: 37
+Name: Subset392
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 392
+Alignment Patterns: 73
+Name: Subset393
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 393
+Alignment Patterns: 68
+Name: Subset394
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 394
+Alignment Patterns: 69
+Name: Subset395
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 395
+Alignment Patterns: 63
+Name: Subset396
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 396
+Alignment Patterns: 66
+Name: Subset397
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 397
+Alignment Patterns: 58
+Name: Subset398
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 398
+Alignment Patterns: 60
+Name: Subset399
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 399
+Alignment Patterns: 35
+Name: Subset400
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+/cluster/work/users/michaelm/notothenioid_phylogenomics/bin/partitionfinder-2.1.1/programs/raxml_pthreads.linux -f E -s ./analysis/start_tree/filtered_source.phy -m GTRGAMMA -O -n fastTREE -# 1 -p 123456789 -q ./analysis/start_tree/partitions.txt -e 10 -w /cluster/work/users/michaelm/notothenioid_phylogenomics/res/partitionfinder/permissive/analysis/analysis/start_tree -T 4 
+
+
+Time after init : 0.757496
+Time after init and starting tree: 6.142288
+Time after init, starting tree, mod opt: 115.752516
+Partion 0 number of Cats: 1
+Partion 1 number of Cats: 1
+Partion 2 number of Cats: 1
+Partion 3 number of Cats: 1
+Partion 4 number of Cats: 1
+Partion 5 number of Cats: 1
+Partion 6 number of Cats: 1
+Partion 7 number of Cats: 1
+Partion 8 number of Cats: 1
+Partion 9 number of Cats: 1
+Partion 10 number of Cats: 1
+Partion 11 number of Cats: 1
+Partion 12 number of Cats: 1
+Partion 13 number of Cats: 1
+Partion 14 number of Cats: 1
+Partion 15 number of Cats: 1
+Partion 16 number of Cats: 1
+Partion 17 number of Cats: 1
+Partion 18 number of Cats: 1
+Partion 19 number of Cats: 1
+Partion 20 number of Cats: 1
+Partion 21 number of Cats: 1
+Partion 22 number of Cats: 1
+Partion 23 number of Cats: 1
+Partion 24 number of Cats: 1
+Partion 25 number of Cats: 1
+Partion 26 number of Cats: 1
+Partion 27 number of Cats: 1
+Partion 28 number of Cats: 1
+Partion 29 number of Cats: 1
+Partion 30 number of Cats: 1
+Partion 31 number of Cats: 1
+Partion 32 number of Cats: 1
+Partion 33 number of Cats: 1
+Partion 34 number of Cats: 1
+Partion 35 number of Cats: 1
+Partion 36 number of Cats: 1
+Partion 37 number of Cats: 1
+Partion 38 number of Cats: 1
+Partion 39 number of Cats: 1
+Partion 40 number of Cats: 1
+Partion 41 number of Cats: 1
+Partion 42 number of Cats: 1
+Partion 43 number of Cats: 1
+Partion 44 number of Cats: 1
+Partion 45 number of Cats: 1
+Partion 46 number of Cats: 1
+Partion 47 number of Cats: 1
+Partion 48 number of Cats: 1
+Partion 49 number of Cats: 1
+Partion 50 number of Cats: 1
+Partion 51 number of Cats: 1
+Partion 52 number of Cats: 1
+Partion 53 number of Cats: 1
+Partion 54 number of Cats: 1
+Partion 55 number of Cats: 1
+Partion 56 number of Cats: 1
+Partion 57 number of Cats: 1
+Partion 58 number of Cats: 1
+Partion 59 number of Cats: 1
+Partion 60 number of Cats: 1
+Partion 61 number of Cats: 1
+Partion 62 number of Cats: 1
+Partion 63 number of Cats: 1
+Partion 64 number of Cats: 1
+Partion 65 number of Cats: 1
+Partion 66 number of Cats: 1
+Partion 67 number of Cats: 1
+Partion 68 number of Cats: 1
+Partion 69 number of Cats: 1
+Partion 70 number of Cats: 1
+Partion 71 number of Cats: 1
+Partion 72 number of Cats: 1
+Partion 73 number of Cats: 1
+Partion 74 number of Cats: 1
+Partion 75 number of Cats: 1
+Partion 76 number of Cats: 1
+Partion 77 number of Cats: 1
+Partion 78 number of Cats: 1
+Partion 79 number of Cats: 1
+Partion 80 number of Cats: 1
+Partion 81 number of Cats: 1
+Partion 82 number of Cats: 1
+Partion 83 number of Cats: 1
+Partion 84 number of Cats: 1
+Partion 85 number of Cats: 1
+Partion 86 number of Cats: 1
+Partion 87 number of Cats: 1
+Partion 88 number of Cats: 1
+Partion 89 number of Cats: 1
+Partion 90 number of Cats: 1
+Partion 91 number of Cats: 1
+Partion 92 number of Cats: 1
+Partion 93 number of Cats: 1
+Partion 94 number of Cats: 1
+Partion 95 number of Cats: 1
+Partion 96 number of Cats: 1
+Partion 97 number of Cats: 1
+Partion 98 number of Cats: 1
+Partion 99 number of Cats: 1
+Partion 100 number of Cats: 1
+Partion 101 number of Cats: 1
+Partion 102 number of Cats: 1
+Partion 103 number of Cats: 1
+Partion 104 number of Cats: 1
+Partion 105 number of Cats: 1
+Partion 106 number of Cats: 1
+Partion 107 number of Cats: 1
+Partion 108 number of Cats: 1
+Partion 109 number of Cats: 1
+Partion 110 number of Cats: 1
+Partion 111 number of Cats: 1
+Partion 112 number of Cats: 1
+Partion 113 number of Cats: 1
+Partion 114 number of Cats: 1
+Partion 115 number of Cats: 1
+Partion 116 number of Cats: 1
+Partion 117 number of Cats: 1
+Partion 118 number of Cats: 1
+Partion 119 number of Cats: 1
+Partion 120 number of Cats: 1
+Partion 121 number of Cats: 1
+Partion 122 number of Cats: 1
+Partion 123 number of Cats: 1
+Partion 124 number of Cats: 1
+Partion 125 number of Cats: 1
+Partion 126 number of Cats: 1
+Partion 127 number of Cats: 1
+Partion 128 number of Cats: 1
+Partion 129 number of Cats: 1
+Partion 130 number of Cats: 1
+Partion 131 number of Cats: 1
+Partion 132 number of Cats: 1
+Partion 133 number of Cats: 1
+Partion 134 number of Cats: 1
+Partion 135 number of Cats: 1
+Partion 136 number of Cats: 1
+Partion 137 number of Cats: 1
+Partion 138 number of Cats: 1
+Partion 139 number of Cats: 1
+Partion 140 number of Cats: 1
+Partion 141 number of Cats: 1
+Partion 142 number of Cats: 1
+Partion 143 number of Cats: 1
+Partion 144 number of Cats: 1
+Partion 145 number of Cats: 1
+Partion 146 number of Cats: 1
+Partion 147 number of Cats: 1
+Partion 148 number of Cats: 1
+Partion 149 number of Cats: 1
+Partion 150 number of Cats: 1
+Partion 151 number of Cats: 1
+Partion 152 number of Cats: 1
+Partion 153 number of Cats: 1
+Partion 154 number of Cats: 1
+Partion 155 number of Cats: 1
+Partion 156 number of Cats: 1
+Partion 157 number of Cats: 1
+Partion 158 number of Cats: 1
+Partion 159 number of Cats: 1
+Partion 160 number of Cats: 1
+Partion 161 number of Cats: 1
+Partion 162 number of Cats: 1
+Partion 163 number of Cats: 1
+Partion 164 number of Cats: 1
+Partion 165 number of Cats: 1
+Partion 166 number of Cats: 1
+Partion 167 number of Cats: 1
+Partion 168 number of Cats: 1
+Partion 169 number of Cats: 1
+Partion 170 number of Cats: 1
+Partion 171 number of Cats: 1
+Partion 172 number of Cats: 1
+Partion 173 number of Cats: 1
+Partion 174 number of Cats: 1
+Partion 175 number of Cats: 1
+Partion 176 number of Cats: 1
+Partion 177 number of Cats: 1
+Partion 178 number of Cats: 1
+Partion 179 number of Cats: 1
+Partion 180 number of Cats: 1
+Partion 181 number of Cats: 1
+Partion 182 number of Cats: 1
+Partion 183 number of Cats: 1
+Partion 184 number of Cats: 1
+Partion 185 number of Cats: 1
+Partion 186 number of Cats: 1
+Partion 187 number of Cats: 1
+Partion 188 number of Cats: 1
+Partion 189 number of Cats: 1
+Partion 190 number of Cats: 1
+Partion 191 number of Cats: 1
+Partion 192 number of Cats: 1
+Partion 193 number of Cats: 1
+Partion 194 number of Cats: 1
+Partion 195 number of Cats: 1
+Partion 196 number of Cats: 1
+Partion 197 number of Cats: 1
+Partion 198 number of Cats: 1
+Partion 199 number of Cats: 1
+Partion 200 number of Cats: 1
+Partion 201 number of Cats: 1
+Partion 202 number of Cats: 1
+Partion 203 number of Cats: 1
+Partion 204 number of Cats: 1
+Partion 205 number of Cats: 1
+Partion 206 number of Cats: 1
+Partion 207 number of Cats: 1
+Partion 208 number of Cats: 1
+Partion 209 number of Cats: 1
+Partion 210 number of Cats: 1
+Partion 211 number of Cats: 1
+Partion 212 number of Cats: 1
+Partion 213 number of Cats: 1
+Partion 214 number of Cats: 1
+Partion 215 number of Cats: 1
+Partion 216 number of Cats: 1
+Partion 217 number of Cats: 1
+Partion 218 number of Cats: 1
+Partion 219 number of Cats: 1
+Partion 220 number of Cats: 1
+Partion 221 number of Cats: 1
+Partion 222 number of Cats: 1
+Partion 223 number of Cats: 1
+Partion 224 number of Cats: 1
+Partion 225 number of Cats: 1
+Partion 226 number of Cats: 1
+Partion 227 number of Cats: 1
+Partion 228 number of Cats: 1
+Partion 229 number of Cats: 1
+Partion 230 number of Cats: 1
+Partion 231 number of Cats: 1
+Partion 232 number of Cats: 1
+Partion 233 number of Cats: 1
+Partion 234 number of Cats: 1
+Partion 235 number of Cats: 1
+Partion 236 number of Cats: 1
+Partion 237 number of Cats: 1
+Partion 238 number of Cats: 1
+Partion 239 number of Cats: 1
+Partion 240 number of Cats: 1
+Partion 241 number of Cats: 1
+Partion 242 number of Cats: 1
+Partion 243 number of Cats: 1
+Partion 244 number of Cats: 1
+Partion 245 number of Cats: 1
+Partion 246 number of Cats: 1
+Partion 247 number of Cats: 1
+Partion 248 number of Cats: 1
+Partion 249 number of Cats: 1
+Partion 250 number of Cats: 1
+Partion 251 number of Cats: 1
+Partion 252 number of Cats: 1
+Partion 253 number of Cats: 1
+Partion 254 number of Cats: 1
+Partion 255 number of Cats: 1
+Partion 256 number of Cats: 1
+Partion 257 number of Cats: 1
+Partion 258 number of Cats: 1
+Partion 259 number of Cats: 1
+Partion 260 number of Cats: 1
+Partion 261 number of Cats: 1
+Partion 262 number of Cats: 1
+Partion 263 number of Cats: 1
+Partion 264 number of Cats: 1
+Partion 265 number of Cats: 1
+Partion 266 number of Cats: 1
+Partion 267 number of Cats: 1
+Partion 268 number of Cats: 1
+Partion 269 number of Cats: 1
+Partion 270 number of Cats: 1
+Partion 271 number of Cats: 1
+Partion 272 number of Cats: 1
+Partion 273 number of Cats: 1
+Partion 274 number of Cats: 1
+Partion 275 number of Cats: 1
+Partion 276 number of Cats: 1
+Partion 277 number of Cats: 1
+Partion 278 number of Cats: 1
+Partion 279 number of Cats: 1
+Partion 280 number of Cats: 1
+Partion 281 number of Cats: 1
+Partion 282 number of Cats: 1
+Partion 283 number of Cats: 1
+Partion 284 number of Cats: 1
+Partion 285 number of Cats: 1
+Partion 286 number of Cats: 1
+Partion 287 number of Cats: 1
+Partion 288 number of Cats: 1
+Partion 289 number of Cats: 1
+Partion 290 number of Cats: 1
+Partion 291 number of Cats: 1
+Partion 292 number of Cats: 1
+Partion 293 number of Cats: 1
+Partion 294 number of Cats: 1
+Partion 295 number of Cats: 1
+Partion 296 number of Cats: 1
+Partion 297 number of Cats: 1
+Partion 298 number of Cats: 1
+Partion 299 number of Cats: 1
+Partion 300 number of Cats: 1
+Partion 301 number of Cats: 1
+Partion 302 number of Cats: 1
+Partion 303 number of Cats: 1
+Partion 304 number of Cats: 1
+Partion 305 number of Cats: 1
+Partion 306 number of Cats: 1
+Partion 307 number of Cats: 1
+Partion 308 number of Cats: 1
+Partion 309 number of Cats: 1
+Partion 310 number of Cats: 1
+Partion 311 number of Cats: 1
+Partion 312 number of Cats: 1
+Partion 313 number of Cats: 1
+Partion 314 number of Cats: 1
+Partion 315 number of Cats: 1
+Partion 316 number of Cats: 1
+Partion 317 number of Cats: 1
+Partion 318 number of Cats: 1
+Partion 319 number of Cats: 1
+Partion 320 number of Cats: 1
+Partion 321 number of Cats: 1
+Partion 322 number of Cats: 1
+Partion 323 number of Cats: 1
+Partion 324 number of Cats: 1
+Partion 325 number of Cats: 1
+Partion 326 number of Cats: 1
+Partion 327 number of Cats: 1
+Partion 328 number of Cats: 1
+Partion 329 number of Cats: 1
+Partion 330 number of Cats: 1
+Partion 331 number of Cats: 1
+Partion 332 number of Cats: 1
+Partion 333 number of Cats: 1
+Partion 334 number of Cats: 1
+Partion 335 number of Cats: 1
+Partion 336 number of Cats: 1
+Partion 337 number of Cats: 1
+Partion 338 number of Cats: 1
+Partion 339 number of Cats: 1
+Partion 340 number of Cats: 1
+Partion 341 number of Cats: 1
+Partion 342 number of Cats: 1
+Partion 343 number of Cats: 1
+Partion 344 number of Cats: 1
+Partion 345 number of Cats: 1
+Partion 346 number of Cats: 1
+Partion 347 number of Cats: 1
+Partion 348 number of Cats: 1
+Partion 349 number of Cats: 1
+Partion 350 number of Cats: 1
+Partion 351 number of Cats: 1
+Partion 352 number of Cats: 1
+Partion 353 number of Cats: 1
+Partion 354 number of Cats: 1
+Partion 355 number of Cats: 1
+Partion 356 number of Cats: 1
+Partion 357 number of Cats: 1
+Partion 358 number of Cats: 1
+Partion 359 number of Cats: 1
+Partion 360 number of Cats: 1
+Partion 361 number of Cats: 1
+Partion 362 number of Cats: 1
+Partion 363 number of Cats: 1
+Partion 364 number of Cats: 1
+Partion 365 number of Cats: 1
+Partion 366 number of Cats: 1
+Partion 367 number of Cats: 1
+Partion 368 number of Cats: 1
+Partion 369 number of Cats: 1
+Partion 370 number of Cats: 1
+Partion 371 number of Cats: 1
+Partion 372 number of Cats: 1
+Partion 373 number of Cats: 1
+Partion 374 number of Cats: 1
+Partion 375 number of Cats: 1
+Partion 376 number of Cats: 1
+Partion 377 number of Cats: 1
+Partion 378 number of Cats: 1
+Partion 379 number of Cats: 1
+Partion 380 number of Cats: 1
+Partion 381 number of Cats: 1
+Partion 382 number of Cats: 1
+Partion 383 number of Cats: 1
+Partion 384 number of Cats: 1
+Partion 385 number of Cats: 1
+Partion 386 number of Cats: 1
+Partion 387 number of Cats: 1
+Partion 388 number of Cats: 1
+Partion 389 number of Cats: 1
+Partion 390 number of Cats: 1
+Partion 391 number of Cats: 1
+Partion 392 number of Cats: 1
+Partion 393 number of Cats: 1
+Partion 394 number of Cats: 1
+Partion 395 number of Cats: 1
+Partion 396 number of Cats: 1
+Partion 397 number of Cats: 1
+Partion 398 number of Cats: 1
+Partion 399 number of Cats: 1
+LH after SPRs -917661.893345, after NNI -917661.301298
+LH after SPRs -917661.296055, after NNI -917661.266798
+RAxML fast tree written to file: /cluster/work/users/michaelm/notothenioid_phylogenomics/res/partitionfinder/permissive/analysis/analysis/start_tree/RAxML_fastTree.fastTREE
+
+Model parameters (binary file format) written to: /cluster/work/users/michaelm/notothenioid_phylogenomics/res/partitionfinder/permissive/analysis/analysis/start_tree/RAxML_binaryModelParameters.fastTREE
+Total execution time: 227.734254
+Good bye ... 

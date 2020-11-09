@@ -1,0 +1,48 @@
+#nexus
+begin data;
+  dimensions ntax = 41 nchar = 178;
+  format datatype=dna missing=? gap=-;
+  matrix
+  A_call  ttaacccattgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataacctcaaaaaatactccgtcccccccccaagcacgacgcattccctgggcaatcaaccaccccattaccttaaagca
+  AkaNud  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaaatactccgccgctctcccaagcacgacgcattccctgggcaatcaaccaccccagtaacttaaagca
+  ArtSko  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaaatactccgccgctctcccaagcacgacgcattccctgggcaatcaaccaccccagtaacttaaagca
+  A_test  taaccccattgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaaatactccgtccctcccccaagcacgacgcattccctgggcaatcaaccaccccattaccttgaagca
+  BatMar  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaaatactccgccgctctcccaagcacgacgcattccctgggcaatcaaccaccccagtaacttaaagca
+  BovDia  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaaatactccgtccctcccccaagcacgacgcattccctgggcaatcaaccaccccattaccttaaagca
+  BovVar  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaaatactccgtccctcccccaagcacgacgcattccctgggcaatcaaccaccccattaccttaaagca
+  ChaAce  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaaatactccgccgctctcccaagcacgacgcattccctgggcaatcaaccaccccagtaccttaaagca
+  ChaWil  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaaatactccgccgctctcccaagcacgacgcattccctgggcaatcaaccaccccagtaccttaaagca
+  ChiDew  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaaatactccgccgttctcccaagcacgacgcattccctgggcaatcaaccaccccagtaccttaaagca
+  CotGob  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaagtactccgcccctcccccaagcacgacgcattccctgggcaatcaaccaccccattaccttaaagca
+  CryAnt  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaaatactccgccgctctcccaagcacgacgcattccctgggcaatcaaccaccccagtaccttaaagca
+  DisMaw  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaaatactccgccgctctcccaagcacgacgcattccctgggcaatcaaccaccccagtaccttaaagca
+  DolLon  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaaatactccgccgctctcccaagcacgacgcattccctgggcaatcaaccaccccagtaacttaaagca
+  EleMac  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgc--------------------------------------------------------------------------------------------------------------
+  G_acul  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtatagatcaaacgctgataagcctaaaaaatactcggcccctcccccaagcacgacgcattccctgggcaatcaaccaccccattacgtttaagca
+  GobGib  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggt-----------------------------------------------------------------------------------------------
+  GymAcu  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaaatactccgccgctctcccaagcacgacgcattccctgggcaatcaaccaccccagtaccttaaagca
+  HarAnt  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaaatactccgccgctctcccaagcacgacgcattccctgggcaatcaaccaccccagtaacttaaagca
+  HarKer  ttaccccgttgagttgttacaatacttacagat-------------------------------------------------------------------------------------------------------------------------------------------------
+  H_come  ttacgccgttgggttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatgaaacactgataacctcaaaaaataccccggccctcccccgagcacgacgcattccccgggcaatcaaccacctcacagccgtaaagca
+  HisVel  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataacctta-----------------------------------------------------------------------
+  LepLar  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaaatactccgccgctctcccaagcacgacgcattccctgggcaatcaaccaccccagtaccttaaagca
+  LepNud  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaaatactccgccgctctcccaagcacgacgcattccctgggcaatcaaccaccccagtaccttaaagca
+  LepSqu  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaaatactccgccgctctcccaagcacgacgcattccctgggcaatcaatcaccccagtaccttaaagca
+  M_arma  taaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaaatactccgtccctcccccgagcgcgacgcattccctgggcaatcaaccaccccattaccttaaagca
+  NotRos  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttcaaaaatacgccgccgctatcccaagcacgacgcattccctgggcaatcaaccaccccagtaccttaaagca
+  O_lati  taaccccgttgggttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataacctcaaaaaatactccgtcccccccccaagcacgacgcattccctgggcaatcaaccaccccataaccttaaagca
+  PagMac  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaaatactccgccgctctcccaagcacgacgcattccctgggcaatcaaccaccccagtaccttaaagca
+  PatGun  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagtt--------------------------------------------------------------------------------------------------
+  P_fluv  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaaatacttcgcccctcccccaagcacgacgcattccctgggcaatcaatcaccccattaccttaaagca
+  PleAnt  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaaatactccgccgctctcccaagcacgacgcattccctgggcaatcaaccaccccagtaccttaaagca
+  P_magn  tgaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaaatactccgtcccccccccaagcacgacgcatcccctgggcaatcaaccatcccagaatcttgaagca
+  PseGeo  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaaatactccgccgctctcccaagcacgacgcattccctgggcaatcaaccaccccagtaccttaaagca
+  S_nigr  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaaatactcggcccgtcccccaagcacgacgcattccctgggcaatcaaccaccccatcacctttaagca
+  TreBer  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaaatactccgccgctctcccaagcacgacgcattccctgggcaatcaaccaccccagtaccttaaagca
+  TreHan  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaaatactccgccgctctcccaagcacgacgcattccctgggcaatcaaccaccccagtaccttaaagca
+  TreLoe  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaaatactccgccgctctcccaagcacgacgcattccctgggcaatcaaccaccccagtaccttaaagca
+  TreSco  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaaatactccgccgctctcccaagcacgacgcattccctgggcaatcaaccaccccagtaccttaaagca
+  T_rubr  tcaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaaatattccgttccctccccaagcacgacgcattccctgggcaatcaaccaccccatt--cttaaagca
+  VomInf  ttaccccgttgagttgttacaatacttacagattagtaacaatttatagtcatgtaataagtttacgcttataaatagttggtctagatcaaacactgataaccttaaaaaatactccgccgctctcccaagcacgacgcattccctgggcaatcaaccaccccagtaacttaaagca
+;
+end;

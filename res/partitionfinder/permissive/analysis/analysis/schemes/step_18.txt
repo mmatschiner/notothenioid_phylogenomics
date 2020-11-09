@@ -1,0 +1,2339 @@
+Scheme Name       : step_18
+Scheme lnL        : -911622.1434936523
+Scheme AIC        : 1831040.28699
+Number of params  : 3898
+Number of sites   : 206048
+Number of subsets : 382
+
+Subset | Best Model | # sites    | subset id                        | Partition names                                                                                     
+1      | GTR+G      | 1440       | a5005318abfad535269a0b2c0354b28c | EOG090C0087_1                                                                                       
+2      | GTR+G      | 1440       | 5506b9d386973dd93eb2f4bff54027f8 | EOG090C0087_2                                                                                       
+3      | GTR+G      | 1947       | 9ffa34d324fc2b25c3961a055a6325b5 | EOG090C00AN_1                                                                                       
+4      | GTR+G      | 1947       | 3b3de80234a94cb2b7d18e4a3c26fc15 | EOG090C00AN_2                                                                                       
+5      | GTR+G      | 1473       | 676130f905d3d2a8e8b7b1012a7fbb38 | EOG090C00BE_1                                                                                       
+6      | GTR+G      | 1473       | beff2ec1fd6bb66d81094a96588ff60e | EOG090C00BE_2                                                                                       
+7      | GTR+G      | 1869       | 76db96fe02a892a59180c6d0c81c2d3d | EOG090C00BT_1                                                                                       
+8      | GTR+G      | 1869       | 9a63b89380892d8f143af3edf138c1cf | EOG090C00BT_2                                                                                       
+9      | GTR+G      | 1519       | dca8ff4057eb4bb1f0ec0d4c6cb52551 | EOG090C00HJ_1                                                                                       
+10     | GTR+G      | 1519       | 135ef6f9c7f2f61382d87d2f2a44058a | EOG090C00HJ_2                                                                                       
+11     | GTR+G      | 2218       | 7d23f57c973cebd6d4e1eab564b7218e | EOG090C095H_1, EOG090C00HT_1, EOG090C0814_1                                                         
+12     | GTR+G      | 1643       | 87d9e311b3937ccb78b07ba7a49ebc35 | EOG090C00HT_2                                                                                       
+13     | GTR+G      | 755        | 376908a6f2abfcc0c51123977f07e615 | EOG090C00SW_1                                                                                       
+14     | GTR+G      | 755        | cc789b0a4990cf11f968b55afd6bc4b1 | EOG090C00SW_2                                                                                       
+15     | GTR+G      | 1365       | 4c3c234ec9e02237f87345d44b4138f3 | EOG090C00VF_1                                                                                       
+16     | GTR+G      | 1365       | 2baf649cf425d320f4335f881e736235 | EOG090C00VF_2                                                                                       
+17     | GTR+G      | 783        | b60058775956af4bcee61d8e53520682 | EOG090C010X_1                                                                                       
+18     | GTR+G      | 783        | 2d72c067aaf6b675f22112bcb9ca5277 | EOG090C010X_2                                                                                       
+19     | GTR+G      | 1086       | 9d176c9cbcbb8b431b67da3eae4db2d8 | EOG090C014P_1                                                                                       
+20     | GTR+G      | 1086       | 5e0de1d154839e45351f0c02ed371b05 | EOG090C014P_2                                                                                       
+21     | GTR+G      | 1295       | 4736ea1d7c2fb80ca9e3a78a1814c2f4 | EOG090C016M_1                                                                                       
+22     | GTR+G      | 1295       | d50022e790e3bf6848ce789cbd5a4608 | EOG090C016M_2                                                                                       
+23     | GTR+G      | 754        | 466e808b72213749268eb37fbecdc9e6 | EOG090C01AQ_1                                                                                       
+24     | GTR+G      | 754        | 9451548c0c2e3448096cf8f13a395650 | EOG090C01AQ_2                                                                                       
+25     | GTR+G      | 1044       | 4a4d94c771be616b3c8c6d5d93a04000 | EOG090C01BG_1                                                                                       
+26     | GTR+G      | 1044       | a9f56b6abdfba0f38551ee8ecdfe53ce | EOG090C01BG_2                                                                                       
+27     | GTR+G      | 731        | bf59e2a8977c2e8b71b6d0c0654c0cb4 | EOG090C01CW_1                                                                                       
+28     | GTR+G      | 731        | 97dc05f97d5d13dc98cd583e9519c823 | EOG090C01CW_2                                                                                       
+29     | GTR+G      | 1004       | c3f1087586b534f09f94e66e73d80ce4 | EOG090C01LV_1                                                                                       
+30     | GTR+G      | 1004       | 7ec77d952bc79327effdf6e63a240f03 | EOG090C01LV_2                                                                                       
+31     | GTR+G      | 1185       | b68150d0c499d7001a11fe957f93d9e5 | EOG090C01M7_1                                                                                       
+32     | GTR+G      | 1185       | 8545d085a777f29aa3a18b599e087e99 | EOG090C01M7_2                                                                                       
+33     | GTR+G      | 680        | 2c6f660e2c4afa3d4338bfaa68167623 | EOG090C01NW_1                                                                                       
+34     | GTR+G      | 680        | 0f7cd4ff2768fc4949ef1a2295a6f2a9 | EOG090C01NW_2                                                                                       
+35     | GTR+G      | 897        | 3b79ddbda6a9e2740cbefe9bb89871f0 | EOG090C01O3_1                                                                                       
+36     | GTR+G      | 897        | 646f2f81ed69bdea57fafcaf756b9c08 | EOG090C01O3_2                                                                                       
+37     | GTR+G      | 650        | ae7584ff4bb71949cb2f013f2deb827c | EOG090C01O8_1                                                                                       
+38     | GTR+G      | 1090       | 338340005ce94cadb32737b52bd9f40f | EOG090C07EK_2, EOG090C01O8_2                                                                        
+39     | GTR+G      | 971        | 4ed59c059d49921fb6dfaf27eed951e4 | EOG090C01QP_1                                                                                       
+40     | GTR+G      | 971        | b0e9b0902a08ff6e5f05046db507a413 | EOG090C01QP_2                                                                                       
+41     | GTR+G      | 565        | 6078670d7ee1adac047223418823018b | EOG090C01S4_1                                                                                       
+42     | GTR+G      | 565        | 867b5dd952cdd755c2a3bea8a1db605d | EOG090C01S4_2                                                                                       
+43     | GTR+G      | 1376       | b482bb5698abad1a8dcdfa963a8f990c | EOG090C0942_1, EOG090C01T7_1                                                                        
+44     | GTR+G      | 1090       | 6bbb3c2556f7fa245e676e5cebf730a3 | EOG090C01T7_2                                                                                       
+45     | GTR+G      | 420        | edb0c2e30ee026140e1c49dd49b0bdfb | EOG090C01W9_1                                                                                       
+46     | GTR+G      | 420        | 11e3d371f1e9d201f062b334f211c52c | EOG090C01W9_2                                                                                       
+47     | GTR+G      | 676        | 0f319b136d470009964a20a3f3fe4183 | EOG090C022Z_1                                                                                       
+48     | GTR+G      | 676        | b439c4cba6d74fb6a91912526da651f6 | EOG090C022Z_2                                                                                       
+49     | GTR+G      | 699        | 8dca32604caefae7210f69fbafdaabc2 | EOG090C027B_1                                                                                       
+50     | GTR+G      | 699        | 900b36f973117304c52ec1a9fa0cdd46 | EOG090C027B_2                                                                                       
+51     | GTR+G      | 1038       | b35a476897f0c3a5fb124a0375c07acd | EOG090C027E_1                                                                                       
+52     | GTR+G      | 1747       | ca27d8af631a5af3bca7e5c611804313 | EOG090C027E_2, EOG090C02JH_2                                                                        
+53     | GTR+G      | 996        | a15d2021d7c813fc5bfc0acc80904325 | EOG090C02AS_1                                                                                       
+54     | GTR+G      | 996        | 04bcfb5f5918572d79382fa7a1ed3172 | EOG090C02AS_2                                                                                       
+55     | GTR+G      | 875        | c8324439002a42ba58d866f29a7f2ee1 | EOG090C02EK_1                                                                                       
+56     | GTR+G      | 875        | a71a9e02dbb82dde4fa489e5baf1ab7e | EOG090C02EK_2                                                                                       
+57     | GTR+G      | 769        | 250d2344d290bf785315f9b237ea7eed | EOG090C02FU_1                                                                                       
+58     | GTR+G      | 769        | 198fc96071850eb010cf040dbc98aced | EOG090C02FU_2                                                                                       
+59     | GTR+G      | 630        | f772c724b084902d8f494ae25c28b270 | EOG090C02GG_1                                                                                       
+60     | GTR+G      | 630        | 62ed5d4c695fe44430ff941eb17011e7 | EOG090C02GG_2                                                                                       
+61     | GTR+G      | 709        | d70652bb76ac0b4a80dd0dbc2af1a6cb | EOG090C02JH_1                                                                                       
+62     | GTR+G      | 1182       | 5202aa7b78447a21f53b605f0d45c205 | EOG090C02KW_1                                                                                       
+63     | GTR+G      | 1182       | 74060a69f92706b0b974b921c5f0b67d | EOG090C02KW_2                                                                                       
+64     | GTR+G      | 663        | df1f0bc1447b8f7668c8c19f5c2e243d | EOG090C02QR_1                                                                                       
+65     | GTR+G      | 663        | 00e6cff4d902ce41b3f3f1e8b88f9e0b | EOG090C02QR_2                                                                                       
+66     | GTR+G      | 832        | cae5e9d133d291277802ba39bf475555 | EOG090C02S2_1                                                                                       
+67     | GTR+G      | 832        | c67ff80d66d25367fa0a9ee82e540dfa | EOG090C02S2_2                                                                                       
+68     | GTR+G      | 724        | 1fcc188aeebfeda04b941e5a53f2d8f4 | EOG090C02TX_1                                                                                       
+69     | GTR+G      | 724        | b93723481e4839a82405b6c3983835cd | EOG090C02TX_2                                                                                       
+70     | GTR+G      | 998        | bb6174fb61570b240597ada166584613 | EOG090C06YQ_1, EOG090C02XJ_1                                                                        
+71     | GTR+G      | 539        | f08ac230d9b565fe9bb9a0aa9f7063f1 | EOG090C02XJ_2                                                                                       
+72     | GTR+G      | 736        | 7bbf88d58108169478bbc6e96f39ac1a | EOG090C031H_1                                                                                       
+73     | GTR+G      | 736        | c54c41bfdd5e3d7ac034d2dfc62e910d | EOG090C031H_2                                                                                       
+74     | GTR+G      | 709        | 70ad0ce14c666e772977086d4602b638 | EOG090C031J_1                                                                                       
+75     | GTR+G      | 709        | ea8803edb6f2189e3525066176273f40 | EOG090C031J_2                                                                                       
+76     | GTR+G      | 799        | 3ee5be37d5cabfa95f73656c13cbec19 | EOG090C0349_1                                                                                       
+77     | GTR+G      | 799        | 992cb2f02321515951c6239a69d61692 | EOG090C0349_2                                                                                       
+78     | GTR+G      | 578        | 787d0a74c0899cb4dca5f4354e6ed0cf | EOG090C034S_1                                                                                       
+79     | GTR+G      | 578        | fbed3deed39f671307d8b40c0beffe32 | EOG090C034S_2                                                                                       
+80     | GTR+G      | 782        | dbf2c261fd0655568beb9f926227f886 | EOG090C035W_1                                                                                       
+81     | GTR+G      | 1142       | 0ed2e2a5417bae048bc2106fa020a7b0 | EOG090C035W_2, EOG090C084P_2                                                                        
+82     | GTR+G      | 927        | e6e2ad80bdb818eb0efd689ed7f8aba7 | EOG090C037V_1, EOG090C0B2X_1                                                                        
+83     | GTR+G      | 665        | 5065224014fad3de01ce864054538cc7 | EOG090C037V_2                                                                                       
+84     | GTR+G      | 694        | 9eb8b1ddbe823302e528d92c0e5ca100 | EOG090C039G_1                                                                                       
+85     | GTR+G      | 694        | 7207dd62c729d50198c4258eb12ae9d6 | EOG090C039G_2                                                                                       
+86     | GTR+G      | 557        | 9a1426567c967da9f3bf1267d3106de4 | EOG090C03F4_1                                                                                       
+87     | GTR+G      | 557        | 2c8cf39ede3ba2a021ae7652eae33aef | EOG090C03F4_2                                                                                       
+88     | GTR+G      | 738        | 3854f53b26a70cbb990c59e1127af50f | EOG090C03FG_1                                                                                       
+89     | GTR+G      | 1054       | 8e47d5448641e0e5e9dcbc4fdc520e3c | EOG090C03FG_2, EOG090C04TR_2                                                                        
+90     | GTR+G      | 530        | a20ef7917f639429e08bd0ca3ba93046 | EOG090C03FJ_1                                                                                       
+91     | GTR+G      | 530        | b740897f4e6e86003735db971c1350eb | EOG090C03FJ_2                                                                                       
+92     | GTR+G      | 705        | f9f470a26b8072c6faad8b915adab698 | EOG090C03MY_1                                                                                       
+93     | GTR+G      | 705        | e9ecc23d9868d21d433c8d8b1878a30e | EOG090C03MY_2                                                                                       
+94     | GTR+G      | 462        | 43047e19a9be3469dbd27493b2bc1232 | EOG090C03OC_1                                                                                       
+95     | GTR+G      | 462        | 52fbe466e98664a98ee58085eea67bda | EOG090C03OC_2                                                                                       
+96     | GTR+G      | 1317       | a941b1cab20931b6190466a60953ea05 | EOG090C03Q4_1                                                                                       
+97     | GTR+G      | 1317       | cbcd441d2531106642c535129f2b9acc | EOG090C03Q4_2                                                                                       
+98     | GTR+G      | 300        | 65a16d5e6fb0faddf7af7b1faaf86857 | EOG090C03SO_1                                                                                       
+99     | GTR+G      | 300        | d57b2f7f91c8fab9e951d2f85bcd0c86 | EOG090C03SO_2                                                                                       
+100    | GTR+G      | 619        | 5138c228648523c752866f92721671ff | EOG090C03TA_1                                                                                       
+101    | GTR+G      | 619        | 052f3d108d32ae07a1784eafb6c18279 | EOG090C03TA_2                                                                                       
+102    | GTR+G      | 633        | 4b8c85eadc335e3d6b0db654d96c9892 | EOG090C042A_1                                                                                       
+103    | GTR+G      | 633        | 1228fee840fec6ac5deab544bd027c7e | EOG090C042A_2                                                                                       
+104    | GTR+G      | 515        | 8b1872c55c188b0852768eb6d66cfc54 | EOG090C048B_1                                                                                       
+105    | GTR+G      | 515        | 5acfa1f73e9a757b16eb1f14f5463451 | EOG090C048B_2                                                                                       
+106    | GTR+G      | 717        | bad13756db1ca61a87e3f3ba96f09240 | EOG090C04H0_1                                                                                       
+107    | GTR+G      | 909        | 586997860bd6e65ce77ddc0abeddbf9e | EOG090C04H0_2, EOG090C0C6Y_2                                                                        
+108    | GTR+G      | 611        | 87c0097ca0a3379fb2a0b8ce7cbb35a3 | EOG090C04IP_1                                                                                       
+109    | GTR+G      | 611        | e57cd79b5d8b3f9e244381d1c2f72465 | EOG090C04IP_2                                                                                       
+110    | GTR+G      | 599        | a7aff6a58a79c7be87324127497f628f | EOG090C04N7_1                                                                                       
+111    | GTR+G      | 599        | ba43e34e9c06c971cde3726963450a4e | EOG090C04N7_2                                                                                       
+112    | GTR+G      | 530        | fb9a711095f0b431d8fbc6964432f204 | EOG090C04QC_1                                                                                       
+113    | GTR+G      | 530        | 2db0f836901e2e1db130b72fac37afc0 | EOG090C04QC_2                                                                                       
+114    | GTR+G      | 596        | cb6e1b85f61529809ff535bc2a95ddf0 | EOG090C04RC_1                                                                                       
+115    | GTR+G      | 596        | 8cccf5c07ef9db9c96ef6a562555171a | EOG090C04RC_2                                                                                       
+116    | GTR+G      | 564        | 0ff674af943fb7f97859f1a868ebcf59 | EOG090C04SN_1                                                                                       
+117    | GTR+G      | 564        | 6302beebc8a52af654890821731fe5c3 | EOG090C04SN_2                                                                                       
+118    | GTR+G      | 316        | 236dc420e86870b1065c97ee706abfe7 | EOG090C04TR_1                                                                                       
+119    | GTR+G      | 552        | 78b63afed9bc2e44403124e904a6e40e | EOG090C04V7_1                                                                                       
+120    | GTR+G      | 552        | 69d9adbddcad6bb914549fff5f808c81 | EOG090C04V7_2                                                                                       
+121    | GTR+G      | 537        | e6c7406bdb2dc8d381d6b6008e84c0c1 | EOG090C050C_1                                                                                       
+122    | GTR+G      | 537        | 2e8e0090a84ec95aa85362ec5c236e40 | EOG090C050C_2                                                                                       
+123    | GTR+G      | 613        | 5efbcbf9ce0cdbdbb6a6311cc15f6368 | EOG090C052V_1                                                                                       
+124    | GTR+G      | 613        | 2412588c37b31bbb4f9b0e8c1102f81a | EOG090C052V_2                                                                                       
+125    | GTR+G      | 587        | 2cd550caf03847034ad0e006fe0f5c67 | EOG090C053D_1                                                                                       
+126    | GTR+G      | 587        | d370b06387192b9794177ee9c84cf668 | EOG090C053D_2                                                                                       
+127    | GTR+G      | 491        | 234a93040caa0d64b167860f9e3ee41b | EOG090C0578_1                                                                                       
+128    | GTR+G      | 491        | 2b22bce790934ed797d7f0aee5719cf2 | EOG090C0578_2                                                                                       
+129    | GTR+G      | 543        | 11e2d56e4c05c7e6b43eccf5602d4d1c | EOG090C059D_1                                                                                       
+130    | GTR+G      | 923        | 15e8f52aabc53d6693069b3b1bee9b03 | EOG090C059D_2, EOG090C08Y7_2                                                                        
+131    | GTR+G      | 439        | 94dc35ef48df81e0277709b8f9fa815a | EOG090C05A5_1                                                                                       
+132    | GTR+G      | 439        | c538d7753c0ef6660be3f67b7e25f0af | EOG090C05A5_2                                                                                       
+133    | GTR+G      | 619        | 1098a81c2041ae8ea7706d36436f2f71 | EOG090C05AA_1                                                                                       
+134    | GTR+G      | 619        | afd945589c27eb3792e12cb6de02acbf | EOG090C05AA_2                                                                                       
+135    | GTR+G      | 519        | 4a8093cb060c62344c0aa1dc0682237e | EOG090C05G1_1                                                                                       
+136    | GTR+G      | 519        | 637c0ed60a003f06a54ddbc2474c1fee | EOG090C05G1_2                                                                                       
+137    | GTR+G      | 671        | 29e9361378b45c994a42cd4392f3b07d | EOG090C05L0_1                                                                                       
+138    | GTR+G      | 671        | 53309ce5c2acb0aabf421c112e08272a | EOG090C05L0_2                                                                                       
+139    | GTR+G      | 397        | ffb93d7f5a63232800f2d407605e0177 | EOG090C05LN_1                                                                                       
+140    | GTR+G      | 397        | 59f48a8b4af41fde3bcf8e5850efb102 | EOG090C05LN_2                                                                                       
+141    | GTR+G      | 534        | 5b7e7bcd82ed0ded87e7d0e078e3e3d7 | EOG090C05MB_1                                                                                       
+142    | GTR+G      | 534        | dc954752c7127bc7227f775f9b187622 | EOG090C05MB_2                                                                                       
+143    | GTR+G      | 418        | 04341b385229bdc0f6d4e738e737a04f | EOG090C05N2_1                                                                                       
+144    | GTR+G      | 418        | 004f076c86d14b88dcd88c39eb06a744 | EOG090C05N2_2                                                                                       
+145    | GTR+G      | 251        | 8609bfa03b6984815d5a9b1c963f0fe6 | EOG090C05QX_1                                                                                       
+146    | GTR+G      | 251        | 55dfbfd6bdd8510299bdd78eaef79110 | EOG090C05QX_2                                                                                       
+147    | GTR+G      | 559        | 2a959d9f406e6e6b22aa6ed11ba93bef | EOG090C05QZ_1                                                                                       
+148    | GTR+G      | 559        | 4052c48dd85ce5f834fb7ecd075c935d | EOG090C05QZ_2                                                                                       
+149    | GTR+G      | 345        | e3a63300a5307f6b26bb948e2b4da82b | EOG090C05S6_1                                                                                       
+150    | GTR+G      | 345        | 653aec37c4d7c452085cdc084f5b1f79 | EOG090C05S6_2                                                                                       
+151    | GTR+G      | 454        | 49f28bcf3c548ac99e87e755268a7668 | EOG090C05SZ_1                                                                                       
+152    | GTR+G      | 454        | 271e950bd4e49c4b460ae05b6bcbc2e6 | EOG090C05SZ_2                                                                                       
+153    | GTR+G      | 385        | 6944ce420c749e52d42a10f5b3b2fc41 | EOG090C05V5_1                                                                                       
+154    | GTR+G      | 385        | ad3c94b65665d4d5ef54db174fac1d99 | EOG090C05V5_2                                                                                       
+155    | GTR+G      | 384        | 1902d3215b8ad6d60d4a3753c8eda78b | EOG090C05V7_1                                                                                       
+156    | GTR+G      | 786        | 11bead1bc916198683dcb44af1584edd | EOG090C07R2_2, EOG090C05V7_2                                                                        
+157    | GTR+G      | 439        | 0e64b1d128bf005ef72e1d66ece08b11 | EOG090C05VD_1                                                                                       
+158    | GTR+G      | 439        | 163a102ae59536d2c6adb55c297001ac | EOG090C05VD_2                                                                                       
+159    | GTR+G      | 577        | 7d87958b94a9d1e0551999c164b5e281 | EOG090C05XW_1                                                                                       
+160    | GTR+G      | 577        | 61eeeb3c5774396a03a8dcee042e13dd | EOG090C05XW_2                                                                                       
+161    | GTR+G      | 536        | 7c70c050ab63d4f3fa359e7415edfd5b | EOG090C0612_1                                                                                       
+162    | GTR+G      | 536        | fbff31ae40dae4a6755de0269c61f2fb | EOG090C0612_2                                                                                       
+163    | GTR+G      | 497        | 73fc5d5089f7cbed2a430cba8fc76021 | EOG090C061N_1                                                                                       
+164    | GTR+G      | 497        | a51fee4aa90c479f8944b03a055a9172 | EOG090C061N_2                                                                                       
+165    | GTR+G      | 471        | cdd1551926986abbcbc537b7d45e82a4 | EOG090C063X_1                                                                                       
+166    | GTR+G      | 471        | e5c6c5ff53afa2eb1477e4e3e732bc09 | EOG090C063X_2                                                                                       
+167    | GTR+G      | 984        | 412476cb7806993a471283727dcf37ea | EOG090C0DPY_1, EOG090C065C_1                                                                        
+168    | GTR+G      | 503        | 9c8a9ae835f31a8871af56a82f5396f5 | EOG090C065C_2                                                                                       
+169    | GTR+G      | 499        | 721fc70a72e4976305797bc75c40f2f0 | EOG090C06D6_1                                                                                       
+170    | GTR+G      | 499        | 228619b970ff836810e671f655d309ad | EOG090C06D6_2                                                                                       
+171    | GTR+G      | 490        | 43998415e2848c16fe4d72f9136cefdf | EOG090C06DR_1                                                                                       
+172    | GTR+G      | 490        | efcd078d79c753b9d40a24e4c63b50af | EOG090C06DR_2                                                                                       
+173    | GTR+G      | 454        | e134a66b4bac48414ebe394ddec8b6bf | EOG090C06E3_1                                                                                       
+174    | GTR+G      | 454        | 1a0f780a63389f1dd531e9bb1854cfc2 | EOG090C06E3_2                                                                                       
+175    | GTR+G      | 409        | 71f39b2f265ec67a962d2573507215d7 | EOG090C06G0_1                                                                                       
+176    | GTR+G      | 622        | 6bc0b7f3c9c4f46869ac640ba158a213 | EOG090C0CI2_2, EOG090C06G0_2                                                                        
+177    | GTR+G      | 905        | c1a8beb6ed2f97fa282b9cf1a19c8baf | EOG090C06GH_1, EOG090C07FM_1                                                                        
+178    | GTR+G      | 476        | 51a6173e15016021822f7706630a3dc2 | EOG090C06GH_2                                                                                       
+179    | GTR+G      | 471        | e24a06aea7b4162d6df8d5bca203f3fc | EOG090C06M4_1                                                                                       
+180    | GTR+G      | 471        | 7faed53a4d1b6c736996a35575ad4589 | EOG090C06M4_2                                                                                       
+181    | GTR+G      | 412        | 6c30291ea146c476b32b32792cedcafc | EOG090C06OU_1                                                                                       
+182    | GTR+G      | 412        | 5f4c3be54ab5a43b693eef61dd8c1a2c | EOG090C06OU_2                                                                                       
+183    | GTR+G      | 414        | 978c98aa80a14c2e48fc6797e4aaa2cc | EOG090C06TR_1                                                                                       
+184    | GTR+G      | 414        | 8c86b5d042694b9416aa1b984822defa | EOG090C06TR_2                                                                                       
+185    | GTR+G      | 410        | 55d7fbc768dada84099a7966f87f6240 | EOG090C06UT_1                                                                                       
+186    | GTR+G      | 410        | 7a974e10438e171f02983577ad43ad3d | EOG090C06UT_2                                                                                       
+187    | GTR+G      | 459        | dc6425eac142cf0ad51f833cf1a5f099 | EOG090C06YQ_2                                                                                       
+188    | GTR+G      | 386        | 793cfba6a2e8fe06350dbd35a9ec3433 | EOG090C0737_1                                                                                       
+189    | GTR+G      | 386        | 3986ae5dd4eba65fd53ca649f59b8bdb | EOG090C0737_2                                                                                       
+190    | GTR+G      | 492        | fa78696f1bf102d22145ebbd7a39974a | EOG090C0764_1                                                                                       
+191    | GTR+G      | 492        | a5253a3301c1f70a5205622889b8dbfc | EOG090C0764_2                                                                                       
+192    | GTR+G      | 643        | b54bc7f110421b8a993137bb6b65369a | EOG090C0775_1                                                                                       
+193    | GTR+G      | 643        | 1317fd08507765340b01a0c8764c341b | EOG090C0775_2                                                                                       
+194    | GTR+G      | 449        | af02b769ce75945e689e9ecff03e54eb | EOG090C078W_1                                                                                       
+195    | GTR+G      | 704        | f04cdca62f1eb1afe09adf85796d7627 | EOG090C0CNU_2, EOG090C078W_2                                                                        
+196    | GTR+G      | 463        | 5980e6be994b49927e132111a940f336 | EOG090C07A1_1                                                                                       
+197    | GTR+G      | 463        | 7f2dfd926b9b046c096372003eeda768 | EOG090C07A1_2                                                                                       
+198    | GTR+G      | 410        | c012e3d5ca79afd14d9f2b00ee6d7ac8 | EOG090C07AW_1                                                                                       
+199    | GTR+G      | 410        | 1e7c301eec903d392539887fa43a8542 | EOG090C07AW_2                                                                                       
+200    | GTR+G      | 398        | 9e514d67048b58f34af01ba5afc88cd6 | EOG090C07DE_1                                                                                       
+201    | GTR+G      | 398        | 20dc822944651669df4f0b4c7e7c1557 | EOG090C07DE_2                                                                                       
+202    | GTR+G      | 725        | c0c6bec7745948757a4cbbd200461850 | EOG090C07E7_1                                                                                       
+203    | GTR+G      | 725        | a00267d6e6e83d921ad5a6e797518b35 | EOG090C07E7_2                                                                                       
+204    | GTR+G      | 440        | 55bc9ca7c532039b58083279ed8eb897 | EOG090C07EK_1                                                                                       
+205    | GTR+G      | 429        | 1afc35739b09ff6d1061307d4588fc2e | EOG090C07FM_2                                                                                       
+206    | GTR+G      | 407        | 1230e7ff12a9336aeaf82d963766e0e2 | EOG090C07KD_1                                                                                       
+207    | GTR+G      | 407        | 5d61e6079151c07de0ff7a607ca414f8 | EOG090C07KD_2                                                                                       
+208    | GTR+G      | 1163       | 036ba5b152bef4acd9385a8d41915674 | EOG090C07QB_1                                                                                       
+209    | GTR+G      | 1163       | 39fc3871998aa49161b047956c7793c6 | EOG090C07QB_2                                                                                       
+210    | GTR+G      | 402        | 7594d7ba3217747dc4c25c1962802796 | EOG090C07R2_1                                                                                       
+211    | GTR+G      | 481        | b8760fbc9ccdc13ebfd7a077e368a560 | EOG090C07T8_1                                                                                       
+212    | GTR+G      | 481        | e2eb7febe7c1785f18e4ad49c00e7aad | EOG090C07T8_2                                                                                       
+213    | GTR+G      | 409        | a4423018707cbf6d8593a79b0a8efb42 | EOG090C07T9_1                                                                                       
+214    | GTR+G      | 409        | 8c48381cf6adcc28416c73db5c49056c | EOG090C07T9_2                                                                                       
+215    | GTR+G      | 316        | 6447e325aef2294ce90527b98c9d36e7 | EOG090C07UF_1                                                                                       
+216    | GTR+G      | 316        | d527ba7cc8bfda2dda86f626a12a4621 | EOG090C07UF_2                                                                                       
+217    | GTR+G      | 662        | 6a64d3c2b9bb15372c6fbaeaddae42bd | EOG090C07YF_1, EOG090C09U6_1                                                                        
+218    | GTR+G      | 407        | 57ed68d9dd0edafc62c9cc309bf6483e | EOG090C07YF_2                                                                                       
+219    | GTR+G      | 350        | 22432ca2a764b88418cefff95eb51c15 | EOG090C0814_2                                                                                       
+220    | GTR+G      | 460        | 699288081b18a41ed3e8ac2356d93b08 | EOG090C084B_1                                                                                       
+221    | GTR+G      | 460        | 7a2bdeb73bf50d6edc0071988f1a9ff9 | EOG090C084B_2                                                                                       
+222    | GTR+G      | 360        | 32da931f0dcde4ab68d9be77b06f84b4 | EOG090C084P_1                                                                                       
+223    | GTR+G      | 296        | e26c3aad71090bf3408d72114d06366a | EOG090C0853_1                                                                                       
+224    | GTR+G      | 296        | 74dc19976cc51c50f2264ec2d2308f5f | EOG090C0853_2                                                                                       
+225    | GTR+G      | 427        | 460eafa99c7e041efdcfad17cdf635c4 | EOG090C087X_1                                                                                       
+226    | GTR+G      | 427        | 74307181de520e8df8477184e6e22fff | EOG090C087X_2                                                                                       
+227    | GTR+G      | 456        | fb535a17d8861861cb5f29793920ed83 | EOG090C08E3_1                                                                                       
+228    | GTR+G      | 456        | c78b71139c1b77f189ceb169ea1ce51b | EOG090C08E3_2                                                                                       
+229    | GTR+G      | 398        | a7f7c377cf1bb37f87c229b7f2f51033 | EOG090C08GX_1                                                                                       
+230    | GTR+G      | 398        | 145255217d71bbe79c322b8c65beb3be | EOG090C08GX_2                                                                                       
+231    | GTR+G      | 441        | 6d4bfad1d998ff7af6bb288deffa05b6 | EOG090C08HB_1                                                                                       
+232    | GTR+G      | 441        | afafbb6c40263c1fcb2e5a736c117e1e | EOG090C08HB_2                                                                                       
+233    | GTR+G      | 306        | 8b16ce24499189792aa45e928588502c | EOG090C08HD_1                                                                                       
+234    | GTR+G      | 306        | 8d82a0cc4823edbc6be12e847e045e4c | EOG090C08HD_2                                                                                       
+235    | GTR+G      | 371        | d30a411318ae0db180884b9eb0733c23 | EOG090C08IP_1                                                                                       
+236    | GTR+G      | 371        | 48395061cf10826c1365ad00eb56b3b0 | EOG090C08IP_2                                                                                       
+237    | GTR+G      | 326        | 11d5fe0a9c77bf9401d592accf2f4084 | EOG090C08L3_1                                                                                       
+238    | GTR+G      | 326        | 97c7cc1e3eccb0fe1f46b69ab96ea7ef | EOG090C08L3_2                                                                                       
+239    | GTR+G      | 353        | 7b2468972a6c2f2cd208a6fe62b0f799 | EOG090C08P2_1                                                                                       
+240    | GTR+G      | 353        | cdc69d716c40458331938c0a3b58b41f | EOG090C08P2_2                                                                                       
+241    | GTR+G      | 358        | 9d38150c1ab7c41e9df199670c3b4324 | EOG090C08VL_1                                                                                       
+242    | GTR+G      | 358        | 9d9c177c8b7db00ce337dc7a1b329222 | EOG090C08VL_2                                                                                       
+243    | GTR+G      | 380        | ed4e4815c73bf61ccf1025f414e99260 | EOG090C08Y7_1                                                                                       
+244    | GTR+G      | 352        | aeb2361626bbed479987909dc56c8dd8 | EOG090C0910_1                                                                                       
+245    | GTR+G      | 352        | 9df7d43143fba9faff6b9e0f0a0f559a | EOG090C0910_2                                                                                       
+246    | GTR+G      | 365        | 30012d95df3fd6c9263ac16ab0d51c2f | EOG090C091S_1                                                                                       
+247    | GTR+G      | 365        | 9eecf429bdce7b07a42292cabcd9f526 | EOG090C091S_2                                                                                       
+248    | GTR+G      | 286        | 34a5f632f47f43f34fc1a53deaa9b285 | EOG090C0942_2                                                                                       
+249    | GTR+G      | 225        | 95336069919153a202661fe2d1be46d2 | EOG090C095H_2                                                                                       
+250    | GTR+G      | 327        | 63d16f424bc9cdeea04dbe8f75831713 | EOG090C0979_1                                                                                       
+251    | GTR+G      | 327        | aab5e32169ba1972c5c5ac3cb1e24087 | EOG090C0979_2                                                                                       
+252    | GTR+G      | 346        | 4b56e2a1834d0cabc5b4e2c9955c7dcb | EOG090C09E0_1                                                                                       
+253    | GTR+G      | 346        | 651e4457485cb67e221dd081065f531b | EOG090C09E0_2                                                                                       
+254    | GTR+G      | 315        | d91f132394180f6a64de33a35b86efd4 | EOG090C09EJ_1                                                                                       
+255    | GTR+G      | 315        | 2607291078ad9fc2832398a42aae7819 | EOG090C09EJ_2                                                                                       
+256    | GTR+G      | 263        | e91afe2f1ef97556d63dd3dbb4c92720 | EOG090C09G2_1                                                                                       
+257    | GTR+G      | 263        | 694fa5f929cf473e4eebfb9355d31c16 | EOG090C09G2_2                                                                                       
+258    | GTR+G      | 339        | 21c468f202c387af6e7a4a184314d946 | EOG090C09HK_1                                                                                       
+259    | GTR+G      | 339        | c51ca158aecd946f1b4ce9e9226d2ef7 | EOG090C09HK_2                                                                                       
+260    | GTR+G      | 337        | 54eeef53d3367894de714f6ab3c54fc8 | EOG090C09SR_1                                                                                       
+261    | GTR+G      | 337        | bbb01cee662e297fdeb044af976789a1 | EOG090C09SR_2                                                                                       
+262    | GTR+G      | 255        | 5fa1b5c623463f7f3685871a87c805cc | EOG090C09U6_2                                                                                       
+263    | GTR+G      | 394        | 78d831f186ab0fc9bac123277ede4cff | EOG090C09UD_1                                                                                       
+264    | GTR+G      | 394        | 6b56c655034087106ba7351b12f3267d | EOG090C09UD_2                                                                                       
+265    | GTR+G      | 726        | 5debe3575e7864ee2be86b3e8abd1329 | EOG090C09VY_1                                                                                       
+266    | GTR+G      | 726        | 90bf5df451e4e0d1ac25c556ed716ab8 | EOG090C09VY_2                                                                                       
+267    | GTR+G      | 491        | 9defb3d0b460cd9137f4c87a27a34229 | EOG090C09YB_1                                                                                       
+268    | GTR+G      | 491        | f3ccb1a160a2afb6ace3166ca593569e | EOG090C09YB_2                                                                                       
+269    | GTR+G      | 336        | 96cf60e053823605ec826c8dfb6da29e | EOG090C09ZT_1                                                                                       
+270    | GTR+G      | 336        | a17a6960dbbc5aaa969e90061060129e | EOG090C09ZT_2                                                                                       
+271    | GTR+G      | 315        | 3f51ce7d0c3e42d90ea57972008b5c89 | EOG090C0A3I_1                                                                                       
+272    | GTR+G      | 315        | aa94b65ca28ad8e53bb050923b4de922 | EOG090C0A3I_2                                                                                       
+273    | GTR+G      | 325        | e02cc03c54d06eddc4615edc98496a04 | EOG090C0A45_1                                                                                       
+274    | GTR+G      | 325        | d463a4582e1866c1a10791f5ceb634ae | EOG090C0A45_2                                                                                       
+275    | GTR+G      | 314        | 5967c9e1ff7ac36a89d8969aaab8f5de | EOG090C0A5R_1                                                                                       
+276    | GTR+G      | 314        | 26dd0c6288db80241aa8c18c579ed6d4 | EOG090C0A5R_2                                                                                       
+277    | GTR+G      | 400        | 6eb53a2de076be85a4e34ad2a3e2fb43 | EOG090C0A60_1                                                                                       
+278    | GTR+G      | 400        | bc243ad73c3b2596e6a3f3a48ae58049 | EOG090C0A60_2                                                                                       
+279    | GTR+G      | 333        | e48fa9a5f04cdf58c640c9c98f658186 | EOG090C0A64_1                                                                                       
+280    | GTR+G      | 333        | e826a19f7f928694da61138f0113c4c7 | EOG090C0A64_2                                                                                       
+281    | GTR+G      | 304        | dc9ba5f2f733d8f2839c0086a47b045a | EOG090C0A75_1                                                                                       
+282    | GTR+G      | 304        | c04360b46778c58624a54d1c67d861ae | EOG090C0A75_2                                                                                       
+283    | GTR+G      | 333        | 75ff03a5a3c8d621284c87baa9b3d1f9 | EOG090C0A7L_1                                                                                       
+284    | GTR+G      | 333        | 3c92c5ac253a389443ecc906f9399bb8 | EOG090C0A7L_2                                                                                       
+285    | GTR+G      | 237        | 16ff6759e38a4a137ac6fc114fc3277e | EOG090C0A7Z_1                                                                                       
+286    | GTR+G      | 237        | 437be906402881bfe9d5f453bb5248d9 | EOG090C0A7Z_2                                                                                       
+287    | GTR+G      | 330        | 69d13211f30429c9f95ceda84a8ada2e | EOG090C0A9E_1                                                                                       
+288    | GTR+G      | 330        | b4c4b55be8f92652e24b74a04fca3404 | EOG090C0A9E_2                                                                                       
+289    | GTR+G      | 310        | b300e259149d4c667b2b008ab6dcdd30 | EOG090C0A9Z_1                                                                                       
+290    | GTR+G      | 310        | f229b028235c8b67ce73968120b7743e | EOG090C0A9Z_2                                                                                       
+291    | GTR+G      | 279        | f2e7dead539d0c0788df30770649d1d6 | EOG090C0ACE_1                                                                                       
+292    | GTR+G      | 279        | eeb4d743ec10f1fd6a10ec45a0543c3b | EOG090C0ACE_2                                                                                       
+293    | GTR+G      | 178        | 455b21c07aa270f5820a89cc89257f8b | EOG090C0AFE_1                                                                                       
+294    | GTR+G      | 178        | 03c30a9599500213f4dfc34a8b73a975 | EOG090C0AFE_2                                                                                       
+295    | GTR+G      | 349        | 8f8f60e344a8bd4e90ffd0abf68fddd4 | EOG090C0AJF_1                                                                                       
+296    | GTR+G      | 349        | c1b4ce57d886403339d794bd9cb75c4f | EOG090C0AJF_2                                                                                       
+297    | GTR+G      | 255        | b42441d775a7aca5be7ee4800f574266 | EOG090C0ATW_1                                                                                       
+298    | GTR+G      | 255        | 7abeebb1bfc8592c8c5a9ddbea68d993 | EOG090C0ATW_2                                                                                       
+299    | GTR+G      | 334        | 7d0eaff51a02caba23665e7fbc156e97 | EOG090C0AVW_1                                                                                       
+300    | GTR+G      | 334        | 0a8ef9401bcc21ad123c1da710dc20ed | EOG090C0AVW_2                                                                                       
+301    | GTR+G      | 271        | 2fad1de72d36462fe6682dfc36548366 | EOG090C0AYM_1                                                                                       
+302    | GTR+G      | 271        | a1f4b37e07291177bf5692d3aa582312 | EOG090C0AYM_2                                                                                       
+303    | GTR+G      | 388        | 4e8a0f382a6daa89506d8966b2787d9d | EOG090C0B0W_1                                                                                       
+304    | GTR+G      | 388        | 30e4ab91fff6430c2784fd1ecc3878ca | EOG090C0B0W_2                                                                                       
+305    | GTR+G      | 262        | 713fd22391d312c233c48b46eb0b1f05 | EOG090C0B2X_2                                                                                       
+306    | GTR+G      | 249        | 2052c0869efef3df2509bdb463aac0db | EOG090C0B6Z_1                                                                                       
+307    | GTR+G      | 249        | 1536eacdf539e4b1c34d8fd613cdcf5a | EOG090C0B6Z_2                                                                                       
+308    | GTR+G      | 290        | 77a1bde03bc67a97e38d09d4b2ca01b2 | EOG090C0BFG_1                                                                                       
+309    | GTR+G      | 290        | 62b2269c8ce1ca2f9afb4f1b0ec707e4 | EOG090C0BFG_2                                                                                       
+310    | GTR+G      | 221        | f7dd726bfe09d5de36c70727b54798b1 | EOG090C0BHC_1                                                                                       
+311    | GTR+G      | 221        | 823732c3ad20987d6a35964465755a51 | EOG090C0BHC_2                                                                                       
+312    | GTR+G      | 333        | afe7d60d9d8a7d6075d7ddfb57807d0e | EOG090C0BIV_1                                                                                       
+313    | GTR+G      | 333        | 82c854499af80983ae35dd52c97948d5 | EOG090C0BIV_2                                                                                       
+314    | GTR+G      | 198        | 5b5ac5e759045d413d5fbbc3f055166c | EOG090C0BJ8_1                                                                                       
+315    | GTR+G      | 198        | 1bcdd2180defb2723c36f7f7202d0984 | EOG090C0BJ8_2                                                                                       
+316    | GTR+G      | 288        | d100e2bad09b70ad63443dac911f780d | EOG090C0BJH_1                                                                                       
+317    | GTR+G      | 288        | 9e8dfb8bd54b347d37f21dcc172d2ef7 | EOG090C0BJH_2                                                                                       
+318    | GTR+G      | 234        | 0a82ba2709e5816bdd91402a3825c7e9 | EOG090C0BO8_1                                                                                       
+319    | GTR+G      | 234        | b95468e3acdb510944afd7f50ad45752 | EOG090C0BO8_2                                                                                       
+320    | GTR+G      | 228        | 2892166a0c203d3195775c6a8f156ff2 | EOG090C0BQZ_1                                                                                       
+321    | GTR+G      | 228        | 7544dc04b729ee8f84cc9a8339ab855a | EOG090C0BQZ_2                                                                                       
+322    | GTR+G      | 316        | 4a765bb050b6af187d027d4ce4a670ef | EOG090C0BSS_1                                                                                       
+323    | GTR+G      | 316        | 1d213780252745e29fd2560cfdb0d735 | EOG090C0BSS_2                                                                                       
+324    | GTR+G      | 530        | ef75667e75e34fbef30aa930642ced1f | EOG090C0BXY_1, EOG090C0E0A_1                                                                        
+325    | GTR+G      | 308        | 326ebb867da5b5299d1ad3cd4b989d0b | EOG090C0BXY_2                                                                                       
+326    | GTR+G      | 734        | b13febd40c71e28acc1b09de89b90779 | EOG090C0C28_1                                                                                       
+327    | GTR+G      | 734        | 350775a5768eae4261311deae5c4209f | EOG090C0C28_2                                                                                       
+328    | GTR+G      | 192        | 76f164aa9e8cf249f66a58c3ebfd99e2 | EOG090C0C6Y_1                                                                                       
+329    | GTR+G      | 233        | 949ce53048e26d3687918d70c72aaeb5 | EOG090C0C82_1                                                                                       
+330    | GTR+G      | 233        | 8cb9ecf84d8cfe271e58b4004b925bd8 | EOG090C0C82_2                                                                                       
+331    | GTR+G      | 320        | 2c70e1b6e0641ad665fe538d64757f61 | EOG090C0C96_1                                                                                       
+332    | GTR+G      | 320        | 2d47629a5c2f6bd8c4fe9d7bf7ca4545 | EOG090C0C96_2                                                                                       
+333    | GTR+G      | 213        | cb7279ac13f2c2a3141f91f4f70c72ee | EOG090C0CI2_1                                                                                       
+334    | GTR+G      | 309        | a9bee34c5214172b3b1ff43cbe4d55c7 | EOG090C0CL1_1                                                                                       
+335    | GTR+G      | 309        | 473c3e93baca7355ab99b3bed8417fce | EOG090C0CL1_2                                                                                       
+336    | GTR+G      | 270        | 5ecee0771856677e2bb403f3603c17a9 | EOG090C0CNR_1                                                                                       
+337    | GTR+G      | 270        | cf408bc585cc03da2bc1ef9f5a981292 | EOG090C0CNR_2                                                                                       
+338    | GTR+G      | 255        | 845ec4588d90b55b83581d3ca53dcaf2 | EOG090C0CNU_1                                                                                       
+339    | GTR+G      | 214        | 148b13079dced06a752c4c0c605101a9 | EOG090C0CP2_1                                                                                       
+340    | GTR+G      | 214        | 77dc2189af7ef6aeae45d4a5d1cdbf83 | EOG090C0CP2_2                                                                                       
+341    | GTR+G      | 231        | de991a19fe8f32f2669d3f67aa4e5b0c | EOG090C0CQ8_1                                                                                       
+342    | GTR+G      | 231        | e1db4d03246533cbeefb13bb086cbbc9 | EOG090C0CQ8_2                                                                                       
+343    | GTR+G      | 237        | fe1c1e4cd2470dd9da5e31084e2da6c6 | EOG090C0CUT_1                                                                                       
+344    | GTR+G      | 237        | 388015f71301d4224e38feadd725e70a | EOG090C0CUT_2                                                                                       
+345    | GTR+G      | 235        | 38d21f9e0173ac6dbd6bd016aad687fb | EOG090C0CWR_1                                                                                       
+346    | GTR+G      | 235        | b805623dfdd89881a9c466a73afdc7d9 | EOG090C0CWR_2                                                                                       
+347    | GTR+G      | 211        | 1711a8098170fd960cc5d7d8350f5cd7 | EOG090C0D12_1                                                                                       
+348    | GTR+G      | 211        | 9481cf5c9a2b853fa3b27060fa6981a7 | EOG090C0D12_2                                                                                       
+349    | GTR+G      | 250        | 3c8575bbd31d9de2421fecf771b45ab8 | EOG090C0D5X_1                                                                                       
+350    | GTR+G      | 250        | 7354cfe444413aebd8c4fc6583e72e10 | EOG090C0D5X_2                                                                                       
+351    | GTR+G      | 202        | a2aff449bd9613c210538388325b34b1 | EOG090C0D62_1                                                                                       
+352    | GTR+G      | 202        | c5faa2b81ff825c90180c4ddcb425387 | EOG090C0D62_2                                                                                       
+353    | GTR+G      | 401        | 72b0f43cb61d2c17f1cd10735128fe9c | EOG090C0D8Y_1                                                                                       
+354    | GTR+G      | 401        | c27ef4f617e485e29c9e2ab8931285b3 | EOG090C0D8Y_2                                                                                       
+355    | GTR+G      | 345        | 2201c98a2a82a335ea62f8f88d1beca7 | EOG090C0DCG_1                                                                                       
+356    | GTR+G      | 345        | 888b763675a1abd253a8888a253b30b2 | EOG090C0DCG_2                                                                                       
+357    | GTR+G      | 227        | 3a07a4585b4397646feecfd0bf48b364 | EOG090C0DPN_1                                                                                       
+358    | GTR+G      | 227        | 75b3dabc0d18cb787f2eb21312b98b22 | EOG090C0DPN_2                                                                                       
+359    | GTR+G      | 481        | 46f56b3b90e1be3e4724bf81261782f3 | EOG090C0DPY_2                                                                                       
+360    | GTR+G      | 243        | c95a5faf05e679e9a7ded8f044252d5c | EOG090C0DVF_1                                                                                       
+361    | GTR+G      | 243        | 81cc60911600cff90ba34699f3c7a315 | EOG090C0DVF_2                                                                                       
+362    | GTR+G      | 243        | b62f93cf26bb8c26a425121b279ea9fa | EOG090C0DYT_1                                                                                       
+363    | GTR+G      | 243        | c59cc96786edca32961bd11686470703 | EOG090C0DYT_2                                                                                       
+364    | GTR+G      | 198        | 13e6a0d89ab3837b056cd260ae75a3e5 | EOG090C0DZR_1                                                                                       
+365    | GTR+G      | 198        | f9ce2a39ddc529989abbb34f05146464 | EOG090C0DZR_2                                                                                       
+366    | GTR+G      | 222        | 25a152329848e1f48c37d4b16298ff85 | EOG090C0E0A_2                                                                                       
+367    | GTR+G      | 185        | 49612785880893330cefe96187edd71d | EOG090C0E5P_1                                                                                       
+368    | GTR+G      | 185        | 73c85c7f82dacac6e52f2ad92a068af7 | EOG090C0E5P_2                                                                                       
+369    | GTR+G      | 295        | cba0bb516a8d2b10b30bd6d9ec063b00 | EOG090C0E61_1                                                                                       
+370    | GTR+G      | 295        | 80dbb0ad764679a3d7415b6edd1abf07 | EOG090C0E61_2                                                                                       
+371    | GTR+G      | 250        | dd4b6087df9437e6a1258fe5b6e62df4 | EOG090C0ECL_1                                                                                       
+372    | GTR+G      | 250        | f5935627457ff92f454bb78b6ae9e8b3 | EOG090C0ECL_2                                                                                       
+373    | GTR+G      | 173        | 7b4b1763d55e2672e27baeedfd27fec8 | EOG090C0EDQ_1                                                                                       
+374    | GTR+G      | 173        | 9a722de54bee2a744960372c9a654912 | EOG090C0EDQ_2                                                                                       
+375    | GTR+G      | 236        | 6983c639d665930933aa2864ed5ec76c | EOG090C0EOX_1                                                                                       
+376    | GTR+G      | 236        | 9476a09a130d231fdec14c9ef1a4da22 | EOG090C0EOX_2                                                                                       
+377    | GTR+G      | 226        | 4a4b03b4f57256dd53576f6068843865 | EOG090C0EQN_1                                                                                       
+378    | GTR+G      | 226        | 98367b003419856a17da0fdf0915b541 | EOG090C0EQN_2                                                                                       
+379    | GTR+G      | 178        | 2a828281b12741df170de1beba4fda00 | EOG090C0ERA_1                                                                                       
+380    | GTR+G      | 178        | fc70b2a9b59f8787cb4af12de4c9756f | EOG090C0ERA_2                                                                                       
+381    | GTR+G      | 189        | 8fa3f23eacecdf5c37c896afda164b87 | EOG090C0FJ3_1                                                                                       
+382    | GTR+G      | 189        | f217edc735f17c7247e27b65f65d9d32 | EOG090C0FJ3_2                                                                                       
+
+
+Scheme Description in PartitionFinder format
+Scheme_step_18 = (EOG090C0087_1) (EOG090C0087_2) (EOG090C00AN_1) (EOG090C00AN_2) (EOG090C00BE_1) (EOG090C00BE_2) (EOG090C00BT_1) (EOG090C00BT_2) (EOG090C00HJ_1) (EOG090C00HJ_2) (EOG090C095H_1, EOG090C00HT_1, EOG090C0814_1) (EOG090C00HT_2) (EOG090C00SW_1) (EOG090C00SW_2) (EOG090C00VF_1) (EOG090C00VF_2) (EOG090C010X_1) (EOG090C010X_2) (EOG090C014P_1) (EOG090C014P_2) (EOG090C016M_1) (EOG090C016M_2) (EOG090C01AQ_1) (EOG090C01AQ_2) (EOG090C01BG_1) (EOG090C01BG_2) (EOG090C01CW_1) (EOG090C01CW_2) (EOG090C01LV_1) (EOG090C01LV_2) (EOG090C01M7_1) (EOG090C01M7_2) (EOG090C01NW_1) (EOG090C01NW_2) (EOG090C01O3_1) (EOG090C01O3_2) (EOG090C01O8_1) (EOG090C07EK_2, EOG090C01O8_2) (EOG090C01QP_1) (EOG090C01QP_2) (EOG090C01S4_1) (EOG090C01S4_2) (EOG090C0942_1, EOG090C01T7_1) (EOG090C01T7_2) (EOG090C01W9_1) (EOG090C01W9_2) (EOG090C022Z_1) (EOG090C022Z_2) (EOG090C027B_1) (EOG090C027B_2) (EOG090C027E_1) (EOG090C027E_2, EOG090C02JH_2) (EOG090C02AS_1) (EOG090C02AS_2) (EOG090C02EK_1) (EOG090C02EK_2) (EOG090C02FU_1) (EOG090C02FU_2) (EOG090C02GG_1) (EOG090C02GG_2) (EOG090C02JH_1) (EOG090C02KW_1) (EOG090C02KW_2) (EOG090C02QR_1) (EOG090C02QR_2) (EOG090C02S2_1) (EOG090C02S2_2) (EOG090C02TX_1) (EOG090C02TX_2) (EOG090C06YQ_1, EOG090C02XJ_1) (EOG090C02XJ_2) (EOG090C031H_1) (EOG090C031H_2) (EOG090C031J_1) (EOG090C031J_2) (EOG090C0349_1) (EOG090C0349_2) (EOG090C034S_1) (EOG090C034S_2) (EOG090C035W_1) (EOG090C035W_2, EOG090C084P_2) (EOG090C037V_1, EOG090C0B2X_1) (EOG090C037V_2) (EOG090C039G_1) (EOG090C039G_2) (EOG090C03F4_1) (EOG090C03F4_2) (EOG090C03FG_1) (EOG090C03FG_2, EOG090C04TR_2) (EOG090C03FJ_1) (EOG090C03FJ_2) (EOG090C03MY_1) (EOG090C03MY_2) (EOG090C03OC_1) (EOG090C03OC_2) (EOG090C03Q4_1) (EOG090C03Q4_2) (EOG090C03SO_1) (EOG090C03SO_2) (EOG090C03TA_1) (EOG090C03TA_2) (EOG090C042A_1) (EOG090C042A_2) (EOG090C048B_1) (EOG090C048B_2) (EOG090C04H0_1) (EOG090C04H0_2, EOG090C0C6Y_2) (EOG090C04IP_1) (EOG090C04IP_2) (EOG090C04N7_1) (EOG090C04N7_2) (EOG090C04QC_1) (EOG090C04QC_2) (EOG090C04RC_1) (EOG090C04RC_2) (EOG090C04SN_1) (EOG090C04SN_2) (EOG090C04TR_1) (EOG090C04V7_1) (EOG090C04V7_2) (EOG090C050C_1) (EOG090C050C_2) (EOG090C052V_1) (EOG090C052V_2) (EOG090C053D_1) (EOG090C053D_2) (EOG090C0578_1) (EOG090C0578_2) (EOG090C059D_1) (EOG090C059D_2, EOG090C08Y7_2) (EOG090C05A5_1) (EOG090C05A5_2) (EOG090C05AA_1) (EOG090C05AA_2) (EOG090C05G1_1) (EOG090C05G1_2) (EOG090C05L0_1) (EOG090C05L0_2) (EOG090C05LN_1) (EOG090C05LN_2) (EOG090C05MB_1) (EOG090C05MB_2) (EOG090C05N2_1) (EOG090C05N2_2) (EOG090C05QX_1) (EOG090C05QX_2) (EOG090C05QZ_1) (EOG090C05QZ_2) (EOG090C05S6_1) (EOG090C05S6_2) (EOG090C05SZ_1) (EOG090C05SZ_2) (EOG090C05V5_1) (EOG090C05V5_2) (EOG090C05V7_1) (EOG090C07R2_2, EOG090C05V7_2) (EOG090C05VD_1) (EOG090C05VD_2) (EOG090C05XW_1) (EOG090C05XW_2) (EOG090C0612_1) (EOG090C0612_2) (EOG090C061N_1) (EOG090C061N_2) (EOG090C063X_1) (EOG090C063X_2) (EOG090C0DPY_1, EOG090C065C_1) (EOG090C065C_2) (EOG090C06D6_1) (EOG090C06D6_2) (EOG090C06DR_1) (EOG090C06DR_2) (EOG090C06E3_1) (EOG090C06E3_2) (EOG090C06G0_1) (EOG090C0CI2_2, EOG090C06G0_2) (EOG090C06GH_1, EOG090C07FM_1) (EOG090C06GH_2) (EOG090C06M4_1) (EOG090C06M4_2) (EOG090C06OU_1) (EOG090C06OU_2) (EOG090C06TR_1) (EOG090C06TR_2) (EOG090C06UT_1) (EOG090C06UT_2) (EOG090C06YQ_2) (EOG090C0737_1) (EOG090C0737_2) (EOG090C0764_1) (EOG090C0764_2) (EOG090C0775_1) (EOG090C0775_2) (EOG090C078W_1) (EOG090C0CNU_2, EOG090C078W_2) (EOG090C07A1_1) (EOG090C07A1_2) (EOG090C07AW_1) (EOG090C07AW_2) (EOG090C07DE_1) (EOG090C07DE_2) (EOG090C07E7_1) (EOG090C07E7_2) (EOG090C07EK_1) (EOG090C07FM_2) (EOG090C07KD_1) (EOG090C07KD_2) (EOG090C07QB_1) (EOG090C07QB_2) (EOG090C07R2_1) (EOG090C07T8_1) (EOG090C07T8_2) (EOG090C07T9_1) (EOG090C07T9_2) (EOG090C07UF_1) (EOG090C07UF_2) (EOG090C07YF_1, EOG090C09U6_1) (EOG090C07YF_2) (EOG090C0814_2) (EOG090C084B_1) (EOG090C084B_2) (EOG090C084P_1) (EOG090C0853_1) (EOG090C0853_2) (EOG090C087X_1) (EOG090C087X_2) (EOG090C08E3_1) (EOG090C08E3_2) (EOG090C08GX_1) (EOG090C08GX_2) (EOG090C08HB_1) (EOG090C08HB_2) (EOG090C08HD_1) (EOG090C08HD_2) (EOG090C08IP_1) (EOG090C08IP_2) (EOG090C08L3_1) (EOG090C08L3_2) (EOG090C08P2_1) (EOG090C08P2_2) (EOG090C08VL_1) (EOG090C08VL_2) (EOG090C08Y7_1) (EOG090C0910_1) (EOG090C0910_2) (EOG090C091S_1) (EOG090C091S_2) (EOG090C0942_2) (EOG090C095H_2) (EOG090C0979_1) (EOG090C0979_2) (EOG090C09E0_1) (EOG090C09E0_2) (EOG090C09EJ_1) (EOG090C09EJ_2) (EOG090C09G2_1) (EOG090C09G2_2) (EOG090C09HK_1) (EOG090C09HK_2) (EOG090C09SR_1) (EOG090C09SR_2) (EOG090C09U6_2) (EOG090C09UD_1) (EOG090C09UD_2) (EOG090C09VY_1) (EOG090C09VY_2) (EOG090C09YB_1) (EOG090C09YB_2) (EOG090C09ZT_1) (EOG090C09ZT_2) (EOG090C0A3I_1) (EOG090C0A3I_2) (EOG090C0A45_1) (EOG090C0A45_2) (EOG090C0A5R_1) (EOG090C0A5R_2) (EOG090C0A60_1) (EOG090C0A60_2) (EOG090C0A64_1) (EOG090C0A64_2) (EOG090C0A75_1) (EOG090C0A75_2) (EOG090C0A7L_1) (EOG090C0A7L_2) (EOG090C0A7Z_1) (EOG090C0A7Z_2) (EOG090C0A9E_1) (EOG090C0A9E_2) (EOG090C0A9Z_1) (EOG090C0A9Z_2) (EOG090C0ACE_1) (EOG090C0ACE_2) (EOG090C0AFE_1) (EOG090C0AFE_2) (EOG090C0AJF_1) (EOG090C0AJF_2) (EOG090C0ATW_1) (EOG090C0ATW_2) (EOG090C0AVW_1) (EOG090C0AVW_2) (EOG090C0AYM_1) (EOG090C0AYM_2) (EOG090C0B0W_1) (EOG090C0B0W_2) (EOG090C0B2X_2) (EOG090C0B6Z_1) (EOG090C0B6Z_2) (EOG090C0BFG_1) (EOG090C0BFG_2) (EOG090C0BHC_1) (EOG090C0BHC_2) (EOG090C0BIV_1) (EOG090C0BIV_2) (EOG090C0BJ8_1) (EOG090C0BJ8_2) (EOG090C0BJH_1) (EOG090C0BJH_2) (EOG090C0BO8_1) (EOG090C0BO8_2) (EOG090C0BQZ_1) (EOG090C0BQZ_2) (EOG090C0BSS_1) (EOG090C0BSS_2) (EOG090C0BXY_1, EOG090C0E0A_1) (EOG090C0BXY_2) (EOG090C0C28_1) (EOG090C0C28_2) (EOG090C0C6Y_1) (EOG090C0C82_1) (EOG090C0C82_2) (EOG090C0C96_1) (EOG090C0C96_2) (EOG090C0CI2_1) (EOG090C0CL1_1) (EOG090C0CL1_2) (EOG090C0CNR_1) (EOG090C0CNR_2) (EOG090C0CNU_1) (EOG090C0CP2_1) (EOG090C0CP2_2) (EOG090C0CQ8_1) (EOG090C0CQ8_2) (EOG090C0CUT_1) (EOG090C0CUT_2) (EOG090C0CWR_1) (EOG090C0CWR_2) (EOG090C0D12_1) (EOG090C0D12_2) (EOG090C0D5X_1) (EOG090C0D5X_2) (EOG090C0D62_1) (EOG090C0D62_2) (EOG090C0D8Y_1) (EOG090C0D8Y_2) (EOG090C0DCG_1) (EOG090C0DCG_2) (EOG090C0DPN_1) (EOG090C0DPN_2) (EOG090C0DPY_2) (EOG090C0DVF_1) (EOG090C0DVF_2) (EOG090C0DYT_1) (EOG090C0DYT_2) (EOG090C0DZR_1) (EOG090C0DZR_2) (EOG090C0E0A_2) (EOG090C0E5P_1) (EOG090C0E5P_2) (EOG090C0E61_1) (EOG090C0E61_2) (EOG090C0ECL_1) (EOG090C0ECL_2) (EOG090C0EDQ_1) (EOG090C0EDQ_2) (EOG090C0EOX_1) (EOG090C0EOX_2) (EOG090C0EQN_1) (EOG090C0EQN_2) (EOG090C0ERA_1) (EOG090C0ERA_2) (EOG090C0FJ3_1) (EOG090C0FJ3_2);
+
+Nexus formatted character sets
+begin sets;
+	charset Subset1 = 1-1440;
+	charset Subset2 = 1441-2880;
+	charset Subset3 = 2881-4827;
+	charset Subset4 = 4828-6774;
+	charset Subset5 = 6775-8247;
+	charset Subset6 = 8248-9720;
+	charset Subset7 = 9721-11589;
+	charset Subset8 = 11590-13458;
+	charset Subset9 = 13459-14977;
+	charset Subset10 = 14978-16496;
+	charset Subset11 = 164581-164805 16497-18139 152011-152360;
+	charset Subset12 = 18140-19782;
+	charset Subset13 = 19783-20537;
+	charset Subset14 = 20538-21292;
+	charset Subset15 = 21293-22657;
+	charset Subset16 = 22658-24022;
+	charset Subset17 = 24023-24805;
+	charset Subset18 = 24806-25588;
+	charset Subset19 = 25589-26674;
+	charset Subset20 = 26675-27760;
+	charset Subset21 = 27761-29055;
+	charset Subset22 = 29056-30350;
+	charset Subset23 = 30351-31104;
+	charset Subset24 = 31105-31858;
+	charset Subset25 = 31859-32902;
+	charset Subset26 = 32903-33946;
+	charset Subset27 = 33947-34677;
+	charset Subset28 = 34678-35408;
+	charset Subset29 = 35409-36412;
+	charset Subset30 = 36413-37416;
+	charset Subset31 = 37417-38601;
+	charset Subset32 = 38602-39786;
+	charset Subset33 = 39787-40466;
+	charset Subset34 = 40467-41146;
+	charset Subset35 = 41147-42043;
+	charset Subset36 = 42044-42940;
+	charset Subset37 = 42941-43590;
+	charset Subset38 = 143543-143982 43591-44240;
+	charset Subset39 = 44241-45211;
+	charset Subset40 = 45212-46182;
+	charset Subset41 = 46183-46747;
+	charset Subset42 = 46748-47312;
+	charset Subset43 = 164009-164294 47313-48402;
+	charset Subset44 = 48403-49492;
+	charset Subset45 = 49493-49912;
+	charset Subset46 = 49913-50332;
+	charset Subset47 = 50333-51008;
+	charset Subset48 = 51009-51684;
+	charset Subset49 = 51685-52383;
+	charset Subset50 = 52384-53082;
+	charset Subset51 = 53083-54120;
+	charset Subset52 = 54121-55158 62408-63116;
+	charset Subset53 = 55159-56154;
+	charset Subset54 = 56155-57150;
+	charset Subset55 = 57151-58025;
+	charset Subset56 = 58026-58900;
+	charset Subset57 = 58901-59669;
+	charset Subset58 = 59670-60438;
+	charset Subset59 = 60439-61068;
+	charset Subset60 = 61069-61698;
+	charset Subset61 = 61699-62407;
+	charset Subset62 = 63117-64298;
+	charset Subset63 = 64299-65480;
+	charset Subset64 = 65481-66143;
+	charset Subset65 = 66144-66806;
+	charset Subset66 = 66807-67638;
+	charset Subset67 = 67639-68470;
+	charset Subset68 = 68471-69194;
+	charset Subset69 = 69195-69918;
+	charset Subset70 = 134253-134711 69919-70457;
+	charset Subset71 = 70458-70996;
+	charset Subset72 = 70997-71732;
+	charset Subset73 = 71733-72468;
+	charset Subset74 = 72469-73177;
+	charset Subset75 = 73178-73886;
+	charset Subset76 = 73887-74685;
+	charset Subset77 = 74686-75484;
+	charset Subset78 = 75485-76062;
+	charset Subset79 = 76063-76640;
+	charset Subset80 = 76641-77422;
+	charset Subset81 = 77423-78204 153991-154350;
+	charset Subset82 = 78205-78869 183799-184060;
+	charset Subset83 = 78870-79534;
+	charset Subset84 = 79535-80228;
+	charset Subset85 = 80229-80922;
+	charset Subset86 = 80923-81479;
+	charset Subset87 = 81480-82036;
+	charset Subset88 = 82037-82774;
+	charset Subset89 = 82775-83512 101225-101540;
+	charset Subset90 = 83513-84042;
+	charset Subset91 = 84043-84572;
+	charset Subset92 = 84573-85277;
+	charset Subset93 = 85278-85982;
+	charset Subset94 = 85983-86444;
+	charset Subset95 = 86445-86906;
+	charset Subset96 = 86907-88223;
+	charset Subset97 = 88224-89540;
+	charset Subset98 = 89541-89840;
+	charset Subset99 = 89841-90140;
+	charset Subset100 = 90141-90759;
+	charset Subset101 = 90760-91378;
+	charset Subset102 = 91379-92011;
+	charset Subset103 = 92012-92644;
+	charset Subset104 = 92645-93159;
+	charset Subset105 = 93160-93674;
+	charset Subset106 = 93675-94391;
+	charset Subset107 = 94392-95108 191313-191504;
+	charset Subset108 = 95109-95719;
+	charset Subset109 = 95720-96330;
+	charset Subset110 = 96331-96929;
+	charset Subset111 = 96930-97528;
+	charset Subset112 = 97529-98058;
+	charset Subset113 = 98059-98588;
+	charset Subset114 = 98589-99184;
+	charset Subset115 = 99185-99780;
+	charset Subset116 = 99781-100344;
+	charset Subset117 = 100345-100908;
+	charset Subset118 = 100909-101224;
+	charset Subset119 = 101541-102092;
+	charset Subset120 = 102093-102644;
+	charset Subset121 = 102645-103181;
+	charset Subset122 = 103182-103718;
+	charset Subset123 = 103719-104331;
+	charset Subset124 = 104332-104944;
+	charset Subset125 = 104945-105531;
+	charset Subset126 = 105532-106118;
+	charset Subset127 = 106119-106609;
+	charset Subset128 = 106610-107100;
+	charset Subset129 = 107101-107643;
+	charset Subset130 = 107644-108186 162195-162574;
+	charset Subset131 = 108187-108625;
+	charset Subset132 = 108626-109064;
+	charset Subset133 = 109065-109683;
+	charset Subset134 = 109684-110302;
+	charset Subset135 = 110303-110821;
+	charset Subset136 = 110822-111340;
+	charset Subset137 = 111341-112011;
+	charset Subset138 = 112012-112682;
+	charset Subset139 = 112683-113079;
+	charset Subset140 = 113080-113476;
+	charset Subset141 = 113477-114010;
+	charset Subset142 = 114011-114544;
+	charset Subset143 = 114545-114962;
+	charset Subset144 = 114963-115380;
+	charset Subset145 = 115381-115631;
+	charset Subset146 = 115632-115882;
+	charset Subset147 = 115883-116441;
+	charset Subset148 = 116442-117000;
+	charset Subset149 = 117001-117345;
+	charset Subset150 = 117346-117690;
+	charset Subset151 = 117691-118144;
+	charset Subset152 = 118145-118598;
+	charset Subset153 = 118599-118983;
+	charset Subset154 = 118984-119368;
+	charset Subset155 = 119369-119752;
+	charset Subset156 = 148383-148784 119753-120136;
+	charset Subset157 = 120137-120575;
+	charset Subset158 = 120576-121014;
+	charset Subset159 = 121015-121591;
+	charset Subset160 = 121592-122168;
+	charset Subset161 = 122169-122704;
+	charset Subset162 = 122705-123240;
+	charset Subset163 = 123241-123737;
+	charset Subset164 = 123738-124234;
+	charset Subset165 = 124235-124705;
+	charset Subset166 = 124706-125176;
+	charset Subset167 = 199811-200291 125177-125679;
+	charset Subset168 = 125680-126182;
+	charset Subset169 = 126183-126681;
+	charset Subset170 = 126682-127180;
+	charset Subset171 = 127181-127670;
+	charset Subset172 = 127671-128160;
+	charset Subset173 = 128161-128614;
+	charset Subset174 = 128615-129068;
+	charset Subset175 = 129069-129477;
+	charset Subset176 = 192824-193036 129478-129886;
+	charset Subset177 = 129887-130362 143983-144411;
+	charset Subset178 = 130363-130838;
+	charset Subset179 = 130839-131309;
+	charset Subset180 = 131310-131780;
+	charset Subset181 = 131781-132192;
+	charset Subset182 = 132193-132604;
+	charset Subset183 = 132605-133018;
+	charset Subset184 = 133019-133432;
+	charset Subset185 = 133433-133842;
+	charset Subset186 = 133843-134252;
+	charset Subset187 = 134712-135170;
+	charset Subset188 = 135171-135556;
+	charset Subset189 = 135557-135942;
+	charset Subset190 = 135943-136434;
+	charset Subset191 = 136435-136926;
+	charset Subset192 = 136927-137569;
+	charset Subset193 = 137570-138212;
+	charset Subset194 = 138213-138661;
+	charset Subset195 = 194450-194704 138662-139110;
+	charset Subset196 = 139111-139573;
+	charset Subset197 = 139574-140036;
+	charset Subset198 = 140037-140446;
+	charset Subset199 = 140447-140856;
+	charset Subset200 = 140857-141254;
+	charset Subset201 = 141255-141652;
+	charset Subset202 = 141653-142377;
+	charset Subset203 = 142378-143102;
+	charset Subset204 = 143103-143542;
+	charset Subset205 = 144412-144840;
+	charset Subset206 = 144841-145247;
+	charset Subset207 = 145248-145654;
+	charset Subset208 = 145655-146817;
+	charset Subset209 = 146818-147980;
+	charset Subset210 = 147981-148382;
+	charset Subset211 = 148785-149265;
+	charset Subset212 = 149266-149746;
+	charset Subset213 = 149747-150155;
+	charset Subset214 = 150156-150564;
+	charset Subset215 = 150565-150880;
+	charset Subset216 = 150881-151196;
+	charset Subset217 = 151197-151603 168885-169139;
+	charset Subset218 = 151604-152010;
+	charset Subset219 = 152361-152710;
+	charset Subset220 = 152711-153170;
+	charset Subset221 = 153171-153630;
+	charset Subset222 = 153631-153990;
+	charset Subset223 = 154351-154646;
+	charset Subset224 = 154647-154942;
+	charset Subset225 = 154943-155369;
+	charset Subset226 = 155370-155796;
+	charset Subset227 = 155797-156252;
+	charset Subset228 = 156253-156708;
+	charset Subset229 = 156709-157106;
+	charset Subset230 = 157107-157504;
+	charset Subset231 = 157505-157945;
+	charset Subset232 = 157946-158386;
+	charset Subset233 = 158387-158692;
+	charset Subset234 = 158693-158998;
+	charset Subset235 = 158999-159369;
+	charset Subset236 = 159370-159740;
+	charset Subset237 = 159741-160066;
+	charset Subset238 = 160067-160392;
+	charset Subset239 = 160393-160745;
+	charset Subset240 = 160746-161098;
+	charset Subset241 = 161099-161456;
+	charset Subset242 = 161457-161814;
+	charset Subset243 = 161815-162194;
+	charset Subset244 = 162575-162926;
+	charset Subset245 = 162927-163278;
+	charset Subset246 = 163279-163643;
+	charset Subset247 = 163644-164008;
+	charset Subset248 = 164295-164580;
+	charset Subset249 = 164806-165030;
+	charset Subset250 = 165031-165357;
+	charset Subset251 = 165358-165684;
+	charset Subset252 = 165685-166030;
+	charset Subset253 = 166031-166376;
+	charset Subset254 = 166377-166691;
+	charset Subset255 = 166692-167006;
+	charset Subset256 = 167007-167269;
+	charset Subset257 = 167270-167532;
+	charset Subset258 = 167533-167871;
+	charset Subset259 = 167872-168210;
+	charset Subset260 = 168211-168547;
+	charset Subset261 = 168548-168884;
+	charset Subset262 = 169140-169394;
+	charset Subset263 = 169395-169788;
+	charset Subset264 = 169789-170182;
+	charset Subset265 = 170183-170908;
+	charset Subset266 = 170909-171634;
+	charset Subset267 = 171635-172125;
+	charset Subset268 = 172126-172616;
+	charset Subset269 = 172617-172952;
+	charset Subset270 = 172953-173288;
+	charset Subset271 = 173289-173603;
+	charset Subset272 = 173604-173918;
+	charset Subset273 = 173919-174243;
+	charset Subset274 = 174244-174568;
+	charset Subset275 = 174569-174882;
+	charset Subset276 = 174883-175196;
+	charset Subset277 = 175197-175596;
+	charset Subset278 = 175597-175996;
+	charset Subset279 = 175997-176329;
+	charset Subset280 = 176330-176662;
+	charset Subset281 = 176663-176966;
+	charset Subset282 = 176967-177270;
+	charset Subset283 = 177271-177603;
+	charset Subset284 = 177604-177936;
+	charset Subset285 = 177937-178173;
+	charset Subset286 = 178174-178410;
+	charset Subset287 = 178411-178740;
+	charset Subset288 = 178741-179070;
+	charset Subset289 = 179071-179380;
+	charset Subset290 = 179381-179690;
+	charset Subset291 = 179691-179969;
+	charset Subset292 = 179970-180248;
+	charset Subset293 = 180249-180426;
+	charset Subset294 = 180427-180604;
+	charset Subset295 = 180605-180953;
+	charset Subset296 = 180954-181302;
+	charset Subset297 = 181303-181557;
+	charset Subset298 = 181558-181812;
+	charset Subset299 = 181813-182146;
+	charset Subset300 = 182147-182480;
+	charset Subset301 = 182481-182751;
+	charset Subset302 = 182752-183022;
+	charset Subset303 = 183023-183410;
+	charset Subset304 = 183411-183798;
+	charset Subset305 = 184061-184322;
+	charset Subset306 = 184323-184571;
+	charset Subset307 = 184572-184820;
+	charset Subset308 = 184821-185110;
+	charset Subset309 = 185111-185400;
+	charset Subset310 = 185401-185621;
+	charset Subset311 = 185622-185842;
+	charset Subset312 = 185843-186175;
+	charset Subset313 = 186176-186508;
+	charset Subset314 = 186509-186706;
+	charset Subset315 = 186707-186904;
+	charset Subset316 = 186905-187192;
+	charset Subset317 = 187193-187480;
+	charset Subset318 = 187481-187714;
+	charset Subset319 = 187715-187948;
+	charset Subset320 = 187949-188176;
+	charset Subset321 = 188177-188404;
+	charset Subset322 = 188405-188720;
+	charset Subset323 = 188721-189036;
+	charset Subset324 = 189037-189344 202141-202362;
+	charset Subset325 = 189345-189652;
+	charset Subset326 = 189653-190386;
+	charset Subset327 = 190387-191120;
+	charset Subset328 = 191121-191312;
+	charset Subset329 = 191505-191737;
+	charset Subset330 = 191738-191970;
+	charset Subset331 = 191971-192290;
+	charset Subset332 = 192291-192610;
+	charset Subset333 = 192611-192823;
+	charset Subset334 = 193037-193345;
+	charset Subset335 = 193346-193654;
+	charset Subset336 = 193655-193924;
+	charset Subset337 = 193925-194194;
+	charset Subset338 = 194195-194449;
+	charset Subset339 = 194705-194918;
+	charset Subset340 = 194919-195132;
+	charset Subset341 = 195133-195363;
+	charset Subset342 = 195364-195594;
+	charset Subset343 = 195595-195831;
+	charset Subset344 = 195832-196068;
+	charset Subset345 = 196069-196303;
+	charset Subset346 = 196304-196538;
+	charset Subset347 = 196539-196749;
+	charset Subset348 = 196750-196960;
+	charset Subset349 = 196961-197210;
+	charset Subset350 = 197211-197460;
+	charset Subset351 = 197461-197662;
+	charset Subset352 = 197663-197864;
+	charset Subset353 = 197865-198265;
+	charset Subset354 = 198266-198666;
+	charset Subset355 = 198667-199011;
+	charset Subset356 = 199012-199356;
+	charset Subset357 = 199357-199583;
+	charset Subset358 = 199584-199810;
+	charset Subset359 = 200292-200772;
+	charset Subset360 = 200773-201015;
+	charset Subset361 = 201016-201258;
+	charset Subset362 = 201259-201501;
+	charset Subset363 = 201502-201744;
+	charset Subset364 = 201745-201942;
+	charset Subset365 = 201943-202140;
+	charset Subset366 = 202363-202584;
+	charset Subset367 = 202585-202769;
+	charset Subset368 = 202770-202954;
+	charset Subset369 = 202955-203249;
+	charset Subset370 = 203250-203544;
+	charset Subset371 = 203545-203794;
+	charset Subset372 = 203795-204044;
+	charset Subset373 = 204045-204217;
+	charset Subset374 = 204218-204390;
+	charset Subset375 = 204391-204626;
+	charset Subset376 = 204627-204862;
+	charset Subset377 = 204863-205088;
+	charset Subset378 = 205089-205314;
+	charset Subset379 = 205315-205492;
+	charset Subset380 = 205493-205670;
+	charset Subset381 = 205671-205859;
+	charset Subset382 = 205860-206048;
+	charpartition PartitionFinder = Group1:Subset1, Group2:Subset2, Group3:Subset3, Group4:Subset4, Group5:Subset5, Group6:Subset6, Group7:Subset7, Group8:Subset8, Group9:Subset9, Group10:Subset10, Group11:Subset11, Group12:Subset12, Group13:Subset13, Group14:Subset14, Group15:Subset15, Group16:Subset16, Group17:Subset17, Group18:Subset18, Group19:Subset19, Group20:Subset20, Group21:Subset21, Group22:Subset22, Group23:Subset23, Group24:Subset24, Group25:Subset25, Group26:Subset26, Group27:Subset27, Group28:Subset28, Group29:Subset29, Group30:Subset30, Group31:Subset31, Group32:Subset32, Group33:Subset33, Group34:Subset34, Group35:Subset35, Group36:Subset36, Group37:Subset37, Group38:Subset38, Group39:Subset39, Group40:Subset40, Group41:Subset41, Group42:Subset42, Group43:Subset43, Group44:Subset44, Group45:Subset45, Group46:Subset46, Group47:Subset47, Group48:Subset48, Group49:Subset49, Group50:Subset50, Group51:Subset51, Group52:Subset52, Group53:Subset53, Group54:Subset54, Group55:Subset55, Group56:Subset56, Group57:Subset57, Group58:Subset58, Group59:Subset59, Group60:Subset60, Group61:Subset61, Group62:Subset62, Group63:Subset63, Group64:Subset64, Group65:Subset65, Group66:Subset66, Group67:Subset67, Group68:Subset68, Group69:Subset69, Group70:Subset70, Group71:Subset71, Group72:Subset72, Group73:Subset73, Group74:Subset74, Group75:Subset75, Group76:Subset76, Group77:Subset77, Group78:Subset78, Group79:Subset79, Group80:Subset80, Group81:Subset81, Group82:Subset82, Group83:Subset83, Group84:Subset84, Group85:Subset85, Group86:Subset86, Group87:Subset87, Group88:Subset88, Group89:Subset89, Group90:Subset90, Group91:Subset91, Group92:Subset92, Group93:Subset93, Group94:Subset94, Group95:Subset95, Group96:Subset96, Group97:Subset97, Group98:Subset98, Group99:Subset99, Group100:Subset100, Group101:Subset101, Group102:Subset102, Group103:Subset103, Group104:Subset104, Group105:Subset105, Group106:Subset106, Group107:Subset107, Group108:Subset108, Group109:Subset109, Group110:Subset110, Group111:Subset111, Group112:Subset112, Group113:Subset113, Group114:Subset114, Group115:Subset115, Group116:Subset116, Group117:Subset117, Group118:Subset118, Group119:Subset119, Group120:Subset120, Group121:Subset121, Group122:Subset122, Group123:Subset123, Group124:Subset124, Group125:Subset125, Group126:Subset126, Group127:Subset127, Group128:Subset128, Group129:Subset129, Group130:Subset130, Group131:Subset131, Group132:Subset132, Group133:Subset133, Group134:Subset134, Group135:Subset135, Group136:Subset136, Group137:Subset137, Group138:Subset138, Group139:Subset139, Group140:Subset140, Group141:Subset141, Group142:Subset142, Group143:Subset143, Group144:Subset144, Group145:Subset145, Group146:Subset146, Group147:Subset147, Group148:Subset148, Group149:Subset149, Group150:Subset150, Group151:Subset151, Group152:Subset152, Group153:Subset153, Group154:Subset154, Group155:Subset155, Group156:Subset156, Group157:Subset157, Group158:Subset158, Group159:Subset159, Group160:Subset160, Group161:Subset161, Group162:Subset162, Group163:Subset163, Group164:Subset164, Group165:Subset165, Group166:Subset166, Group167:Subset167, Group168:Subset168, Group169:Subset169, Group170:Subset170, Group171:Subset171, Group172:Subset172, Group173:Subset173, Group174:Subset174, Group175:Subset175, Group176:Subset176, Group177:Subset177, Group178:Subset178, Group179:Subset179, Group180:Subset180, Group181:Subset181, Group182:Subset182, Group183:Subset183, Group184:Subset184, Group185:Subset185, Group186:Subset186, Group187:Subset187, Group188:Subset188, Group189:Subset189, Group190:Subset190, Group191:Subset191, Group192:Subset192, Group193:Subset193, Group194:Subset194, Group195:Subset195, Group196:Subset196, Group197:Subset197, Group198:Subset198, Group199:Subset199, Group200:Subset200, Group201:Subset201, Group202:Subset202, Group203:Subset203, Group204:Subset204, Group205:Subset205, Group206:Subset206, Group207:Subset207, Group208:Subset208, Group209:Subset209, Group210:Subset210, Group211:Subset211, Group212:Subset212, Group213:Subset213, Group214:Subset214, Group215:Subset215, Group216:Subset216, Group217:Subset217, Group218:Subset218, Group219:Subset219, Group220:Subset220, Group221:Subset221, Group222:Subset222, Group223:Subset223, Group224:Subset224, Group225:Subset225, Group226:Subset226, Group227:Subset227, Group228:Subset228, Group229:Subset229, Group230:Subset230, Group231:Subset231, Group232:Subset232, Group233:Subset233, Group234:Subset234, Group235:Subset235, Group236:Subset236, Group237:Subset237, Group238:Subset238, Group239:Subset239, Group240:Subset240, Group241:Subset241, Group242:Subset242, Group243:Subset243, Group244:Subset244, Group245:Subset245, Group246:Subset246, Group247:Subset247, Group248:Subset248, Group249:Subset249, Group250:Subset250, Group251:Subset251, Group252:Subset252, Group253:Subset253, Group254:Subset254, Group255:Subset255, Group256:Subset256, Group257:Subset257, Group258:Subset258, Group259:Subset259, Group260:Subset260, Group261:Subset261, Group262:Subset262, Group263:Subset263, Group264:Subset264, Group265:Subset265, Group266:Subset266, Group267:Subset267, Group268:Subset268, Group269:Subset269, Group270:Subset270, Group271:Subset271, Group272:Subset272, Group273:Subset273, Group274:Subset274, Group275:Subset275, Group276:Subset276, Group277:Subset277, Group278:Subset278, Group279:Subset279, Group280:Subset280, Group281:Subset281, Group282:Subset282, Group283:Subset283, Group284:Subset284, Group285:Subset285, Group286:Subset286, Group287:Subset287, Group288:Subset288, Group289:Subset289, Group290:Subset290, Group291:Subset291, Group292:Subset292, Group293:Subset293, Group294:Subset294, Group295:Subset295, Group296:Subset296, Group297:Subset297, Group298:Subset298, Group299:Subset299, Group300:Subset300, Group301:Subset301, Group302:Subset302, Group303:Subset303, Group304:Subset304, Group305:Subset305, Group306:Subset306, Group307:Subset307, Group308:Subset308, Group309:Subset309, Group310:Subset310, Group311:Subset311, Group312:Subset312, Group313:Subset313, Group314:Subset314, Group315:Subset315, Group316:Subset316, Group317:Subset317, Group318:Subset318, Group319:Subset319, Group320:Subset320, Group321:Subset321, Group322:Subset322, Group323:Subset323, Group324:Subset324, Group325:Subset325, Group326:Subset326, Group327:Subset327, Group328:Subset328, Group329:Subset329, Group330:Subset330, Group331:Subset331, Group332:Subset332, Group333:Subset333, Group334:Subset334, Group335:Subset335, Group336:Subset336, Group337:Subset337, Group338:Subset338, Group339:Subset339, Group340:Subset340, Group341:Subset341, Group342:Subset342, Group343:Subset343, Group344:Subset344, Group345:Subset345, Group346:Subset346, Group347:Subset347, Group348:Subset348, Group349:Subset349, Group350:Subset350, Group351:Subset351, Group352:Subset352, Group353:Subset353, Group354:Subset354, Group355:Subset355, Group356:Subset356, Group357:Subset357, Group358:Subset358, Group359:Subset359, Group360:Subset360, Group361:Subset361, Group362:Subset362, Group363:Subset363, Group364:Subset364, Group365:Subset365, Group366:Subset366, Group367:Subset367, Group368:Subset368, Group369:Subset369, Group370:Subset370, Group371:Subset371, Group372:Subset372, Group373:Subset373, Group374:Subset374, Group375:Subset375, Group376:Subset376, Group377:Subset377, Group378:Subset378, Group379:Subset379, Group380:Subset380, Group381:Subset381, Group382:Subset382;
+end;
+
+
+Nexus formatted character sets for IQtree
+Warning: the models written in the charpartition are just the best model found in this analysis. Not all models are available in IQtree, so you may need to set up specific model lists for your analysis
+
+#nexus
+begin sets;
+	charset Subset1 = 1-1440;
+	charset Subset2 = 1441-2880;
+	charset Subset3 = 2881-4827;
+	charset Subset4 = 4828-6774;
+	charset Subset5 = 6775-8247;
+	charset Subset6 = 8248-9720;
+	charset Subset7 = 9721-11589;
+	charset Subset8 = 11590-13458;
+	charset Subset9 = 13459-14977;
+	charset Subset10 = 14978-16496;
+	charset Subset11 = 164581-164805 16497-18139 152011-152360;
+	charset Subset12 = 18140-19782;
+	charset Subset13 = 19783-20537;
+	charset Subset14 = 20538-21292;
+	charset Subset15 = 21293-22657;
+	charset Subset16 = 22658-24022;
+	charset Subset17 = 24023-24805;
+	charset Subset18 = 24806-25588;
+	charset Subset19 = 25589-26674;
+	charset Subset20 = 26675-27760;
+	charset Subset21 = 27761-29055;
+	charset Subset22 = 29056-30350;
+	charset Subset23 = 30351-31104;
+	charset Subset24 = 31105-31858;
+	charset Subset25 = 31859-32902;
+	charset Subset26 = 32903-33946;
+	charset Subset27 = 33947-34677;
+	charset Subset28 = 34678-35408;
+	charset Subset29 = 35409-36412;
+	charset Subset30 = 36413-37416;
+	charset Subset31 = 37417-38601;
+	charset Subset32 = 38602-39786;
+	charset Subset33 = 39787-40466;
+	charset Subset34 = 40467-41146;
+	charset Subset35 = 41147-42043;
+	charset Subset36 = 42044-42940;
+	charset Subset37 = 42941-43590;
+	charset Subset38 = 143543-143982 43591-44240;
+	charset Subset39 = 44241-45211;
+	charset Subset40 = 45212-46182;
+	charset Subset41 = 46183-46747;
+	charset Subset42 = 46748-47312;
+	charset Subset43 = 164009-164294 47313-48402;
+	charset Subset44 = 48403-49492;
+	charset Subset45 = 49493-49912;
+	charset Subset46 = 49913-50332;
+	charset Subset47 = 50333-51008;
+	charset Subset48 = 51009-51684;
+	charset Subset49 = 51685-52383;
+	charset Subset50 = 52384-53082;
+	charset Subset51 = 53083-54120;
+	charset Subset52 = 54121-55158 62408-63116;
+	charset Subset53 = 55159-56154;
+	charset Subset54 = 56155-57150;
+	charset Subset55 = 57151-58025;
+	charset Subset56 = 58026-58900;
+	charset Subset57 = 58901-59669;
+	charset Subset58 = 59670-60438;
+	charset Subset59 = 60439-61068;
+	charset Subset60 = 61069-61698;
+	charset Subset61 = 61699-62407;
+	charset Subset62 = 63117-64298;
+	charset Subset63 = 64299-65480;
+	charset Subset64 = 65481-66143;
+	charset Subset65 = 66144-66806;
+	charset Subset66 = 66807-67638;
+	charset Subset67 = 67639-68470;
+	charset Subset68 = 68471-69194;
+	charset Subset69 = 69195-69918;
+	charset Subset70 = 134253-134711 69919-70457;
+	charset Subset71 = 70458-70996;
+	charset Subset72 = 70997-71732;
+	charset Subset73 = 71733-72468;
+	charset Subset74 = 72469-73177;
+	charset Subset75 = 73178-73886;
+	charset Subset76 = 73887-74685;
+	charset Subset77 = 74686-75484;
+	charset Subset78 = 75485-76062;
+	charset Subset79 = 76063-76640;
+	charset Subset80 = 76641-77422;
+	charset Subset81 = 77423-78204 153991-154350;
+	charset Subset82 = 78205-78869 183799-184060;
+	charset Subset83 = 78870-79534;
+	charset Subset84 = 79535-80228;
+	charset Subset85 = 80229-80922;
+	charset Subset86 = 80923-81479;
+	charset Subset87 = 81480-82036;
+	charset Subset88 = 82037-82774;
+	charset Subset89 = 82775-83512 101225-101540;
+	charset Subset90 = 83513-84042;
+	charset Subset91 = 84043-84572;
+	charset Subset92 = 84573-85277;
+	charset Subset93 = 85278-85982;
+	charset Subset94 = 85983-86444;
+	charset Subset95 = 86445-86906;
+	charset Subset96 = 86907-88223;
+	charset Subset97 = 88224-89540;
+	charset Subset98 = 89541-89840;
+	charset Subset99 = 89841-90140;
+	charset Subset100 = 90141-90759;
+	charset Subset101 = 90760-91378;
+	charset Subset102 = 91379-92011;
+	charset Subset103 = 92012-92644;
+	charset Subset104 = 92645-93159;
+	charset Subset105 = 93160-93674;
+	charset Subset106 = 93675-94391;
+	charset Subset107 = 94392-95108 191313-191504;
+	charset Subset108 = 95109-95719;
+	charset Subset109 = 95720-96330;
+	charset Subset110 = 96331-96929;
+	charset Subset111 = 96930-97528;
+	charset Subset112 = 97529-98058;
+	charset Subset113 = 98059-98588;
+	charset Subset114 = 98589-99184;
+	charset Subset115 = 99185-99780;
+	charset Subset116 = 99781-100344;
+	charset Subset117 = 100345-100908;
+	charset Subset118 = 100909-101224;
+	charset Subset119 = 101541-102092;
+	charset Subset120 = 102093-102644;
+	charset Subset121 = 102645-103181;
+	charset Subset122 = 103182-103718;
+	charset Subset123 = 103719-104331;
+	charset Subset124 = 104332-104944;
+	charset Subset125 = 104945-105531;
+	charset Subset126 = 105532-106118;
+	charset Subset127 = 106119-106609;
+	charset Subset128 = 106610-107100;
+	charset Subset129 = 107101-107643;
+	charset Subset130 = 107644-108186 162195-162574;
+	charset Subset131 = 108187-108625;
+	charset Subset132 = 108626-109064;
+	charset Subset133 = 109065-109683;
+	charset Subset134 = 109684-110302;
+	charset Subset135 = 110303-110821;
+	charset Subset136 = 110822-111340;
+	charset Subset137 = 111341-112011;
+	charset Subset138 = 112012-112682;
+	charset Subset139 = 112683-113079;
+	charset Subset140 = 113080-113476;
+	charset Subset141 = 113477-114010;
+	charset Subset142 = 114011-114544;
+	charset Subset143 = 114545-114962;
+	charset Subset144 = 114963-115380;
+	charset Subset145 = 115381-115631;
+	charset Subset146 = 115632-115882;
+	charset Subset147 = 115883-116441;
+	charset Subset148 = 116442-117000;
+	charset Subset149 = 117001-117345;
+	charset Subset150 = 117346-117690;
+	charset Subset151 = 117691-118144;
+	charset Subset152 = 118145-118598;
+	charset Subset153 = 118599-118983;
+	charset Subset154 = 118984-119368;
+	charset Subset155 = 119369-119752;
+	charset Subset156 = 148383-148784 119753-120136;
+	charset Subset157 = 120137-120575;
+	charset Subset158 = 120576-121014;
+	charset Subset159 = 121015-121591;
+	charset Subset160 = 121592-122168;
+	charset Subset161 = 122169-122704;
+	charset Subset162 = 122705-123240;
+	charset Subset163 = 123241-123737;
+	charset Subset164 = 123738-124234;
+	charset Subset165 = 124235-124705;
+	charset Subset166 = 124706-125176;
+	charset Subset167 = 199811-200291 125177-125679;
+	charset Subset168 = 125680-126182;
+	charset Subset169 = 126183-126681;
+	charset Subset170 = 126682-127180;
+	charset Subset171 = 127181-127670;
+	charset Subset172 = 127671-128160;
+	charset Subset173 = 128161-128614;
+	charset Subset174 = 128615-129068;
+	charset Subset175 = 129069-129477;
+	charset Subset176 = 192824-193036 129478-129886;
+	charset Subset177 = 129887-130362 143983-144411;
+	charset Subset178 = 130363-130838;
+	charset Subset179 = 130839-131309;
+	charset Subset180 = 131310-131780;
+	charset Subset181 = 131781-132192;
+	charset Subset182 = 132193-132604;
+	charset Subset183 = 132605-133018;
+	charset Subset184 = 133019-133432;
+	charset Subset185 = 133433-133842;
+	charset Subset186 = 133843-134252;
+	charset Subset187 = 134712-135170;
+	charset Subset188 = 135171-135556;
+	charset Subset189 = 135557-135942;
+	charset Subset190 = 135943-136434;
+	charset Subset191 = 136435-136926;
+	charset Subset192 = 136927-137569;
+	charset Subset193 = 137570-138212;
+	charset Subset194 = 138213-138661;
+	charset Subset195 = 194450-194704 138662-139110;
+	charset Subset196 = 139111-139573;
+	charset Subset197 = 139574-140036;
+	charset Subset198 = 140037-140446;
+	charset Subset199 = 140447-140856;
+	charset Subset200 = 140857-141254;
+	charset Subset201 = 141255-141652;
+	charset Subset202 = 141653-142377;
+	charset Subset203 = 142378-143102;
+	charset Subset204 = 143103-143542;
+	charset Subset205 = 144412-144840;
+	charset Subset206 = 144841-145247;
+	charset Subset207 = 145248-145654;
+	charset Subset208 = 145655-146817;
+	charset Subset209 = 146818-147980;
+	charset Subset210 = 147981-148382;
+	charset Subset211 = 148785-149265;
+	charset Subset212 = 149266-149746;
+	charset Subset213 = 149747-150155;
+	charset Subset214 = 150156-150564;
+	charset Subset215 = 150565-150880;
+	charset Subset216 = 150881-151196;
+	charset Subset217 = 151197-151603 168885-169139;
+	charset Subset218 = 151604-152010;
+	charset Subset219 = 152361-152710;
+	charset Subset220 = 152711-153170;
+	charset Subset221 = 153171-153630;
+	charset Subset222 = 153631-153990;
+	charset Subset223 = 154351-154646;
+	charset Subset224 = 154647-154942;
+	charset Subset225 = 154943-155369;
+	charset Subset226 = 155370-155796;
+	charset Subset227 = 155797-156252;
+	charset Subset228 = 156253-156708;
+	charset Subset229 = 156709-157106;
+	charset Subset230 = 157107-157504;
+	charset Subset231 = 157505-157945;
+	charset Subset232 = 157946-158386;
+	charset Subset233 = 158387-158692;
+	charset Subset234 = 158693-158998;
+	charset Subset235 = 158999-159369;
+	charset Subset236 = 159370-159740;
+	charset Subset237 = 159741-160066;
+	charset Subset238 = 160067-160392;
+	charset Subset239 = 160393-160745;
+	charset Subset240 = 160746-161098;
+	charset Subset241 = 161099-161456;
+	charset Subset242 = 161457-161814;
+	charset Subset243 = 161815-162194;
+	charset Subset244 = 162575-162926;
+	charset Subset245 = 162927-163278;
+	charset Subset246 = 163279-163643;
+	charset Subset247 = 163644-164008;
+	charset Subset248 = 164295-164580;
+	charset Subset249 = 164806-165030;
+	charset Subset250 = 165031-165357;
+	charset Subset251 = 165358-165684;
+	charset Subset252 = 165685-166030;
+	charset Subset253 = 166031-166376;
+	charset Subset254 = 166377-166691;
+	charset Subset255 = 166692-167006;
+	charset Subset256 = 167007-167269;
+	charset Subset257 = 167270-167532;
+	charset Subset258 = 167533-167871;
+	charset Subset259 = 167872-168210;
+	charset Subset260 = 168211-168547;
+	charset Subset261 = 168548-168884;
+	charset Subset262 = 169140-169394;
+	charset Subset263 = 169395-169788;
+	charset Subset264 = 169789-170182;
+	charset Subset265 = 170183-170908;
+	charset Subset266 = 170909-171634;
+	charset Subset267 = 171635-172125;
+	charset Subset268 = 172126-172616;
+	charset Subset269 = 172617-172952;
+	charset Subset270 = 172953-173288;
+	charset Subset271 = 173289-173603;
+	charset Subset272 = 173604-173918;
+	charset Subset273 = 173919-174243;
+	charset Subset274 = 174244-174568;
+	charset Subset275 = 174569-174882;
+	charset Subset276 = 174883-175196;
+	charset Subset277 = 175197-175596;
+	charset Subset278 = 175597-175996;
+	charset Subset279 = 175997-176329;
+	charset Subset280 = 176330-176662;
+	charset Subset281 = 176663-176966;
+	charset Subset282 = 176967-177270;
+	charset Subset283 = 177271-177603;
+	charset Subset284 = 177604-177936;
+	charset Subset285 = 177937-178173;
+	charset Subset286 = 178174-178410;
+	charset Subset287 = 178411-178740;
+	charset Subset288 = 178741-179070;
+	charset Subset289 = 179071-179380;
+	charset Subset290 = 179381-179690;
+	charset Subset291 = 179691-179969;
+	charset Subset292 = 179970-180248;
+	charset Subset293 = 180249-180426;
+	charset Subset294 = 180427-180604;
+	charset Subset295 = 180605-180953;
+	charset Subset296 = 180954-181302;
+	charset Subset297 = 181303-181557;
+	charset Subset298 = 181558-181812;
+	charset Subset299 = 181813-182146;
+	charset Subset300 = 182147-182480;
+	charset Subset301 = 182481-182751;
+	charset Subset302 = 182752-183022;
+	charset Subset303 = 183023-183410;
+	charset Subset304 = 183411-183798;
+	charset Subset305 = 184061-184322;
+	charset Subset306 = 184323-184571;
+	charset Subset307 = 184572-184820;
+	charset Subset308 = 184821-185110;
+	charset Subset309 = 185111-185400;
+	charset Subset310 = 185401-185621;
+	charset Subset311 = 185622-185842;
+	charset Subset312 = 185843-186175;
+	charset Subset313 = 186176-186508;
+	charset Subset314 = 186509-186706;
+	charset Subset315 = 186707-186904;
+	charset Subset316 = 186905-187192;
+	charset Subset317 = 187193-187480;
+	charset Subset318 = 187481-187714;
+	charset Subset319 = 187715-187948;
+	charset Subset320 = 187949-188176;
+	charset Subset321 = 188177-188404;
+	charset Subset322 = 188405-188720;
+	charset Subset323 = 188721-189036;
+	charset Subset324 = 189037-189344 202141-202362;
+	charset Subset325 = 189345-189652;
+	charset Subset326 = 189653-190386;
+	charset Subset327 = 190387-191120;
+	charset Subset328 = 191121-191312;
+	charset Subset329 = 191505-191737;
+	charset Subset330 = 191738-191970;
+	charset Subset331 = 191971-192290;
+	charset Subset332 = 192291-192610;
+	charset Subset333 = 192611-192823;
+	charset Subset334 = 193037-193345;
+	charset Subset335 = 193346-193654;
+	charset Subset336 = 193655-193924;
+	charset Subset337 = 193925-194194;
+	charset Subset338 = 194195-194449;
+	charset Subset339 = 194705-194918;
+	charset Subset340 = 194919-195132;
+	charset Subset341 = 195133-195363;
+	charset Subset342 = 195364-195594;
+	charset Subset343 = 195595-195831;
+	charset Subset344 = 195832-196068;
+	charset Subset345 = 196069-196303;
+	charset Subset346 = 196304-196538;
+	charset Subset347 = 196539-196749;
+	charset Subset348 = 196750-196960;
+	charset Subset349 = 196961-197210;
+	charset Subset350 = 197211-197460;
+	charset Subset351 = 197461-197662;
+	charset Subset352 = 197663-197864;
+	charset Subset353 = 197865-198265;
+	charset Subset354 = 198266-198666;
+	charset Subset355 = 198667-199011;
+	charset Subset356 = 199012-199356;
+	charset Subset357 = 199357-199583;
+	charset Subset358 = 199584-199810;
+	charset Subset359 = 200292-200772;
+	charset Subset360 = 200773-201015;
+	charset Subset361 = 201016-201258;
+	charset Subset362 = 201259-201501;
+	charset Subset363 = 201502-201744;
+	charset Subset364 = 201745-201942;
+	charset Subset365 = 201943-202140;
+	charset Subset366 = 202363-202584;
+	charset Subset367 = 202585-202769;
+	charset Subset368 = 202770-202954;
+	charset Subset369 = 202955-203249;
+	charset Subset370 = 203250-203544;
+	charset Subset371 = 203545-203794;
+	charset Subset372 = 203795-204044;
+	charset Subset373 = 204045-204217;
+	charset Subset374 = 204218-204390;
+	charset Subset375 = 204391-204626;
+	charset Subset376 = 204627-204862;
+	charset Subset377 = 204863-205088;
+	charset Subset378 = 205089-205314;
+	charset Subset379 = 205315-205492;
+	charset Subset380 = 205493-205670;
+	charset Subset381 = 205671-205859;
+	charset Subset382 = 205860-206048;
+	charpartition PartitionFinder = GTR+G:Subset1, GTR+G:Subset2, GTR+G:Subset3, GTR+G:Subset4, GTR+G:Subset5, GTR+G:Subset6, GTR+G:Subset7, GTR+G:Subset8, GTR+G:Subset9, GTR+G:Subset10, GTR+G:Subset11, GTR+G:Subset12, GTR+G:Subset13, GTR+G:Subset14, GTR+G:Subset15, GTR+G:Subset16, GTR+G:Subset17, GTR+G:Subset18, GTR+G:Subset19, GTR+G:Subset20, GTR+G:Subset21, GTR+G:Subset22, GTR+G:Subset23, GTR+G:Subset24, GTR+G:Subset25, GTR+G:Subset26, GTR+G:Subset27, GTR+G:Subset28, GTR+G:Subset29, GTR+G:Subset30, GTR+G:Subset31, GTR+G:Subset32, GTR+G:Subset33, GTR+G:Subset34, GTR+G:Subset35, GTR+G:Subset36, GTR+G:Subset37, GTR+G:Subset38, GTR+G:Subset39, GTR+G:Subset40, GTR+G:Subset41, GTR+G:Subset42, GTR+G:Subset43, GTR+G:Subset44, GTR+G:Subset45, GTR+G:Subset46, GTR+G:Subset47, GTR+G:Subset48, GTR+G:Subset49, GTR+G:Subset50, GTR+G:Subset51, GTR+G:Subset52, GTR+G:Subset53, GTR+G:Subset54, GTR+G:Subset55, GTR+G:Subset56, GTR+G:Subset57, GTR+G:Subset58, GTR+G:Subset59, GTR+G:Subset60, GTR+G:Subset61, GTR+G:Subset62, GTR+G:Subset63, GTR+G:Subset64, GTR+G:Subset65, GTR+G:Subset66, GTR+G:Subset67, GTR+G:Subset68, GTR+G:Subset69, GTR+G:Subset70, GTR+G:Subset71, GTR+G:Subset72, GTR+G:Subset73, GTR+G:Subset74, GTR+G:Subset75, GTR+G:Subset76, GTR+G:Subset77, GTR+G:Subset78, GTR+G:Subset79, GTR+G:Subset80, GTR+G:Subset81, GTR+G:Subset82, GTR+G:Subset83, GTR+G:Subset84, GTR+G:Subset85, GTR+G:Subset86, GTR+G:Subset87, GTR+G:Subset88, GTR+G:Subset89, GTR+G:Subset90, GTR+G:Subset91, GTR+G:Subset92, GTR+G:Subset93, GTR+G:Subset94, GTR+G:Subset95, GTR+G:Subset96, GTR+G:Subset97, GTR+G:Subset98, GTR+G:Subset99, GTR+G:Subset100, GTR+G:Subset101, GTR+G:Subset102, GTR+G:Subset103, GTR+G:Subset104, GTR+G:Subset105, GTR+G:Subset106, GTR+G:Subset107, GTR+G:Subset108, GTR+G:Subset109, GTR+G:Subset110, GTR+G:Subset111, GTR+G:Subset112, GTR+G:Subset113, GTR+G:Subset114, GTR+G:Subset115, GTR+G:Subset116, GTR+G:Subset117, GTR+G:Subset118, GTR+G:Subset119, GTR+G:Subset120, GTR+G:Subset121, GTR+G:Subset122, GTR+G:Subset123, GTR+G:Subset124, GTR+G:Subset125, GTR+G:Subset126, GTR+G:Subset127, GTR+G:Subset128, GTR+G:Subset129, GTR+G:Subset130, GTR+G:Subset131, GTR+G:Subset132, GTR+G:Subset133, GTR+G:Subset134, GTR+G:Subset135, GTR+G:Subset136, GTR+G:Subset137, GTR+G:Subset138, GTR+G:Subset139, GTR+G:Subset140, GTR+G:Subset141, GTR+G:Subset142, GTR+G:Subset143, GTR+G:Subset144, GTR+G:Subset145, GTR+G:Subset146, GTR+G:Subset147, GTR+G:Subset148, GTR+G:Subset149, GTR+G:Subset150, GTR+G:Subset151, GTR+G:Subset152, GTR+G:Subset153, GTR+G:Subset154, GTR+G:Subset155, GTR+G:Subset156, GTR+G:Subset157, GTR+G:Subset158, GTR+G:Subset159, GTR+G:Subset160, GTR+G:Subset161, GTR+G:Subset162, GTR+G:Subset163, GTR+G:Subset164, GTR+G:Subset165, GTR+G:Subset166, GTR+G:Subset167, GTR+G:Subset168, GTR+G:Subset169, GTR+G:Subset170, GTR+G:Subset171, GTR+G:Subset172, GTR+G:Subset173, GTR+G:Subset174, GTR+G:Subset175, GTR+G:Subset176, GTR+G:Subset177, GTR+G:Subset178, GTR+G:Subset179, GTR+G:Subset180, GTR+G:Subset181, GTR+G:Subset182, GTR+G:Subset183, GTR+G:Subset184, GTR+G:Subset185, GTR+G:Subset186, GTR+G:Subset187, GTR+G:Subset188, GTR+G:Subset189, GTR+G:Subset190, GTR+G:Subset191, GTR+G:Subset192, GTR+G:Subset193, GTR+G:Subset194, GTR+G:Subset195, GTR+G:Subset196, GTR+G:Subset197, GTR+G:Subset198, GTR+G:Subset199, GTR+G:Subset200, GTR+G:Subset201, GTR+G:Subset202, GTR+G:Subset203, GTR+G:Subset204, GTR+G:Subset205, GTR+G:Subset206, GTR+G:Subset207, GTR+G:Subset208, GTR+G:Subset209, GTR+G:Subset210, GTR+G:Subset211, GTR+G:Subset212, GTR+G:Subset213, GTR+G:Subset214, GTR+G:Subset215, GTR+G:Subset216, GTR+G:Subset217, GTR+G:Subset218, GTR+G:Subset219, GTR+G:Subset220, GTR+G:Subset221, GTR+G:Subset222, GTR+G:Subset223, GTR+G:Subset224, GTR+G:Subset225, GTR+G:Subset226, GTR+G:Subset227, GTR+G:Subset228, GTR+G:Subset229, GTR+G:Subset230, GTR+G:Subset231, GTR+G:Subset232, GTR+G:Subset233, GTR+G:Subset234, GTR+G:Subset235, GTR+G:Subset236, GTR+G:Subset237, GTR+G:Subset238, GTR+G:Subset239, GTR+G:Subset240, GTR+G:Subset241, GTR+G:Subset242, GTR+G:Subset243, GTR+G:Subset244, GTR+G:Subset245, GTR+G:Subset246, GTR+G:Subset247, GTR+G:Subset248, GTR+G:Subset249, GTR+G:Subset250, GTR+G:Subset251, GTR+G:Subset252, GTR+G:Subset253, GTR+G:Subset254, GTR+G:Subset255, GTR+G:Subset256, GTR+G:Subset257, GTR+G:Subset258, GTR+G:Subset259, GTR+G:Subset260, GTR+G:Subset261, GTR+G:Subset262, GTR+G:Subset263, GTR+G:Subset264, GTR+G:Subset265, GTR+G:Subset266, GTR+G:Subset267, GTR+G:Subset268, GTR+G:Subset269, GTR+G:Subset270, GTR+G:Subset271, GTR+G:Subset272, GTR+G:Subset273, GTR+G:Subset274, GTR+G:Subset275, GTR+G:Subset276, GTR+G:Subset277, GTR+G:Subset278, GTR+G:Subset279, GTR+G:Subset280, GTR+G:Subset281, GTR+G:Subset282, GTR+G:Subset283, GTR+G:Subset284, GTR+G:Subset285, GTR+G:Subset286, GTR+G:Subset287, GTR+G:Subset288, GTR+G:Subset289, GTR+G:Subset290, GTR+G:Subset291, GTR+G:Subset292, GTR+G:Subset293, GTR+G:Subset294, GTR+G:Subset295, GTR+G:Subset296, GTR+G:Subset297, GTR+G:Subset298, GTR+G:Subset299, GTR+G:Subset300, GTR+G:Subset301, GTR+G:Subset302, GTR+G:Subset303, GTR+G:Subset304, GTR+G:Subset305, GTR+G:Subset306, GTR+G:Subset307, GTR+G:Subset308, GTR+G:Subset309, GTR+G:Subset310, GTR+G:Subset311, GTR+G:Subset312, GTR+G:Subset313, GTR+G:Subset314, GTR+G:Subset315, GTR+G:Subset316, GTR+G:Subset317, GTR+G:Subset318, GTR+G:Subset319, GTR+G:Subset320, GTR+G:Subset321, GTR+G:Subset322, GTR+G:Subset323, GTR+G:Subset324, GTR+G:Subset325, GTR+G:Subset326, GTR+G:Subset327, GTR+G:Subset328, GTR+G:Subset329, GTR+G:Subset330, GTR+G:Subset331, GTR+G:Subset332, GTR+G:Subset333, GTR+G:Subset334, GTR+G:Subset335, GTR+G:Subset336, GTR+G:Subset337, GTR+G:Subset338, GTR+G:Subset339, GTR+G:Subset340, GTR+G:Subset341, GTR+G:Subset342, GTR+G:Subset343, GTR+G:Subset344, GTR+G:Subset345, GTR+G:Subset346, GTR+G:Subset347, GTR+G:Subset348, GTR+G:Subset349, GTR+G:Subset350, GTR+G:Subset351, GTR+G:Subset352, GTR+G:Subset353, GTR+G:Subset354, GTR+G:Subset355, GTR+G:Subset356, GTR+G:Subset357, GTR+G:Subset358, GTR+G:Subset359, GTR+G:Subset360, GTR+G:Subset361, GTR+G:Subset362, GTR+G:Subset363, GTR+G:Subset364, GTR+G:Subset365, GTR+G:Subset366, GTR+G:Subset367, GTR+G:Subset368, GTR+G:Subset369, GTR+G:Subset370, GTR+G:Subset371, GTR+G:Subset372, GTR+G:Subset373, GTR+G:Subset374, GTR+G:Subset375, GTR+G:Subset376, GTR+G:Subset377, GTR+G:Subset378, GTR+G:Subset379, GTR+G:Subset380, GTR+G:Subset381, GTR+G:Subset382;
+end;
+
+
+RaxML-style partition definitions
+Warning: RAxML allows for only a single model of rate heterogeneity in partitioned analyses. I.e. all partitions must be assigned one of three types of model: No heterogeneity (e.g. GTR); +G (e.g. GTR+G); or +I+G (e.g. GTR+I+G). If the best models for your datasetcontain different types of model for different subsets you will need to decide on the best rate heterogeneity model before you run RAxML. If you prefer to do things more rigorously, you can run separate PartitionFinder analyses for each type of rate heterogenetity Then choose the scheme with the lowest AIC/AICc/BIC score. Note that these re-runs will be quick!
+
+DNA, Subset1 = 1-1440
+DNA, Subset2 = 1441-2880
+DNA, Subset3 = 2881-4827
+DNA, Subset4 = 4828-6774
+DNA, Subset5 = 6775-8247
+DNA, Subset6 = 8248-9720
+DNA, Subset7 = 9721-11589
+DNA, Subset8 = 11590-13458
+DNA, Subset9 = 13459-14977
+DNA, Subset10 = 14978-16496
+DNA, Subset11 = 164581-164805, 16497-18139, 152011-152360
+DNA, Subset12 = 18140-19782
+DNA, Subset13 = 19783-20537
+DNA, Subset14 = 20538-21292
+DNA, Subset15 = 21293-22657
+DNA, Subset16 = 22658-24022
+DNA, Subset17 = 24023-24805
+DNA, Subset18 = 24806-25588
+DNA, Subset19 = 25589-26674
+DNA, Subset20 = 26675-27760
+DNA, Subset21 = 27761-29055
+DNA, Subset22 = 29056-30350
+DNA, Subset23 = 30351-31104
+DNA, Subset24 = 31105-31858
+DNA, Subset25 = 31859-32902
+DNA, Subset26 = 32903-33946
+DNA, Subset27 = 33947-34677
+DNA, Subset28 = 34678-35408
+DNA, Subset29 = 35409-36412
+DNA, Subset30 = 36413-37416
+DNA, Subset31 = 37417-38601
+DNA, Subset32 = 38602-39786
+DNA, Subset33 = 39787-40466
+DNA, Subset34 = 40467-41146
+DNA, Subset35 = 41147-42043
+DNA, Subset36 = 42044-42940
+DNA, Subset37 = 42941-43590
+DNA, Subset38 = 143543-143982, 43591-44240
+DNA, Subset39 = 44241-45211
+DNA, Subset40 = 45212-46182
+DNA, Subset41 = 46183-46747
+DNA, Subset42 = 46748-47312
+DNA, Subset43 = 164009-164294, 47313-48402
+DNA, Subset44 = 48403-49492
+DNA, Subset45 = 49493-49912
+DNA, Subset46 = 49913-50332
+DNA, Subset47 = 50333-51008
+DNA, Subset48 = 51009-51684
+DNA, Subset49 = 51685-52383
+DNA, Subset50 = 52384-53082
+DNA, Subset51 = 53083-54120
+DNA, Subset52 = 54121-55158, 62408-63116
+DNA, Subset53 = 55159-56154
+DNA, Subset54 = 56155-57150
+DNA, Subset55 = 57151-58025
+DNA, Subset56 = 58026-58900
+DNA, Subset57 = 58901-59669
+DNA, Subset58 = 59670-60438
+DNA, Subset59 = 60439-61068
+DNA, Subset60 = 61069-61698
+DNA, Subset61 = 61699-62407
+DNA, Subset62 = 63117-64298
+DNA, Subset63 = 64299-65480
+DNA, Subset64 = 65481-66143
+DNA, Subset65 = 66144-66806
+DNA, Subset66 = 66807-67638
+DNA, Subset67 = 67639-68470
+DNA, Subset68 = 68471-69194
+DNA, Subset69 = 69195-69918
+DNA, Subset70 = 134253-134711, 69919-70457
+DNA, Subset71 = 70458-70996
+DNA, Subset72 = 70997-71732
+DNA, Subset73 = 71733-72468
+DNA, Subset74 = 72469-73177
+DNA, Subset75 = 73178-73886
+DNA, Subset76 = 73887-74685
+DNA, Subset77 = 74686-75484
+DNA, Subset78 = 75485-76062
+DNA, Subset79 = 76063-76640
+DNA, Subset80 = 76641-77422
+DNA, Subset81 = 77423-78204, 153991-154350
+DNA, Subset82 = 78205-78869, 183799-184060
+DNA, Subset83 = 78870-79534
+DNA, Subset84 = 79535-80228
+DNA, Subset85 = 80229-80922
+DNA, Subset86 = 80923-81479
+DNA, Subset87 = 81480-82036
+DNA, Subset88 = 82037-82774
+DNA, Subset89 = 82775-83512, 101225-101540
+DNA, Subset90 = 83513-84042
+DNA, Subset91 = 84043-84572
+DNA, Subset92 = 84573-85277
+DNA, Subset93 = 85278-85982
+DNA, Subset94 = 85983-86444
+DNA, Subset95 = 86445-86906
+DNA, Subset96 = 86907-88223
+DNA, Subset97 = 88224-89540
+DNA, Subset98 = 89541-89840
+DNA, Subset99 = 89841-90140
+DNA, Subset100 = 90141-90759
+DNA, Subset101 = 90760-91378
+DNA, Subset102 = 91379-92011
+DNA, Subset103 = 92012-92644
+DNA, Subset104 = 92645-93159
+DNA, Subset105 = 93160-93674
+DNA, Subset106 = 93675-94391
+DNA, Subset107 = 94392-95108, 191313-191504
+DNA, Subset108 = 95109-95719
+DNA, Subset109 = 95720-96330
+DNA, Subset110 = 96331-96929
+DNA, Subset111 = 96930-97528
+DNA, Subset112 = 97529-98058
+DNA, Subset113 = 98059-98588
+DNA, Subset114 = 98589-99184
+DNA, Subset115 = 99185-99780
+DNA, Subset116 = 99781-100344
+DNA, Subset117 = 100345-100908
+DNA, Subset118 = 100909-101224
+DNA, Subset119 = 101541-102092
+DNA, Subset120 = 102093-102644
+DNA, Subset121 = 102645-103181
+DNA, Subset122 = 103182-103718
+DNA, Subset123 = 103719-104331
+DNA, Subset124 = 104332-104944
+DNA, Subset125 = 104945-105531
+DNA, Subset126 = 105532-106118
+DNA, Subset127 = 106119-106609
+DNA, Subset128 = 106610-107100
+DNA, Subset129 = 107101-107643
+DNA, Subset130 = 107644-108186, 162195-162574
+DNA, Subset131 = 108187-108625
+DNA, Subset132 = 108626-109064
+DNA, Subset133 = 109065-109683
+DNA, Subset134 = 109684-110302
+DNA, Subset135 = 110303-110821
+DNA, Subset136 = 110822-111340
+DNA, Subset137 = 111341-112011
+DNA, Subset138 = 112012-112682
+DNA, Subset139 = 112683-113079
+DNA, Subset140 = 113080-113476
+DNA, Subset141 = 113477-114010
+DNA, Subset142 = 114011-114544
+DNA, Subset143 = 114545-114962
+DNA, Subset144 = 114963-115380
+DNA, Subset145 = 115381-115631
+DNA, Subset146 = 115632-115882
+DNA, Subset147 = 115883-116441
+DNA, Subset148 = 116442-117000
+DNA, Subset149 = 117001-117345
+DNA, Subset150 = 117346-117690
+DNA, Subset151 = 117691-118144
+DNA, Subset152 = 118145-118598
+DNA, Subset153 = 118599-118983
+DNA, Subset154 = 118984-119368
+DNA, Subset155 = 119369-119752
+DNA, Subset156 = 148383-148784, 119753-120136
+DNA, Subset157 = 120137-120575
+DNA, Subset158 = 120576-121014
+DNA, Subset159 = 121015-121591
+DNA, Subset160 = 121592-122168
+DNA, Subset161 = 122169-122704
+DNA, Subset162 = 122705-123240
+DNA, Subset163 = 123241-123737
+DNA, Subset164 = 123738-124234
+DNA, Subset165 = 124235-124705
+DNA, Subset166 = 124706-125176
+DNA, Subset167 = 199811-200291, 125177-125679
+DNA, Subset168 = 125680-126182
+DNA, Subset169 = 126183-126681
+DNA, Subset170 = 126682-127180
+DNA, Subset171 = 127181-127670
+DNA, Subset172 = 127671-128160
+DNA, Subset173 = 128161-128614
+DNA, Subset174 = 128615-129068
+DNA, Subset175 = 129069-129477
+DNA, Subset176 = 192824-193036, 129478-129886
+DNA, Subset177 = 129887-130362, 143983-144411
+DNA, Subset178 = 130363-130838
+DNA, Subset179 = 130839-131309
+DNA, Subset180 = 131310-131780
+DNA, Subset181 = 131781-132192
+DNA, Subset182 = 132193-132604
+DNA, Subset183 = 132605-133018
+DNA, Subset184 = 133019-133432
+DNA, Subset185 = 133433-133842
+DNA, Subset186 = 133843-134252
+DNA, Subset187 = 134712-135170
+DNA, Subset188 = 135171-135556
+DNA, Subset189 = 135557-135942
+DNA, Subset190 = 135943-136434
+DNA, Subset191 = 136435-136926
+DNA, Subset192 = 136927-137569
+DNA, Subset193 = 137570-138212
+DNA, Subset194 = 138213-138661
+DNA, Subset195 = 194450-194704, 138662-139110
+DNA, Subset196 = 139111-139573
+DNA, Subset197 = 139574-140036
+DNA, Subset198 = 140037-140446
+DNA, Subset199 = 140447-140856
+DNA, Subset200 = 140857-141254
+DNA, Subset201 = 141255-141652
+DNA, Subset202 = 141653-142377
+DNA, Subset203 = 142378-143102
+DNA, Subset204 = 143103-143542
+DNA, Subset205 = 144412-144840
+DNA, Subset206 = 144841-145247
+DNA, Subset207 = 145248-145654
+DNA, Subset208 = 145655-146817
+DNA, Subset209 = 146818-147980
+DNA, Subset210 = 147981-148382
+DNA, Subset211 = 148785-149265
+DNA, Subset212 = 149266-149746
+DNA, Subset213 = 149747-150155
+DNA, Subset214 = 150156-150564
+DNA, Subset215 = 150565-150880
+DNA, Subset216 = 150881-151196
+DNA, Subset217 = 151197-151603, 168885-169139
+DNA, Subset218 = 151604-152010
+DNA, Subset219 = 152361-152710
+DNA, Subset220 = 152711-153170
+DNA, Subset221 = 153171-153630
+DNA, Subset222 = 153631-153990
+DNA, Subset223 = 154351-154646
+DNA, Subset224 = 154647-154942
+DNA, Subset225 = 154943-155369
+DNA, Subset226 = 155370-155796
+DNA, Subset227 = 155797-156252
+DNA, Subset228 = 156253-156708
+DNA, Subset229 = 156709-157106
+DNA, Subset230 = 157107-157504
+DNA, Subset231 = 157505-157945
+DNA, Subset232 = 157946-158386
+DNA, Subset233 = 158387-158692
+DNA, Subset234 = 158693-158998
+DNA, Subset235 = 158999-159369
+DNA, Subset236 = 159370-159740
+DNA, Subset237 = 159741-160066
+DNA, Subset238 = 160067-160392
+DNA, Subset239 = 160393-160745
+DNA, Subset240 = 160746-161098
+DNA, Subset241 = 161099-161456
+DNA, Subset242 = 161457-161814
+DNA, Subset243 = 161815-162194
+DNA, Subset244 = 162575-162926
+DNA, Subset245 = 162927-163278
+DNA, Subset246 = 163279-163643
+DNA, Subset247 = 163644-164008
+DNA, Subset248 = 164295-164580
+DNA, Subset249 = 164806-165030
+DNA, Subset250 = 165031-165357
+DNA, Subset251 = 165358-165684
+DNA, Subset252 = 165685-166030
+DNA, Subset253 = 166031-166376
+DNA, Subset254 = 166377-166691
+DNA, Subset255 = 166692-167006
+DNA, Subset256 = 167007-167269
+DNA, Subset257 = 167270-167532
+DNA, Subset258 = 167533-167871
+DNA, Subset259 = 167872-168210
+DNA, Subset260 = 168211-168547
+DNA, Subset261 = 168548-168884
+DNA, Subset262 = 169140-169394
+DNA, Subset263 = 169395-169788
+DNA, Subset264 = 169789-170182
+DNA, Subset265 = 170183-170908
+DNA, Subset266 = 170909-171634
+DNA, Subset267 = 171635-172125
+DNA, Subset268 = 172126-172616
+DNA, Subset269 = 172617-172952
+DNA, Subset270 = 172953-173288
+DNA, Subset271 = 173289-173603
+DNA, Subset272 = 173604-173918
+DNA, Subset273 = 173919-174243
+DNA, Subset274 = 174244-174568
+DNA, Subset275 = 174569-174882
+DNA, Subset276 = 174883-175196
+DNA, Subset277 = 175197-175596
+DNA, Subset278 = 175597-175996
+DNA, Subset279 = 175997-176329
+DNA, Subset280 = 176330-176662
+DNA, Subset281 = 176663-176966
+DNA, Subset282 = 176967-177270
+DNA, Subset283 = 177271-177603
+DNA, Subset284 = 177604-177936
+DNA, Subset285 = 177937-178173
+DNA, Subset286 = 178174-178410
+DNA, Subset287 = 178411-178740
+DNA, Subset288 = 178741-179070
+DNA, Subset289 = 179071-179380
+DNA, Subset290 = 179381-179690
+DNA, Subset291 = 179691-179969
+DNA, Subset292 = 179970-180248
+DNA, Subset293 = 180249-180426
+DNA, Subset294 = 180427-180604
+DNA, Subset295 = 180605-180953
+DNA, Subset296 = 180954-181302
+DNA, Subset297 = 181303-181557
+DNA, Subset298 = 181558-181812
+DNA, Subset299 = 181813-182146
+DNA, Subset300 = 182147-182480
+DNA, Subset301 = 182481-182751
+DNA, Subset302 = 182752-183022
+DNA, Subset303 = 183023-183410
+DNA, Subset304 = 183411-183798
+DNA, Subset305 = 184061-184322
+DNA, Subset306 = 184323-184571
+DNA, Subset307 = 184572-184820
+DNA, Subset308 = 184821-185110
+DNA, Subset309 = 185111-185400
+DNA, Subset310 = 185401-185621
+DNA, Subset311 = 185622-185842
+DNA, Subset312 = 185843-186175
+DNA, Subset313 = 186176-186508
+DNA, Subset314 = 186509-186706
+DNA, Subset315 = 186707-186904
+DNA, Subset316 = 186905-187192
+DNA, Subset317 = 187193-187480
+DNA, Subset318 = 187481-187714
+DNA, Subset319 = 187715-187948
+DNA, Subset320 = 187949-188176
+DNA, Subset321 = 188177-188404
+DNA, Subset322 = 188405-188720
+DNA, Subset323 = 188721-189036
+DNA, Subset324 = 189037-189344, 202141-202362
+DNA, Subset325 = 189345-189652
+DNA, Subset326 = 189653-190386
+DNA, Subset327 = 190387-191120
+DNA, Subset328 = 191121-191312
+DNA, Subset329 = 191505-191737
+DNA, Subset330 = 191738-191970
+DNA, Subset331 = 191971-192290
+DNA, Subset332 = 192291-192610
+DNA, Subset333 = 192611-192823
+DNA, Subset334 = 193037-193345
+DNA, Subset335 = 193346-193654
+DNA, Subset336 = 193655-193924
+DNA, Subset337 = 193925-194194
+DNA, Subset338 = 194195-194449
+DNA, Subset339 = 194705-194918
+DNA, Subset340 = 194919-195132
+DNA, Subset341 = 195133-195363
+DNA, Subset342 = 195364-195594
+DNA, Subset343 = 195595-195831
+DNA, Subset344 = 195832-196068
+DNA, Subset345 = 196069-196303
+DNA, Subset346 = 196304-196538
+DNA, Subset347 = 196539-196749
+DNA, Subset348 = 196750-196960
+DNA, Subset349 = 196961-197210
+DNA, Subset350 = 197211-197460
+DNA, Subset351 = 197461-197662
+DNA, Subset352 = 197663-197864
+DNA, Subset353 = 197865-198265
+DNA, Subset354 = 198266-198666
+DNA, Subset355 = 198667-199011
+DNA, Subset356 = 199012-199356
+DNA, Subset357 = 199357-199583
+DNA, Subset358 = 199584-199810
+DNA, Subset359 = 200292-200772
+DNA, Subset360 = 200773-201015
+DNA, Subset361 = 201016-201258
+DNA, Subset362 = 201259-201501
+DNA, Subset363 = 201502-201744
+DNA, Subset364 = 201745-201942
+DNA, Subset365 = 201943-202140
+DNA, Subset366 = 202363-202584
+DNA, Subset367 = 202585-202769
+DNA, Subset368 = 202770-202954
+DNA, Subset369 = 202955-203249
+DNA, Subset370 = 203250-203544
+DNA, Subset371 = 203545-203794
+DNA, Subset372 = 203795-204044
+DNA, Subset373 = 204045-204217
+DNA, Subset374 = 204218-204390
+DNA, Subset375 = 204391-204626
+DNA, Subset376 = 204627-204862
+DNA, Subset377 = 204863-205088
+DNA, Subset378 = 205089-205314
+DNA, Subset379 = 205315-205492
+DNA, Subset380 = 205493-205670
+DNA, Subset381 = 205671-205859
+DNA, Subset382 = 205860-206048
+
+
+MrBayes block for partition definitions
+Warning: MrBayes only allows a relatively small collection of models. If any model in your analysis is not one that is included in MrBayes (e.g. by setting nst = 1, 2, or 6 for DNA sequences; or is not in the available list of protein models for MrBayes)then this MrBayes block will just set that model to nst = 6 for DNA, or 'wag' for Protein. Similarly, the only additional parameters that this MrBayes block will include are +I and +G. Other  parameters, such as +F and +X, are ignored. If you want to use this MrBayes block for your analysis, please make sure to check it carefully before you use it we've done our best to make it accurate, but there may be errors that remain!
+
+begin mrbayes;
+
+	charset Subset1 = 1-1440;
+	charset Subset2 = 1441-2880;
+	charset Subset3 = 2881-4827;
+	charset Subset4 = 4828-6774;
+	charset Subset5 = 6775-8247;
+	charset Subset6 = 8248-9720;
+	charset Subset7 = 9721-11589;
+	charset Subset8 = 11590-13458;
+	charset Subset9 = 13459-14977;
+	charset Subset10 = 14978-16496;
+	charset Subset11 = 164581-164805 16497-18139 152011-152360;
+	charset Subset12 = 18140-19782;
+	charset Subset13 = 19783-20537;
+	charset Subset14 = 20538-21292;
+	charset Subset15 = 21293-22657;
+	charset Subset16 = 22658-24022;
+	charset Subset17 = 24023-24805;
+	charset Subset18 = 24806-25588;
+	charset Subset19 = 25589-26674;
+	charset Subset20 = 26675-27760;
+	charset Subset21 = 27761-29055;
+	charset Subset22 = 29056-30350;
+	charset Subset23 = 30351-31104;
+	charset Subset24 = 31105-31858;
+	charset Subset25 = 31859-32902;
+	charset Subset26 = 32903-33946;
+	charset Subset27 = 33947-34677;
+	charset Subset28 = 34678-35408;
+	charset Subset29 = 35409-36412;
+	charset Subset30 = 36413-37416;
+	charset Subset31 = 37417-38601;
+	charset Subset32 = 38602-39786;
+	charset Subset33 = 39787-40466;
+	charset Subset34 = 40467-41146;
+	charset Subset35 = 41147-42043;
+	charset Subset36 = 42044-42940;
+	charset Subset37 = 42941-43590;
+	charset Subset38 = 143543-143982 43591-44240;
+	charset Subset39 = 44241-45211;
+	charset Subset40 = 45212-46182;
+	charset Subset41 = 46183-46747;
+	charset Subset42 = 46748-47312;
+	charset Subset43 = 164009-164294 47313-48402;
+	charset Subset44 = 48403-49492;
+	charset Subset45 = 49493-49912;
+	charset Subset46 = 49913-50332;
+	charset Subset47 = 50333-51008;
+	charset Subset48 = 51009-51684;
+	charset Subset49 = 51685-52383;
+	charset Subset50 = 52384-53082;
+	charset Subset51 = 53083-54120;
+	charset Subset52 = 54121-55158 62408-63116;
+	charset Subset53 = 55159-56154;
+	charset Subset54 = 56155-57150;
+	charset Subset55 = 57151-58025;
+	charset Subset56 = 58026-58900;
+	charset Subset57 = 58901-59669;
+	charset Subset58 = 59670-60438;
+	charset Subset59 = 60439-61068;
+	charset Subset60 = 61069-61698;
+	charset Subset61 = 61699-62407;
+	charset Subset62 = 63117-64298;
+	charset Subset63 = 64299-65480;
+	charset Subset64 = 65481-66143;
+	charset Subset65 = 66144-66806;
+	charset Subset66 = 66807-67638;
+	charset Subset67 = 67639-68470;
+	charset Subset68 = 68471-69194;
+	charset Subset69 = 69195-69918;
+	charset Subset70 = 134253-134711 69919-70457;
+	charset Subset71 = 70458-70996;
+	charset Subset72 = 70997-71732;
+	charset Subset73 = 71733-72468;
+	charset Subset74 = 72469-73177;
+	charset Subset75 = 73178-73886;
+	charset Subset76 = 73887-74685;
+	charset Subset77 = 74686-75484;
+	charset Subset78 = 75485-76062;
+	charset Subset79 = 76063-76640;
+	charset Subset80 = 76641-77422;
+	charset Subset81 = 77423-78204 153991-154350;
+	charset Subset82 = 78205-78869 183799-184060;
+	charset Subset83 = 78870-79534;
+	charset Subset84 = 79535-80228;
+	charset Subset85 = 80229-80922;
+	charset Subset86 = 80923-81479;
+	charset Subset87 = 81480-82036;
+	charset Subset88 = 82037-82774;
+	charset Subset89 = 82775-83512 101225-101540;
+	charset Subset90 = 83513-84042;
+	charset Subset91 = 84043-84572;
+	charset Subset92 = 84573-85277;
+	charset Subset93 = 85278-85982;
+	charset Subset94 = 85983-86444;
+	charset Subset95 = 86445-86906;
+	charset Subset96 = 86907-88223;
+	charset Subset97 = 88224-89540;
+	charset Subset98 = 89541-89840;
+	charset Subset99 = 89841-90140;
+	charset Subset100 = 90141-90759;
+	charset Subset101 = 90760-91378;
+	charset Subset102 = 91379-92011;
+	charset Subset103 = 92012-92644;
+	charset Subset104 = 92645-93159;
+	charset Subset105 = 93160-93674;
+	charset Subset106 = 93675-94391;
+	charset Subset107 = 94392-95108 191313-191504;
+	charset Subset108 = 95109-95719;
+	charset Subset109 = 95720-96330;
+	charset Subset110 = 96331-96929;
+	charset Subset111 = 96930-97528;
+	charset Subset112 = 97529-98058;
+	charset Subset113 = 98059-98588;
+	charset Subset114 = 98589-99184;
+	charset Subset115 = 99185-99780;
+	charset Subset116 = 99781-100344;
+	charset Subset117 = 100345-100908;
+	charset Subset118 = 100909-101224;
+	charset Subset119 = 101541-102092;
+	charset Subset120 = 102093-102644;
+	charset Subset121 = 102645-103181;
+	charset Subset122 = 103182-103718;
+	charset Subset123 = 103719-104331;
+	charset Subset124 = 104332-104944;
+	charset Subset125 = 104945-105531;
+	charset Subset126 = 105532-106118;
+	charset Subset127 = 106119-106609;
+	charset Subset128 = 106610-107100;
+	charset Subset129 = 107101-107643;
+	charset Subset130 = 107644-108186 162195-162574;
+	charset Subset131 = 108187-108625;
+	charset Subset132 = 108626-109064;
+	charset Subset133 = 109065-109683;
+	charset Subset134 = 109684-110302;
+	charset Subset135 = 110303-110821;
+	charset Subset136 = 110822-111340;
+	charset Subset137 = 111341-112011;
+	charset Subset138 = 112012-112682;
+	charset Subset139 = 112683-113079;
+	charset Subset140 = 113080-113476;
+	charset Subset141 = 113477-114010;
+	charset Subset142 = 114011-114544;
+	charset Subset143 = 114545-114962;
+	charset Subset144 = 114963-115380;
+	charset Subset145 = 115381-115631;
+	charset Subset146 = 115632-115882;
+	charset Subset147 = 115883-116441;
+	charset Subset148 = 116442-117000;
+	charset Subset149 = 117001-117345;
+	charset Subset150 = 117346-117690;
+	charset Subset151 = 117691-118144;
+	charset Subset152 = 118145-118598;
+	charset Subset153 = 118599-118983;
+	charset Subset154 = 118984-119368;
+	charset Subset155 = 119369-119752;
+	charset Subset156 = 148383-148784 119753-120136;
+	charset Subset157 = 120137-120575;
+	charset Subset158 = 120576-121014;
+	charset Subset159 = 121015-121591;
+	charset Subset160 = 121592-122168;
+	charset Subset161 = 122169-122704;
+	charset Subset162 = 122705-123240;
+	charset Subset163 = 123241-123737;
+	charset Subset164 = 123738-124234;
+	charset Subset165 = 124235-124705;
+	charset Subset166 = 124706-125176;
+	charset Subset167 = 199811-200291 125177-125679;
+	charset Subset168 = 125680-126182;
+	charset Subset169 = 126183-126681;
+	charset Subset170 = 126682-127180;
+	charset Subset171 = 127181-127670;
+	charset Subset172 = 127671-128160;
+	charset Subset173 = 128161-128614;
+	charset Subset174 = 128615-129068;
+	charset Subset175 = 129069-129477;
+	charset Subset176 = 192824-193036 129478-129886;
+	charset Subset177 = 129887-130362 143983-144411;
+	charset Subset178 = 130363-130838;
+	charset Subset179 = 130839-131309;
+	charset Subset180 = 131310-131780;
+	charset Subset181 = 131781-132192;
+	charset Subset182 = 132193-132604;
+	charset Subset183 = 132605-133018;
+	charset Subset184 = 133019-133432;
+	charset Subset185 = 133433-133842;
+	charset Subset186 = 133843-134252;
+	charset Subset187 = 134712-135170;
+	charset Subset188 = 135171-135556;
+	charset Subset189 = 135557-135942;
+	charset Subset190 = 135943-136434;
+	charset Subset191 = 136435-136926;
+	charset Subset192 = 136927-137569;
+	charset Subset193 = 137570-138212;
+	charset Subset194 = 138213-138661;
+	charset Subset195 = 194450-194704 138662-139110;
+	charset Subset196 = 139111-139573;
+	charset Subset197 = 139574-140036;
+	charset Subset198 = 140037-140446;
+	charset Subset199 = 140447-140856;
+	charset Subset200 = 140857-141254;
+	charset Subset201 = 141255-141652;
+	charset Subset202 = 141653-142377;
+	charset Subset203 = 142378-143102;
+	charset Subset204 = 143103-143542;
+	charset Subset205 = 144412-144840;
+	charset Subset206 = 144841-145247;
+	charset Subset207 = 145248-145654;
+	charset Subset208 = 145655-146817;
+	charset Subset209 = 146818-147980;
+	charset Subset210 = 147981-148382;
+	charset Subset211 = 148785-149265;
+	charset Subset212 = 149266-149746;
+	charset Subset213 = 149747-150155;
+	charset Subset214 = 150156-150564;
+	charset Subset215 = 150565-150880;
+	charset Subset216 = 150881-151196;
+	charset Subset217 = 151197-151603 168885-169139;
+	charset Subset218 = 151604-152010;
+	charset Subset219 = 152361-152710;
+	charset Subset220 = 152711-153170;
+	charset Subset221 = 153171-153630;
+	charset Subset222 = 153631-153990;
+	charset Subset223 = 154351-154646;
+	charset Subset224 = 154647-154942;
+	charset Subset225 = 154943-155369;
+	charset Subset226 = 155370-155796;
+	charset Subset227 = 155797-156252;
+	charset Subset228 = 156253-156708;
+	charset Subset229 = 156709-157106;
+	charset Subset230 = 157107-157504;
+	charset Subset231 = 157505-157945;
+	charset Subset232 = 157946-158386;
+	charset Subset233 = 158387-158692;
+	charset Subset234 = 158693-158998;
+	charset Subset235 = 158999-159369;
+	charset Subset236 = 159370-159740;
+	charset Subset237 = 159741-160066;
+	charset Subset238 = 160067-160392;
+	charset Subset239 = 160393-160745;
+	charset Subset240 = 160746-161098;
+	charset Subset241 = 161099-161456;
+	charset Subset242 = 161457-161814;
+	charset Subset243 = 161815-162194;
+	charset Subset244 = 162575-162926;
+	charset Subset245 = 162927-163278;
+	charset Subset246 = 163279-163643;
+	charset Subset247 = 163644-164008;
+	charset Subset248 = 164295-164580;
+	charset Subset249 = 164806-165030;
+	charset Subset250 = 165031-165357;
+	charset Subset251 = 165358-165684;
+	charset Subset252 = 165685-166030;
+	charset Subset253 = 166031-166376;
+	charset Subset254 = 166377-166691;
+	charset Subset255 = 166692-167006;
+	charset Subset256 = 167007-167269;
+	charset Subset257 = 167270-167532;
+	charset Subset258 = 167533-167871;
+	charset Subset259 = 167872-168210;
+	charset Subset260 = 168211-168547;
+	charset Subset261 = 168548-168884;
+	charset Subset262 = 169140-169394;
+	charset Subset263 = 169395-169788;
+	charset Subset264 = 169789-170182;
+	charset Subset265 = 170183-170908;
+	charset Subset266 = 170909-171634;
+	charset Subset267 = 171635-172125;
+	charset Subset268 = 172126-172616;
+	charset Subset269 = 172617-172952;
+	charset Subset270 = 172953-173288;
+	charset Subset271 = 173289-173603;
+	charset Subset272 = 173604-173918;
+	charset Subset273 = 173919-174243;
+	charset Subset274 = 174244-174568;
+	charset Subset275 = 174569-174882;
+	charset Subset276 = 174883-175196;
+	charset Subset277 = 175197-175596;
+	charset Subset278 = 175597-175996;
+	charset Subset279 = 175997-176329;
+	charset Subset280 = 176330-176662;
+	charset Subset281 = 176663-176966;
+	charset Subset282 = 176967-177270;
+	charset Subset283 = 177271-177603;
+	charset Subset284 = 177604-177936;
+	charset Subset285 = 177937-178173;
+	charset Subset286 = 178174-178410;
+	charset Subset287 = 178411-178740;
+	charset Subset288 = 178741-179070;
+	charset Subset289 = 179071-179380;
+	charset Subset290 = 179381-179690;
+	charset Subset291 = 179691-179969;
+	charset Subset292 = 179970-180248;
+	charset Subset293 = 180249-180426;
+	charset Subset294 = 180427-180604;
+	charset Subset295 = 180605-180953;
+	charset Subset296 = 180954-181302;
+	charset Subset297 = 181303-181557;
+	charset Subset298 = 181558-181812;
+	charset Subset299 = 181813-182146;
+	charset Subset300 = 182147-182480;
+	charset Subset301 = 182481-182751;
+	charset Subset302 = 182752-183022;
+	charset Subset303 = 183023-183410;
+	charset Subset304 = 183411-183798;
+	charset Subset305 = 184061-184322;
+	charset Subset306 = 184323-184571;
+	charset Subset307 = 184572-184820;
+	charset Subset308 = 184821-185110;
+	charset Subset309 = 185111-185400;
+	charset Subset310 = 185401-185621;
+	charset Subset311 = 185622-185842;
+	charset Subset312 = 185843-186175;
+	charset Subset313 = 186176-186508;
+	charset Subset314 = 186509-186706;
+	charset Subset315 = 186707-186904;
+	charset Subset316 = 186905-187192;
+	charset Subset317 = 187193-187480;
+	charset Subset318 = 187481-187714;
+	charset Subset319 = 187715-187948;
+	charset Subset320 = 187949-188176;
+	charset Subset321 = 188177-188404;
+	charset Subset322 = 188405-188720;
+	charset Subset323 = 188721-189036;
+	charset Subset324 = 189037-189344 202141-202362;
+	charset Subset325 = 189345-189652;
+	charset Subset326 = 189653-190386;
+	charset Subset327 = 190387-191120;
+	charset Subset328 = 191121-191312;
+	charset Subset329 = 191505-191737;
+	charset Subset330 = 191738-191970;
+	charset Subset331 = 191971-192290;
+	charset Subset332 = 192291-192610;
+	charset Subset333 = 192611-192823;
+	charset Subset334 = 193037-193345;
+	charset Subset335 = 193346-193654;
+	charset Subset336 = 193655-193924;
+	charset Subset337 = 193925-194194;
+	charset Subset338 = 194195-194449;
+	charset Subset339 = 194705-194918;
+	charset Subset340 = 194919-195132;
+	charset Subset341 = 195133-195363;
+	charset Subset342 = 195364-195594;
+	charset Subset343 = 195595-195831;
+	charset Subset344 = 195832-196068;
+	charset Subset345 = 196069-196303;
+	charset Subset346 = 196304-196538;
+	charset Subset347 = 196539-196749;
+	charset Subset348 = 196750-196960;
+	charset Subset349 = 196961-197210;
+	charset Subset350 = 197211-197460;
+	charset Subset351 = 197461-197662;
+	charset Subset352 = 197663-197864;
+	charset Subset353 = 197865-198265;
+	charset Subset354 = 198266-198666;
+	charset Subset355 = 198667-199011;
+	charset Subset356 = 199012-199356;
+	charset Subset357 = 199357-199583;
+	charset Subset358 = 199584-199810;
+	charset Subset359 = 200292-200772;
+	charset Subset360 = 200773-201015;
+	charset Subset361 = 201016-201258;
+	charset Subset362 = 201259-201501;
+	charset Subset363 = 201502-201744;
+	charset Subset364 = 201745-201942;
+	charset Subset365 = 201943-202140;
+	charset Subset366 = 202363-202584;
+	charset Subset367 = 202585-202769;
+	charset Subset368 = 202770-202954;
+	charset Subset369 = 202955-203249;
+	charset Subset370 = 203250-203544;
+	charset Subset371 = 203545-203794;
+	charset Subset372 = 203795-204044;
+	charset Subset373 = 204045-204217;
+	charset Subset374 = 204218-204390;
+	charset Subset375 = 204391-204626;
+	charset Subset376 = 204627-204862;
+	charset Subset377 = 204863-205088;
+	charset Subset378 = 205089-205314;
+	charset Subset379 = 205315-205492;
+	charset Subset380 = 205493-205670;
+	charset Subset381 = 205671-205859;
+	charset Subset382 = 205860-206048;
+
+	partition PartitionFinder = 382:Subset1, Subset2, Subset3, Subset4, Subset5, Subset6, Subset7, Subset8, Subset9, Subset10, Subset11, Subset12, Subset13, Subset14, Subset15, Subset16, Subset17, Subset18, Subset19, Subset20, Subset21, Subset22, Subset23, Subset24, Subset25, Subset26, Subset27, Subset28, Subset29, Subset30, Subset31, Subset32, Subset33, Subset34, Subset35, Subset36, Subset37, Subset38, Subset39, Subset40, Subset41, Subset42, Subset43, Subset44, Subset45, Subset46, Subset47, Subset48, Subset49, Subset50, Subset51, Subset52, Subset53, Subset54, Subset55, Subset56, Subset57, Subset58, Subset59, Subset60, Subset61, Subset62, Subset63, Subset64, Subset65, Subset66, Subset67, Subset68, Subset69, Subset70, Subset71, Subset72, Subset73, Subset74, Subset75, Subset76, Subset77, Subset78, Subset79, Subset80, Subset81, Subset82, Subset83, Subset84, Subset85, Subset86, Subset87, Subset88, Subset89, Subset90, Subset91, Subset92, Subset93, Subset94, Subset95, Subset96, Subset97, Subset98, Subset99, Subset100, Subset101, Subset102, Subset103, Subset104, Subset105, Subset106, Subset107, Subset108, Subset109, Subset110, Subset111, Subset112, Subset113, Subset114, Subset115, Subset116, Subset117, Subset118, Subset119, Subset120, Subset121, Subset122, Subset123, Subset124, Subset125, Subset126, Subset127, Subset128, Subset129, Subset130, Subset131, Subset132, Subset133, Subset134, Subset135, Subset136, Subset137, Subset138, Subset139, Subset140, Subset141, Subset142, Subset143, Subset144, Subset145, Subset146, Subset147, Subset148, Subset149, Subset150, Subset151, Subset152, Subset153, Subset154, Subset155, Subset156, Subset157, Subset158, Subset159, Subset160, Subset161, Subset162, Subset163, Subset164, Subset165, Subset166, Subset167, Subset168, Subset169, Subset170, Subset171, Subset172, Subset173, Subset174, Subset175, Subset176, Subset177, Subset178, Subset179, Subset180, Subset181, Subset182, Subset183, Subset184, Subset185, Subset186, Subset187, Subset188, Subset189, Subset190, Subset191, Subset192, Subset193, Subset194, Subset195, Subset196, Subset197, Subset198, Subset199, Subset200, Subset201, Subset202, Subset203, Subset204, Subset205, Subset206, Subset207, Subset208, Subset209, Subset210, Subset211, Subset212, Subset213, Subset214, Subset215, Subset216, Subset217, Subset218, Subset219, Subset220, Subset221, Subset222, Subset223, Subset224, Subset225, Subset226, Subset227, Subset228, Subset229, Subset230, Subset231, Subset232, Subset233, Subset234, Subset235, Subset236, Subset237, Subset238, Subset239, Subset240, Subset241, Subset242, Subset243, Subset244, Subset245, Subset246, Subset247, Subset248, Subset249, Subset250, Subset251, Subset252, Subset253, Subset254, Subset255, Subset256, Subset257, Subset258, Subset259, Subset260, Subset261, Subset262, Subset263, Subset264, Subset265, Subset266, Subset267, Subset268, Subset269, Subset270, Subset271, Subset272, Subset273, Subset274, Subset275, Subset276, Subset277, Subset278, Subset279, Subset280, Subset281, Subset282, Subset283, Subset284, Subset285, Subset286, Subset287, Subset288, Subset289, Subset290, Subset291, Subset292, Subset293, Subset294, Subset295, Subset296, Subset297, Subset298, Subset299, Subset300, Subset301, Subset302, Subset303, Subset304, Subset305, Subset306, Subset307, Subset308, Subset309, Subset310, Subset311, Subset312, Subset313, Subset314, Subset315, Subset316, Subset317, Subset318, Subset319, Subset320, Subset321, Subset322, Subset323, Subset324, Subset325, Subset326, Subset327, Subset328, Subset329, Subset330, Subset331, Subset332, Subset333, Subset334, Subset335, Subset336, Subset337, Subset338, Subset339, Subset340, Subset341, Subset342, Subset343, Subset344, Subset345, Subset346, Subset347, Subset348, Subset349, Subset350, Subset351, Subset352, Subset353, Subset354, Subset355, Subset356, Subset357, Subset358, Subset359, Subset360, Subset361, Subset362, Subset363, Subset364, Subset365, Subset366, Subset367, Subset368, Subset369, Subset370, Subset371, Subset372, Subset373, Subset374, Subset375, Subset376, Subset377, Subset378, Subset379, Subset380, Subset381, Subset382;
+	set partition=PartitionFinder;
+
+	lset applyto=(1) nst=6 rates=gamma;
+	lset applyto=(2) nst=6 rates=gamma;
+	lset applyto=(3) nst=6 rates=gamma;
+	lset applyto=(4) nst=6 rates=gamma;
+	lset applyto=(5) nst=6 rates=gamma;
+	lset applyto=(6) nst=6 rates=gamma;
+	lset applyto=(7) nst=6 rates=gamma;
+	lset applyto=(8) nst=6 rates=gamma;
+	lset applyto=(9) nst=6 rates=gamma;
+	lset applyto=(10) nst=6 rates=gamma;
+	lset applyto=(11) nst=6 rates=gamma;
+	lset applyto=(12) nst=6 rates=gamma;
+	lset applyto=(13) nst=6 rates=gamma;
+	lset applyto=(14) nst=6 rates=gamma;
+	lset applyto=(15) nst=6 rates=gamma;
+	lset applyto=(16) nst=6 rates=gamma;
+	lset applyto=(17) nst=6 rates=gamma;
+	lset applyto=(18) nst=6 rates=gamma;
+	lset applyto=(19) nst=6 rates=gamma;
+	lset applyto=(20) nst=6 rates=gamma;
+	lset applyto=(21) nst=6 rates=gamma;
+	lset applyto=(22) nst=6 rates=gamma;
+	lset applyto=(23) nst=6 rates=gamma;
+	lset applyto=(24) nst=6 rates=gamma;
+	lset applyto=(25) nst=6 rates=gamma;
+	lset applyto=(26) nst=6 rates=gamma;
+	lset applyto=(27) nst=6 rates=gamma;
+	lset applyto=(28) nst=6 rates=gamma;
+	lset applyto=(29) nst=6 rates=gamma;
+	lset applyto=(30) nst=6 rates=gamma;
+	lset applyto=(31) nst=6 rates=gamma;
+	lset applyto=(32) nst=6 rates=gamma;
+	lset applyto=(33) nst=6 rates=gamma;
+	lset applyto=(34) nst=6 rates=gamma;
+	lset applyto=(35) nst=6 rates=gamma;
+	lset applyto=(36) nst=6 rates=gamma;
+	lset applyto=(37) nst=6 rates=gamma;
+	lset applyto=(38) nst=6 rates=gamma;
+	lset applyto=(39) nst=6 rates=gamma;
+	lset applyto=(40) nst=6 rates=gamma;
+	lset applyto=(41) nst=6 rates=gamma;
+	lset applyto=(42) nst=6 rates=gamma;
+	lset applyto=(43) nst=6 rates=gamma;
+	lset applyto=(44) nst=6 rates=gamma;
+	lset applyto=(45) nst=6 rates=gamma;
+	lset applyto=(46) nst=6 rates=gamma;
+	lset applyto=(47) nst=6 rates=gamma;
+	lset applyto=(48) nst=6 rates=gamma;
+	lset applyto=(49) nst=6 rates=gamma;
+	lset applyto=(50) nst=6 rates=gamma;
+	lset applyto=(51) nst=6 rates=gamma;
+	lset applyto=(52) nst=6 rates=gamma;
+	lset applyto=(53) nst=6 rates=gamma;
+	lset applyto=(54) nst=6 rates=gamma;
+	lset applyto=(55) nst=6 rates=gamma;
+	lset applyto=(56) nst=6 rates=gamma;
+	lset applyto=(57) nst=6 rates=gamma;
+	lset applyto=(58) nst=6 rates=gamma;
+	lset applyto=(59) nst=6 rates=gamma;
+	lset applyto=(60) nst=6 rates=gamma;
+	lset applyto=(61) nst=6 rates=gamma;
+	lset applyto=(62) nst=6 rates=gamma;
+	lset applyto=(63) nst=6 rates=gamma;
+	lset applyto=(64) nst=6 rates=gamma;
+	lset applyto=(65) nst=6 rates=gamma;
+	lset applyto=(66) nst=6 rates=gamma;
+	lset applyto=(67) nst=6 rates=gamma;
+	lset applyto=(68) nst=6 rates=gamma;
+	lset applyto=(69) nst=6 rates=gamma;
+	lset applyto=(70) nst=6 rates=gamma;
+	lset applyto=(71) nst=6 rates=gamma;
+	lset applyto=(72) nst=6 rates=gamma;
+	lset applyto=(73) nst=6 rates=gamma;
+	lset applyto=(74) nst=6 rates=gamma;
+	lset applyto=(75) nst=6 rates=gamma;
+	lset applyto=(76) nst=6 rates=gamma;
+	lset applyto=(77) nst=6 rates=gamma;
+	lset applyto=(78) nst=6 rates=gamma;
+	lset applyto=(79) nst=6 rates=gamma;
+	lset applyto=(80) nst=6 rates=gamma;
+	lset applyto=(81) nst=6 rates=gamma;
+	lset applyto=(82) nst=6 rates=gamma;
+	lset applyto=(83) nst=6 rates=gamma;
+	lset applyto=(84) nst=6 rates=gamma;
+	lset applyto=(85) nst=6 rates=gamma;
+	lset applyto=(86) nst=6 rates=gamma;
+	lset applyto=(87) nst=6 rates=gamma;
+	lset applyto=(88) nst=6 rates=gamma;
+	lset applyto=(89) nst=6 rates=gamma;
+	lset applyto=(90) nst=6 rates=gamma;
+	lset applyto=(91) nst=6 rates=gamma;
+	lset applyto=(92) nst=6 rates=gamma;
+	lset applyto=(93) nst=6 rates=gamma;
+	lset applyto=(94) nst=6 rates=gamma;
+	lset applyto=(95) nst=6 rates=gamma;
+	lset applyto=(96) nst=6 rates=gamma;
+	lset applyto=(97) nst=6 rates=gamma;
+	lset applyto=(98) nst=6 rates=gamma;
+	lset applyto=(99) nst=6 rates=gamma;
+	lset applyto=(100) nst=6 rates=gamma;
+	lset applyto=(101) nst=6 rates=gamma;
+	lset applyto=(102) nst=6 rates=gamma;
+	lset applyto=(103) nst=6 rates=gamma;
+	lset applyto=(104) nst=6 rates=gamma;
+	lset applyto=(105) nst=6 rates=gamma;
+	lset applyto=(106) nst=6 rates=gamma;
+	lset applyto=(107) nst=6 rates=gamma;
+	lset applyto=(108) nst=6 rates=gamma;
+	lset applyto=(109) nst=6 rates=gamma;
+	lset applyto=(110) nst=6 rates=gamma;
+	lset applyto=(111) nst=6 rates=gamma;
+	lset applyto=(112) nst=6 rates=gamma;
+	lset applyto=(113) nst=6 rates=gamma;
+	lset applyto=(114) nst=6 rates=gamma;
+	lset applyto=(115) nst=6 rates=gamma;
+	lset applyto=(116) nst=6 rates=gamma;
+	lset applyto=(117) nst=6 rates=gamma;
+	lset applyto=(118) nst=6 rates=gamma;
+	lset applyto=(119) nst=6 rates=gamma;
+	lset applyto=(120) nst=6 rates=gamma;
+	lset applyto=(121) nst=6 rates=gamma;
+	lset applyto=(122) nst=6 rates=gamma;
+	lset applyto=(123) nst=6 rates=gamma;
+	lset applyto=(124) nst=6 rates=gamma;
+	lset applyto=(125) nst=6 rates=gamma;
+	lset applyto=(126) nst=6 rates=gamma;
+	lset applyto=(127) nst=6 rates=gamma;
+	lset applyto=(128) nst=6 rates=gamma;
+	lset applyto=(129) nst=6 rates=gamma;
+	lset applyto=(130) nst=6 rates=gamma;
+	lset applyto=(131) nst=6 rates=gamma;
+	lset applyto=(132) nst=6 rates=gamma;
+	lset applyto=(133) nst=6 rates=gamma;
+	lset applyto=(134) nst=6 rates=gamma;
+	lset applyto=(135) nst=6 rates=gamma;
+	lset applyto=(136) nst=6 rates=gamma;
+	lset applyto=(137) nst=6 rates=gamma;
+	lset applyto=(138) nst=6 rates=gamma;
+	lset applyto=(139) nst=6 rates=gamma;
+	lset applyto=(140) nst=6 rates=gamma;
+	lset applyto=(141) nst=6 rates=gamma;
+	lset applyto=(142) nst=6 rates=gamma;
+	lset applyto=(143) nst=6 rates=gamma;
+	lset applyto=(144) nst=6 rates=gamma;
+	lset applyto=(145) nst=6 rates=gamma;
+	lset applyto=(146) nst=6 rates=gamma;
+	lset applyto=(147) nst=6 rates=gamma;
+	lset applyto=(148) nst=6 rates=gamma;
+	lset applyto=(149) nst=6 rates=gamma;
+	lset applyto=(150) nst=6 rates=gamma;
+	lset applyto=(151) nst=6 rates=gamma;
+	lset applyto=(152) nst=6 rates=gamma;
+	lset applyto=(153) nst=6 rates=gamma;
+	lset applyto=(154) nst=6 rates=gamma;
+	lset applyto=(155) nst=6 rates=gamma;
+	lset applyto=(156) nst=6 rates=gamma;
+	lset applyto=(157) nst=6 rates=gamma;
+	lset applyto=(158) nst=6 rates=gamma;
+	lset applyto=(159) nst=6 rates=gamma;
+	lset applyto=(160) nst=6 rates=gamma;
+	lset applyto=(161) nst=6 rates=gamma;
+	lset applyto=(162) nst=6 rates=gamma;
+	lset applyto=(163) nst=6 rates=gamma;
+	lset applyto=(164) nst=6 rates=gamma;
+	lset applyto=(165) nst=6 rates=gamma;
+	lset applyto=(166) nst=6 rates=gamma;
+	lset applyto=(167) nst=6 rates=gamma;
+	lset applyto=(168) nst=6 rates=gamma;
+	lset applyto=(169) nst=6 rates=gamma;
+	lset applyto=(170) nst=6 rates=gamma;
+	lset applyto=(171) nst=6 rates=gamma;
+	lset applyto=(172) nst=6 rates=gamma;
+	lset applyto=(173) nst=6 rates=gamma;
+	lset applyto=(174) nst=6 rates=gamma;
+	lset applyto=(175) nst=6 rates=gamma;
+	lset applyto=(176) nst=6 rates=gamma;
+	lset applyto=(177) nst=6 rates=gamma;
+	lset applyto=(178) nst=6 rates=gamma;
+	lset applyto=(179) nst=6 rates=gamma;
+	lset applyto=(180) nst=6 rates=gamma;
+	lset applyto=(181) nst=6 rates=gamma;
+	lset applyto=(182) nst=6 rates=gamma;
+	lset applyto=(183) nst=6 rates=gamma;
+	lset applyto=(184) nst=6 rates=gamma;
+	lset applyto=(185) nst=6 rates=gamma;
+	lset applyto=(186) nst=6 rates=gamma;
+	lset applyto=(187) nst=6 rates=gamma;
+	lset applyto=(188) nst=6 rates=gamma;
+	lset applyto=(189) nst=6 rates=gamma;
+	lset applyto=(190) nst=6 rates=gamma;
+	lset applyto=(191) nst=6 rates=gamma;
+	lset applyto=(192) nst=6 rates=gamma;
+	lset applyto=(193) nst=6 rates=gamma;
+	lset applyto=(194) nst=6 rates=gamma;
+	lset applyto=(195) nst=6 rates=gamma;
+	lset applyto=(196) nst=6 rates=gamma;
+	lset applyto=(197) nst=6 rates=gamma;
+	lset applyto=(198) nst=6 rates=gamma;
+	lset applyto=(199) nst=6 rates=gamma;
+	lset applyto=(200) nst=6 rates=gamma;
+	lset applyto=(201) nst=6 rates=gamma;
+	lset applyto=(202) nst=6 rates=gamma;
+	lset applyto=(203) nst=6 rates=gamma;
+	lset applyto=(204) nst=6 rates=gamma;
+	lset applyto=(205) nst=6 rates=gamma;
+	lset applyto=(206) nst=6 rates=gamma;
+	lset applyto=(207) nst=6 rates=gamma;
+	lset applyto=(208) nst=6 rates=gamma;
+	lset applyto=(209) nst=6 rates=gamma;
+	lset applyto=(210) nst=6 rates=gamma;
+	lset applyto=(211) nst=6 rates=gamma;
+	lset applyto=(212) nst=6 rates=gamma;
+	lset applyto=(213) nst=6 rates=gamma;
+	lset applyto=(214) nst=6 rates=gamma;
+	lset applyto=(215) nst=6 rates=gamma;
+	lset applyto=(216) nst=6 rates=gamma;
+	lset applyto=(217) nst=6 rates=gamma;
+	lset applyto=(218) nst=6 rates=gamma;
+	lset applyto=(219) nst=6 rates=gamma;
+	lset applyto=(220) nst=6 rates=gamma;
+	lset applyto=(221) nst=6 rates=gamma;
+	lset applyto=(222) nst=6 rates=gamma;
+	lset applyto=(223) nst=6 rates=gamma;
+	lset applyto=(224) nst=6 rates=gamma;
+	lset applyto=(225) nst=6 rates=gamma;
+	lset applyto=(226) nst=6 rates=gamma;
+	lset applyto=(227) nst=6 rates=gamma;
+	lset applyto=(228) nst=6 rates=gamma;
+	lset applyto=(229) nst=6 rates=gamma;
+	lset applyto=(230) nst=6 rates=gamma;
+	lset applyto=(231) nst=6 rates=gamma;
+	lset applyto=(232) nst=6 rates=gamma;
+	lset applyto=(233) nst=6 rates=gamma;
+	lset applyto=(234) nst=6 rates=gamma;
+	lset applyto=(235) nst=6 rates=gamma;
+	lset applyto=(236) nst=6 rates=gamma;
+	lset applyto=(237) nst=6 rates=gamma;
+	lset applyto=(238) nst=6 rates=gamma;
+	lset applyto=(239) nst=6 rates=gamma;
+	lset applyto=(240) nst=6 rates=gamma;
+	lset applyto=(241) nst=6 rates=gamma;
+	lset applyto=(242) nst=6 rates=gamma;
+	lset applyto=(243) nst=6 rates=gamma;
+	lset applyto=(244) nst=6 rates=gamma;
+	lset applyto=(245) nst=6 rates=gamma;
+	lset applyto=(246) nst=6 rates=gamma;
+	lset applyto=(247) nst=6 rates=gamma;
+	lset applyto=(248) nst=6 rates=gamma;
+	lset applyto=(249) nst=6 rates=gamma;
+	lset applyto=(250) nst=6 rates=gamma;
+	lset applyto=(251) nst=6 rates=gamma;
+	lset applyto=(252) nst=6 rates=gamma;
+	lset applyto=(253) nst=6 rates=gamma;
+	lset applyto=(254) nst=6 rates=gamma;
+	lset applyto=(255) nst=6 rates=gamma;
+	lset applyto=(256) nst=6 rates=gamma;
+	lset applyto=(257) nst=6 rates=gamma;
+	lset applyto=(258) nst=6 rates=gamma;
+	lset applyto=(259) nst=6 rates=gamma;
+	lset applyto=(260) nst=6 rates=gamma;
+	lset applyto=(261) nst=6 rates=gamma;
+	lset applyto=(262) nst=6 rates=gamma;
+	lset applyto=(263) nst=6 rates=gamma;
+	lset applyto=(264) nst=6 rates=gamma;
+	lset applyto=(265) nst=6 rates=gamma;
+	lset applyto=(266) nst=6 rates=gamma;
+	lset applyto=(267) nst=6 rates=gamma;
+	lset applyto=(268) nst=6 rates=gamma;
+	lset applyto=(269) nst=6 rates=gamma;
+	lset applyto=(270) nst=6 rates=gamma;
+	lset applyto=(271) nst=6 rates=gamma;
+	lset applyto=(272) nst=6 rates=gamma;
+	lset applyto=(273) nst=6 rates=gamma;
+	lset applyto=(274) nst=6 rates=gamma;
+	lset applyto=(275) nst=6 rates=gamma;
+	lset applyto=(276) nst=6 rates=gamma;
+	lset applyto=(277) nst=6 rates=gamma;
+	lset applyto=(278) nst=6 rates=gamma;
+	lset applyto=(279) nst=6 rates=gamma;
+	lset applyto=(280) nst=6 rates=gamma;
+	lset applyto=(281) nst=6 rates=gamma;
+	lset applyto=(282) nst=6 rates=gamma;
+	lset applyto=(283) nst=6 rates=gamma;
+	lset applyto=(284) nst=6 rates=gamma;
+	lset applyto=(285) nst=6 rates=gamma;
+	lset applyto=(286) nst=6 rates=gamma;
+	lset applyto=(287) nst=6 rates=gamma;
+	lset applyto=(288) nst=6 rates=gamma;
+	lset applyto=(289) nst=6 rates=gamma;
+	lset applyto=(290) nst=6 rates=gamma;
+	lset applyto=(291) nst=6 rates=gamma;
+	lset applyto=(292) nst=6 rates=gamma;
+	lset applyto=(293) nst=6 rates=gamma;
+	lset applyto=(294) nst=6 rates=gamma;
+	lset applyto=(295) nst=6 rates=gamma;
+	lset applyto=(296) nst=6 rates=gamma;
+	lset applyto=(297) nst=6 rates=gamma;
+	lset applyto=(298) nst=6 rates=gamma;
+	lset applyto=(299) nst=6 rates=gamma;
+	lset applyto=(300) nst=6 rates=gamma;
+	lset applyto=(301) nst=6 rates=gamma;
+	lset applyto=(302) nst=6 rates=gamma;
+	lset applyto=(303) nst=6 rates=gamma;
+	lset applyto=(304) nst=6 rates=gamma;
+	lset applyto=(305) nst=6 rates=gamma;
+	lset applyto=(306) nst=6 rates=gamma;
+	lset applyto=(307) nst=6 rates=gamma;
+	lset applyto=(308) nst=6 rates=gamma;
+	lset applyto=(309) nst=6 rates=gamma;
+	lset applyto=(310) nst=6 rates=gamma;
+	lset applyto=(311) nst=6 rates=gamma;
+	lset applyto=(312) nst=6 rates=gamma;
+	lset applyto=(313) nst=6 rates=gamma;
+	lset applyto=(314) nst=6 rates=gamma;
+	lset applyto=(315) nst=6 rates=gamma;
+	lset applyto=(316) nst=6 rates=gamma;
+	lset applyto=(317) nst=6 rates=gamma;
+	lset applyto=(318) nst=6 rates=gamma;
+	lset applyto=(319) nst=6 rates=gamma;
+	lset applyto=(320) nst=6 rates=gamma;
+	lset applyto=(321) nst=6 rates=gamma;
+	lset applyto=(322) nst=6 rates=gamma;
+	lset applyto=(323) nst=6 rates=gamma;
+	lset applyto=(324) nst=6 rates=gamma;
+	lset applyto=(325) nst=6 rates=gamma;
+	lset applyto=(326) nst=6 rates=gamma;
+	lset applyto=(327) nst=6 rates=gamma;
+	lset applyto=(328) nst=6 rates=gamma;
+	lset applyto=(329) nst=6 rates=gamma;
+	lset applyto=(330) nst=6 rates=gamma;
+	lset applyto=(331) nst=6 rates=gamma;
+	lset applyto=(332) nst=6 rates=gamma;
+	lset applyto=(333) nst=6 rates=gamma;
+	lset applyto=(334) nst=6 rates=gamma;
+	lset applyto=(335) nst=6 rates=gamma;
+	lset applyto=(336) nst=6 rates=gamma;
+	lset applyto=(337) nst=6 rates=gamma;
+	lset applyto=(338) nst=6 rates=gamma;
+	lset applyto=(339) nst=6 rates=gamma;
+	lset applyto=(340) nst=6 rates=gamma;
+	lset applyto=(341) nst=6 rates=gamma;
+	lset applyto=(342) nst=6 rates=gamma;
+	lset applyto=(343) nst=6 rates=gamma;
+	lset applyto=(344) nst=6 rates=gamma;
+	lset applyto=(345) nst=6 rates=gamma;
+	lset applyto=(346) nst=6 rates=gamma;
+	lset applyto=(347) nst=6 rates=gamma;
+	lset applyto=(348) nst=6 rates=gamma;
+	lset applyto=(349) nst=6 rates=gamma;
+	lset applyto=(350) nst=6 rates=gamma;
+	lset applyto=(351) nst=6 rates=gamma;
+	lset applyto=(352) nst=6 rates=gamma;
+	lset applyto=(353) nst=6 rates=gamma;
+	lset applyto=(354) nst=6 rates=gamma;
+	lset applyto=(355) nst=6 rates=gamma;
+	lset applyto=(356) nst=6 rates=gamma;
+	lset applyto=(357) nst=6 rates=gamma;
+	lset applyto=(358) nst=6 rates=gamma;
+	lset applyto=(359) nst=6 rates=gamma;
+	lset applyto=(360) nst=6 rates=gamma;
+	lset applyto=(361) nst=6 rates=gamma;
+	lset applyto=(362) nst=6 rates=gamma;
+	lset applyto=(363) nst=6 rates=gamma;
+	lset applyto=(364) nst=6 rates=gamma;
+	lset applyto=(365) nst=6 rates=gamma;
+	lset applyto=(366) nst=6 rates=gamma;
+	lset applyto=(367) nst=6 rates=gamma;
+	lset applyto=(368) nst=6 rates=gamma;
+	lset applyto=(369) nst=6 rates=gamma;
+	lset applyto=(370) nst=6 rates=gamma;
+	lset applyto=(371) nst=6 rates=gamma;
+	lset applyto=(372) nst=6 rates=gamma;
+	lset applyto=(373) nst=6 rates=gamma;
+	lset applyto=(374) nst=6 rates=gamma;
+	lset applyto=(375) nst=6 rates=gamma;
+	lset applyto=(376) nst=6 rates=gamma;
+	lset applyto=(377) nst=6 rates=gamma;
+	lset applyto=(378) nst=6 rates=gamma;
+	lset applyto=(379) nst=6 rates=gamma;
+	lset applyto=(380) nst=6 rates=gamma;
+	lset applyto=(381) nst=6 rates=gamma;
+	lset applyto=(382) nst=6 rates=gamma;
+
+	prset applyto=(all) ratepr=variable;
+	unlink statefreq=(all) revmat=(all) shape=(all) pinvar=(all) tratio=(all);
+
+end;
