@@ -9,6 +9,9 @@ exit
 # Find out how many sites were set to missing in the manual curation.
 bash quantify_manual_changes.sh
 
+# Transfer the curation to the nucleotide sequence alignments.
+bash prepare_nucl_alignments.sh
+
 # Make a set of alignments from which high-entropy or -gap sites are removed.
 bash filter_sites_with_BMGE.sh
 
@@ -63,4 +66,5 @@ bash concatenate_partitions.sh
 # Run a set of beast analyses based on concatenation.
 bash run_concatenated_beast_analyses.sh
 
-# XXX TODO: Write script to summarize results of analysis replicates.
+# Combine the results of replicate beast analyses, and generate mcc trees.
+bash combine_beast_results.sh

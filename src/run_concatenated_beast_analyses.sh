@@ -44,15 +44,16 @@ for dataset_type in full strict permissive
 do
     for model in HKY GTR
     do
+        model_lower=`echo ${model} | tr '[:upper:]' '[:lower:]'`
         mkdir -p ../res/beast/${dataset_type}/${model}
-        ruby beauti.rb -id ${dataset_type} -n ../res/alignments/${dataset_type} -o ../res/beast/${dataset_type}/${model}/xml -l 10000000 -c tmp.constraints.txt -m ${model} -g -bd -e -u -usd 0.5
-        cat ../res/beast/${dataset_type}/${model}/xml/${dataset_type}.xml | sed "s/logEvery=\"5000\"/logEvery=\"50000\"/g" > ../res/beast/${dataset_type}/${model}/xml/${dataset_type}.xml.2
-        mv -f ../res/beast/${dataset_type}/${model}/xml/${dataset_type}.xml.2 ../res/beast/${dataset_type}/${model}/xml/${dataset_type}.xml
+        ruby beauti.rb -id ${dataset_type} -n ../res/alignments/${dataset_type} -o ../res/beast/${dataset_type}/unpartitioned/${model_lower}/xml -l 10000000 -c tmp.constraints.txt -m ${model} -g -bd -e -u -usd 0.5
+        cat ../res/beast/${dataset_type}/unpartitioned/${model_lower}/xml/${dataset_type}.xml | sed "s/logEvery=\"5000\"/logEvery=\"50000\"/g" > ../res/beast/${dataset_type}/unpartitioned/${model_lower}/xml/${dataset_type}.xml.2
+        mv -f ../res/beast/${dataset_type}/unpartitioned/${model_lower}/xml/${dataset_type}.xml.2 ../res/beast/${dataset_type}/unpartitioned/${model_lower}/xml/${dataset_type}.xml
     done
-    mkdir -p ../res/beast/${dataset_type}/partitioned
-    ruby beauti.rb -id ${dataset_type} -n ../res/partitionfinder/${dataset_type}/partitions -o ../res/beast/${dataset_type}/partitioned/xml -l 10000000 -c tmp.constraints.txt -m GTR -g -bd -e -u -usd 0.5
-    cat ../res/beast/${dataset_type}/partitioned/xml/${dataset_type}.xml | sed "s/logEvery=\"5000\"/logEvery=\"50000\"/g" > ../res/beast/${dataset_type}/partitioned/xml/${dataset_type}.xml.2
-    mv -f ../res/beast/${dataset_type}/partitioned/xml/${dataset_type}.xml.2 ../res/beast/${dataset_type}/partitioned/xml/${dataset_type}.xml
+    mkdir -p ../res/beast/${dataset_type}/partitioned/gtr
+    ruby beauti.rb -id ${dataset_type} -n ../res/partitionfinder/${dataset_type}/partitions -o ../res/beast/${dataset_type}/partitioned/gtr/xml -l 10000000 -c tmp.constraints.txt -m GTR -g -bd -e -u -usd 0.5
+    cat ../res/beast/${dataset_type}/partitioned/gtr/xml/${dataset_type}.xml | sed "s/logEvery=\"5000\"/logEvery=\"50000\"/g" > ../res/beast/${dataset_type}/partitioned/gtr/xml/${dataset_type}.xml.2
+    mv -f ../res/beast/${dataset_type}/partitioned/gtr/xml/${dataset_type}.xml.2 ../res/beast/${dataset_type}/partitioned/gtr/xml/${dataset_type}.xml
 done
 
 # Clean up.
@@ -63,20 +64,21 @@ for dataset_type in full strict permissive
 do
     for model in HKY GTR
     do
+        model_lower=`echo ${model} | tr '[:upper:]' '[:lower:]'`
         for n in {1..6}
         do
-            rep_dir=../res/beast/${dataset_type}/${model}/replicates/r0${n}
+            rep_dir=../res/beast/${dataset_type}/unpartitioned/${model_lower}/replicates/r0${n}
             mkdir -p ${rep_dir}
-            cp ../res/beast/${dataset_type}/${model}/xml/${dataset_type}.xml ${rep_dir}
+            cp ../res/beast/${dataset_type}/unpartitioned/${model_lower}/xml/${dataset_type}.xml ${rep_dir}
             cat run_beast.slurm | sed "s/QQQQQQ/${dataset_type}/g" > ${rep_dir}/run_beast.slurm
             cat run_beast.sh | sed "s/QQQQQQ/${dataset_type}/g" > ${rep_dir}/run_beast.sh
         done
     done
     for n in {1..6}
     do
-        rep_dir=../res/beast/${dataset_type}/partitioned/replicates/r0${n}
+        rep_dir=../res/beast/${dataset_type}/partitioned/gtr/replicates/r0${n}
         mkdir -p ${rep_dir}
-        cp ../res/beast/${dataset_type}/partitioned/xml/${dataset_type}.xml ${rep_dir}
+        cp ../res/beast/${dataset_type}/partitioned/gtr/xml/${dataset_type}.xml ${rep_dir}
         cat run_beast.slurm | sed "s/QQQQQQ/${dataset_type}/g" > ${rep_dir}/run_beast.slurm
         cat run_beast.sh | sed "s/QQQQQQ/${dataset_type}/g" > ${rep_dir}/run_beast.sh
     done
@@ -87,9 +89,10 @@ for dataset_type in full strict permissive
 do
     for model in HKY GTR
     do
+        model_lower=`echo ${model} | tr '[:upper:]' '[:lower:]'`
         for n in {1..6}
         do
-            rep_dir=../res/beast/${dataset_type}/${model}/replicates/r0${n}
+            rep_dir=../res/beast/${dataset_type}/unpartitioned/${model_lower}/replicates/r0${n}
             cd ${rep_dir}
             if [ ! -f ${dataset_type}.log ]
             then
@@ -106,7 +109,7 @@ do
     done
     for n in {1..6}
     do
-        rep_dir=../res/beast/${dataset_type}/partitioned/replicates/r0${n}
+        rep_dir=../res/beast/${dataset_type}/partitioned/gtr/replicates/r0${n}
         cd ${rep_dir}
         if [ ! -f ${dataset_type}.log ]
         then
