@@ -1,0 +1,6 @@
+../res/beast/strict/partitioned/gtr/replicates/r01/strict.log
+../res/beast/strict/partitioned/gtr/replicates/r02/strict.log
+../res/beast/strict/partitioned/gtr/replicates/r03/strict.log
+../res/beast/strict/partitioned/gtr/replicates/r04/strict.log
+../res/beast/strict/partitioned/gtr/replicates/r05/strict.log
+../res/beast/strict/partitioned/gtr/replicates/r06/strict.log

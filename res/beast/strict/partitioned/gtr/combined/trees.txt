@@ -1,0 +1,6 @@
+../res/beast/strict/partitioned/gtr/replicates/r01/strict.trees
+../res/beast/strict/partitioned/gtr/replicates/r02/strict.trees
+../res/beast/strict/partitioned/gtr/replicates/r03/strict.trees
+../res/beast/strict/partitioned/gtr/replicates/r04/strict.trees
+../res/beast/strict/partitioned/gtr/replicates/r05/strict.trees
+../res/beast/strict/partitioned/gtr/replicates/r06/strict.trees
