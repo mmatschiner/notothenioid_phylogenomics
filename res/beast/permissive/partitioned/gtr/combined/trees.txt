@@ -1,0 +1,6 @@
+../res/beast/permissive/partitioned/gtr/replicates/r01/permissive.trees
+../res/beast/permissive/partitioned/gtr/replicates/r02/permissive.trees
+../res/beast/permissive/partitioned/gtr/replicates/r03/permissive.trees
+../res/beast/permissive/partitioned/gtr/replicates/r04/permissive.trees
+../res/beast/permissive/partitioned/gtr/replicates/r05/permissive.trees
+../res/beast/permissive/partitioned/gtr/replicates/r06/permissive.trees
