@@ -68,3 +68,6 @@ bash run_concatenated_beast_analyses.sh
 
 # Combine the results of replicate beast analyses, and generate mcc trees.
 bash combine_beast_results.sh
+
+# Clean up beast directories.
+bash cleanup.sh
