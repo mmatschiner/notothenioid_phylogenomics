@@ -1,0 +1,42 @@
+<itsabeastystatewerein version='2.0' sample='25000000'>
+<statenode id='tree.t:Species'>(((((0:46.35709294637292,27:46.35709294637292)61:15.506688436909187,(3:39.84756697476358,25:39.84756697476358)79:22.01621440851853)47:8.06160963508055,((((((((((((1:0.008866931034802813,4:0.008866931034802813)57:0.9688638956820018,40:0.9777308267168047)49:4.416877302962962,(7:2.460109603989061,(((8:1.234896047351103,11:1.234896047351103)76:0.6282998620450524,9:1.8631959093961554)60:0.5011329020386532,(28:2.2459276924408442,33:2.2459276924408442)64:0.11840111899396444)72:0.09578079255425243)71:2.9344985256907052)59:0.4028877843420471,(((2:0.6219276142933455,13:0.6219276142933455)48:0.5010320924529453,21:1.1229597067462909)77:4.189961259103045,(17:4.138840512378658,(18:0.12521690183111706,19:0.12521690183111706)54:4.0136236105475405)42:1.174080453470678)46:0.4845749481724777)43:2.274591265753476,26:8.07208717977529)75:0.01021526362771219,16:8.082302443403002)55:1.1752550848052525,(12:9.001537742912788,((((22:0.7609534287148455,23:0.7609534287148455)45:2.127028216290517,(24:1.964228054778244,29:1.964228054778244)44:0.9237535902271188)58:0.3660225429797359,37:3.2540041879850987)68:0.5443372359841954,((35:2.0157759291933948,36:2.0157759291933948)53:1.4989115315680324,38:3.514687460761427)62:0.28365396320786695)56:5.203196318943494)69:0.2560197852954662)70:0.7653754432068638,31:10.022932971415118)65:7.418051458821923,14:17.44098443023704)74:21.039274489669676,((5:5.730493490440875,6:5.730493490440875)50:15.26519766316375,10:20.995691153604625)73:17.484567766302092)66:15.521366474304394,((15:39.764862607750885,34:39.764862607750885)51:11.928616581589345,30:51.69347918934023)63:2.30814620487088)78:10.12564141765133,39:64.12726681186244)52:5.798124206500219)41:24.341625223178283,20:94.26701624154094)67:9.83158461320673,32:104.09860085474767)80:0.0</statenode>
+<statenode id='birthRate.t:Species'>birthRate.t:Species[1 1] (-Infinity,Infinity): 0.031216011848244792 </statenode>
+<statenode id='ucldStdev.c:Species'>ucldStdev.c:Species[1 1] (-Infinity,Infinity): 0.33828160616011665 </statenode>
+<statenode id='rateCategories.c:Species'>rateCategories.c:Species[80 1] (0,79): 41 15 12 54 62 78 57 62 79 57 47 11 15 64 25 71 22 4 51 39 28 19 58 24 0 9 68 77 38 75 25 56 76 53 14 11 39 38 15 55 19 32 47 68 57 30 14 9 66 41 28 4 41 34 49 64 29 68 36 61 8 55 57 62 68 37 30 75 16 73 46 25 62 36 71 7 35 45 37 5 </statenode>
+<statenode id='mutationRate.s:EOG090C0979'>mutationRate.s:EOG090C0979[1 1] (0.0,Infinity): 0.0019051469170168703 </statenode>
+<statenode id='BMT_ModelIndicator.s:EOG090C0979'>BMT_ModelIndicator.s:EOG090C0979[1 1] (0,5): 1 </statenode>
+<statenode id='BMT_Rates.s:EOG090C0979'>BMT_Rates.s:EOG090C0979[6 1] (0.01,100.0): 0.6523031478005378 1.6953937043989193 0.6787160490173418 0.6105374545092829 1.7893141039672276 0.5365763450213705 </statenode>
+<statenode id='BMT_gammaShape.s:EOG090C0979'>BMT_gammaShape.s:EOG090C0979[1 1] (0.001,1000.0): 0.6429936472971042 </statenode>
+<statenode id='BMT_ProportionInvariable.s:EOG090C0979'>BMT_ProportionInvariable.s:EOG090C0979[1 1] (0.0,1.0): 0.06849774594645427 </statenode>
+<statenode id='hasInvariableSites.s:EOG090C0979'>hasInvariableSites.s:EOG090C0979[1 1] (-2147483647,2147483646): 1 </statenode>
+<statenode id='hasGammaRates.s:EOG090C0979'>hasGammaRates.s:EOG090C0979[1 1] (-2147483647,2147483646): 1 </statenode>
+<statenode id='hasEqualFreqs.s:EOG090C0979'>hasEqualFreqs.s:EOG090C0979[1 1] (null,true): true </statenode>
+<statenode id='BMT_frequencies.s:EOG090C0979'>BMT_frequencies.s:EOG090C0979[4 1] (-Infinity,Infinity): 0.010132221796020718 0.18144437889611548 0.4815698962541588 0.3268535030537062 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"treeScale:Species","p":0.7789866724604848,"accept":166048,"reject":507687,"acceptFC":165635,"rejectFC":507287,"rejectIv":0,"rejectOp":0},
+{"id":"treeRootOnlyScale:Species","p":0.6564657890439032,"accept":133947,"reject":540397,"acceptFC":133457,"rejectFC":540056,"rejectIv":100358,"rejectOp":100358},
+{"id":"treeUniform:Species","p":"NaN","accept":2779936,"reject":3945204,"acceptFC":2776681,"rejectFC":3940416,"rejectIv":0,"rejectOp":0},
+{"id":"treeSubtreeSlide:Species","p":8.837790918789945,"accept":177990,"reject":946375,"acceptFC":177102,"rejectFC":945901,"rejectIv":330482,"rejectOp":327029},
+{"id":"treeExchange:Species","p":"NaN","accept":182997,"reject":939474,"acceptFC":182683,"rejectFC":938469,"rejectIv":40462,"rejectOp":0},
+{"id":"treeNarrowExchange:Species","p":"NaN","accept":3745,"reject":1120205,"acceptFC":3723,"rejectFC":1118853,"rejectIv":597036,"rejectOp":569161},
+{"id":"treeWilsonBalding:Species","p":"NaN","accept":2779,"reject":669701,"acceptFC":2753,"rejectFC":668907,"rejectIv":88058,"rejectOp":70288},
+{"id":"birthRateScale","p":0.41815021728763585,"accept":172845,"reject":500121,"acceptFC":172305,"rejectFC":499831,"rejectIv":0,"rejectOp":0},
+{"id":"relaxedStdevScaler:Species","p":0.6619682322296249,"accept":174201,"reject":499479,"acceptFC":173901,"rejectFC":498974,"rejectIv":0,"rejectOp":0},
+{"id":"relaxedCategoriesRandomWalk:Species","p":"NaN","accept":1421642,"reject":821874,"acceptFC":1420012,"rejectFC":820861,"rejectIv":769428,"rejectOp":769428},
+{"id":"relaxedCategoriesSwap:Species","p":"NaN","accept":1075487,"reject":1167664,"acceptFC":1074321,"rejectFC":1166082,"rejectIv":0,"rejectOp":0},
+{"id":"relaxedCategoriesUniform:Species","p":"NaN","accept":1400219,"reject":843987,"acceptFC":1398736,"rejectFC":842739,"rejectIv":0,"rejectOp":0},
+{"id":"mutationRateScaler.s:EOG090C0979","p":0.7469265710716577,"accept":263215,"reject":859768,"acceptFC":262467,"rejectFC":859187,"rejectIv":0,"rejectOp":0},
+{"id":"relaxedUpDownRateAndTree.c:EOG090C0979","p":0.6025160089146887,"accept":173884,"reject":499325,"acceptFC":173303,"rejectFC":499119,"rejectIv":0,"rejectOp":0},
+{"id":"jointUpDown:Species","p":0.5576723274641322,"accept":590157,"reject":1655881,"acceptFC":588081,"rejectFC":1655288,"rejectIv":0,"rejectOp":0},
+{"id":"BMT_ModelTestOperator.s:EOG090C0979","p":"NaN","accept":24601,"reject":200044,"acceptFC":24569,"rejectFC":199792,"rejectIv":1515,"rejectOp":1515},
+{"id":"BMT_Ratescaler.s:EOG090C0979","p":0.2247832028248742,"accept":57113,"reject":167233,"acceptFC":57001,"rejectFC":167060,"rejectIv":0,"rejectOp":0},
+{"id":"BMT_gammaShapeScaler.s:EOG090C0979","p":0.6008186011181068,"accept":24479,"reject":87798,"acceptFC":24453,"rejectFC":87684,"rejectIv":0,"rejectOp":0},
+{"id":"BMT_ProportionInvariableScaler.s:EOG090C0979","p":0.16212080035214974,"accept":7864,"reject":104733,"acceptFC":7863,"rejectFC":104607,"rejectIv":82037,"rejectOp":82037},
+{"id":"BMT_hasGammaRatesFlipper.s:EOG090C0979","p":"NaN","accept":0,"reject":22515,"acceptFC":0,"rejectFC":22495,"rejectIv":11369,"rejectOp":11369},
+{"id":"BMT_hasInvariableSitesFlipper.s:EOG090C0979","p":"NaN","accept":2672,"reject":19962,"acceptFC":2671,"rejectFC":19939,"rejectIv":11326,"rejectOp":11326},
+{"id":"BMT_FreqsFlipOperator.s:EOG090C0979","p":"NaN","accept":51,"reject":22401,"acceptFC":49,"rejectFC":22375,"rejectIv":0,"rejectOp":0},
+{"id":"BMT_FrequenciesExchanger.s:EOG090C0979","p":0.23930043966091338,"accept":15251,"reject":7050,"acceptFC":15234,"rejectFC":7043,"rejectIv":0,"rejectOp":0}
+]}
+-->

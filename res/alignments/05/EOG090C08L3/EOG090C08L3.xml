@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<beast beautitemplate="Standard" beautistatus="" namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="bModelTest v1.0.3" version="2.4">
+
+<!--
+XML produced with beauti.rb:
+beauti.rb -id EOG090C08L3 -n ../res/alignments/05/EOG090C08L3 -u -o ../res/alignments/05/EOG090C08L3 -c tmp.constraints.xml -l 25000000
+-->
+
+<!--
+Models implemented in this XML:
+Inference tool:          BEAST
+Tree model:              Yule
+Molecular clock model:   uncorrelated lognormal
+Substitution model:      bModelTest
+-->
+
+	<!-- Sequence alignments -->
+	<data id="EOG090C08L3" name="alignment">
+		<sequence id="EOG090C08L3_A_call" taxon="A_call" totalcount="4" value="cttttgtcttgcttaactcttgtcttactttgtcaagttactgacgccaagaaggatttaaaaagcgcctgcaacacctgccggcaaatcaccgagaacttcaacaagggcttcgagagaacagcaaaccagaactttggaggaggaaacacagcctgggaggagaggaaattgtctaaatatgagacgagcgagattcggctgatggagatcgtggaggggctgtgcgacagcagcagctttgagtgcaaccacatggttgaggagcacgaggagcatttcgagacttggtggttcaagaggaaaacgaaacatcccgatctgcacaagtggttctgcatagagaccatcaaagtgtgctgtccaaagggaacatttggacccgactgcaatgcctgtgtggggggttctgagcgaccctgtcacgggaatggtgcgtgcgatggagacgggacccgtgggggaaacgggaagtgcagctgccaccacggttatacgggcgagttctgcctagactgcatcgacggctacttcaacgaagtgaggaacgacagcttttctctgtgcacagaatgtcacttctcttgcaagacctgcactggagcaaacaatcaggactgtgatgagtgcaaggaaggctgggaggaagacgaccaggaaacttgtgtagatgtaaatgagtgttccaaagaccctgttccatgcaaagaagatcagtactgcctcaacacagaaggttcctactcttgcaaggcctgtgataaagtttgctccggctgcactggagccggtcccgataactgccaggcttgtgccagcgggtaccaagacacagagggaacctgcacagatgtggatgagtgttcgcagtcagagccagtgtgcacaaaagagcaccaggagtgtgtcaacaatcaaggcagctacacgtgcatctgctttgaaggctacgaggagcaagatggggagtgtgtgcaa"/>
+		<sequence id="EOG090C08L3_AkaNud" taxon="AkaNud" totalcount="4" value="cttttgtcttgtgtaactcttgttttacttttccaagtcaccgacagcaagaaagatttaaaaagcttctgttcaacctgtcggataataacagataacttcaacaagggctttgaaagaactgcaaaacagaactttggtgggggcaacacagcctgggaggagaggacactgtctagatatgagacaagtgagatccgtctcatggagatcgtggaggggctgtgtgacagcagcagcttcgactgcaaccacatggtagaagagcacgaagaccactttgaaacttggtggttcaagaggaaaacaaaacatcctgatctgcataaatggttctgcatcgacacgataaaagtgtgctgtccaaagggaatgtttggaccggactgcagtgcttgtgtggggggctctgagagaccttgtcatgggaatgggaagtgtgatggcgacgggactcgcgggggggacgggaagtgcagctgtgaccactcttacagaggagagttctgcctggactgcatcgacgggtacttcaacgaagtgaggaacgacacattctctctgtgcacagaatgcgactcgtcctgcaaaacctgcactggtgcaaccaatcaggactgtgatgagtgcaaagaaggctgggaggacgatgaccaggaagcgtgtgttgatgtaaacgagtgctccaaagatccttctccgtgtgaggaagatcaatactgccttaacacggacggctcctactcctgcaaggcctgtgacaaagtgtgctccgggtgcacagggcccggtcctgatggctgccaggcgtgtgccagcgggtaccaacacacagagggcacctgcacagatatcgacgagtgttcccagactgagccggtctgcaccaaggagaacgaggagtgtgtcaacaataaaggaagctacgtgtgcttctgctccgaaggctacgaggagcgagatgacgagtgtgtccag"/>
+		<sequence id="EOG090C08L3_ArtSko" taxon="ArtSko" totalcount="4" value="------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------gagatccgtctcatggagatcgtggaggggctgtgtgacagcagcagcttcgactgcaaccacatggtagaagagcacgaagaccactttgaaacttggtggttcaagaggaaaacaaaacatcctgatctgcataaatggttctgcatcgacacgataaaagtgtgctgtccaaagggaatgtttggaccggactgcagtgcttgtgtggggggctctgagagaccttgtcatgggaatgggaagtgtgatggcgacgggactcgtgggggggacgggaagtgcagctgtgaccactcttacagaggagagttctgcctggactgcatcgacgggtacttcaacgaagtgaggaacgacacattctctctgtgcacagaatgcgactcgtcctgcaaaacctgcactggtgcaaccaatcaggactgtgatgagtgcaaagaaggctgggaggacgatgaccaggaagcgtgtgttgatgtaaacgagtgctccaaagatccttctccgtgtgaggaagatcaatactgccttaacacggacggctcctactcctgcaaggcctgtgacaacgtgtgctccgggtgcacagggcccggtcctgatagctgccaggcgtgtgccagcgggtaccaacacacagagggcacctgcacagatatcgacgagtgttcccagactgagccggtctgcaccagggagaacgaggagtgtgtcaacaataaaggaagctacgtgtgcttctgctccgaaggctacgaggagcgagatgacgagtgtgtccag"/>
+		<sequence id="EOG090C08L3_A_test" taxon="A_test" totalcount="4" value="ctgctgtcttgtgtcattgttgttttacttttgcaagtgaccgacggcaagaaggatttaacgagcgcatgtaccacctgcaagcaaataactgataactttaacaagggctttgacagaacagcaaagcagaactttggcggtggcaacacagcctgggaggagaggaaactgtctaaatatgagacaagtgagattcgtctgatggagatcgtggaggggctgtgcgacagcagcagctttgagtgcaaccgcatgttagaggagcatgaagagcattttgaaacttggtggttcaagaggaaaacaaaacatcctgatctgcataagtggttctgcattgagaccatcaaagtgtgctgtccaaaaggaacatttggaccagattgtaatgcctgtgttggaggctctgagagaccctgtcatggaaatggaatgtgtgatggcgaagggacacgcggtgggaacgggaagtgcagctgtgtccacggttacaagggggagttctgcttagactgcatcgatggctacttcaatgaagagaggaacgacactttctccctgtgcacagaatgccactcttcgtgcaagacctgcactggagcgaccaatcaggactgtgacgagtgcaaggaaggctgggaagaggatgaccaggaagcctgtgtcgatgtaaacgagtgctctaaagatcctgctccatgtggcgaagaacagtactgccttaacacagaaggctcctacttgtgcaaggcttgtgacaaagtgtgctctggatgcactggcgccggtcctgataagtgccaggcttgtgccagtgggtaccaagacacagagggcacctgcacagacattgatgagtgttcccagtcagagtcagtttgcacgaaggcgaaccaggactgtgccaataccaacggcagctacgtgtgcatctgctcgagtggctacgaggagcaggatggcgagtgtgtccac"/>
+		<sequence id="EOG090C08L3_BatMar" taxon="BatMar" totalcount="4" value="cttttgtcttgtgtaactcttgttttacttttccaagtcaccgacagcaagaaagatttaaaaagcttctgttcaacctgtcggataataacagataacttcaacaagggctttgaaagaactgcaaaacagaactttggtgggggcaacacagcctgggaggagaggacactgtctagatatgagacaagtgagatccgtctcatggagatcgtggaggggctgtgtgacagcagcagcttcgactgcaaccacatggtagaagagcacgaagaccactttgaaacttggtggttcaagaggaaaacaaaacatcctgatctgcataaatggttctgcatcgacacgataaaagtgtgctgtccaaagggaatgtttggaccggactgcagtgcttgtgtggggggctctgagagaccttgtcatgggaatgggaagtgtgatggcgacgggactcgcgggggggacgggaagtgcagctgtgaccactcatacagaggagagttctgcctggactgcatcgacgggtacttcaacgaagtgaggaacgacacattctctctgtgcacagaatgcgactcgtcctgcaaaacctgcactggtgcaaccaatcaggactgtgatgagtgcaaagaaggctgggaggacgatgaccaggaagcgtgtgttgatgtaaacgagtgctccaaagatccttctccgtgtgaggaagatcaatactgccttaacacggacggctcctactcctgcaaggcctgtgacaaagtgtgctccgggtgcacagggcccggtcctgatggctgccaggcgtgtgccagcgggtaccaacacacagagggcacctgcaca---------------------------------------------------------------------------------------------------------------------------------"/>
+		<sequence id="EOG090C08L3_BovDia" taxon="BovDia" totalcount="4" value="ctattgtcttgtgtaactcttcttttactttttcaagtcaccgaggccaagagagatttaaaaagtgcctgttcaacctgtcagaaaatcactgagaacttcaacaagggctttgacagaactgcaaagcagaactttggcggaggcaacacagcctgggaggagagaaaactgtctaaatatgagaccagcgagatccgtcttatggagatcgtggaggggctgtgtgacagcagcagcttcgattgcaaccacatgttagaggagcacgaagaccattttgagacttggtggttcaagaggaaaacaaaacatcctgatctgcataaatggttctgcattgaaaccatcaaagtgtgctgtccaaaggggacgtttggaccggactgcaatgcctgttttggaggcgctgaccgaccttgtcatggaaatggaaactgtgatggcgacgggactcgaggagggaacggaaagtgcagctgtgacgacagttacgcaggggagttctgcctcgactgcatggacggctacttcaacgaagtgaggaacgacacattctctctgtgcacagaatgccactcttcctgcaaaacctgcaatggagcaaccaatcaggactgcgaggagtgcaaagacggctgggaggaggatgagcaggaagcttgtgttgatgtgaacgagtgctccaaagatccttctccatgtgaagaagatcaatactgccttaacacggaaggctcctactcctgccaggcctgtgacgacgagtgcgccggctgcacaggtgccggtcctgatgagtgccaggcttgtgccagcggataccaagacacagagggcacctgcacagatatcgacgagtgttcccagccagagccggtatgcaccaaggagcacgaggactgtgtcaactctaaaggcagccatgtgtgcatctgctccagcggctatgaggagcaagatggagagtgtgtccaa"/>
+		<sequence id="EOG090C08L3_BovVar" taxon="BovVar" totalcount="4" value="ctattgtcttgtgtaactcttcttttactttttcaagtcaccgaggccaagagagatttaaaaagtgcctgttcaacctgtcagaaaatcactgagaacttcaacaagggctttgacagaactgcaaagcagaactttggcggaggcaacacagcctgggaggagagaaaactgtctaaatatgagaccagcgagatccgtcttatggagatcgtggaggggctgtgtgacagcagcagcttcgattgcaaccacatgttagaggagcacgaagaccattttgagacttggtggttcaagaggaaaacaaaacatcctgatctgcataaatggttctgcattgaaaccatcaaagtgtgctgtccaaaggggacgtttggaccggactgcaatgcctgttttggaggcgctgaccgaccttgtcatggaaatggaaactgtgacggcgacgggactcgaggagggaacggaaagtgcagctgtgacgacagttacgcaggggagttctgcctcgactgcatggacggctacttcaacgaagtgaggaacgacacattctctctgtgcacagaatgccactcttcctgcaaaacctgcaatggagcaaccaatcaggactgcgatgagtgcaaagacggctgggaggaggatgagcaggaagcttgtgttgatgtgaacgagtgctccaaagatccttctccatgtgaagaagatcaatactgccttaacacggaaggctcctactcctgccaggcctgtgacgacgagtgcgccggctgcacaggtgccggtcctgatgagtgccaggcttgtgccagcggataccaagacacagagggcacctgctcagatatcgacgagtgttcccagccagagccggtatgcaccaaggagcacgaggactgtgtcaacactaaaggcagccatgtgtgcatctgctccagcggctatgaggagcaagatggagagtgtgtccaa"/>
+		<sequence id="EOG090C08L3_ChaAce" taxon="ChaAce" totalcount="4" value="cttttgtcttgtgtaactcttgttttacttttccaagtcaccgacagcaagaaagatttaaaaagcttctgttcaacctgtcggataataacagataacttcaacaagggctttgaaataactgcaaaacagaactttggtgggggcaacacagcctgggaggagaggacactgtctaaatatgagacaagtgagatccgtctcatggagatcgtggaggggctgtgtgacagcagcagcttcgactgcaaccacatggtagaagagcacgaagaccactttgaaacttggtggttcaagaggaaaacaaaacatcctgatctgcataaatggttctgcatcgacacgataaaagtgtgctgtccaaagggaatgtttggaccggactgcagtgcctgtgtggggggctctgagagaccttgtcatgggaatgggaagtgtgatggcgacgggactcgcgggggggacgggaagtgcagctgtgaccactcttacggaggagagttctgcctggactgcatcgacgggtacttcaacgaagtgaggaacgacacattctctctgtgcacagaatgcgactcgtcctgcaaaacctgcactggtgcaaccaatcaggactgtgatgagtgcaaagaaggctgggaggacgatgaccaggaagcgtgtgttgatgtaaacgagtgctccaaagatccttctccgtgtgaggaagatcaatactgccttaacacggacggctcctactcctgcaaggcctgtgacaaagtgtgcaccgggtgcacagggcccggtcctgatagctgccaggcgtgtgccagcgggtaccaacacacagagggcacctgcacagatatcgacgagtgttcccagactgagccggtctgcaccagggagaacgaggagtgtgtcaacaataaaggaagctacgtgtgcttctgctccgaaggctacgaggagcgagatgacgagtgtgtccag"/>
+		<sequence id="EOG090C08L3_ChaWil" taxon="ChaWil" totalcount="4" value="cttttgtcttgtgtaactcttgttttacttttccaagtcaccgacagcaagaaagatttaaaaagcttctgttcaacctgtcggataataacagataacttcaacaagggctttgaaataactgcaaaacagaactttggtgggggcaacacagcctgggaggagaggacactgtctaaatatgagacaagtgagatccgtctcatggagatcgtggaggggctgtgtgacagcagcagcttcgactgcaaccacatggtagaagagcacgaagaccactttgaaacttggtggttcaagaggaaaacaaaacatcctgatctgcataaatggttctgcatcgacacgataaaagtgtgctgtccaaagggaatgtttggaccggactgcagtgcttgtgtggggggctctgagagaccttgtcatgggaatgggaagtgtgatggcgacgggactcgcgggggggacgggaagtgcagctgtgaccactcttacggaggagagttctgcctggactgcatcgacgggtacttcaacgaagtgaggaacgacacattctctctgtgcacagaatgcgactcgtcctgcaaaacctgcactggtgcaaccaatcaggactgtgatgagtgcaaagaaggctgggaggacgatgaccaggaagcgtgtgttgatgtaaacgagtgctccaaagatccttctccgtgtgaggaagatcaatactgccttaacacggacggctcctactcctgcaaggcctgtgacaaagtgtgcaccgggtgcacagggcccggtcctgatagctgcctggcgtgtgccagcgggtaccaacacacagagggcacctgcacagatatcgacgagtgttcccagactgagccggtctgcaccagggagaacgaggagtgtgtcaacaataaaggaagctacgtgtgcttctgctccgaaggctacgaggagcgagatgacgagtgtgtccag"/>
+		<sequence id="EOG090C08L3_ChiDew" taxon="ChiDew" totalcount="4" value="cttttgtcttgtgtaactcttgttttacttttccaagtcaccgacagcaagaaagatttaaaaagcttctgttcaacctgtcggataataacagataacttcaacaagggctttgaaataactgcaaaacagaactttggtgggggcaacacagcctgggaggagaggacactgtctaaatatgaaacaagtgagatccgtctcatggagatcgtggaggggctgtgtgacagcagcagcttcgactgcaaccacatggtagaagagcacgaagacctctttgaaacttggtggttcaagaggaaaacaaaacatcctgatctgcataaatggttctgcatcgacacgataaaagtgtgctgtccaaagggaatgtttggaccggactgcagtgcttgtgtggggggctctgagagaccttgtcatgggaatgggaagtgtgatggcgacgggactcgcgggggggacgggaagtgcagctgtgaccactcttacggaggagagttctgcctggactgcatcgacgggtacttcaacgaagtgaggaacgacacattctctctgtgcacagaatgcgactcgtcctgcaaaacctgcactggtgcaaccaatcaggactgtgatgagtgcaaagaaggctgggaggacgatgaccaggaagcgtgtgttgatgtaaacgagtgctccaaagatccttctccgtgtgaggaagatcaatactgccttaacacggacggctcctactcctgcaaggcctgtgacaaagtgtgcaccgggtgcacagggcccggtcctgatagctgccaggtgtgtgccagcgggtaccaacacacagagggcacctgcacagatatcgacgagtgttcccagactgagccggtctgcaccagggagaacgaggagtgtgtcaacaataaaggaagctacgtgtgcttctgctccgaaggctacgaggagcgagatgacgagtgtgtccag"/>
+		<sequence id="EOG090C08L3_CotGob" taxon="CotGob" totalcount="4" value="ctattgtcttgtgtaactcttcttttactttttcaagtcactgaggccaagagagatttaaaaagcgcctgttctacctgtcagaaaattactgataacttcaacaagggctttgacagaacagcaaagcagaattttggcggaggcaacacagcctgggaagagagagcactgtctaaatatgagacaagtgagatccgtctgatggagatcctggaggagctgtgtgacagcagcagcttcgattgcaaccacatgttagaggagcacgaagaccattttgagacttggtggttcaagagtaaaacaaaacatcctgatctgcataaatggttctgcattgacaccatcaaagtgtgctgtgcgaaggggacgtttggcccagactgcaatgcctgtgtggggggctccgacagaccttgtcatggaaatggaaactgtgatggcgacgggactcgcggagggaacggaaattgcagctgtgacgaaggttacgcaggagagttgtgcctcgactgcatcgacggctacttcaacgaagtgaggaacgacacaatctccctgtgcacagattgccactcctcctgcaaaacctgcaatggagcaaccaatcaggactgtgatgagtgcaaagaaggctgggaggaggatgaacaggaagtgtgtgttgatgtaaacgagtgctccaaagatccttctccatgtgaagaagatcaatactgcctcaacacggaaggctcctactcctgcaaggcctgtgatgaggtgtgctccggctgcgcaggggccggtcctgatgggtgccaggcttgtgccagcgggtaccaagacacagagggctcctgcacagatatcgacgagtgttcccagccagagccgatatgcaccaaggagcacgaggactgtgtcaacactaaaggcagctacgtgtgcatctgctccagtggctatgaggagcaagatggagactgtgtccaa"/>
+		<sequence id="EOG090C08L3_CryAnt" taxon="CryAnt" totalcount="4" value="cttttgtcttgtgtaactcttgttttacttttccaagtcaccgacagcaagaaagatttaaaaagcttctgttcaacctgtcggataataacagataacttcaacaagggctttgaaataactgcaaaacagaactttggtgggggcaacacagcctgggaggagaggacactgtctaaatatgagacaagtgagatccgtctcatggagattgtggaggggctgtgtgacagcagcagcttcgactgcaaccacatggtagaagagcacgaagacctctttgaaacttggtggttcaagaggaaaacaaaacatcctgatctgcataaatggttctgcatcgacacgataaaagtgtgctgtccaaagggaatgtttggaccggactgcagtgcttgtgtggggggctctgagagaccttgtcatgggaatgggaagtgtgatggcgacgggactcgcgggggggacgggaagtgcagctgtgaccactcttacggaggagagttctgcctggactgcatcgacgggtacttcaacgaagtgaggaacgacacattctctctgtgcacagaatgcgactcgtcctgcaaaacctgcactggtgcaaccaatcaggactgtgatgagtgcaaagaaggctgggaggacgatgaccaggaagcgtgtgttgatgtaaacgagtgttccaaagatccttctccgtgtgaggaagatcaatactgccttaacacggacggctcctactcctgcaaggcctgtgacaaagtgtgcaccgggtgcacagggcccggtcctgatagctgccaggcgtgtgccagcgggtaccaacacacagagggcacctgcacagatatcgacgagtgttcccagactgagccggtctgcaccagggagaacgaggagtgtgtcaacaataaaggaagctacgtgtgcttctgctccgaaggctacgaggagcgagatgacgagtgtgtccag"/>
+		<sequence id="EOG090C08L3_DisMaw" taxon="DisMaw" totalcount="4" value="cttttgtcttgtgtaactcttgttttacttttccaagtcaccgacagcaagaaagatttaaaaagcttctgttcaacctgtcggataataacagataacttcaacaagggctttgaaagaactgcaaaacagaactttggtgggggcaacacagcctgggaggagaggacactgtctagatatgagacaagtgagatccgtctcatggagatcgtggaggggctgtgtgacagcagcagcttcgactgcaaccacatggtagaagagcatgaagaccactttgaaacttggtggttcaagaggaaaacaaaacatcctgatctgcataaatggttctgcatcgaaaccataaaagtgtgctgtccaaagggaatgtttggaccggactgcaatgcttgtgtggggggctctgagagaacttgtcatgggaatgggaagtgtgatggcgacgggactcgcgggggggacgggaagtgcagctgtgaccactcttacagaggagagtcctgcctggactgcatcgacgggtacttcaacgaagtgaggaacgacacattctctctgtgcacagaatgcgactcgtcctgcaaaacctgcactggtgcaaccaatcaggactgtgatgagtgcaaagaaggctgggaggacgatgaccaggaagcgtgtgttgatgtaaacgagtgctccaaagatccttctccgtgtgaagaggatcaatactgccttaacacggacggctcctactcctgcaaggcctgtgacaaagtgtgctccgggtgcacaggggccggtcctgatagctgccaggcgtgtgccagcgggtaccaacacacagagggcacctgcacagatatcgacgagtgttcccagcctgagccggtctgcaccagggagaacgaggagtgtgtcaacaataaaggaagctacgtgtgcatctgctccgaaggctatgaggagcgagatgacgagtgtgtccag"/>
+		<sequence id="EOG090C08L3_DolLon" taxon="DolLon" totalcount="4" value="cttttgtcttgtgtaactcttgttttacttttccaagtcaccgacagcaagaaagatttaaaaagcttctgttcaacctgtcggataataacagataacttcaacaagggctttgaaagaactgcaaaacagaactttggtgggggcaacacagcctgggaggagaggacactgtctagatatgagacaagtgagatccgtctcatggagatcgtggaggggctgtgtgacagcagcagcttcgactgcaaccacatggtagaagagcacgaagaccactttgaaacttggtggttcaagaggaaaacaaaacatcctgatctgcataaatggttctgcatcgacacgataaaagtgtgctgtccaaagggaatgtttggaccggactgcagtgcttgtgtggggggctctgagagaccttgtcatgggaatgggaagtgtgatggcgacgggactcgcgggggggacgggaagtgcagctgtgaccactcttacagaggagagttctgcctggactgcattgacgggtacttcaacgaagtgaggaacgacacattctctctgtgcacagaatgcgattcgtcctgcaaaacctgcactggtgcaaccaatcaggactgtgatgagtgcaaagaaggatgggaggacgatgaccaggaagcgtgtgttgatgtaaacgagtgctccaaagatccttctccgtgtgaggaagatcaatactgccttaacacggacggctcctactcctgcaaggcctgtgacaacgtgtgctccgggtgcacagggcccggtcctgatagctgccaggcgtgtgccagcgggtaccaacacacagagggcacctgcaca---------------------------------------------------------------------------------------------------------------------------------"/>
+		<sequence id="EOG090C08L3_EleMac" taxon="EleMac" totalcount="4" value="cttttgtcttgtgtagctcttgttttacttttccaagtcaccaacagcaagaaagatttaaaaagcacctgttctacctgtcggcaaataacagataacttcaacaagggctttgagagaactgcaaagcagaactttggtgggggcaacacagcctgggaggagaggacactgtctaaatatgagacaagcgagatccgtctcatggagatcgtggaggagctgtgtgacagcagcagcttcgactgcaaccacatggtagaggagcacgaagaccactttgaaacttggtggttcaagaggaaaacaaaacatcctgatctgcataaatggttctgcatcgaaacaataaaagtgtgctgtccaaagggaacgtttggaccggactgcaatgcttgtttggggggctctgagagaccttgtcatggaaatgggaactgtgatggcgacgggactcgcggagggaacgggaaatgcagctgtgacaacgcctacagaggggagttctgcctagactgcatcgacggttacttcaacgaagtgaggaacgacacattctctctgtgcacagcgtgcgacacctcctgcaaaacctgcactggtgcaaccaatcaggactgtgatgagtgcaaagaaggctgggaggatgatgaccaggaagcgtgtgttgatgtaaacgagtgcgccaaggatccttctccgtgtgaagaagatcaatactgccttaacacggacggctcctactcctgcaagggctgtgacaaaacgtgctccggctgcacaggagctggtcctgataagtgccaggcttgtgccagcgggtaccaggacacagagggcacctgcacagatatcgatgagtgttcccagcctgagccggtctgcaccagggagcacgaggagtgtgtcaacaataaaggcagctacctgtgcatctgctccagcggctatgaagagcaagatggagagtgtgtccag"/>
+		<sequence id="EOG090C08L3_G_acul" taxon="G_acul" totalcount="4" value="ctcttgtcctgtgtaactttaattttactttttcaagtcactgacgccaagaaggattttaaaagcacctgctctacctgtcagcaaatcaccgataacttcaacaagggctttgacagaacagcaaggcagaactttggagggggcaatacagactgggaggagagaacactgtctaaatatgagacgagcgagatccgtctgatggagatcgtggaggggctgtgtgacagcagcagcttcgattgcaaccacatgttggaggagcacgaagatcatttagagacctggtggttcaagaggaaaacaaaacatcctgatctgcataaatggttctgcattgacaccatcaaagtgtgctgtccgaagggaacgtttggaccggactgcaaagcctgtgtcggcagctctgactcggcgtgtcacggaaacggacagtgtgacggcgacggaactcgcggaggcgacggcaagtgcagctgtgacgacgcctacaaaggggagttctgcctggactgcgtcgacggctacttcaacgaagtgaggaacgccaccttctctctgtgcacagaatgcgactcttcctgcaaaacctgcaccggagcgaccaaccgggactgtgatgagtgcaaggacggctgg------------------gcttgcgtcgatgtaaacgagtgctccgcggacccctcgccgtgtgaggaagatcagtactgccataacacggaaggctcttactcctgcacagcttgtgacaaagtgtgctccggctgcaccggggccggtcctgataagtgccgggcttgtgccaccgggcaccaagacacagagggcacctgcacagatgttgatgagtgttccctgccagaggccgtatgcaccaaagaacacgagcagtgtgtcaacactgaaggcagccatgtgtgcatctgctcgagtggttatgtgaagcaagagggcgagtgtgtccaa"/>
+		<sequence id="EOG090C08L3_GobGib" taxon="GobGib" totalcount="4" value="cttttgtcttgtgtaactcttgttttacttttgcaagtcaccgacagcaagaaagattttaaaagcttctgttcaacctgtcggataataacagataacttcaacaagggctttgaaagaactgcaaaacagaactttggtgggggaaacacagcctgggaggagaggacactgtctagatatgaaacaagtgagatccgtctcatggagatcgtggaggggctgtgtgacagcagcagcttcgactgcaaccacatggtagaagagcacgaagaccactttgaaacttggtggttcaagaggaaaacaaaacatcctgatctgcataaatggttctgcatcgacacgataaaagtgtgctgtccaaagagaacgtttggaccggactgcaatggtaaggaaaacgttaggaaaacaccttgtcatgggaatgggaagtgtgatggcgacgggactcgcgggggggacgggaagtgcagctgtgaccactcttacagaggagagttctgcctggactgcatcgacgggtacttcaacgaagtgaggaacgacacattctctctgtgcacagaatgcgactcgtcctgcaaaacctgcactggtgcaaccaatcaggactgtgatgagtgcaaagaaggctgggaggacgatgaccaggaagcgtgtgttgatgtaaacgagtgctccaaagatccttctccgtgtgaggaagatcaatactgcctcaacacggacggctcctactcctgcaaggcctgtgacaaagtgtgctccgggtgcacgggggccggtcctgatagctgccaggcgtgtgccagcgggtaccaacacacagaggacacctgcacagatatcgacgagtgttcccagcctgagccggtctgcaccagggacaacgaggagtgtgccaacaataaaggaagctacgtgtgcatctgctccgaaggctatgaggagcgagatgacgagtgtgtccag"/>
+		<sequence id="EOG090C08L3_GymAcu" taxon="GymAcu" totalcount="4" value="cttttgtcttgtgtaactcttgttttacttttccaagtcaccgacagcaagaaagattttaaaagcttctgttcaacctgtcggataataacagataacttcaacaagggctttgaaagaactgcaaaacagaactttggtgggggcaacacagcctgggaggagaggacactgtctagatatgagacaagtgagatccgtctcatggagatcgtggaggggctgtgtgacagcagcagcttcgactgcaaccacatggtagaagagcacgaagaccactttgaaacttggtggttcaagaggaaaacaaaacatcctgatctgcataaatggttctgcatcgacacgataaaagtgtgctgtccaaagggaatgtttggaccggactgcagtgcttgtgtggggggctctgagagaccttgtcatgggaatgggaagtgtgatggcgacgggactcgcgggggggacgggaagtgcagctgtgaccactcttacagaggagagttctgcctggactgcatcgacgggtacttcaacgaagtgaggaacgacacattctctctgtgcacagaatgcgactcgtcctgcaaaacctgcactggtgcaaccaatcaggactgtgatgagtgcaaagaaggctgggaggacgatgaccaggaagcgtgtgttgatgtaaacgagtgctccaaagatccttctccgtgtgaggaagatcaatactgccttaacacggacggctcctactcctgcaaggcctgtgacaaagtgtgctccgggtgcacagggcccggtcctgatagctgccaggcgtgtgccagcgggtaccaacacacagagggcacctgcacagatatcgacgagtgttcccagactgagccggtctgcaccaaggagaacgaggagtgtgtcaacaataaaggaagctacgtgtgcttctgctccgaaggctacgaggagcgagatggcgagtgtgtccag"/>
+		<sequence id="EOG090C08L3_HarAnt" taxon="HarAnt" totalcount="4" value="cttttgtcttatgtaactcttgttttacttttccaagtcaccgacagcaagaaagatttaaaaagcttctgttcaacctgtcggataataacagataacttcaacaagggctttgaaagaactgcaaaacagaactttggtgggggcaacacagcctgggaggagaggacactgtctagatatgagacaagtgagatccgtctcatggagatcgtggaggggctgtgtgacagcagcagcttcgactgcaaccacatggtagaagagcacgaagagcactttgaaacttggtggttcaagaggaaaacaaaacatcctgatctgcataaatggttctgcatcgacacgataaaagtgtgctgtccaaagggaatgtttggaccggactgcagtgcttgtgtggggggctctgagagaccttgtcatgggaatgggaagtgtgatggcgacgggactcgcgggggggacgggaagtgcagctgtgaccactcttacagaggagagttctgcctggactgcatcgacgggtacttcaacgaagtgaggaacgacaccttctctctgtgcacagaatgcgactcgtcctgcaaaacctgcactggtgcaaccaatcaggactgtgaggagtgcaaagaaggctgggaggacgatgaccaggaagcgtgtgttgatgtaaacgagtgctccaaagatccttctccgtgtgaggaagaacaatactgccttaacacggacggctcctactcctgcaaggcctgtgacaaagtgtgctccgggtgcacagggcccggtcctgatagctgccaggcgtgtgccagcgggtaccaacacacagagggctcctgcacagatatcgacgagtgttcccagactgagccggtctgcaccagggagaacgaggagtgtgtcaacaataaaggaagctacgtgtgcttctgctccgaaggctacgaggagcgagatgacgagtgtgtacag"/>
+		<sequence id="EOG090C08L3_HarKer" taxon="HarKer" totalcount="4" value="------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------gagatccgtctcatggagatcgtggaggggctgtgtgacagcagcagcttcgactgcaaccacatggtagaagagcacgaagagcactttgaaacttggtggttcaagaggaaaacaaaacatcctgatctgcataaatggttctgcatcgacacgataaaagtgtgctgtccaaagggaatgtttggaccggactgcagtgcttgtgtggggggctctgagagaccttgtcatgggaatgggaagtgtgatggcgatgggactcgcgggggggacgggaagtgcagctgtgaccactcttacagaggagagttctgcctggactgcatcgacgggtacttcaacgaagtgaggaacgacaccttctctctgtgcacagaatgcgactcgtcctgcaaaacctgcactggtgcaaccaatcaggactgtgaggagtgcaaagaaggctgggaggacgatgaccaggaagcgtgtgttgatgtaaacgagtgctccaaagatccttctccgtgtgaggaagaacaatactgccttaacacggacggctcctactcctgcaaggcctgtgacaaagtgtgctccgggtgcacagggcccggtcctgatagctgccaggcgtgtgccagcgggtaccaacacacagagggctcctgcacagatatcgacgagtgttcccagactgagccggtctgcaccagggagaacgaggagtgtgtcaacaataaaggaagctacgtgtgcttctgctccgaaggctacgaggagcgagatgacgagtgtgtccag"/>
+		<sequence id="EOG090C08L3_H_come" taxon="H_come" totalcount="4" value="cttttgtcctgt------tttattttcatttttcaagtcacgaatgccaagagagatttaaaaagcgcttgtggtacctgccagcggattactgacaacttccaaaagggctatgagagaactgcaaagcaaaattttggtggggggaacacagcctgggaggaaaggaagctgtctaaatatgagacaagcgagatccgactgatggagatcgtcgaggggctgtgtgacagcagcagcttcgagtgcaaccagatgctcgaagaacacgaggagctgttggagacatggtggtttaaaagaaaaaccaaacatcctgatttgcataaatggttctgcattgacaccatcgaagtgtgctgtccaaaaggcacatttgggcctgactgcaatgcttgtgtcggcggctccgagagaccatgtcatgggaacggcaagtgcgacggcgacggaacccgcggaggggacggcaagtgcacatgtgacgtggagtacaagggggacttctgcctggactgcatcgacggctacttcaacgaagtgcgcaacgactccttctccctgtgcacggaatgccattcctcctgcaagacctgcagcggggcaacccaccaggactgcgacgagtgcaaggatggttgggaggaggatgagcaggaagcctgcatcgatgtgaacgagtgctccaaagactcacctccatgccaagaaaaggaatactgcgtcaacacggaaggctcttactcctgcaagggatgtgatcaagcttgcacgggatgcactggcgccggtgcagacaagtgcaaggcgtgcgccggcggctaccaggacactgagggcacctgctcagatattgacgagtgttcgggggccgagccgatgtgcaccgaggagcaccagcagtgcgtcaataccagcggcgactacaagtgcgtctgctccgccggctacgaggaccacgatggagagtgtgttcaa"/>
+		<sequence id="EOG090C08L3_HisVel" taxon="HisVel" totalcount="4" value="cttttgtcttgtgtaactcttgttttacttttccaagtcaccgacagcaagaaagatttaaaaagcttctgttcaacctgtcggataataacagataacttcaacaagggctttgaaagaactgcaaaacagaactttggtgggggcaacacagcctgggaggagaggacactgtctagatatgagacaagtgagatccgtctcatggagatcgtggaggggctgtgtgacagcagcagcttcgactgcaaccacatggtagaagagcacgaagaccactttgaaacttggtggttcaagaggaaaacaaaacatcctgatctgcataaatggttctgcatcgacacgataaaagtgtgctgtccaaagggaatgtttggaccggactgcagtgcttgtgtggggggctctgagagaccttgtcatgggaatgggaagtgtgatggcgacgggactcgcgggggggacgggaagtgcagctgtgaccactcttacagaggagagttctgcctggactgcattgacgggtacttcaacgaagtgaggaacgacacattctctctgtgcacagaatgcgactcgtcctgcaaaacctgcactggtgcaaccaatcaggactgtgatgagtgcaaagaaggctgggaggacgatgaccaggaagcgtgtgttgatgtaaacgagtgctccaaagatccttctccgtgtgaggaagatcaatactgccttaacacggacggctcctactcctgcaaggcctgtgacaaagtgtgctccgggtgcacagggcccggtcctgatagctgccaggcgtgtgccagcgggtaccaacacacagagggcacctgcacagatatcgacgagtgttcccagactgagccggtctgcaccagggagaacgaggagtgtgtcaacaataaaggaagctacgtgtgcttctgctccgaaggctacgaggagcgagatgacgagtgtgtccag"/>
+		<sequence id="EOG090C08L3_LepLar" taxon="LepLar" totalcount="4" value="------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+		<sequence id="EOG090C08L3_LepNud" taxon="LepNud" totalcount="4" value="cttttgtcttgtgtaactcttgttttacttttccaattcaccgacagcaagaaagatttaaaaagcttctgttcaacctgtcggataataacagataacttcaacaagggctttgaaagaactgcaaaacagaactttggtgggggcaacacagcctgggaggagaggacactgtctagatatgagacaagtgagatccgtctcatggagatcgtggaggggctgtgtgacagcagcagcttcgactgcaaccacatggtagaagagcacgaagaccactttgaaacttggtggttcaagaggaaaacaaaacatcctgatctgcatgaatggttctgcatcgaaacgataaaagtgtgctgtccaaagggaatgtttggaccggactgcaatgcttgtgtggggggctctgagaaaccttgtcatgggaatgggaagtgtgatggcgacgggactcgcgggggggacgggaaatgcagctgtgaccactcttacagaggagagttctgcctggactgcatcgacgggtacttcaacgaagtgaggaacgacacattctctctgtgcacagaatgcgactcgtcctgcaaaacctgcactggtgcaaccaatcaggactgtgatgagtgcaaagaaggctgggaggacgatgaccaggaagcgtgtgttgatgtaaacgagtgctccaaagatccttctccgtgtgaggaagatcaatactgccttaacacggacggctcctactcatgcaaggcctgtgacaaagtgtgctccgggtgcacgggggccggtcctgatagctgccaggcgtgtgccagcggctaccaacacacagagggcacctgcacagatatcgacgagtgttcccagcctgagccggtctgcaccagggagaacgaggagtgcgtcaacaatgaaggaagctacgtgtgcttctgctccgaaggctatgaggagcgagatgacgagtgtgtccag"/>
+		<sequence id="EOG090C08L3_LepSqu" taxon="LepSqu" totalcount="4" value="---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------actttgaaactgtgctgtccaaagggaatgtttggaccgggctgcaatgcttgtgtggggggctctgagaaaccttgtcatgggaatgggaagtgtgatggcgacgggactcgcgggggggacgggaagtgcagctgtgaccactcttacagaggagagttctgcctggactgcatcgatgggtacttcaatgaagtgaggaacgacacattctctctgtgcacagaatgcgactcgtcctgcaaaacctgcactggtgcaaccaatcaggactgtgatgagtgcaaagaaggctgggaggacgatgaccaggaagcgtgtgttgatgtaaacgagtgctccaaagatccttctccgtgtgaggaagatcaatactgccttaacacggacggctcctactcatgcaaggcctgtgacaaagtgtgctccgggtgcacaggggccggtcctgatagctgccaggcgtgtgccagcgggtaccaacacacagagggcacctgcacaggtaca------------------------gtctgcaccagggagaacgaggagtgtgtcaacaatgaaggaagctacgtgtgcttctgctccgaaggctatgaggagcgagatgacgagtgtgtccag"/>
+		<sequence id="EOG090C08L3_M_arma" taxon="M_arma" totalcount="4" value="ctcctgtcttgtctaactctgcttttacttttccaagtgagcgacgccaagagggattttaaaaacgcctgtaacacctgccagaaaataacagataactttaacaagggtattgacagaacagcgaaacagaactttggtggaggcaacacagcctgggaggagaggaaactgtctaaatatgagaccagtgagatacgtctgatggagattgtggaggggctatgtgagagcagcagttttgagtgcaaccacatggtggaagaacacgaagagcactttgagacttggtggttcaaaaggaaaacaaaacatcctgatctgcacaaatggttctgcattgaaaccctcaaggtctgctgtccaaagggaacatttggaccagactgcaatgcctgcattggaggctctgagagaccttgtcatggaaatggcatgtgtgatggtgacggaactcgtggagggaacgggaagtgcacctgtgatcacggttatgaaggggagttctgcctagactgcatcgacggctacttcagtgaagtgcggaacgacaccttctctctgtgtacaggatgccactcatcttgcaaaacctgcgcgggagcaaccaatcaggactgtgatgagtgtaaggaaggctgggaggaggatgaccaggaaacctgtgtcgatgtaaatgagtgctccaaagacccttctccttgtgaagaagatcaatactgtcttaatacagaaggctcctattcctgcaaagcctgtgacaaagtgtgttctggctgcaccggagctggccctgataagtgtcaggcttgtgccagtgggtaccaagacgtggagggcacctgcacagacatggatgagtgttcccagtcagagcccgtatgcacgaaggagaaccaggagtgtgtcaatactaaaggcagttatgtctgtatctgctcaagtggctatgaggagcaagatggcgagtgtgtccaa"/>
+		<sequence id="EOG090C08L3_NotRos" taxon="NotRos" totalcount="4" value="cttttgtcttgtgtaactcttattttacttttccaagtcacagacagcaagaaagatttaaaaagcttctgttctacctgtcggataataacagataacttcaacaagggctttgaaagaactgcaaaacagaactttggtgggggcaacacagcctgggaggagaggacactgtctagatatgagacaagtgagatccgtctcatggagatcgtggaggggctgtgtgacagcagcagcttcgaatgcaaccacatggtagaagagcacgaagacctctttgaaacttggtggttcaagaggaaaacaaaacatcctgatctgcataaatggttctgcatcgacacgataaaagtgtgctgtccaaagggaatgtttggaccggactgcagtgcttgtgtggggggctctgagagaccttgtcatgggaatgggaagtgtgatggcgacgggactcgcgggggggacgggaaatgcagctgtgaccactcttacagaggagagttctgcctggactgcatcgacgggtacttcaacgaagtgaggaacgacacattctctctgtgcacagaatgcgactcgtcctgcaaaacctgcactggtgcaaccaatcaggactgtgaagagtgcaaagaaggctgggaggacgatgaccaggaagcgtgtgttgatgtaaacgagtgctccaaagatccttctccgtgtgaggaagatcaatactgccttaacacggacggctcctactcctgcaaggcctgtgacaaagtgtgctccggatgcacagggcccggtcctgatagctgccaggcgtgtgccagcggataccaacacacagagggcacctgcacagatatcgacgagtgttcccagcctgagccggtctgcaccagggacaacgaggagtgtgtcaacaataaaggaagctacgtgtgcttctgctccgaaggctatgaggagcgagatgacgagtgtgtccag"/>
+		<sequence id="EOG090C08L3_O_lati" taxon="O_lati" totalcount="4" value="ctgttgtcctgtgtcaccatccttttagttttccacgccgtcgtcgccaaaaaggacctaaaaagcgcgtgcagcacctgtcggcaaattactgataacttcaagaagggttttgaaagaacggcaaagcagaactttggaggaggcaacacagcctgggaggagagaaagctttccaaatatgagacaagtgagattcgcctggtggagattctggaggagctgtgcgagagcagcagcttcgaatgcaatcagatggtagaagaaaacgaagagcttttcgagacctggtggttcaagaggaaaaccaaaaaccctgatctgcacaagtggttctgcgttgaaactcttaaagtgtgctgtcctaaaggaacctttgggcctgattgtaccgcctgtgtcgggggatctgagaagccctgccatggaaggggagcgtgcgacggcgacgggactcgcggagggaacgggaagtgcagctgcgaccacggttacaagggagaccactgcttagactgcacggacgggttcttcaacgcagagcggaacgacaccttctctttgtgcgcagaatgccacgctgcctgcaagacctgtgacggagcgagcagtcaggattgtgatgagtgcaaggagggctgggaggaagatgatcaagaggcttgtgttgatgtgaacgagtgtggaagagacccttctccgtgcaaagaggaggaatactgcctcaactccgaaggctcttattcctgcaaagcctgtgacgaggcgtgctctggctgctctggagccggctccgataaatgccaggcttgtgccaacgggtaccgacatgtggaggggtcgtgcaaagacattgacgagtgttcggagcctgaggcggtgtgcacccaagagcatcaggagtgtcggaacacccacggcagctacaggtgcctctgctcggcaggcttccaggaccaagatggagaatgtgttcaa"/>
+		<sequence id="EOG090C08L3_PagMac" taxon="PagMac" totalcount="4" value="cttttgtcttgtgtaactcttgttttacttttccaagtcaccgacagcaagaaagatttaaaaagcttctgttcaacctgtcggatcataacagataacttcaacaagggctttgaaattactgcaaaacagaactttggtgggggcaacacagcctgggaggagaggacactgtctaaatatgagacaagtgagatccgtctcatggagatcgtggaggggctgtgtgacagcagcagcttcgactgcaaccacatggtagaagagcacgaagaccactttgaaacatggtggttcaagaggaaaacaaaacatcctgatctgcataaatggttctgcatcgacacgataaaagtgtgctgtccaaagggaatgtttggaccggactgcagtgcttgtgtggggggctctgagagaccttgtcatgggaatgggaagtgtgatggcgacgggactcgcggcggggacgggaagtgcagctgtgaccactcttacggaggagagttctgcctggactgcatcgacgggtacttcaacgaagtgaggaacgacacattctctctgtgcacagaatgcgactcgtcctgcaaaacctgcactggtgcaaccaatcaggactgtgatgagtgcaaagaaggctgggaggacgatgaccaggaagcgtgtgttgatgtaaacgagtgctccaaagatccttctccgtgtgaggaagatcaatactgccttaacacggacggctcctactcctgcaaggcctgtgacaaagtgtgcaccgggtgcacagggcccggtcctgatagctgccaggcgtgtgccagcgggtaccaacacacagagggcacctgcacagatatcgacgagtgttcccagactgagccggtctgcaccagggagaacgaggagtgtgtcaacaataaaggaagctacgtgtgcttctgctccgaaggctacgaggagcgagatgacgagtgtgtccag"/>
+		<sequence id="EOG090C08L3_PatGun" taxon="PatGun" totalcount="4" value="cttttgtcttgtgtaactcttgttttacttttccaagtcaccgacagcaagaaagatttaaaaagcttctgttcaacctgtcggataataacagataacttcaacaagggctttgaaagaactgcaaaacagaactttggtgggggcaacacagcctgggaggagaggacactgtctagatatgagacaagtgagatccgtctcatggagatcgtggaggggctgtgtgacagcagcagcttcgactgcaaccacatggtagaagagcacgaagaccactttgaaacttggtggttcaagaggaaaacaaaacatcctgatttgcataaatggttctgcatcgaaacgataaaagtgtgctgtccaaagggaatgtttggaccgggctgcaatgcttgtgtggggggctctgagaaaccttgtcatgggaatgggaagtgtgatggcgacgggactcgcgggggggacgggaagtgcagctgtgaccactcctacagaggagagttctgcctggactgcatcgacgggtacttcaacgaagtgaggaacgacacattctctctgtgcacagaatgcgactcgtcctgcaaaacctgcactggtgcaaccaatcaggactgtgatgagtgcaaagaaggctgggaggacgatgaccaggaagcgtgtgttgatgtaaacgagtgctccaaagatccttctccgtgtgaggaagatcaatactgccttaacacggacggctcctactcatgcaaggcctgtgacaaagtgtgctccgggtgcacaggggccggtcctgatagctgccaggcgtgtgccagcgggtaccaacacacagagggcacctgcacagatatcgacgagtgttcccagcctgagccggtctgcaccagggagaacgaggagtgtgtcaacaatgaaggaagctacgtgtgcttctgctccgaaggctatgaggagcgagatgacgagtgtgtccag"/>
+		<sequence id="EOG090C08L3_P_fluv" taxon="P_fluv" totalcount="4" value="ctattgtcgtgtgtaactatagttttactttgtcaagtcacctacgccaagagagattttaaaagcgcctgttctacctgtcagagaattactgataacttcaacaaggggttcgacagaacatcgaagcagaactttggcggaggcaacacagcctgggaggagagaaaactgtctaaatatgagacaagcgagatccgtctgatggagattgtggaggggctgtgtgacagcagcagcttcgagtgcaaccacatgttagaggagcacgaagaccattttgaaacttggtggttcaagaggaaaacaaaacatcctgatctgcataaatggttctgcattgaaaccatcaaagtgtgctgtccaaagggaatgtttggaccggactgcaatgcctgtgtggggggctctgacagaccttgccatggaaatggaaggtgtgatggcgacgggactcgcggagggaacggaaagtgcagctgtgaccgtggctatgaaggcgagttctgcctagactgcatcgacggctacttcaatgaagtgaggaacgacacattctctctgtgcacagagtgccactcctcctgcaaaacctgcaacggagggaccaatcaggactgtgatgagtgcaaagaaggctgggaggaggatgaccaggaaacttgtgttgacgtaaacgagtgctccacagatccttctccatgtaaagaagaacaatactgccttaatacggaaggctcctactcctgcgaggcctgtgacaaagtgtgctccggctgcactggagccggtcctgataagtgccaggcttgtgccagtgggtaccaagacacagagggcacctgcacagatatcgacgagtgttcccagccagagccggtatgcaccaaggagcacgagcagtgtgtcaacactaaaggcaaccatgtgtgcatctgctccagcggctatgagaaacaagatggagagtgtgtcctc"/>
+		<sequence id="EOG090C08L3_PleAnt" taxon="PleAnt" totalcount="4" value="------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"/>
+		<sequence id="EOG090C08L3_P_magn" taxon="P_magn" totalcount="4" value="gaaattagcttcactacaccaagccttctgctcacagta---gaggccaagaaagacttaaagagcgcgtgttcgacctgtcgacaaatcactgataacttcagtaagggccttgagaaaacggcgaaccagaactttggaggaggcaacactgcttgggaggagagaaaacttgctaaatatgaaacaagtgagattcgtctgatggagattattgaggggctgtgcgatagcagcagttttgagtgcaatcgaatgcttgaggaacatgaagaccattttgaaacttggtggttcaagaggaaagcaaaaaaccctgatctccacaagtggttctgcattgagaccatcaaagtttgctgtccaaagggaacttttggtccagattgtaatgcctgtgttggaggctctgagaggccatgtcatgggaatggacagtgtgacggtgacgggactcgaggagggaacgggaagtgcagttgtgactctgggtatgagggggagttctgcctggactgtagagatgggtactttaatgaagaggcaaatgacacattttcgctctgcacagaatgccatttgtcctgtaaaacttgcagtggaccaactcatcaggactgtgatgaatgcaaggatggctgggaggaagatgacaatgaagcttgtgttgatgtcaatgagtgcactaatgatgccacaccttgtaaagaagatgagcactgccttaacacagagggctccttctcttgcaaagcttgcgataaagtgtgctctggctgcactggtccagggccagaaaactgtaaggcttgtgccagcggataccaggacatagagggcaattgcactgatgtggacgagtgttcccagcaggagccagtctgcacaaaagagcatcaggagtgtgtcaacactaaaggcagttttctatgcatttgtgcatatggatatgaagaggaagaaggggaatgtgtgcaa"/>
+		<sequence id="EOG090C08L3_PseGeo" taxon="PseGeo" totalcount="4" value="cttttgtcttgtgtaactcttgttttacttttccaagtcaccgacagcaagaaagatttaaaaagcttctgttcaacctgtcggataataacagataacttcaacaagggctttgaaataactgcaaaacagaactttggtgggggcaacacagcctgggaggagaggacactgtctaaatatgagacaagtgagatccgtctcatggagatcgtggaggggctgtgtgacagcagcagcttcgactgcaaccacatggtagaagagcatgaagacctctttgaaacttggtggttcaagaggaaaacaaaacatcctgatctgcataaatggttctgcatcgacacgataaaagtgtgctgtccaaagggaatgtttggaccggactgcagtgcttgtgtggggggctctgagagaccttgtcatgggaatgggaagtgtgatggcgacgggactcgcgggggggacgggaagtgcagctgtgaccactcttacggaggagagttctgcctggactgcatcgacgggtacttcaacgaagtgaggaacgacacattctctctgtgcacagaatgcgactcgtcctgcaaaacctgcactggtgcaaccaatcaggactgtgatgagtgcaaagaaggctgggaggacgatgaccaggaagcgtgtgttgatgtaaacgagtgctccaaagatccttctccgtgtgaggaagatcaatactgccttaacacggacggctcctactcctgcaaggcctgtgacaaagtgtgcaccgggtgcacagggcccggtcctgatagctgccaggcgtgtgccagcgggtaccaacacacagagggcacctgcacagatatcgacgagtgttcccagactgagccggtctgcaccagggagaacgaggagtgtgtcaacaataaaggaagctacgtgtgcttctgctccgaaggctacgaggagcgagatgacgagtgtgtccag"/>
+		<sequence id="EOG090C08L3_S_nigr" taxon="S_nigr" totalcount="4" value="ctgttgtcttgtgtaactcttcttttacttgttcaagtcaccgacgccaagaaagatttaaagagcgcctgttctacctgtcagcagatcactgacaacttcaacaagggctttgacagaacagcaaagcagaactttggcggaggcaacacagcctgggaggagagaaaactctctaaatatgagacaagcgagatccgtctgatggagattgtggaggggctgtgtgacagcagcagcttcgagtgcaaccgcatgttggaggagcacgaagatcattttgagacttggtggttcaagaggaaaacaaagcatcctgatctgcataaatggttctgcattgaaaccatcaaagtgtgctgtccaaagggaatgtttggaccggactgcaatgcctgtgtggggggctctgaccgaccttgtcatggacacggaaactgcgacggcgacgggactcgcggaggggacggaaagtgcagctgcgaccacggttacgaaggggagttctgcctagactgcatcagcggctacttcgacgaagtgaggaacgacacgttctctctgtgcacagaatgcgacgactcctgtaaaacctgcactggagcgaccaatcaggactgtgatgagtgcaaagaaggctgggaggaggatgagcaggaggcttgtgttgatataaacgagtgctccaaagatccttctccatgtgaagaaaaccaatactgccttaacacggaaggctcctactcctgccaggcctgtaacagtgtgtgctccggctgcaccggggccgggcctgataactgccaggcttgtgccagcgggtaccaggacacagagggcacctgcacggatgtggatgagtgctcccagccagaaccagtatgcacgaaggagcacgagcagtgtgtcaacactaaaggcagccatgtgtgcgtctgctcgagtggctacgaggagcgagatggagagtgtgtccaa"/>
+		<sequence id="EOG090C08L3_TreBer" taxon="TreBer" totalcount="4" value="cttttgtcttgtgtaactcttattttacttttccaagtcaccgacagcaagaaagatttaaaaagcttctgttcaacctgtcggataataacagataacttcaacaagggctttgaaagaactgcaaaacagaactttggtgggggcaacacagcctgggaggagaggacactgtctagatatgagacaagtgagatccgtctcatggagatcgtggaggggctgtgtgacagcagcagcttcgactgcaaccacatggtagaagagcacgaagaccactttgaaacttggtggttcaagaggaaaacaaaacatcctgatctgcataaatggttctgcatcgaaacgatacaagtgtgctgtccaaagggaatgtttggaccggactgcactgcttgtgtggggggctctgagaaaccttgtcatgggaatgggaagtgtgatggcgatgggactcgcgggggggacgggaagtgcagctgtgaccactcttacagaggagagttctgcctggactgcatcgacgggtacttcaacgaagtgaggaacgacacattctctctgtgcacagaatgcgactcgtcctgcaaaacctgcactggtgcaaccaatcaggactgtgatgagtgcaaagaaggctgggaggacgatgaccaggaagcgtgtgttgatgtaaacgagtgctccaaagatccttctccgtgtgaggaagatcaatactgccttaacacggacggctcctactcatgcaaggcctgtgacaaagtgtgctccggatgcacaggggccggtcctgatagctgccaggcgtgtgccagcgggtaccaacacacagagggcacctgcacagatatcgacgagtgttcccagcctgagccggtctgcaccaaggagaacgaggagtgtgtcaacaatgaaggaagctacgtgtgcttctgctccgaaggctatgaggagcgagatgacgagtgtgtccag"/>
+		<sequence id="EOG090C08L3_TreHan" taxon="TreHan" totalcount="4" value="------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------atgtttggaccggactgcaatgcttgtgtggggggctctgagaaaccttgtcatgggaatgggaagtgtgatggcgacgggactcgcgggggggacgggaagtgcagctgtgaccactcttacagaggagagttctgtctggactgcatcgacgggtacttcaacgaagtgaggaacgacacattctctctgtgcacagaatgcgactcgtcctgcaaaacctgcactggtgcaaccaatcaggactgtgatgagtgcaaagaaggctgggaggacgatgaccaggaagcgtgtgttgatgtaaacgagtgctccaaagatccttctccgtgtgaggaagatcaatactgccttaacacggacggctcctactcatgcaaggcctgtgacaaagtgtgctccggatgcacaggggccggtcctgatagctgccaggcgtgtgccagcgggtaccaacacacagagggcacctgcacagatatcgacgagtgttcccagcctgaaccggtctgcaccaaggagaacgaggagtgcgtcaacaatgaaggaagctacgtgtgcttctgctccgaaggctatgaggagcgagatgacgagtgtgtccag"/>
+		<sequence id="EOG090C08L3_TreLoe" taxon="TreLoe" totalcount="4" value="cttttgtcttgtgtaactcttattttacttttccaagtcaccgacagcaagaaagatttaaaaagcttctgttcaacctgtcggataataacagataacttcaacaagggctttgaaagaactgcaaaacagaactttggtgggggcaacacagcctgggaggagaggacactgtctagatatgagacaagtgagatccgtctcatggagatcgtggaggggctgtgtgacagcagcagcttcgactgcaaccacatggtagaagagcacgaagaccactttgaaacttggtggttcaagaggaaaacaaaacatcctgatctgcataaatggttctgcatcgaaacgataaaagtgtgctgtccaaagggaatgtttggaccggactgcaatgcttgtgtggggggctctgagaaaccttgtcatgggaatgggaagtgtgatggcgacgggactcgcgggggggacgggaagtgcagctgtgaccactcttacagaggagagttctgcctggactgcatcgacgggtacttcaacgaagtgaggaacgacacattctctctgtgcacagaatgcgactcgtcctgcaaaacctgcactggtgcaaccaatcaggactgtgatgagtgcaaagaaggctgggaggacgatgaccaggaagcgtgtgttgatgtaaacgagtgctccaaagatccttctccgtgtgaggaagatcaatactgccttaacacggacggctcctactcatgcaaggcctgtgacaaagtgtgctccggatgcacaggggccggtcctgatagctgccaggcgtgtgccagcgggtaccaacacacagagggcacctgcacagatatcgacgagtgttcccagcctgagccggtctgcaccaaggagaacgaggagtgtgtcaacaatgaaggaagctacgtgtgcttctgctccgaaggctatgaggagcgagatgacgagtgtgtccag"/>
+		<sequence id="EOG090C08L3_TreSco" taxon="TreSco" totalcount="4" value="ttatta---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------agtgagatccgtctcatggagatcgtggaggggctgtgtgacagcagcagcttcgactgcaaccacatggtagaagagcacgaagaccactttgaaacttggtggttcaagaggaaaacaaaacatcctgatctgcataaatggttctgcatcgaaacgataaaagtgtgctgtccaaagggaatgtttggacccgactgcaatgcttgtgtggggggctctgagaaaccttgtcatgggaatgggaagtgtgatggcgacgggactcgcgggggggacgggaaatgcagctgtgaccactcttacagaggagagttctgcctggactgcatcgacgggtacttcaacgaagtgaggaacgacacattctctctgtgcacagaatgcgactcgtcctgcaaaacctgcactggtgcaaccaatcaggactgtgatgagtgcaaagaaggctgggaggacgatgaccaggaagcgtgtgttgatgtaaacgagtgctccaaagatccttctccgtgtgaggaagatcaatactgccttaacacggacggctcctactcatgcaaggcctgtgacaaagtgtgctccggatgcacaggggccggtcctgatagctgccaggcgtgtgccagcgggtaccaacacacagagggcacctgcacagatatcgacgagtgttcccagcctgagccggtctgcaccaaggagaacgaggagtgtgtcaacaatgaaggaagctacgtgtgcttctgctccgaaggctatgaggagcgagatgacgagtgtgtccag"/>
+		<sequence id="EOG090C08L3_T_rubr" taxon="T_rubr" totalcount="4" value="cttttgtcttatttaactgttattttactttttcaactcaccgacgccaagagagatttaaaaagcgcgtgtctgacctgtcagcaaattactgagaacttcaacaagggctttgaaagaacagcaaaacagaactttggtggaggcaacacggcctgggaggagagaaaactgtctaaatatgagaccagcgagatccgtctcgtggagatcgtggagggtctgtgtgacagcagcagcttcgagtgcaaccacatggtagaagagcacgaagagcatttcgaaacttggtggttcaagaggaaaacaaaacatccagatctgcacaagtggttctgcgttgagaccatcaaagtctgctgtccgaaaggaacgtttgggcgcgactgcagctcttgtgtgggaggctccgagaggccttgtcatggaaacggggagtgcgatggagacgggactcggggaggaaacggaaagtgcagctgtaaccacggttacacaggggagttctgcctggactgcatcgaaggccacttcagcgaagcgcgaaacgacaccttctctctctgcacggaatgtcactcatcctgcaaaacgtgcacgggagcgaccaatcgggactgtgaggagtgcaaggaaggctgggaggaaaccgaccaggaagcttgtgtcgacgtgaacgagtgctccggagaccctcctccctgtaaagaagatcaatactgtctgaacacagatggttcctactcctgcaaagcctgtgacaaagtctgttctggctgcaccggacctggtgctgatcagtgtcagagctgtgccggcggataccacgagtcagaggggacctgcaaagatgtggatgagtgttcccagccagaccctgtgtgcaccgaggagcaccagaagtgcatcaacacccacggcagctacatgtgcgtctgcacgggtggttacgaggagaaagatggcaagtgtgtccag"/>
+		<sequence id="EOG090C08L3_VomInf" taxon="VomInf" totalcount="4" value="cttttgtcttgtgtaactgttgttttacttttccaagtcaccgacagcaagaaagatttaaaaagcttctgttcaacctgtcggataataacagataacttcaacaagggctttgaaagaactgcaaaacagaactttggtgggggcaacacagcctgggaggagaggacactgtctaaatatgagacaagtgagatccgtctcatggagatcgtggaggggctgtgtgacagcagcagcttcgactgcaaccacatggtagaagagcacgaagatcactttgaaacttggtggttcaagaggaaaacaaaacatcctgatctgcataaatggttctgcatcgacacgataaaagtgtgctgtccaaagggaatgtttggaccggactgcagtgcttgtgtggggggctctgagagaccttgtcatggcaatgggaagtgtgatggcgacgggactcgcgggggggacgggaagcgcagctgtgaccactcttacagaggagagttctgcctggactgcatcgacgggtacttcaacgaagtgaggaacgacacattctctctgtgcacagaatgcgactcgtcctgcaaaacctgcactggtgcaaccaatcaggactgtgatgagtgcaaagaaggctgggaggacgatgaccaggaagcgtgtgttgatgtaaacgagtgctccaaagatccttctccgtgtgaggaagatcaatactgccttaacacggacggctcctactcctgcaaggcctgtgacaaagtgtgctccgggtgcacagggcccggtcctgatggctgccaggcgtgtgccagcgggtaccaacacacagagggcacctgc------------------------------------------------------------------------------------------------------------------------------------"/>
+	</data>
+
+	<map name="Beta">beast.math.distributions.Beta</map>
+	<map name="Exponential">beast.math.distributions.Exponential</map>
+	<map name="InverseGamma">beast.math.distributions.InverseGamma</map>
+	<map name="LogNormal">beast.math.distributions.LogNormalDistributionModel</map>
+	<map name="Gamma">beast.math.distributions.Gamma</map>
+	<map name="Uniform">beast.math.distributions.Uniform</map>
+	<map name="prior">beast.math.distributions.Prior</map>
+	<map name="LaplaceDistribution">beast.math.distributions.LaplaceDistribution</map>
+	<map name="OneOnX">beast.math.distributions.OneOnX</map>
+	<map name="Normal">beast.math.distributions.Normal</map>
+
+	<run chainLength="25000000" id="mcmc" spec="MCMC" storeEvery="12500">
+
+		<!-- Set up all parameters as part of the state -->
+		<state id="state" storeEvery="12500">
+
+			<!-- The species tree as a parameter, and defining a taxon set of species -->
+			<tree id="tree.t:Species" name="stateNode">
+				<taxonset id="allTaxa" spec="TaxonSet">
+					<taxon id="A_call" spec="Taxon"/>
+					<taxon id="AkaNud" spec="Taxon"/>
+					<taxon id="ArtSko" spec="Taxon"/>
+					<taxon id="A_test" spec="Taxon"/>
+					<taxon id="BatMar" spec="Taxon"/>
+					<taxon id="BovDia" spec="Taxon"/>
+					<taxon id="BovVar" spec="Taxon"/>
+					<taxon id="ChaAce" spec="Taxon"/>
+					<taxon id="ChaWil" spec="Taxon"/>
+					<taxon id="ChiDew" spec="Taxon"/>
+					<taxon id="CotGob" spec="Taxon"/>
+					<taxon id="CryAnt" spec="Taxon"/>
+					<taxon id="DisMaw" spec="Taxon"/>
+					<taxon id="DolLon" spec="Taxon"/>
+					<taxon id="EleMac" spec="Taxon"/>
+					<taxon id="G_acul" spec="Taxon"/>
+					<taxon id="GobGib" spec="Taxon"/>
+					<taxon id="GymAcu" spec="Taxon"/>
+					<taxon id="HarAnt" spec="Taxon"/>
+					<taxon id="HarKer" spec="Taxon"/>
+					<taxon id="H_come" spec="Taxon"/>
+					<taxon id="HisVel" spec="Taxon"/>
+					<taxon id="LepLar" spec="Taxon"/>
+					<taxon id="LepNud" spec="Taxon"/>
+					<taxon id="LepSqu" spec="Taxon"/>
+					<taxon id="M_arma" spec="Taxon"/>
+					<taxon id="NotRos" spec="Taxon"/>
+					<taxon id="O_lati" spec="Taxon"/>
+					<taxon id="PagMac" spec="Taxon"/>
+					<taxon id="PatGun" spec="Taxon"/>
+					<taxon id="P_fluv" spec="Taxon"/>
+					<taxon id="PleAnt" spec="Taxon"/>
+					<taxon id="P_magn" spec="Taxon"/>
+					<taxon id="PseGeo" spec="Taxon"/>
+					<taxon id="S_nigr" spec="Taxon"/>
+					<taxon id="TreBer" spec="Taxon"/>
+					<taxon id="TreHan" spec="Taxon"/>
+					<taxon id="TreLoe" spec="Taxon"/>
+					<taxon id="TreSco" spec="Taxon"/>
+					<taxon id="T_rubr" spec="Taxon"/>
+					<taxon id="VomInf" spec="Taxon"/>
+				</taxonset>
+			</tree>
+
+			<!-- A parameters to be used as birth rate. -->
+			<parameter id="birthRate.t:Species" value="0.01" name="stateNode"/>
+
+			<!-- Parameters of the UCLN clock for each gene -->
+			<parameter id="ucldStdev.c:Species" value="0.005" name="stateNode"/>
+			<parameter dimension="10" id="rateCategories.c:Species" spec="parameter.IntegerParameter" value="1" name="stateNode"/>
+
+			<!-- Parameters of the substitution rates -->
+			<parameter id="mutationRate.s:EOG090C08L3" value="1" name="stateNode"/>
+
+			<!-- Parameters of the bModelTest substitution model for each alignment -->
+			<stateNode id="BMT_ModelIndicator.s:EOG090C08L3" spec="parameter.IntegerParameter" lower="0" upper="5">5</stateNode>
+			<parameter id="BMT_Rates.s:EOG090C08L3" dimension="6" lower="0.01" name="stateNode" upper="100.0">1.0</parameter>
+			<parameter id="BMT_gammaShape.s:EOG090C08L3" name="stateNode">1.0</parameter>
+			<parameter id="BMT_ProportionInvariable.s:EOG090C08L3" lower="0.0" name="stateNode" upper="1.0">0.1</parameter>
+			<stateNode id="hasInvariableSites.s:EOG090C08L3" spec="parameter.IntegerParameter">1</stateNode>
+			<stateNode id="hasGammaRates.s:EOG090C08L3" spec="parameter.IntegerParameter">1</stateNode>
+			<stateNode id="hasEqualFreqs.s:EOG090C08L3" spec="parameter.BooleanParameter">false</stateNode>
+			<parameter id="BMT_frequencies.s:EOG090C08L3" dimension="4" name="stateNode">0.25 0.25 0.25 0.25</parameter>
+		</state>
+
+		<!-- Intitators -->
+		<init estimate="false" id="randomTree.t:Species" spec="beast.evolution.tree.RandomTree" taxa="@EOG090C08L3" initial="@tree.t:Species">
+			<populationModel id="constantPopulation.t:Species" spec="ConstantPopulation">
+				<parameter id="randomPopSize.t:Species" name="popSize">1.0</parameter>
+			</populationModel>
+		</init>
+
+		<!-- The posterior -->
+		<distribution id="posterior" spec="util.CompoundDistribution">
+
+			<!-- Part 1 of the posterior: the prior -->
+			<distribution id="prior" spec="util.CompoundDistribution">
+
+				<!-- Divergence age priors -->
+                <distribution id="totalgroup.prior" spec="beast.math.distributions.MRCAPrior" tree="@tree.t:Species" monophyletic="true">
+                    <taxonset id="totalgroup" spec="TaxonSet">
+                          <taxon idref="G_acul"/>
+                          <taxon idref="S_nigr"/>
+                          <taxon idref="P_fluv"/>
+                          <taxon idref="T_rubr"/>
+                          <taxon idref="O_lati"/>
+                          <taxon idref="H_come"/>
+                          <taxon idref="P_magn"/>
+                          <taxon idref="A_test"/>
+                          <taxon idref="M_arma"/>
+                          <taxon idref="A_call"/>
+                          <taxon idref="EleMac"/>
+                          <taxon idref="DisMaw"/>
+                          <taxon idref="PleAnt"/>
+                          <taxon idref="PatGun"/>
+                          <taxon idref="HarKer"/>
+                          <taxon idref="ArtSko"/>
+                          <taxon idref="ChaAce"/>
+                          <taxon idref="CotGob"/>
+                          <taxon idref="GymAcu"/>
+                          <taxon idref="HarAnt"/>
+                          <taxon idref="PseGeo"/>
+                          <taxon idref="TreBer"/>
+                          <taxon idref="AkaNud"/>
+                          <taxon idref="BovDia"/>
+                          <taxon idref="BovVar"/>
+                          <taxon idref="ChaWil"/>
+                          <taxon idref="CryAnt"/>
+                          <taxon idref="GobGib"/>
+                          <taxon idref="LepNud"/>
+                          <taxon idref="NotRos"/>
+                          <taxon idref="PagMac"/>
+                          <taxon idref="TreLoe"/>
+                          <taxon idref="HisVel"/>
+                          <taxon idref="BatMar"/>
+                          <taxon idref="ChiDew"/>
+                          <taxon idref="LepLar"/>
+                          <taxon idref="LepSqu"/>
+                          <taxon idref="TreHan"/>
+                          <taxon idref="DolLon"/>
+                          <taxon idref="VomInf"/>
+                          <taxon idref="TreSco"/>
+                    </taxonset>
+                    <LogNormal name="distr" meanInRealSpace="true">
+                        <parameter name="M">100.0</parameter>
+                        <parameter name="S">0.1</parameter>
+                    </LogNormal>
+                </distribution>
+                <distribution id="ingroup.prior" spec="beast.math.distributions.MRCAPrior" tree="@tree.t:Species" monophyletic="true">
+                    <taxonset id="ingroup" spec="TaxonSet">
+                          <taxon idref="G_acul"/>
+                          <taxon idref="S_nigr"/>
+                          <taxon idref="P_fluv"/>
+                          <taxon idref="T_rubr"/>
+                          <taxon idref="O_lati"/>
+                          <taxon idref="H_come"/>
+                          <taxon idref="A_test"/>
+                          <taxon idref="M_arma"/>
+                          <taxon idref="A_call"/>
+                          <taxon idref="EleMac"/>
+                          <taxon idref="DisMaw"/>
+                          <taxon idref="PleAnt"/>
+                          <taxon idref="PatGun"/>
+                          <taxon idref="HarKer"/>
+                          <taxon idref="ArtSko"/>
+                          <taxon idref="ChaAce"/>
+                          <taxon idref="CotGob"/>
+                          <taxon idref="GymAcu"/>
+                          <taxon idref="HarAnt"/>
+                          <taxon idref="PseGeo"/>
+                          <taxon idref="TreBer"/>
+                          <taxon idref="AkaNud"/>
+                          <taxon idref="BovDia"/>
+                          <taxon idref="BovVar"/>
+                          <taxon idref="ChaWil"/>
+                          <taxon idref="CryAnt"/>
+                          <taxon idref="GobGib"/>
+                          <taxon idref="LepNud"/>
+                          <taxon idref="NotRos"/>
+                          <taxon idref="PagMac"/>
+                          <taxon idref="TreLoe"/>
+                          <taxon idref="HisVel"/>
+                          <taxon idref="BatMar"/>
+                          <taxon idref="ChiDew"/>
+                          <taxon idref="LepLar"/>
+                          <taxon idref="LepSqu"/>
+                          <taxon idref="TreHan"/>
+                          <taxon idref="DolLon"/>
+                          <taxon idref="VomInf"/>
+                          <taxon idref="TreSco"/>
+                    </taxonset>
+                </distribution>
+
+				<!-- The Yule tree prior -->
+				<distribution id="yuleModel.t:Species" birthDiffRate="@birthRate.t:Species" spec="beast.evolution.speciation.YuleModel" tree="@tree.t:Species"/>
+
+				<!-- Prior on the birth rate -->
+				<prior id="birthRatePrior" name="distribution" x="@birthRate.t:Species">
+					<Exponential name="distr" mean="0.1"/>
+				</prior>
+
+				<!-- An exponential prior on the standard deviation of the rate of the each uncorrelated lognormal clock -->
+				<prior id="ucldStdevPrior.c:Species" name="distribution" x="@ucldStdev.c:Species">
+					<Exponential name="distr" mean="0.1"/>
+				</prior>
+
+				<!-- One-over-x priors on the substitution rates for each alignment -->
+				<prior id="MutationRatePrior.s:EOG090C08L3" name="distribution" x="@mutationRate.s:EOG090C08L3">
+					<OneOnX name="distr"/>
+				</prior>
+
+				<!-- Priors for the bModelTest substitution models for each alignment -->
+				<!-- A distribution for the model itself, for alignment EOG090C08L3 -->
+				<distribution id="BMT_RatesPrior.s:EOG090C08L3" spec="beast.math.distributions.NucleotideRevJumpSubstModelRatePrior" modelIndicator="@BMT_ModelIndicator.s:EOG090C08L3" x="@BMT_Rates.s:EOG090C08L3">
+					<substModel id="RevJump.s:EOG090C08L3" spec="NucleotideRevJumpSubstModel" modelIndicator="@BMT_ModelIndicator.s:EOG090C08L3" rates="@BMT_Rates.s:EOG090C08L3">
+						<frequencies id="BMTfreqs.s:EOG090C08L3" spec="ModelFrequencies" empirical="false" frequencies="@BMT_frequencies.s:EOG090C08L3" hasEqualFreqs="@hasEqualFreqs.s:EOG090C08L3"/>
+					</substModel>
+					<Exponential id="BMT_RatesPrior.s:EOG090C08L3x" name="distr"/>
+				</distribution>
+				<!-- An exponential prior for the alpha parameter of the distribution of site rate heterogeneity, for alignment EOG090C08L3 -->
+				<distribution id="BMT_GammaShapePrior.s:EOG090C08L3" spec="beast.math.distributions.BMTPrior" count="@hasGammaRates.s:EOG090C08L3" x="@BMT_gammaShape.s:EOG090C08L3">
+					<Exponential id="BMT_GammaShapePrior.s:EOG090C08L3x" name="distr">
+						<parameter name="mean">0.1</parameter>
+					</Exponential>
+				</distribution>
+				<!-- A beta prior for invariable sites, for alignment EOG090C08L3 -->
+				<distribution id="BMT_PropInvariablePrior.s:EOG090C08L3" spec="beast.math.distributions.BMTPrior" count="@hasInvariableSites.s:EOG090C08L3" x="@BMT_ProportionInvariable.s:EOG090C08L3">
+					<Beta id="BMT_PropInvariablePrior.s:EOG090C08L3b" name="distr">
+						<parameter name="alpha">1.0</parameter>
+						<parameter name="beta">4.0</parameter>
+					</Beta>
+				</distribution>
+				<!-- A Dirichlet prior for frequency distributions, for alignment EOG090C08L3 -->
+				<prior id="BMT_freqsPrior.s:EOG090C08L3" name="distribution" x="@BMT_frequencies.s:EOG090C08L3">
+					<distr id="BMT_freqsPrior.s:EOG090C08L3d" spec="beast.math.distributions.Dirichlet">
+						<parameter dimension="4" lower="0.0" name="alpha" upper="0.0">1.0 1.0 1.0 1.0</parameter>
+					</distr>
+				</prior>
+
+			<!-- End of part 1 of the posterior: the prior -->
+			</distribution>
+
+			<!-- Part 2 of the posterior: the Likelihood -->
+			<distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+
+				<!-- Likelihoods for each alignment -->
+				<distribution id="treeLikelihood:EOG090C08L3" data="@EOG090C08L3" spec="TreeLikelihood" tree="@tree.t:Species">
+					<siteModel id="BEASTModelTest.s:EOG090C08L3" spec="BEASTModelTestSiteModel" gammaCategoryCount="4" hasGammaRates="@hasGammaRates.s:EOG090C08L3" hasInvariantSites="@hasInvariableSites.s:EOG090C08L3" proportionInvariant="@BMT_ProportionInvariable.s:EOG090C08L3" shape="@BMT_gammaShape.s:EOG090C08L3" substModel="@RevJump.s:EOG090C08L3">
+						<parameter idref="mutationRate.s:EOG090C08L3" name="mutationRate">1.0</parameter>
+					</siteModel>
+					<branchRateModel id="RelaxedClock.c:EOG090C08L3" clock.rate="1.0" rateCategories="@rateCategories.c:Species" spec="beast.evolution.branchratemodel.UCRelaxedClockModel" tree="@tree.t:Species">
+						<LogNormal id="LogNormalDistributionModel.c:EOG090C08L3" name="distr" M="1.0" meanInRealSpace="true" S="@ucldStdev.c:Species"/>
+					</branchRateModel>
+				</distribution>
+
+			<!-- End of part 2 of the posterior: the Likelihood -->
+			</distribution>
+
+		<!-- End of the posterior -->
+		</distribution>
+
+		<!-- Operators -->
+
+		<!-- Operators on the height of the tree -->
+		<operator id="treeScale:Species" scaleFactor="0.9" spec="ScaleOperator" tree="@tree.t:Species" weight="3.0"/>
+		<operator id="treeRootOnlyScale:Species" rootOnly="true" scaleFactor="0.9" spec="ScaleOperator" tree="@tree.t:Species" weight="3.0"/>
+		<operator id="treeUniform:Species" spec="Uniform" tree="@tree.t:Species" weight="30.0"/>
+
+		<!-- Operators on the topology of the tree -->
+		<operator id="treeSubtreeSlide:Species" spec="SubtreeSlide" tree="@tree.t:Species" weight="5.0"/>
+		<operator id="treeExchange:Species" spec="Exchange" tree="@tree.t:Species" weight="5.0"/>
+		<operator id="treeNarrowExchange:Species" isNarrow="false" spec="Exchange" tree="@tree.t:Species" weight="5.0"/>
+		<operator id="treeWilsonBalding:Species" spec="WilsonBalding" tree="@tree.t:Species" weight="3.0"/>
+
+		<!-- Scale operator on the birth rate of Yule model -->
+		<operator id="birthRateScale" parameter="@birthRate.t:Species" scaleFactor="0.75" spec="ScaleOperator" weight="3.0"/>
+
+		<!-- Operators on the molecular clock for each alignment -->
+		<operator id="relaxedStdevScaler:Species" parameter="@ucldStdev.c:Species" scaleFactor="0.8" spec="ScaleOperator" weight="3.0"/>
+		<operator id="relaxedCategoriesRandomWalk:Species" parameter="@rateCategories.c:Species" spec="IntRandomWalkOperator" weight="10.0" windowSize="1"/>
+		<operator id="relaxedCategoriesSwap:Species" intparameter="@rateCategories.c:Species" spec="SwapOperator" weight="10.0"/>
+		<operator id="relaxedCategoriesUniform:Species" parameter="@rateCategories.c:Species" spec="UniformOperator" weight="10.0"/>
+
+		<!-- Operators on the substitution rates for each alignment -->
+		<operator id="mutationRateScaler.s:EOG090C08L3" parameter="@mutationRate.s:EOG090C08L3" spec="ScaleOperator" scaleFactor="0.9" weight="5"/>
+
+		<!-- Up-down operators on the substitution rates for each alignment and the species tree -->
+		<operator id="relaxedUpDownRateAndTree.c:EOG090C08L3" scaleFactor="0.9" spec="UpDownOperator" weight="3.0">
+			<parameter idref="mutationRate.s:EOG090C08L3" name="up"/>
+			<tree idref="tree.t:Species" name="down"/>
+		</operator>
+
+		<!-- Joint up-down operator on the means of all substitution rates and the tree -->
+		<operator id="jointUpDown:Species" scaleFactor="0.9" spec="UpDownOperator" weight="10.0">
+			<parameter idref="birthRate.t:Species" name="up"/>
+			<parameter idref="mutationRate.s:EOG090C08L3" name="up"/>
+			<tree idref="tree.t:Species" name="down"/>
+		</operator>
+
+		<!-- Operators on the bModelTest substitution model for each alignment -->
+		<operator id="BMT_ModelTestOperator.s:EOG090C08L3" spec="BMTMergeSplitOperator" modelIndicator="@BMT_ModelIndicator.s:EOG090C08L3" rates="@BMT_Rates.s:EOG090C08L3" substModel="@RevJump.s:EOG090C08L3" weight="1.0"/>
+		<operator id="BMT_Ratescaler.s:EOG090C08L3" spec="BMTExchangeOperator" delta="0.15" modelIndicator="@BMT_ModelIndicator.s:EOG090C08L3" rates="@BMT_Rates.s:EOG090C08L3" substModel="@RevJump.s:EOG090C08L3" weight="1.0"/>
+		<operator id="BMT_gammaShapeScaler.s:EOG090C08L3" spec="BMTScaleOperator" count="@hasGammaRates.s:EOG090C08L3" parameter="@BMT_gammaShape.s:EOG090C08L3" scaleFactor="0.5" weight="0.5"/>
+		<operator id="BMT_ProportionInvariableScaler.s:EOG090C08L3" spec="BMTScaleOperator" count="@hasInvariableSites.s:EOG090C08L3" parameter="@BMT_ProportionInvariable.s:EOG090C08L3" scaleFactor="0.5" weight="0.5"/>
+		<operator id="BMT_hasGammaRatesFlipper.s:EOG090C08L3" spec="BMTBirthDeathOperator" count="@hasGammaRates.s:EOG090C08L3" rates="@BMT_gammaShape.s:EOG090C08L3" weight="0.1"/>
+		<operator id="BMT_hasInvariableSitesFlipper.s:EOG090C08L3" spec="BMTBirthDeathOperator" count="@hasInvariableSites.s:EOG090C08L3" rates="@BMT_ProportionInvariable.s:EOG090C08L3" weight="0.1"/>
+		<operator id="BMT_FreqsFlipOperator.s:EOG090C08L3" spec="BitFlipOperator" parameter="@hasEqualFreqs.s:EOG090C08L3" weight="0.1"/>
+		<operator id="BMT_FrequenciesExchanger.s:EOG090C08L3" spec="DeltaExchangeOperator" delta="0.01" weight="0.1">
+			<parameter idref="BMT_frequencies.s:EOG090C08L3"/>
+		</operator>
+
+		<!-- Loggers -->
+
+		<!-- The parameter logger -->
+		<logger fileName="EOG090C08L3.log" logEvery="12500" model="@posterior" sort="smart">
+			<log idref="posterior"/>
+			<log idref="likelihood"/>
+			<log idref="prior"/>
+			<log id="treeHeight:Species" spec="beast.evolution.tree.TreeHeightLogger" tree="@tree.t:Species"/>
+			<log idref="treeLikelihood:EOG090C08L3"/>
+			<log idref="yuleModel.t:Species"/>
+			<log idref="birthRate.t:Species"/>
+			<log idref="ucldStdev.c:Species"/>
+			<log idref="mutationRate.s:EOG090C08L3"/>
+			<log idref="RevJump.s:EOG090C08L3"/>
+			<log idref="BMT_ModelIndicator.s:EOG090C08L3"/>
+			<log idref="BMT_Rates.s:EOG090C08L3"/>
+			<log idref="BMT_gammaShape.s:EOG090C08L3"/>
+			<log idref="BMT_ProportionInvariable.s:EOG090C08L3"/>
+			<log idref="hasGammaRates.s:EOG090C08L3"/>
+			<log idref="hasInvariableSites.s:EOG090C08L3"/>
+			<log id="ActivePropInvariable.s:EOG090C08L3" spec="beast.util.Script" argnames="BMT_ProportionInvariable hasInvariableSites" expression="BMT_ProportionInvariable * hasInvariableSites">
+				<x idref="BMT_ProportionInvariable.s:EOG090C08L3"/>
+				<x idref="hasInvariableSites.s:EOG090C08L3"/>
+			</log>
+			<log id="ActiveGammaShape.s:EOG090C08L3" spec="beast.util.Script" argnames="BMT_gammaShape hasGammaRates" expression="BMT_gammaShape * hasGammaRates">
+				<x idref="BMT_gammaShape.s:EOG090C08L3"/>
+				<x idref="hasGammaRates.s:EOG090C08L3"/>
+			</log>
+			<log idref="hasEqualFreqs.s:EOG090C08L3"/>
+			<log idref="BMT_frequencies.s:EOG090C08L3"/>
+		</logger>
+
+		<!-- The species tree log file output -->
+		<logger fileName="EOG090C08L3.trees" id="treelog.t:Species" logEvery="12500" mode="tree">
+			<log id="treeWithMetaDataLogger.t:Species" branchratemodel="@RelaxedClock.c:EOG090C08L3" spec="beast.evolution.tree.TreeWithMetaDataLogger" tree="@tree.t:Species"/>
+		</logger>
+
+		<!-- The screen output -->
+		<logger logEvery="1250" model="@posterior">
+			<log idref="posterior"/>
+			<log arg="@posterior" spec="util.ESS"/>
+			<log idref="likelihood"/>
+			<log idref="prior"/>
+			<log idref="treeHeight:Species"/>
+		</logger>
+
+	</run>
+
+</beast>
