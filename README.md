@@ -1,0 +1,5 @@
+# Code repository for analyses conducted in Bista et al. (2023)
+
+This code repository is associated with our manuscript entitled "Genomics of cold adaptations in the Antarctic notothenioid fish radiation", which has been published in *Nature Communications* ([Bista et al. 2023](https://doi.org/10.1038/s41467-023-38567-6)).
+
+The `src` subdirectory of each directory contains a script named `run_all.sh` that specifies in which order all other scripts need to be executed. Note, however, that the `run_all.sh` script is not intended to be executed itself, as some of the other scripts can not run immediately one after another. In many cases, slurm jobs are triggered by those scripts, meaning that first, those scripts will need to be run on a server equipped with the slurm system (or they need to be adjusted), and second, downstream scripts can only be executed once those slurm jobs have finished.
